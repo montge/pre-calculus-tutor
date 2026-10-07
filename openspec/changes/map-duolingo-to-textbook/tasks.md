@@ -20,8 +20,8 @@
 
 ## 4. Lesson mapping
 
-- [ ] 4.1 Create `data/mappings/larson-2e-to-duolingo.yaml` with one entry per textbook section (76 entries), each with `units: []`, `reviewed: false`, and an empty note; verify a count script reports 76 entries matching the catalog ids.
-- [ ] 4.2 Fill in and review mappings for chapters 1 through 3 (functions, polynomials, exponentials and logarithms) with coverage ratings and notes, setting `reviewed: true` on each; verify every listed unit id exists in the Duolingo catalog.
+- [x] 4.1 Create `data/mappings/larson-2e-to-duolingo.yaml` with one entry per textbook section (76 numbered plus 10 appendix sections), each with `units: []`, `reviewed: false`, and an empty note; verify a count script reports 86 entries matching the catalog ids.
+- [ ] 4.2 Fill in and review mappings for chapters 1 through 3 (functions, polynomials, exponentials and logarithms) with coverage ratings and notes, setting `reviewed: true` on each; verify every listed unit id exists in the Duolingo catalog. (Draft entered 2026-10-07 for all 22 sections, 171 unit references, all ids verified; awaiting the user's review before flipping `reviewed`.)
 - [ ] 4.3 Fill in and review mappings for chapters 4 through 6 (trigonometry) the same way; verify as in 4.2.
 - [ ] 4.4 Mark chapters 7 through 12 and the appendices as no-coverage or unreviewed with a note per section; verify every section still has exactly one entry.
 - [ ] 4.5 Write `tests/test_lesson_mapping.py` covering: every catalog section has an entry, no extra entries, ratings are one of the three values, all unit ids resolve, a dangling unit id fails with the section named, a `lessons:` list that names a lesson from another unit fails with section, unit, and lesson named; verify `python -m unittest` passes.
