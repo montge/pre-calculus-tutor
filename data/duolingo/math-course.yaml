@@ -2155,7 +2155,106 @@ grades:
         name: Vertical compressions
         description: ""
         lessons: []
-      # units 79 through 98 pending transcription
+      - id: u-g9-79
+        order: 79
+        name: Horizontal stretches
+        description: ""
+        lessons: []
+      - id: u-g9-80
+        order: 80
+        name: Horizontal compressions
+        description: ""
+        lessons: []
+      - id: u-g9-81
+        order: 81
+        name: Scatter plots
+        description: ""
+        lessons: []
+      - id: u-g9-82
+        order: 82
+        name: Correlation
+        description: ""
+        lessons: []
+      - id: u-g9-83
+        order: 83
+        name: Linear models
+        description: ""
+        lessons: []
+      - id: u-g9-84
+        order: 84
+        name: Residuals
+        description: ""
+        lessons: []
+      - id: u-g9-85
+        order: 85
+        name: Two-way tables
+        description: ""
+        lessons: []
+      - id: u-g9-86
+        order: 86
+        name: Relative frequencies
+        description: ""
+        lessons: []
+      - id: u-g9-87
+        order: 87
+        name: Dot plots
+        description: ""
+        lessons: []
+      - id: u-g9-88
+        order: 88
+        name: Histograms
+        description: ""
+        lessons: []
+      - id: u-g9-89
+        order: 89
+        name: Mean
+        description: ""
+        lessons: []
+      - id: u-g9-90
+        order: 90
+        name: Median
+        description: ""
+        lessons: []
+      - id: u-g9-91
+        order: 91
+        name: Box plots
+        description: ""
+        lessons: []
+      - id: u-g9-92
+        order: 92
+        name: Quartile 1
+        description: ""
+        lessons: []
+      - id: u-g9-93
+        order: 93
+        name: Quartile 3
+        description: ""
+        lessons: []
+      - id: u-g9-94
+        order: 94
+        name: Interquartile range
+        description: ""
+        lessons: []
+      - id: u-g9-95
+        order: 95
+        name: Symmetrical data
+        description: ""
+        lessons: []
+      - id: u-g9-96
+        order: 96
+        name: Right-skewed data
+        description: ""
+        lessons: []
+      - id: u-g9-97
+        order: 97
+        name: Left-skewed data
+        description: ""
+        lessons: []
+      - id: u-g9-98
+        order: 98
+        name: Outliers
+        description: ""
+        lessons: []
 
   - grade: 10
     unit_count: 70
