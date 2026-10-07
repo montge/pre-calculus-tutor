@@ -7,6 +7,14 @@ app does not cover at all.
 
 Textbook followed: Larson, *Precalculus with Limits*, 2nd edition.
 
+## License
+
+Code is licensed under the [Apache License 2.0](LICENSE). Content (the data
+files, mappings, planning documents, and generated tutorial) is licensed under
+[CC BY 4.0](LICENSE-CC-BY-4.0). Textbook titles and Duolingo unit names are
+third-party material cited under fair use and are not covered by either
+license; see [NOTICE](NOTICE).
+
 ## Content policy (fair use)
 
 This repository stores only the textbook's chapter and section titles, page

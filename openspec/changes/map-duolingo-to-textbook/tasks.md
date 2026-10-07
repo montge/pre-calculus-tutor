@@ -32,7 +32,7 @@
 - [ ] 5.3 Implement the no-coverage summary, the incomplete-inventory notice, and the citation and verification-date footer; verify the summary count equals the number of zero-unit sections and the footer contains the book citation.
 - [ ] 5.4 Make the build reproducible (sorted iteration, no timestamps in the body other than the data's own `last_verified`); verify two consecutive builds produce identical files via `diff`.
 - [ ] 5.5 Write `tests/test_build_tutorial.py` covering: valid data renders, invalid data exits non-zero without writing, reproducibility; verify `python -m unittest` passes.
-- [ ] 5.6 Update the top-level `README.md` with the project purpose, the build command, the data layout, and the fair-use policy; verify the documented command runs as written and regenerates `docs/tutorial.md`.
+- [ ] 5.6 Update the top-level `README.md` with the project purpose, the build command, the data layout, the fair-use policy, and the dual-license summary, and add an Apache 2.0 header comment to each file under `scripts/` and `tests/`; verify the documented command runs as written and regenerates `docs/tutorial.md`.
 
 ## 6. Integration check
 

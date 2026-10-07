@@ -27,5 +27,5 @@ Students working through Larson's *Precalculus with Limits* (2nd ed.) often also
 
 - New files under `data/` (YAML catalogs and the mapping) and `docs/` (generated tutorial).
 - A small build script (Python, standard library plus PyYAML) that validates the data and renders the tutorial.
-- README gains usage and a fair-use / no-copyrighted-materials policy.
+- README gains usage and a fair-use / no-copyrighted-materials policy. The repository is dual licensed: Apache 2.0 for code, CC BY 4.0 for data and docs, with a NOTICE that textbook titles and Duolingo names are third-party material cited under fair use.
 - No external services. Duolingo unit names are collected by observing the app; this environment cannot reach duolingo.com or community unit lists, so the inventory must be completed by a person with the app and is tracked as a task.
