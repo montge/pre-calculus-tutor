@@ -21,8 +21,8 @@ id: duolingo-math
 title: Duolingo Math
 last_verified: 2026-10-07
 platform: iOS
-# Every grade's unit list matches the app's unit total; lessons and the
-# Topics tab are still to be collected, so the inventory is not complete.
+# Every grade and topic unit list matches the app's unit total. Lessons
+# within units are still to be collected, so the inventory is not complete.
 units_complete: true
 complete: false
 
@@ -4132,10 +4132,83 @@ topics:
     name: Measurement
     unit_count: 5
     units:
-      []  # pending transcription
+      - id: u-tmea-01
+        order: 1
+        name: Clocks and angles
+        description: ""
+        lessons: []
+      - id: u-tmea-02
+        order: 2
+        name: Measurement
+        description: ""
+        lessons: []
+      - id: u-tmea-03
+        order: 3
+        name: "Rulers, angles, and time"
+        description: ""
+        lessons: []
+      - id: u-tmea-04
+        order: 4
+        name: Area and perimeter
+        description: ""
+        lessons: []
+      - id: u-tmea-05
+        order: 5
+        name: Convert units
+        description: ""
+        lessons: []
 
   - id: calculus
     name: Calculus
     unit_count: 10
     units:
-      []  # pending transcription
+      - id: u-tcal-01
+        order: 1
+        name: Limits
+        description: ""
+        lessons: []
+      - id: u-tcal-02
+        order: 2
+        name: Continuity
+        description: ""
+        lessons: []
+      - id: u-tcal-03
+        order: 3
+        name: Instantaneous rate of change
+        description: ""
+        lessons: []
+      - id: u-tcal-04
+        order: 4
+        name: Definition of the derivative
+        description: ""
+        lessons: []
+      - id: u-tcal-05
+        order: 5
+        name: Intro to derivative rules
+        description: ""
+        lessons: []
+      - id: u-tcal-06
+        order: 6
+        name: Derivatives of more functions
+        description: ""
+        lessons: []
+      - id: u-tcal-07
+        order: 7
+        name: Product and quotient rules
+        description: ""
+        lessons: []
+      - id: u-tcal-08
+        order: 8
+        name: Chain rule
+        description: ""
+        lessons: []
+      - id: u-tcal-09
+        order: 9
+        name: Intro to Riemann sums
+        description: ""
+        lessons: []
+      - id: u-tcal-10
+        order: 10
+        name: Antiderivatives
+        description: ""
+        lessons: []

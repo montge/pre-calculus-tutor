@@ -14,7 +14,8 @@
 ## 3. Duolingo catalog
 
 - [ ] 3.1 Create `data/duolingo/math-course.yaml` with header fields (`last_verified`, `platform`, `complete: false`) and the nested layout `grades -> units -> lessons`, each unit with `id`, `order`, `name`, `group`, `description`, and `lessons` (each with `id`, `order`, `name`); seed it with the grade 9 through 12 units already known (polynomial arithmetic, polynomial function equations and graphs, sine, cosine, tangent ratios, connecting trigonometric ratios, sine, cosine, tangent functions) with empty lesson lists; verify the file loads and each unit has id, name, grade, order, description.
-- [ ] 3.2 Transcribe the Grades view from the user's screenshots, grade by grade (9 through 12), entering every grouping heading, unit, and lesson name in displayed order; verify the unit and lesson counts per grade match what the screenshots show and set `complete: true` once all four grades are entered. Screenshots are never committed.
+- [x] 3.2 Transcribe the Grades and Topics views from the user's screenshots, entering every unit name in displayed order; verify the unit count per grade and per topic matches the app's total (done 2026-10-07: grades 2 through 12, 663 units; eight topics, 157 units; `units_complete: true`). Screenshots are never committed.
+- [ ] 3.2b Transcribe lessons within units, starting with grades 11 and 12 and the Algebraic Graphing and Geometry topics (the units the chapter 1 through 6 mapping draws on); verify each unit's lesson count matches the app and set `complete: true` once every mapped unit has its lessons.
 - [ ] 3.3 Write `tests/test_duolingo_catalog.py` covering: required fields present, unit and lesson ids unique across the catalog, `order` values contiguous within each grade and unit, `last_verified` is a date; verify `python -m unittest` passes.
 
 ## 4. Lesson mapping
