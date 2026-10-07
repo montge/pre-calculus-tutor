@@ -3857,7 +3857,186 @@ topics:
     name: Algebraic Graphing
     unit_count: 36
     units:
-      []  # pending transcription
+      - id: u-tagr-01
+        order: 1
+        name: Graphing relationships
+        description: ""
+        lessons: []
+      - id: u-tagr-02
+        order: 2
+        name: Graphs of proportional relationships
+        description: ""
+        lessons: []
+      - id: u-tagr-03
+        order: 3
+        name: Slope
+        description: ""
+        lessons: []
+      - id: u-tagr-04
+        order: 4
+        name: Slope-intercept lines
+        description: ""
+        lessons: []
+      - id: u-tagr-05
+        order: 5
+        name: Slope of lines
+        description: ""
+        lessons: []
+      - id: u-tagr-06
+        order: 6
+        name: Intro to functions
+        description: ""
+        lessons: []
+      - id: u-tagr-07
+        order: 7
+        name: Rate of change
+        description: ""
+        lessons: []
+      - id: u-tagr-08
+        order: 8
+        name: Function notation
+        description: ""
+        lessons: []
+      - id: u-tagr-09
+        order: 9
+        name: Piecewise-defined functions
+        description: ""
+        lessons: []
+      - id: u-tagr-10
+        order: 10
+        name: Step and absolute value functions
+        description: ""
+        lessons: []
+      - id: u-tagr-11
+        order: 11
+        name: Intro to quadratic functions
+        description: ""
+        lessons: []
+      - id: u-tagr-12
+        order: 12
+        name: Quadratic graphs and equations
+        description: ""
+        lessons: []
+      - id: u-tagr-13
+        order: 13
+        name: Factored form of quadratics
+        description: ""
+        lessons: []
+      - id: u-tagr-14
+        order: 14
+        name: Vertex form of quadratics
+        description: ""
+        lessons: []
+      - id: u-tagr-15
+        order: 15
+        name: Intro to exponential functions
+        description: ""
+        lessons: []
+      - id: u-tagr-16
+        order: 16
+        name: Exponential graphs and equations
+        description: ""
+        lessons: []
+      - id: u-tagr-17
+        order: 17
+        name: Exponential rate of change
+        description: ""
+        lessons: []
+      - id: u-tagr-18
+        order: 18
+        name: Exponential growth and decay
+        description: ""
+        lessons: []
+      - id: u-tagr-19
+        order: 19
+        name: "The natural base, e"
+        description: ""
+        lessons: []
+      - id: u-tagr-20
+        order: 20
+        name: Logarithmic functions
+        description: ""
+        lessons: []
+      - id: u-tagr-21
+        order: 21
+        name: Logarithmic function graphs
+        description: ""
+        lessons: []
+      - id: u-tagr-22
+        order: 22
+        name: Natural logarithmic function
+        description: ""
+        lessons: []
+      - id: u-tagr-23
+        order: 23
+        name: Inverse linear functions
+        description: ""
+        lessons: []
+      - id: u-tagr-24
+        order: 24
+        name: Function translations
+        description: ""
+        lessons: []
+      - id: u-tagr-25
+        order: 25
+        name: Vertical function scaling
+        description: ""
+        lessons: []
+      - id: u-tagr-26
+        order: 26
+        name: Horizontal function scaling
+        description: ""
+        lessons: []
+      - id: u-tagr-27
+        order: 27
+        name: Reflections of functions
+        description: ""
+        lessons: []
+      - id: u-tagr-28
+        order: 28
+        name: Two-variable linear inequalities
+        description: ""
+        lessons: []
+      - id: u-tagr-29
+        order: 29
+        name: Systems of equations with quadratics
+        description: ""
+        lessons: []
+      - id: u-tagr-30
+        order: 30
+        name: Polynomial function equations
+        description: ""
+        lessons: []
+      - id: u-tagr-31
+        order: 31
+        name: Polynomial function graphs
+        description: ""
+        lessons: []
+      - id: u-tagr-32
+        order: 32
+        name: Polynomial graphs and roots
+        description: ""
+        lessons: []
+      - id: u-tagr-33
+        order: 33
+        name: Rational function equations and graphs
+        description: ""
+        lessons: []
+      - id: u-tagr-34
+        order: 34
+        name: Rewrite and graph rational functions
+        description: ""
+        lessons: []
+      - id: u-tagr-35
+        order: 35
+        name: Rational function asymptotes
+        description: ""
+        lessons: []
+      - id: u-tagr-36
+        order: 36
+        name: Holes and slant asymptotes
+        description: ""
+        lessons: []
 
   - id: statistics
     name: Statistics
