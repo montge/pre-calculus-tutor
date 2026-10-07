@@ -12,6 +12,8 @@
 # app shows for the grade or topic (the "n / n" progress bar), so a partially
 # transcribed list is detectable. The nodes inside a unit are unnamed
 # practice steps in the app, so the unit is the finest grain recorded.
+# No learner's progress is recorded: the inventory describes the course as
+# every learner sees it.
 #
 # The app's Topics tab is a second path of units with their own names,
 # distinct from the grade units; it is recorded under `topics` with each

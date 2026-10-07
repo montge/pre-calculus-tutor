@@ -17,7 +17,10 @@ commentary only**. They must never contain:
 
 - textbook prose, examples, exercises, answers, figures, or scanned pages;
 - Duolingo screenshots, exercise content, or anything beyond unit names and
-  their grouping and order.
+  their grouping and order;
+- any one person's progress (completed units, streaks, scores). The data
+  describes the course as it exists for every learner; a student's own
+  progress belongs in their copy of the tracker, never here.
 
 The validator rejects image files anywhere under `data/`. Textbook titles and
 Duolingo unit names are third-party material cited under fair use; see the
