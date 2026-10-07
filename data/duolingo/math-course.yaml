@@ -2259,7 +2259,356 @@ grades:
   - grade: 10
     unit_count: 70
     units:
-      []  # pending transcription
+      - id: u-g10-01
+        order: 1
+        name: Geometric relationships
+        description: ""
+        lessons: []
+      - id: u-g10-02
+        order: 2
+        name: Define translations
+        description: ""
+        lessons: []
+      - id: u-g10-03
+        order: 3
+        name: Perform translations
+        description: ""
+        lessons: []
+      - id: u-g10-04
+        order: 4
+        name: Define reflections
+        description: ""
+        lessons: []
+      - id: u-g10-05
+        order: 5
+        name: Reflect figures
+        description: ""
+        lessons: []
+      - id: u-g10-06
+        order: 6
+        name: Define rotations
+        description: ""
+        lessons: []
+      - id: u-g10-07
+        order: 7
+        name: 90-degree counterclockwise rotations
+        description: ""
+        lessons: []
+      - id: u-g10-08
+        order: 8
+        name: 90-degree clockwise rotations
+        description: ""
+        lessons: []
+      - id: u-g10-09
+        order: 9
+        name: 180-degree rotations
+        description: ""
+        lessons: []
+      - id: u-g10-10
+        order: 10
+        name: Reflectional symmetry
+        description: ""
+        lessons: []
+      - id: u-g10-11
+        order: 11
+        name: Rotational symmetry
+        description: ""
+        lessons: []
+      - id: u-g10-12
+        order: 12
+        name: Define congruence
+        description: ""
+        lessons: []
+      - id: u-g10-13
+        order: 13
+        name: Congruent triangles
+        description: ""
+        lessons: []
+      - id: u-g10-14
+        order: 14
+        name: Define dilations
+        description: ""
+        lessons: []
+      - id: u-g10-15
+        order: 15
+        name: Dilate segments and figures
+        description: ""
+        lessons: []
+      - id: u-g10-16
+        order: 16
+        name: Define similarity
+        description: ""
+        lessons: []
+      - id: u-g10-17
+        order: 17
+        name: Proportional relationships in similar triangles
+        description: ""
+        lessons: []
+      - id: u-g10-18
+        order: 18
+        name: Triangle proportionality theorem
+        description: ""
+        lessons: []
+      - id: u-g10-19
+        order: 19
+        name: Altitude of right triangles
+        description: ""
+        lessons: []
+      - id: u-g10-20
+        order: 20
+        name: Pythagorean theorem
+        description: ""
+        lessons: []
+      - id: u-g10-21
+        order: 21
+        name: Converse of the Pythagorean theorem for acute triangles
+        description: ""
+        lessons: []
+      - id: u-g10-22
+        order: 22
+        name: Converse of the Pythagorean theorem for obtuse triangles
+        description: ""
+        lessons: []
+      - id: u-g10-23
+        order: 23
+        name: Intro to the sine ratio
+        description: ""
+        lessons: []
+      - id: u-g10-24
+        order: 24
+        name: Sine of 30
+        description: ""
+        lessons: []
+      - id: u-g10-25
+        order: 25
+        name: Sine of 60
+        description: ""
+        lessons: []
+      - id: u-g10-26
+        order: 26
+        name: Sine of 45
+        description: ""
+        lessons: []
+      - id: u-g10-27
+        order: 27
+        name: Intro to the cosine ratio
+        description: ""
+        lessons: []
+      - id: u-g10-28
+        order: 28
+        name: Cosine of 60
+        description: ""
+        lessons: []
+      - id: u-g10-29
+        order: 29
+        name: Cosine of 30
+        description: ""
+        lessons: []
+      - id: u-g10-30
+        order: 30
+        name: Cosine of 45
+        description: ""
+        lessons: []
+      - id: u-g10-31
+        order: 31
+        name: Intro to the tangent ratio
+        description: ""
+        lessons: []
+      - id: u-g10-32
+        order: 32
+        name: Tangent of 45
+        description: ""
+        lessons: []
+      - id: u-g10-33
+        order: 33
+        name: Tangent of 30
+        description: ""
+        lessons: []
+      - id: u-g10-34
+        order: 34
+        name: Tangent of 60
+        description: ""
+        lessons: []
+      - id: u-g10-35
+        order: 35
+        name: Connect sine and cosine
+        description: ""
+        lessons: []
+      - id: u-g10-36
+        order: 36
+        name: "Connect sine, cosine, and tangent"
+        description: ""
+        lessons: []
+      - id: u-g10-37
+        order: 37
+        name: Law of sines
+        description: ""
+        lessons: []
+      - id: u-g10-38
+        order: 38
+        name: Law of cosines
+        description: ""
+        lessons: []
+      - id: u-g10-39
+        order: 39
+        name: Triangle area using sine
+        description: ""
+        lessons: []
+      - id: u-g10-40
+        order: 40
+        name: Translations as functions
+        description: ""
+        lessons: []
+      - id: u-g10-41
+        order: 41
+        name: Reflections across the x-axis as functions
+        description: ""
+        lessons: []
+      - id: u-g10-42
+        order: 42
+        name: Reflections across the y-axis as functions
+        description: ""
+        lessons: []
+      - id: u-g10-43
+        order: 43
+        name: Reflections across y=x as functions
+        description: ""
+        lessons: []
+      - id: u-g10-44
+        order: 44
+        name: Dilations as functions
+        description: ""
+        lessons: []
+      - id: u-g10-45
+        order: 45
+        name: Lines in point-slope form
+        description: ""
+        lessons: []
+      - id: u-g10-46
+        order: 46
+        name: Lines in different forms
+        description: ""
+        lessons: []
+      - id: u-g10-47
+        order: 47
+        name: Circles on the plane
+        description: ""
+        lessons: []
+      - id: u-g10-48
+        order: 48
+        name: Focus of parabolas
+        description: ""
+        lessons: []
+      - id: u-g10-49
+        order: 49
+        name: Segment addition postulate
+        description: ""
+        lessons: []
+      - id: u-g10-50
+        order: 50
+        name: Line segment midpoint
+        description: ""
+        lessons: []
+      - id: u-g10-51
+        order: 51
+        name: Distance formula
+        description: ""
+        lessons: []
+      - id: u-g10-52
+        order: 52
+        name: Partition a line segment
+        description: ""
+        lessons: []
+      - id: u-g10-53
+        order: 53
+        name: Probability of simple events
+        description: ""
+        lessons: []
+      - id: u-g10-54
+        order: 54
+        name: Probability of compound events
+        description: ""
+        lessons: []
+      - id: u-g10-55
+        order: 55
+        name: Addition rule
+        description: ""
+        lessons: []
+      - id: u-g10-56
+        order: 56
+        name: Independent events
+        description: ""
+        lessons: []
+      - id: u-g10-57
+        order: 57
+        name: Conditional probability
+        description: ""
+        lessons: []
+      - id: u-g10-58
+        order: 58
+        name: Probability in two-way tables
+        description: ""
+        lessons: []
+      - id: u-g10-59
+        order: 59
+        name: Dependent events
+        description: ""
+        lessons: []
+      - id: u-g10-60
+        order: 60
+        name: Multiplication rule
+        description: ""
+        lessons: []
+      - id: u-g10-61
+        order: 61
+        name: Factorials
+        description: ""
+        lessons: []
+      - id: u-g10-62
+        order: 62
+        name: Permutations
+        description: ""
+        lessons: []
+      - id: u-g10-63
+        order: 63
+        name: Combinations
+        description: ""
+        lessons: []
+      - id: u-g10-64
+        order: 64
+        name: Rectangular prism volume
+        description: ""
+        lessons: []
+      - id: u-g10-65
+        order: 65
+        name: Triangular prism volume
+        description: ""
+        lessons: []
+      - id: u-g10-66
+        order: 66
+        name: Pyramid volume
+        description: ""
+        lessons: []
+      - id: u-g10-67
+        order: 67
+        name: Cylinder volume
+        description: ""
+        lessons: []
+      - id: u-g10-68
+        order: 68
+        name: Cylinder surface area
+        description: ""
+        lessons: []
+      - id: u-g10-69
+        order: 69
+        name: Cone volume
+        description: ""
+        lessons: []
+      - id: u-g10-70
+        order: 70
+        name: Sphere volume
+        description: ""
+        lessons: []
 
   - grade: 11
     unit_count: 84
