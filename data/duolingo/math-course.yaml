@@ -929,7 +929,181 @@ grades:
         name: Evaluate algebraic expressions
         description: ""
         lessons: []
-      # units 50 through 84 pending transcription
+      - id: u-g6-50
+        order: 50
+        name: Equivalent algebraic expressions
+        description: ""
+        lessons: []
+      - id: u-g6-51
+        order: 51
+        name: Combine like terms
+        description: ""
+        lessons: []
+      - id: u-g6-52
+        order: 52
+        name: Distributive property
+        description: ""
+        lessons: []
+      - id: u-g6-53
+        order: 53
+        name: Factor algebraic expressions
+        description: ""
+        lessons: []
+      - id: u-g6-54
+        order: 54
+        name: Addition equations
+        description: ""
+        lessons: []
+      - id: u-g6-55
+        order: 55
+        name: Subtraction equations
+        description: ""
+        lessons: []
+      - id: u-g6-56
+        order: 56
+        name: Multiplication equations
+        description: ""
+        lessons: []
+      - id: u-g6-57
+        order: 57
+        name: Division equations
+        description: ""
+        lessons: []
+      - id: u-g6-58
+        order: 58
+        name: Equations from tables
+        description: ""
+        lessons: []
+      - id: u-g6-59
+        order: 59
+        name: Equations from graphs
+        description: ""
+        lessons: []
+      - id: u-g6-60
+        order: 60
+        name: Area of right triangles
+        description: ""
+        lessons: []
+      - id: u-g6-61
+        order: 61
+        name: Area of non-right triangles
+        description: ""
+        lessons: []
+      - id: u-g6-62
+        order: 62
+        name: Area of parallelograms
+        description: ""
+        lessons: []
+      - id: u-g6-63
+        order: 63
+        name: Area of trapezoids
+        description: ""
+        lessons: []
+      - id: u-g6-64
+        order: 64
+        name: Surface area of cubes
+        description: ""
+        lessons: []
+      - id: u-g6-65
+        order: 65
+        name: Surface area of rectangular prisms
+        description: ""
+        lessons: []
+      - id: u-g6-66
+        order: 66
+        name: Surface area of triangular prisms
+        description: ""
+        lessons: []
+      - id: u-g6-67
+        order: 67
+        name: Volume of cubes
+        description: ""
+        lessons: []
+      - id: u-g6-68
+        order: 68
+        name: Volume of rectangular prisms
+        description: ""
+        lessons: []
+      - id: u-g6-69
+        order: 69
+        name: Volume formula
+        description: ""
+        lessons: []
+      - id: u-g6-70
+        order: 70
+        name: Dot plots
+        description: ""
+        lessons: []
+      - id: u-g6-71
+        order: 71
+        name: Histograms
+        description: ""
+        lessons: []
+      - id: u-g6-72
+        order: 72
+        name: Mode
+        description: ""
+        lessons: []
+      - id: u-g6-73
+        order: 73
+        name: Find the mean
+        description: ""
+        lessons: []
+      - id: u-g6-74
+        order: 74
+        name: Range
+        description: ""
+        lessons: []
+      - id: u-g6-75
+        order: 75
+        name: Median of odd data sets
+        description: ""
+        lessons: []
+      - id: u-g6-76
+        order: 76
+        name: Median of even data sets
+        description: ""
+        lessons: []
+      - id: u-g6-77
+        order: 77
+        name: Box plots
+        description: ""
+        lessons: []
+      - id: u-g6-78
+        order: 78
+        name: Quartile 1
+        description: ""
+        lessons: []
+      - id: u-g6-79
+        order: 79
+        name: Quartile 3
+        description: ""
+        lessons: []
+      - id: u-g6-80
+        order: 80
+        name: Interquartile range
+        description: ""
+        lessons: []
+      - id: u-g6-81
+        order: 81
+        name: Symmetrical data distributions
+        description: ""
+        lessons: []
+      - id: u-g6-82
+        order: 82
+        name: Right-skewed data distributions
+        description: ""
+        lessons: []
+      - id: u-g6-83
+        order: 83
+        name: Left-skewed data distributions
+        description: ""
+        lessons: []
+      - id: u-g6-84
+        order: 84
+        name: Outliers
+        description: ""
+        lessons: []
 
   - grade: 7
     unit_count: 53
@@ -938,5 +1112,10 @@ grades:
 
   - grade: 8
     unit_count: 76
+    units:
+      []  # pending transcription
+
+  - grade: 9
+    unit_count: 98
     units:
       []  # pending transcription
