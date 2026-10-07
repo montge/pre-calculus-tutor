@@ -19,6 +19,7 @@ platform: iOS
 complete: false
 
 grades:
+
   - grade: 2
     unit_count: 7
     units:
@@ -71,4 +72,587 @@ grades:
         name: Intro to multiplication
         description: ""
         lessons: []
-      # units 3 through 18 pending transcription
+      - id: u-g3-03
+        order: 3
+        name: Intro to division
+        description: ""
+        lessons: []
+      - id: u-g3-04
+        order: 4
+        name: Arithmetic patterns
+        description: ""
+        lessons: []
+      - id: u-g3-05
+        order: 5
+        name: Multiply 1-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g3-06
+        order: 6
+        name: Multiply large numbers
+        description: ""
+        lessons: []
+      - id: u-g3-07
+        order: 7
+        name: Multiply and divide
+        description: ""
+        lessons: []
+      - id: u-g3-08
+        order: 8
+        name: Intro to fractions
+        description: ""
+        lessons: []
+      - id: u-g3-09
+        order: 9
+        name: Equivalent fractions
+        description: ""
+        lessons: []
+      - id: u-g3-10
+        order: 10
+        name: Compare fractions
+        description: ""
+        lessons: []
+      - id: u-g3-11
+        order: 11
+        name: Partition shapes
+        description: ""
+        lessons: []
+      - id: u-g3-12
+        order: 12
+        name: Intro to rounding
+        description: ""
+        lessons: []
+      - id: u-g3-13
+        order: 13
+        name: Rounding and magnitude
+        description: ""
+        lessons: []
+      - id: u-g3-14
+        order: 14
+        name: Rounding with operations
+        description: ""
+        lessons: []
+      - id: u-g3-15
+        order: 15
+        name: Tell time on clocks
+        description: ""
+        lessons: []
+      - id: u-g3-16
+        order: 16
+        name: Intro to area and perimeter
+        description: ""
+        lessons: []
+      - id: u-g3-17
+        order: 17
+        name: Area and perimeter of rectangles
+        description: ""
+        lessons: []
+      - id: u-g3-18
+        order: 18
+        name: Area and perimeter of shapes
+        description: ""
+        lessons: []
+
+  - grade: 4
+    unit_count: 56
+    units:
+      - id: u-g4-01
+        order: 1
+        name: Operational thinking
+        description: ""
+        lessons: []
+      - id: u-g4-02
+        order: 2
+        name: Intro to factors
+        description: ""
+        lessons: []
+      - id: u-g4-03
+        order: 3
+        name: Factor pairs
+        description: ""
+        lessons: []
+      - id: u-g4-04
+        order: 4
+        name: Prime and composite numbers
+        description: ""
+        lessons: []
+      - id: u-g4-05
+        order: 5
+        name: Multiples
+        description: ""
+        lessons: []
+      - id: u-g4-06
+        order: 6
+        name: Unit fractions
+        description: ""
+        lessons: []
+      - id: u-g4-07
+        order: 7
+        name: Non-unit fractions
+        description: ""
+        lessons: []
+      - id: u-g4-08
+        order: 8
+        name: Fractions with the same denominator
+        description: ""
+        lessons: []
+      - id: u-g4-09
+        order: 9
+        name: Fractions with the same numerator
+        description: ""
+        lessons: []
+      - id: u-g4-10
+        order: 10
+        name: Equivalent fractions
+        description: ""
+        lessons: []
+      - id: u-g4-11
+        order: 11
+        name: Equivalent fractions using multiples
+        description: ""
+        lessons: []
+      - id: u-g4-12
+        order: 12
+        name: Equivalent fractions using factors
+        description: ""
+        lessons: []
+      - id: u-g4-13
+        order: 13
+        name: Equivalent fractions on the number line
+        description: ""
+        lessons: []
+      - id: u-g4-14
+        order: 14
+        name: Compare fractions to benchmarks
+        description: ""
+        lessons: []
+      - id: u-g4-15
+        order: 15
+        name: Compare using equivalent fractions
+        description: ""
+        lessons: []
+      - id: u-g4-16
+        order: 16
+        name: Compare using common denominators
+        description: ""
+        lessons: []
+      - id: u-g4-17
+        order: 17
+        name: Multiples of unit fractions
+        description: ""
+        lessons: []
+      - id: u-g4-18
+        order: 18
+        name: Multiply a fraction by a whole number
+        description: ""
+        lessons: []
+      - id: u-g4-19
+        order: 19
+        name: Break apart fractions
+        description: ""
+        lessons: []
+      - id: u-g4-20
+        order: 20
+        name: Add fractions
+        description: ""
+        lessons: []
+      - id: u-g4-21
+        order: 21
+        name: Subtract fractions
+        description: ""
+        lessons: []
+      - id: u-g4-22
+        order: 22
+        name: Subtract a fraction from a whole number
+        description: ""
+        lessons: []
+      - id: u-g4-23
+        order: 23
+        name: Add tenths and hundredths
+        description: ""
+        lessons: []
+      - id: u-g4-24
+        order: 24
+        name: Decimals to the tenths
+        description: ""
+        lessons: []
+      - id: u-g4-25
+        order: 25
+        name: Decimals to the hundredths
+        description: ""
+        lessons: []
+      - id: u-g4-26
+        order: 26
+        name: Compare decimals
+        description: ""
+        lessons: []
+      - id: u-g4-27
+        order: 27
+        name: Compare fractions and decimals
+        description: ""
+        lessons: []
+      - id: u-g4-28
+        order: 28
+        name: Read and write numbers
+        description: ""
+        lessons: []
+      - id: u-g4-29
+        order: 29
+        name: Compare digits with place value
+        description: ""
+        lessons: []
+      - id: u-g4-30
+        order: 30
+        name: Use equations with place value
+        description: ""
+        lessons: []
+      - id: u-g4-31
+        order: 31
+        name: Compare numbers using place value
+        description: ""
+        lessons: []
+      - id: u-g4-32
+        order: 32
+        name: Round to the nearest 10 and 100
+        description: ""
+        lessons: []
+      - id: u-g4-33
+        order: 33
+        name: "Round up to 100,000"
+        description: ""
+        lessons: []
+      - id: u-g4-34
+        order: 34
+        name: Addition patterns
+        description: ""
+        lessons: []
+      - id: u-g4-35
+        order: 35
+        name: Add multi-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g4-36
+        order: 36
+        name: Subtract multi-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g4-37
+        order: 37
+        name: Multiplication patterns
+        description: ""
+        lessons: []
+      - id: u-g4-38
+        order: 38
+        name: Interpret multiplication
+        description: ""
+        lessons: []
+      - id: u-g4-39
+        order: 39
+        name: Partial products
+        description: ""
+        lessons: []
+      - id: u-g4-40
+        order: 40
+        name: Multiply by 1-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g4-41
+        order: 41
+        name: Equal groups
+        description: ""
+        lessons: []
+      - id: u-g4-42
+        order: 42
+        name: Partial quotients
+        description: ""
+        lessons: []
+      - id: u-g4-43
+        order: 43
+        name: Divide by 1-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g4-44
+        order: 44
+        name: Divide with remainders
+        description: ""
+        lessons: []
+      - id: u-g4-45
+        order: 45
+        name: Unit conversions
+        description: ""
+        lessons: []
+      - id: u-g4-46
+        order: 46
+        name: Time
+        description: ""
+        lessons: []
+      - id: u-g4-47
+        order: 47
+        name: Area of rectangles
+        description: ""
+        lessons: []
+      - id: u-g4-48
+        order: 48
+        name: Find unknown side lengths
+        description: ""
+        lessons: []
+      - id: u-g4-49
+        order: 49
+        name: Parallel and perpendicular lines
+        description: ""
+        lessons: []
+      - id: u-g4-50
+        order: 50
+        name: Intro to angles
+        description: ""
+        lessons: []
+      - id: u-g4-51
+        order: 51
+        name: Angle measures
+        description: ""
+        lessons: []
+      - id: u-g4-52
+        order: 52
+        name: Angle diagrams
+        description: ""
+        lessons: []
+      - id: u-g4-53
+        order: 53
+        name: Find angle measures
+        description: ""
+        lessons: []
+      - id: u-g4-54
+        order: 54
+        name: Shapes with equivalent sides
+        description: ""
+        lessons: []
+      - id: u-g4-55
+        order: 55
+        name: Shapes with parallel lines
+        description: ""
+        lessons: []
+      - id: u-g4-56
+        order: 56
+        name: Shapes with right angles
+        description: ""
+        lessons: []
+
+  - grade: 5
+    unit_count: 48
+    units:
+      - id: u-g5-01
+        order: 1
+        name: Operations and decimals
+        description: ""
+        lessons: []
+      - id: u-g5-02
+        order: 2
+        name: Multiply by 1-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g5-03
+        order: 3
+        name: Multiply by 2-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g5-04
+        order: 4
+        name: Divide by 1-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g5-05
+        order: 5
+        name: Divide by 2-digit numbers
+        description: ""
+        lessons: []
+      - id: u-g5-06
+        order: 6
+        name: Add tenths
+        description: ""
+        lessons: []
+      - id: u-g5-07
+        order: 7
+        name: Add hundredths
+        description: ""
+        lessons: []
+      - id: u-g5-08
+        order: 8
+        name: Subtract tenths
+        description: ""
+        lessons: []
+      - id: u-g5-09
+        order: 9
+        name: Subtract hundredths
+        description: ""
+        lessons: []
+      - id: u-g5-10
+        order: 10
+        name: Multiply decimals and whole numbers
+        description: ""
+        lessons: []
+      - id: u-g5-11
+        order: 11
+        name: Multiply decimals
+        description: ""
+        lessons: []
+      - id: u-g5-12
+        order: 12
+        name: Common denominators
+        description: ""
+        lessons: []
+      - id: u-g5-13
+        order: 13
+        name: Add fractions with unlike denominators
+        description: ""
+        lessons: []
+      - id: u-g5-14
+        order: 14
+        name: Subtract fractions with unlike denominators
+        description: ""
+        lessons: []
+      - id: u-g5-15
+        order: 15
+        name: Fractions as division
+        description: ""
+        lessons: []
+      - id: u-g5-16
+        order: 16
+        name: Fraction division and multiplication
+        description: ""
+        lessons: []
+      - id: u-g5-17
+        order: 17
+        name: Compare the sizes of products
+        description: ""
+        lessons: []
+      - id: u-g5-18
+        order: 18
+        name: Multiply by a whole number
+        description: ""
+        lessons: []
+      - id: u-g5-19
+        order: 19
+        name: Equivalent fractions
+        description: ""
+        lessons: []
+      - id: u-g5-20
+        order: 20
+        name: Multiply unit fractions
+        description: ""
+        lessons: []
+      - id: u-g5-21
+        order: 21
+        name: Multiply fractions
+        description: ""
+        lessons: []
+      - id: u-g5-22
+        order: 22
+        name: Divide by whole numbers
+        description: ""
+        lessons: []
+      - id: u-g5-23
+        order: 23
+        name: Divide by unit fractions
+        description: ""
+        lessons: []
+      - id: u-g5-24
+        order: 24
+        name: Write numeric expressions
+        description: ""
+        lessons: []
+      - id: u-g5-25
+        order: 25
+        name: Evaluate numeric expressions
+        description: ""
+        lessons: []
+      - id: u-g5-26
+        order: 26
+        name: Order of operations
+        description: ""
+        lessons: []
+      - id: u-g5-27
+        order: 27
+        name: Distributive property
+        description: ""
+        lessons: []
+      - id: u-g5-28
+        order: 28
+        name: Intro to place value
+        description: ""
+        lessons: []
+      - id: u-g5-29
+        order: 29
+        name: Place value patterns with 10
+        description: ""
+        lessons: []
+      - id: u-g5-30
+        order: 30
+        name: Place value patterns with decimals
+        description: ""
+        lessons: []
+      - id: u-g5-31
+        order: 31
+        name: Show place value with multiplication
+        description: ""
+        lessons: []
+      - id: u-g5-32
+        order: 32
+        name: Show place value with division
+        description: ""
+        lessons: []
+      - id: u-g5-33
+        order: 33
+        name: Write decimals using place value
+        description: ""
+        lessons: []
+      - id: u-g5-34
+        order: 34
+        name: Compare decimals to the thousandths
+        description: ""
+        lessons: []
+      - id: u-g5-35
+        order: 35
+        name: Unit conversions
+        description: ""
+        lessons: []
+      - id: u-g5-36
+        order: 36
+        name: Unit conversions with decimals
+        description: ""
+        lessons: []
+      - id: u-g5-37
+        order: 37
+        name: Round to the tenths
+        description: ""
+        lessons: []
+      - id: u-g5-38
+        order: 38
+        name: Round to any place
+        description: ""
+        lessons: []
+      - id: u-g5-39
+        order: 39
+        name: Plot points on axes
+        description: ""
+        lessons: []
+      - id: u-g5-40
+        order: 40
+        name: Plot points in quadrant I
+        description: ""
+        lessons: []
+      - id: u-g5-41
+        order: 41
+        name: Tables of patterns
+        description: ""
+        lessons: []
+      # units 42 through 48 pending transcription
+
+  - grade: 6
+    unit_count: 84
+    units:
+      []  # pending transcription
+
+  - grade: 7
+    unit_count: 53
+    units:
+      []  # pending transcription
