@@ -1765,7 +1765,397 @@ grades:
   - grade: 9
     unit_count: 98
     units:
-      []  # pending transcription
+      - id: u-g9-01
+        order: 1
+        name: Graphs and expressions
+        description: ""
+        lessons: []
+      - id: u-g9-02
+        order: 2
+        name: Create one-variable equations
+        description: ""
+        lessons: []
+      - id: u-g9-03
+        order: 3
+        name: Combine like terms with equations
+        description: ""
+        lessons: []
+      - id: u-g9-04
+        order: 4
+        name: Distribute with equations
+        description: ""
+        lessons: []
+      - id: u-g9-05
+        order: 5
+        name: Slope-intercept form of linear equations
+        description: ""
+        lessons: []
+      - id: u-g9-06
+        order: 6
+        name: Graphs in slope-intercept form
+        description: ""
+        lessons: []
+      - id: u-g9-07
+        order: 7
+        name: Standard form of linear equations
+        description: ""
+        lessons: []
+      - id: u-g9-08
+        order: 8
+        name: Intersection point
+        description: ""
+        lessons: []
+      - id: u-g9-09
+        order: 9
+        name: Solve by examination
+        description: ""
+        lessons: []
+      - id: u-g9-10
+        order: 10
+        name: Create one-variable inequalities
+        description: ""
+        lessons: []
+      - id: u-g9-11
+        order: 11
+        name: Solve one-variable inequaltiies
+        description: ""
+        lessons: []
+      - id: u-g9-12
+        order: 12
+        name: "Compound 'or' inequalities"
+        description: ""
+        lessons: []
+      - id: u-g9-13
+        order: 13
+        name: "Compound 'and' inequalities"
+        description: ""
+        lessons: []
+      - id: u-g9-14
+        order: 14
+        name: Exclusive two-variable linear inequalities
+        description: ""
+        lessons: []
+      - id: u-g9-15
+        order: 15
+        name: Inclusive two-variable linear inequalities
+        description: ""
+        lessons: []
+      - id: u-g9-16
+        order: 16
+        name: Systems of linear inequalities
+        description: ""
+        lessons: []
+      - id: u-g9-17
+        order: 17
+        name: Inputs and outputs
+        description: ""
+        lessons: []
+      - id: u-g9-18
+        order: 18
+        name: Graphs of functions
+        description: ""
+        lessons: []
+      - id: u-g9-19
+        order: 19
+        name: Tables of functions
+        description: ""
+        lessons: []
+      - id: u-g9-20
+        order: 20
+        name: Vertical intercept of functions
+        description: ""
+        lessons: []
+      - id: u-g9-21
+        order: 21
+        name: Horizontal intercept of functions
+        description: ""
+        lessons: []
+      - id: u-g9-22
+        order: 22
+        name: Rate of change
+        description: ""
+        lessons: []
+      - id: u-g9-23
+        order: 23
+        name: Average rate of change
+        description: ""
+        lessons: []
+      - id: u-g9-24
+        order: 24
+        name: Linear functions
+        description: ""
+        lessons: []
+      - id: u-g9-25
+        order: 25
+        name: Domain of a function
+        description: ""
+        lessons: []
+      - id: u-g9-26
+        order: 26
+        name: Range of a function
+        description: ""
+        lessons: []
+      - id: u-g9-27
+        order: 27
+        name: Graphs of piecewise functions
+        description: ""
+        lessons: []
+      - id: u-g9-28
+        order: 28
+        name: Equations of piecewise functions
+        description: ""
+        lessons: []
+      - id: u-g9-29
+        order: 29
+        name: Average rate of change of piecewise functions
+        description: ""
+        lessons: []
+      - id: u-g9-30
+        order: 30
+        name: Step functions
+        description: ""
+        lessons: []
+      - id: u-g9-31
+        order: 31
+        name: Absolute value functions
+        description: ""
+        lessons: []
+      - id: u-g9-32
+        order: 32
+        name: Symmetry of absolute value functions
+        description: ""
+        lessons: []
+      - id: u-g9-33
+        order: 33
+        name: Graphs of inverse functions
+        description: ""
+        lessons: []
+      - id: u-g9-34
+        order: 34
+        name: Equations of inverse functions
+        description: ""
+        lessons: []
+      - id: u-g9-35
+        order: 35
+        name: Graphs of inverse linear functions
+        description: ""
+        lessons: []
+      - id: u-g9-36
+        order: 36
+        name: Equations of inverse linear functions
+        description: ""
+        lessons: []
+      - id: u-g9-37
+        order: 37
+        name: Product rule
+        description: ""
+        lessons: []
+      - id: u-g9-38
+        order: 38
+        name: Quotient rule
+        description: ""
+        lessons: []
+      - id: u-g9-39
+        order: 39
+        name: Negative exponents
+        description: ""
+        lessons: []
+      - id: u-g9-40
+        order: 40
+        name: Power of 0
+        description: ""
+        lessons: []
+      - id: u-g9-41
+        order: 41
+        name: Power rule
+        description: ""
+        lessons: []
+      - id: u-g9-42
+        order: 42
+        name: Radicals and exponents
+        description: ""
+        lessons: []
+      - id: u-g9-43
+        order: 43
+        name: Simplify radicals
+        description: ""
+        lessons: []
+      - id: u-g9-44
+        order: 44
+        name: Product property for radicals
+        description: ""
+        lessons: []
+      - id: u-g9-45
+        order: 45
+        name: Quotient property for radicals
+        description: ""
+        lessons: []
+      - id: u-g9-46
+        order: 46
+        name: Add radicals
+        description: ""
+        lessons: []
+      - id: u-g9-47
+        order: 47
+        name: Subtract radicals
+        description: ""
+        lessons: []
+      - id: u-g9-48
+        order: 48
+        name: Add different radicands
+        description: ""
+        lessons: []
+      - id: u-g9-49
+        order: 49
+        name: Subtract different radicands
+        description: ""
+        lessons: []
+      - id: u-g9-50
+        order: 50
+        name: Add and subtract polynomials
+        description: ""
+        lessons: []
+      - id: u-g9-51
+        order: 51
+        name: Multiply polynomials
+        description: ""
+        lessons: []
+      - id: u-g9-52
+        order: 52
+        name: Distribute quadratic expressions
+        description: ""
+        lessons: []
+      - id: u-g9-53
+        order: 53
+        name: Factor quadratic expressions
+        description: ""
+        lessons: []
+      - id: u-g9-54
+        order: 54
+        name: Factor with a leading coefficient
+        description: ""
+        lessons: []
+      - id: u-g9-55
+        order: 55
+        name: Linear versus quadratic
+        description: ""
+        lessons: []
+      - id: u-g9-56
+        order: 56
+        name: Tables of quadratic functions
+        description: ""
+        lessons: []
+      - id: u-g9-57
+        order: 57
+        name: Graphs of quadratic functions
+        description: ""
+        lessons: []
+      - id: u-g9-58
+        order: 58
+        name: Equations of quadratic functions
+        description: ""
+        lessons: []
+      - id: u-g9-59
+        order: 59
+        name: Zeros of quadratic functions
+        description: ""
+        lessons: []
+      - id: u-g9-60
+        order: 60
+        name: Factored form
+        description: ""
+        lessons: []
+      - id: u-g9-61
+        order: 61
+        name: Vertex
+        description: ""
+        lessons: []
+      - id: u-g9-62
+        order: 62
+        name: Vertex form
+        description: ""
+        lessons: []
+      - id: u-g9-63
+        order: 63
+        name: Linear-quadratic
+        description: ""
+        lessons: []
+      - id: u-g9-64
+        order: 64
+        name: Quadratic-quadratic
+        description: ""
+        lessons: []
+      - id: u-g9-65
+        order: 65
+        name: Arithmetic sequences
+        description: ""
+        lessons: []
+      - id: u-g9-66
+        order: 66
+        name: Arithmetic versus geometric
+        description: ""
+        lessons: []
+      - id: u-g9-67
+        order: 67
+        name: Recursive formulas
+        description: ""
+        lessons: []
+      - id: u-g9-68
+        order: 68
+        name: Explicit formulas
+        description: ""
+        lessons: []
+      - id: u-g9-69
+        order: 69
+        name: "Linear, quadratic, and exponential"
+        description: ""
+        lessons: []
+      - id: u-g9-70
+        order: 70
+        name: Exponential function tables
+        description: ""
+        lessons: []
+      - id: u-g9-71
+        order: 71
+        name: Exponential function graphs
+        description: ""
+        lessons: []
+      - id: u-g9-72
+        order: 72
+        name: Exponential function equations
+        description: ""
+        lessons: []
+      - id: u-g9-73
+        order: 73
+        name: Exponential growth functions
+        description: ""
+        lessons: []
+      - id: u-g9-74
+        order: 74
+        name: Exponential decay functions
+        description: ""
+        lessons: []
+      - id: u-g9-75
+        order: 75
+        name: Vertical translations
+        description: ""
+        lessons: []
+      - id: u-g9-76
+        order: 76
+        name: Horizontal translations
+        description: ""
+        lessons: []
+      - id: u-g9-77
+        order: 77
+        name: Vertical stretches
+        description: ""
+        lessons: []
+      - id: u-g9-78
+        order: 78
+        name: Vertical compressions
+        description: ""
+        lessons: []
+      # units 79 through 98 pending transcription
 
   - grade: 10
     unit_count: 70
