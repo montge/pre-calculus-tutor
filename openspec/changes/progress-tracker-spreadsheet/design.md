@@ -12,7 +12,7 @@ See proposal.md. Builds on the `precalc_tutor` loader and validator; this change
 
 **Non-Goals:**
 - Syncing with the Duolingo account. The student marks units by hand.
-- Per-lesson (sub-unit) tracking. Duolingo units are the finest grain the mapping records.
+- Deciding the tracking grain before the inventory is complete. See Open Questions.
 - Charts in the workbook. A percent column is enough; charts can be added later if wanted.
 
 ## Decisions
@@ -30,3 +30,7 @@ See proposal.md. Builds on the `precalc_tutor` loader and validator; this change
 - [Google Sheets import drops some conditional formatting] → formatting is cosmetic; the dropdown and formulas are what matter and both survive import.
 - [Students edit the generated file, then the mapping changes] → the About sheet records the mapping version (git commit) so a student can tell their copy is older; migration of a filled-in tracker is manual and out of scope.
 - [Row count grows if the Duolingo inventory grows] → formulas use whole-column ranges on the Tracker sheet, so added rows are counted.
+
+## Open Questions
+
+- Unit-level or lesson-level rows? The Duolingo catalog now records lessons under each unit in path order, and the mapping index shows per-grade lesson lanes. If the tracker stays at unit level, a unit row would carry its grade and lesson count; if it goes to lesson level, rows multiply by the lesson count and the Chapters sheet gains a per-grade breakdown. Decide once the inventory shows how many lessons a chapter actually spans.

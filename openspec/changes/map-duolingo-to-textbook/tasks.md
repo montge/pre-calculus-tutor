@@ -13,9 +13,9 @@
 
 ## 3. Duolingo catalog
 
-- [ ] 3.1 Create `data/duolingo/math-course.yaml` with header fields (`last_verified`, `platform`, `complete: false`) and the grade 9 through 12 units that are already known (polynomial arithmetic, polynomial function equations and graphs, sine, cosine, tangent ratios, connecting trigonometric ratios, sine, cosine, tangent functions); verify the file loads and each unit has id, name, grade, description.
-- [ ] 3.2 Walk the Duolingo Math app (Grades view, grades 9 through 12, and the Graphing and Algebraic Graphing topics) and enter every unit name with its grade and topic; verify the count matches the app's displayed unit counts for those grades and set `complete: true`.
-- [ ] 3.3 Write `tests/test_duolingo_catalog.py` covering: required fields present, unique ids, `last_verified` is a date; verify `python -m unittest` passes.
+- [ ] 3.1 Create `data/duolingo/math-course.yaml` with header fields (`last_verified`, `platform`, `complete: false`) and the nested layout `grades -> units -> lessons`, each unit with `id`, `order`, `name`, `group`, `description`, and `lessons` (each with `id`, `order`, `name`); seed it with the grade 9 through 12 units already known (polynomial arithmetic, polynomial function equations and graphs, sine, cosine, tangent ratios, connecting trigonometric ratios, sine, cosine, tangent functions) with empty lesson lists; verify the file loads and each unit has id, name, grade, order, description.
+- [ ] 3.2 Transcribe the Grades view from the user's screenshots, grade by grade (9 through 12), entering every grouping heading, unit, and lesson name in displayed order; verify the unit and lesson counts per grade match what the screenshots show and set `complete: true` once all four grades are entered. Screenshots are never committed.
+- [ ] 3.3 Write `tests/test_duolingo_catalog.py` covering: required fields present, unit and lesson ids unique across the catalog, `order` values contiguous within each grade and unit, `last_verified` is a date; verify `python -m unittest` passes.
 
 ## 4. Lesson mapping
 
@@ -23,20 +23,22 @@
 - [ ] 4.2 Fill in and review mappings for chapters 1 through 3 (functions, polynomials, exponentials and logarithms) with coverage ratings and notes, setting `reviewed: true` on each; verify every listed unit id exists in the Duolingo catalog.
 - [ ] 4.3 Fill in and review mappings for chapters 4 through 6 (trigonometry) the same way; verify as in 4.2.
 - [ ] 4.4 Mark chapters 7 through 12 and the appendices as no-coverage or unreviewed with a note per section; verify every section still has exactly one entry.
-- [ ] 4.5 Write `tests/test_lesson_mapping.py` covering: every catalog section has an entry, no extra entries, ratings are one of the three values, all unit ids resolve, a dangling unit id fails with the section named; verify `python -m unittest` passes.
+- [ ] 4.5 Write `tests/test_lesson_mapping.py` covering: every catalog section has an entry, no extra entries, ratings are one of the three values, all unit ids resolve, a dangling unit id fails with the section named, a `lessons:` list that names a lesson from another unit fails with section, unit, and lesson named; verify `python -m unittest` passes.
 
 ## 5. Shared loader and mapping index
 
 - [ ] 5.1 Implement the `precalc_tutor/` package: `catalog.py`, `mapping.py`, and `validate.py` running all checks from groups 2 through 4 and returning every error found; verify a deliberately broken copy of the mapping yields the expected error list from `validate()`.
 - [ ] 5.2 Implement `scripts/build_index.py` rendering the chapter-by-chapter index (section, page, ordered units with rating and note, draft marker for unreviewed sections, explicit "no Duolingo coverage" line) to `docs/mapping-index.md`, exiting non-zero without writing when validation fails; verify the output for chapter 4 lists its 8 sections in order and a broken mapping leaves `docs/` untouched.
-- [ ] 5.3 Implement the no-coverage summary, the incomplete-inventory notice, and the citation and verification-date footer; verify the summary count equals the number of zero-unit sections and the footer contains the book citation.
-- [ ] 5.4 Make the build reproducible (sorted iteration, no timestamps in the body other than the data's own `last_verified`); verify two consecutive builds produce identical files via `diff`.
-- [ ] 5.5 Write `tests/test_build_index.py` covering: valid data renders, invalid data exits non-zero without writing, reproducibility; verify `python -m unittest` passes.
-- [ ] 5.6 Update the top-level `README.md` with the project purpose, the build command, the data layout, the fair-use policy, and the dual-license summary, and add an Apache 2.0 header comment to each file under `precalc_tutor/`, `scripts/`, and `tests/`; verify the documented command runs as written and regenerates `docs/mapping-index.md`.
+- [ ] 5.3 Implement grade lanes in `precalc_tutor/lanes.py`: a function that, given a section entry, returns the contributing grades in ascending order and for each grade the recommended lessons in path order (all lessons of the unit unless narrowed), and a chapter-level merge that lists each lesson once tagged with its section ids; verify with a fixture where one lesson serves two sections that it appears once in the chapter lane with both ids.
+- [ ] 5.4 Render the lanes in `build_index.py`: a per-section table (grade, unit, lessons) and a chapter-opening table, with a "lessons not yet collected" marker for units whose lesson list is empty; verify chapter 1's opening table has one row per contributing grade and the section tables omit non-contributing grades.
+- [ ] 5.5 Implement the no-coverage summary, the incomplete-inventory notice, and the citation and verification-date footer; verify the summary count equals the number of zero-unit sections and the footer contains the book citation.
+- [ ] 5.6 Make the build reproducible (sorted iteration, no timestamps in the body other than the data's own `last_verified`); verify two consecutive builds produce identical files via `diff`.
+- [ ] 5.7 Write `tests/test_build_index.py` covering: valid data renders, lane tables match the lanes function, invalid data exits non-zero without writing, reproducibility; verify `python -m unittest` passes.
+- [ ] 5.8 Update the top-level `README.md` with the project purpose, the build command, the data layout, the fair-use policy, and the dual-license summary, and add an Apache 2.0 header comment to each file under `precalc_tutor/`, `scripts/`, and `tests/`; verify the documented command runs as written and regenerates `docs/mapping-index.md`.
 
 ## 6. Integration check
 
-- [ ] 6.1 Run the full build from a clean checkout and read `docs/mapping-index.md` end to end; verify every chapter appears, every section has either units or a no-coverage line, and the citation is present.
+- [ ] 6.1 Run the full build from a clean checkout and read `docs/mapping-index.md` end to end; verify every chapter appears with its grade-lane table, every section has either units with lanes or a no-coverage line, and the citation is present.
 
 ## Workflow follow-up
 
