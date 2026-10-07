@@ -3582,7 +3582,156 @@ topics:
     name: Geometry
     unit_count: 30
     units:
-      []  # pending transcription
+      - id: u-tgeo-01
+        order: 1
+        name: Visual relationships
+        description: ""
+        lessons: []
+      - id: u-tgeo-02
+        order: 2
+        name: Polygon area
+        description: ""
+        lessons: []
+      - id: u-tgeo-03
+        order: 3
+        name: Composite area and side lengths
+        description: ""
+        lessons: []
+      - id: u-tgeo-04
+        order: 4
+        name: Area and perimeter of polygons
+        description: ""
+        lessons: []
+      - id: u-tgeo-05
+        order: 5
+        name: Rectangular surface area
+        description: ""
+        lessons: []
+      - id: u-tgeo-06
+        order: 6
+        name: Volume
+        description: ""
+        lessons: []
+      - id: u-tgeo-07
+        order: 7
+        name: Cylinders
+        description: ""
+        lessons: []
+      - id: u-tgeo-08
+        order: 8
+        name: Cones and spheres
+        description: ""
+        lessons: []
+      - id: u-tgeo-09
+        order: 9
+        name: Coordinate grid
+        description: ""
+        lessons: []
+      - id: u-tgeo-10
+        order: 10
+        name: Polygons on the coordinate grid
+        description: ""
+        lessons: []
+      - id: u-tgeo-11
+        order: 11
+        name: Absolute value and distance
+        description: ""
+        lessons: []
+      - id: u-tgeo-12
+        order: 12
+        name: Circles
+        description: ""
+        lessons: []
+      - id: u-tgeo-13
+        order: 13
+        name: Angle relationships
+        description: ""
+        lessons: []
+      - id: u-tgeo-14
+        order: 14
+        name: Angles with parallel lines
+        description: ""
+        lessons: []
+      - id: u-tgeo-15
+        order: 15
+        name: Translations
+        description: ""
+        lessons: []
+      - id: u-tgeo-16
+        order: 16
+        name: Reflections
+        description: ""
+        lessons: []
+      - id: u-tgeo-17
+        order: 17
+        name: Rotations
+        description: ""
+        lessons: []
+      - id: u-tgeo-18
+        order: 18
+        name: Congruence
+        description: ""
+        lessons: []
+      - id: u-tgeo-19
+        order: 19
+        name: Dilations and similarity
+        description: ""
+        lessons: []
+      - id: u-tgeo-20
+        order: 20
+        name: Symmetry
+        description: ""
+        lessons: []
+      - id: u-tgeo-21
+        order: 21
+        name: Triangles
+        description: ""
+        lessons: []
+      - id: u-tgeo-22
+        order: 22
+        name: Similar triangles and angles
+        description: ""
+        lessons: []
+      - id: u-tgeo-23
+        order: 23
+        name: The Pythagorean theorem
+        description: ""
+        lessons: []
+      - id: u-tgeo-24
+        order: 24
+        name: Sine ratio
+        description: ""
+        lessons: []
+      - id: u-tgeo-25
+        order: 25
+        name: Cosine ratio
+        description: ""
+        lessons: []
+      - id: u-tgeo-26
+        order: 26
+        name: Tangent ratio
+        description: ""
+        lessons: []
+      - id: u-tgeo-27
+        order: 27
+        name: Sine function
+        description: ""
+        lessons: []
+      - id: u-tgeo-28
+        order: 28
+        name: Cosine function
+        description: ""
+        lessons: []
+      - id: u-tgeo-29
+        order: 29
+        name: Tangent function
+        description: ""
+        lessons: []
+      - id: u-tgeo-30
+        order: 30
+        name: Graph sine and cosine
+        description: ""
+        lessons: []
 
   - id: algebra
     name: Algebra
