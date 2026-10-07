@@ -11,6 +11,10 @@
 # lessons l-g<grade>-<nnn>. `unit_count` is the total the app shows for the
 # grade (the "n / n" progress bar), so a partially transcribed grade is
 # detectable. Lessons are added as each unit is opened in the app.
+#
+# The app's Topics tab is a second grouping of units; it is recorded under
+# `topics` with each topic's unit total. "Daily Refresh" appears at the end
+# of both tabs but is a review mode, not content, and is not recorded.
 
 id: duolingo-math
 title: Duolingo Math
@@ -1119,3 +1123,52 @@ grades:
     unit_count: 98
     units:
       []  # pending transcription
+
+  - grade: 10
+    unit_count: 70
+    units:
+      []  # pending transcription
+
+  - grade: 11
+    unit_count: 84
+    units:
+      []  # pending transcription
+
+  - grade: 12
+    unit_count: 69
+    units:
+      []  # pending transcription
+
+topics:
+  - id: arithmetic-1
+    name: Arithmetic 1
+    unit_count: 19
+    units: []  # pending transcription
+  - id: arithmetic-2
+    name: Arithmetic 2
+    unit_count: 17
+    units: []  # pending transcription
+  - id: geometry
+    name: Geometry
+    unit_count: 30
+    units: []  # pending transcription
+  - id: algebra
+    name: Algebra
+    unit_count: 23
+    units: []  # pending transcription
+  - id: algebraic-graphing
+    name: Algebraic Graphing
+    unit_count: 36
+    units: []  # pending transcription
+  - id: statistics
+    name: Statistics
+    unit_count: 17
+    units: []  # pending transcription
+  - id: measurement
+    name: Measurement
+    unit_count: 5
+    units: []  # pending transcription
+  - id: calculus
+    name: Calculus
+    unit_count: 10
+    units: []  # pending transcription
