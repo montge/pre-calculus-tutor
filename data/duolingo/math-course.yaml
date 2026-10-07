@@ -1112,7 +1112,271 @@ grades:
   - grade: 7
     unit_count: 53
     units:
-      []  # pending transcription
+      - id: u-g7-01
+        order: 1
+        name: Ratios and algebra
+        description: ""
+        lessons: []
+      - id: u-g7-02
+        order: 2
+        name: Ratio and rate representations
+        description: ""
+        lessons: []
+      - id: u-g7-03
+        order: 3
+        name: Ratios with fractions
+        description: ""
+        lessons: []
+      - id: u-g7-04
+        order: 4
+        name: Scale drawings
+        description: ""
+        lessons: []
+      - id: u-g7-05
+        order: 5
+        name: Proportionality in tables
+        description: ""
+        lessons: []
+      - id: u-g7-06
+        order: 6
+        name: Proportionality in graphs
+        description: ""
+        lessons: []
+      - id: u-g7-07
+        order: 7
+        name: Proportionality in equations
+        description: ""
+        lessons: []
+      - id: u-g7-08
+        order: 8
+        name: Percent proportions
+        description: ""
+        lessons: []
+      - id: u-g7-09
+        order: 9
+        name: Percent expressions
+        description: ""
+        lessons: []
+      - id: u-g7-10
+        order: 10
+        name: Percent increase
+        description: ""
+        lessons: []
+      - id: u-g7-11
+        order: 11
+        name: Percent decrease
+        description: ""
+        lessons: []
+      - id: u-g7-12
+        order: 12
+        name: Horizontal number lines
+        description: ""
+        lessons: []
+      - id: u-g7-13
+        order: 13
+        name: Opposites
+        description: ""
+        lessons: []
+      - id: u-g7-14
+        order: 14
+        name: Add on the number line
+        description: ""
+        lessons: []
+      - id: u-g7-15
+        order: 15
+        name: Add with different signs
+        description: ""
+        lessons: []
+      - id: u-g7-16
+        order: 16
+        name: Subtract on the number line
+        description: ""
+        lessons: []
+      - id: u-g7-17
+        order: 17
+        name: Subtract a negative
+        description: ""
+        lessons: []
+      - id: u-g7-18
+        order: 18
+        name: Multiply different signs
+        description: ""
+        lessons: []
+      - id: u-g7-19
+        order: 19
+        name: Multiply the same signs
+        description: ""
+        lessons: []
+      - id: u-g7-20
+        order: 20
+        name: Sign rules for division
+        description: ""
+        lessons: []
+      - id: u-g7-21
+        order: 21
+        name: Solve equations with rational numbers
+        description: ""
+        lessons: []
+      - id: u-g7-22
+        order: 22
+        name: Combine like terms with expressions
+        description: ""
+        lessons: []
+      - id: u-g7-23
+        order: 23
+        name: Distribute expressions
+        description: ""
+        lessons: []
+      - id: u-g7-24
+        order: 24
+        name: Factor expressions
+        description: ""
+        lessons: []
+      - id: u-g7-25
+        order: 25
+        name: Solve equations with inverse operations
+        description: ""
+        lessons: []
+      - id: u-g7-26
+        order: 26
+        name: Solve equations by combining like terms
+        description: ""
+        lessons: []
+      - id: u-g7-27
+        order: 27
+        name: Solve equations with distribution
+        description: ""
+        lessons: []
+      - id: u-g7-28
+        order: 28
+        name: Solve equations with factoring
+        description: ""
+        lessons: []
+      - id: u-g7-29
+        order: 29
+        name: Solve equations with variables on both sides
+        description: ""
+        lessons: []
+      - id: u-g7-30
+        order: 30
+        name: Maintain inequality
+        description: ""
+        lessons: []
+      - id: u-g7-31
+        order: 31
+        name: Solve exclusive inequalities
+        description: ""
+        lessons: []
+      - id: u-g7-32
+        order: 32
+        name: Solve inclusive inequalities
+        description: ""
+        lessons: []
+      - id: u-g7-33
+        order: 33
+        name: Trapezoid area
+        description: ""
+        lessons: []
+      - id: u-g7-34
+        order: 34
+        name: Triangular area
+        description: ""
+        lessons: []
+      - id: u-g7-35
+        order: 35
+        name: Surface area of rectangular prisms
+        description: ""
+        lessons: []
+      - id: u-g7-36
+        order: 36
+        name: Surface area of triangular prisms
+        description: ""
+        lessons: []
+      - id: u-g7-37
+        order: 37
+        name: Surface area of triangular pyramids
+        description: ""
+        lessons: []
+      - id: u-g7-38
+        order: 38
+        name: Volume of rectangular prisms
+        description: ""
+        lessons: []
+      - id: u-g7-39
+        order: 39
+        name: Volume of triangular prisms
+        description: ""
+        lessons: []
+      - id: u-g7-40
+        order: 40
+        name: Intro to circles
+        description: ""
+        lessons: []
+      - id: u-g7-41
+        order: 41
+        name: Circumference of circles
+        description: ""
+        lessons: []
+      - id: u-g7-42
+        order: 42
+        name: Area of circles
+        description: ""
+        lessons: []
+      - id: u-g7-43
+        order: 43
+        name: Complementary angles
+        description: ""
+        lessons: []
+      - id: u-g7-44
+        order: 44
+        name: Supplementary angles
+        description: ""
+        lessons: []
+      - id: u-g7-45
+        order: 45
+        name: Adjacent angles
+        description: ""
+        lessons: []
+      - id: u-g7-46
+        order: 46
+        name: Vertical angles
+        description: ""
+        lessons: []
+      - id: u-g7-47
+        order: 47
+        name: Represent probability
+        description: ""
+        lessons: []
+      - id: u-g7-48
+        order: 48
+        name: Spinners
+        description: ""
+        lessons: []
+      - id: u-g7-49
+        order: 49
+        name: Non-uniform probability
+        description: ""
+        lessons: []
+      - id: u-g7-50
+        order: 50
+        name: Complement
+        description: ""
+        lessons: []
+      - id: u-g7-51
+        order: 51
+        name: Frequency tables
+        description: ""
+        lessons: []
+      - id: u-g7-52
+        order: 52
+        name: Compound events
+        description: ""
+        lessons: []
+      - id: u-g7-53
+        order: 53
+        name: Find probabilities
+        description: ""
+        lessons: []
 
   - grade: 8
     unit_count: 76
