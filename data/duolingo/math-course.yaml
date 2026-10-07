@@ -12,8 +12,9 @@
 # grade (the "n / n" progress bar), so a partially transcribed grade is
 # detectable. Lessons are added as each unit is opened in the app.
 #
-# The app's Topics tab is a second grouping of units; it is recorded under
-# `topics` with each topic's unit total. "Daily Refresh" appears at the end
+# The app's Topics tab is a second path of units with their own names,
+# distinct from the grade units; it is recorded under `topics` with each
+# topic's unit total and ids u-t<abbr>-<nn>. "Daily Refresh" appears at the end
 # of both tabs but is a review mode, not content, and is not recorded.
 
 id: duolingo-math
@@ -3390,32 +3391,225 @@ topics:
   - id: arithmetic-1
     name: Arithmetic 1
     unit_count: 19
-    units: []  # pending transcription
+    units:
+      - id: u-ta1-01
+        order: 1
+        name: Follow patterns
+        description: ""
+        lessons: []
+      - id: u-ta1-02
+        order: 2
+        name: "Add, subtract, and multiply"
+        description: ""
+        lessons: []
+      - id: u-ta1-03
+        order: 3
+        name: Intro to division
+        description: ""
+        lessons: []
+      - id: u-ta1-04
+        order: 4
+        name: Add and subtract small numbers
+        description: ""
+        lessons: []
+      - id: u-ta1-05
+        order: 5
+        name: Add and subtract large numbers
+        description: ""
+        lessons: []
+      - id: u-ta1-06
+        order: 6
+        name: Multiply
+        description: ""
+        lessons: []
+      - id: u-ta1-07
+        order: 7
+        name: Multiplication properties
+        description: ""
+        lessons: []
+      - id: u-ta1-08
+        order: 8
+        name: Divide
+        description: ""
+        lessons: []
+      - id: u-ta1-09
+        order: 9
+        name: Create fractions
+        description: ""
+        lessons: []
+      - id: u-ta1-10
+        order: 10
+        name: Compare fractions
+        description: ""
+        lessons: []
+      - id: u-ta1-11
+        order: 11
+        name: Rounding
+        description: ""
+        lessons: []
+      - id: u-ta1-12
+        order: 12
+        name: Decimals
+        description: ""
+        lessons: []
+      - id: u-ta1-13
+        order: 13
+        name: Fraction operations
+        description: ""
+        lessons: []
+      - id: u-ta1-14
+        order: 14
+        name: Negatives
+        description: ""
+        lessons: []
+      - id: u-ta1-15
+        order: 15
+        name: Compare ratios
+        description: ""
+        lessons: []
+      - id: u-ta1-16
+        order: 16
+        name: Factors
+        description: ""
+        lessons: []
+      - id: u-ta1-17
+        order: 17
+        name: Factors and multiples
+        description: ""
+        lessons: []
+      - id: u-ta1-18
+        order: 18
+        name: Greatest common factor with fractions
+        description: ""
+        lessons: []
+      - id: u-ta1-19
+        order: 19
+        name: Place value
+        description: ""
+        lessons: []
+
   - id: arithmetic-2
     name: Arithmetic 2
     unit_count: 17
-    units: []  # pending transcription
+    units:
+      - id: u-ta2-01
+        order: 1
+        name: Find connections
+        description: ""
+        lessons: []
+      - id: u-ta2-02
+        order: 2
+        name: Build number sense
+        description: ""
+        lessons: []
+      - id: u-ta2-03
+        order: 3
+        name: Exponents
+        description: ""
+        lessons: []
+      - id: u-ta2-04
+        order: 4
+        name: Equivalent ratios and fractions
+        description: ""
+        lessons: []
+      - id: u-ta2-05
+        order: 5
+        name: Part-to-whole ratios
+        description: ""
+        lessons: []
+      - id: u-ta2-06
+        order: 6
+        name: "Fractions, decimals, and percents"
+        description: ""
+        lessons: []
+      - id: u-ta2-07
+        order: 7
+        name: Round and compare numbers
+        description: ""
+        lessons: []
+      - id: u-ta2-08
+        order: 8
+        name: Exponent operations
+        description: ""
+        lessons: []
+      - id: u-ta2-09
+        order: 9
+        name: Exponents and place value
+        description: ""
+        lessons: []
+      - id: u-ta2-10
+        order: 10
+        name: Negative number operations
+        description: ""
+        lessons: []
+      - id: u-ta2-11
+        order: 11
+        name: Negative and positive decimals
+        description: ""
+        lessons: []
+      - id: u-ta2-12
+        order: 12
+        name: Magnitude
+        description: ""
+        lessons: []
+      - id: u-ta2-13
+        order: 13
+        name: Compare decimals
+        description: ""
+        lessons: []
+      - id: u-ta2-14
+        order: 14
+        name: Rational numbers
+        description: ""
+        lessons: []
+      - id: u-ta2-15
+        order: 15
+        name: Rational number operations
+        description: ""
+        lessons: []
+      - id: u-ta2-16
+        order: 16
+        name: Round decimals
+        description: ""
+        lessons: []
+      - id: u-ta2-17
+        order: 17
+        name: Round fractions and decimals
+        description: ""
+        lessons: []
+
   - id: geometry
     name: Geometry
     unit_count: 30
-    units: []  # pending transcription
+    units:
+      []  # pending transcription
+
   - id: algebra
     name: Algebra
     unit_count: 23
-    units: []  # pending transcription
+    units:
+      []  # pending transcription
+
   - id: algebraic-graphing
     name: Algebraic Graphing
     unit_count: 36
-    units: []  # pending transcription
+    units:
+      []  # pending transcription
+
   - id: statistics
     name: Statistics
     unit_count: 17
-    units: []  # pending transcription
+    units:
+      []  # pending transcription
+
   - id: measurement
     name: Measurement
     unit_count: 5
-    units: []  # pending transcription
+    units:
+      []  # pending transcription
+
   - id: calculus
     name: Calculus
     unit_count: 10
-    units: []  # pending transcription
+    units:
+      []  # pending transcription
