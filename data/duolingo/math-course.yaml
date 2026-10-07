@@ -4042,7 +4042,91 @@ topics:
     name: Statistics
     unit_count: 17
     units:
-      []  # pending transcription
+      - id: u-tsta-01
+        order: 1
+        name: Visualize data
+        description: ""
+        lessons: []
+      - id: u-tsta-02
+        order: 2
+        name: Measures of center
+        description: ""
+        lessons: []
+      - id: u-tsta-03
+        order: 3
+        name: Variability in data
+        description: ""
+        lessons: []
+      - id: u-tsta-04
+        order: 4
+        name: "Median, IQR, and box plots"
+        description: ""
+        lessons: []
+      - id: u-tsta-05
+        order: 5
+        name: Data distributions
+        description: ""
+        lessons: []
+      - id: u-tsta-06
+        order: 6
+        name: Box plots
+        description: ""
+        lessons: []
+      - id: u-tsta-07
+        order: 7
+        name: Intro to probability
+        description: ""
+        lessons: []
+      - id: u-tsta-08
+        order: 8
+        name: Probability models
+        description: ""
+        lessons: []
+      - id: u-tsta-09
+        order: 9
+        name: Compound events
+        description: ""
+        lessons: []
+      - id: u-tsta-10
+        order: 10
+        name: Probability events
+        description: ""
+        lessons: []
+      - id: u-tsta-11
+        order: 11
+        name: Independent events
+        description: ""
+        lessons: []
+      - id: u-tsta-12
+        order: 12
+        name: Dependent events
+        description: ""
+        lessons: []
+      - id: u-tsta-13
+        order: 13
+        name: Intro to scatter plots
+        description: ""
+        lessons: []
+      - id: u-tsta-14
+        order: 14
+        name: Scatter plots and trend lines
+        description: ""
+        lessons: []
+      - id: u-tsta-15
+        order: 15
+        name: Linear models
+        description: ""
+        lessons: []
+      - id: u-tsta-16
+        order: 16
+        name: Linear model fitness
+        description: ""
+        lessons: []
+      - id: u-tsta-17
+        order: 17
+        name: Bivariate categorical data
+        description: ""
+        lessons: []
 
   - id: measurement
     name: Measurement
