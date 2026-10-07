@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Produces a Markdown index of the section-to-unit mapping, readable directly on GitHub, so the reviewed data has a human-readable view that other deliverables (spreadsheet, study guides) can be checked against. The index shows each section's recommendations both as a list and as grade lanes, so a student can see, grade by grade, which lessons to follow for that section.
+Produces a Markdown index of the section-to-unit mapping, readable directly on GitHub, so the reviewed data has a human-readable view that other deliverables (spreadsheet, study guides) can be checked against. The index shows each section's recommendations both as a list and as lanes, one per grade or topic, so a student can see, lane by lane, which units to follow for that section.
 
 ## ADDED Requirements
 
@@ -28,26 +28,22 @@ The index SHALL present, for each chapter in book order, each section with its p
 - **WHEN** a section maps to no units
 - **THEN** the index says so explicitly under that section
 
-### Requirement: Index shows grade lanes per section
-For each section with at least one mapped unit, the index SHALL render a grade-lane table: one row (lane) per grade that contributes a unit, in ascending grade order, listing in that lane the recommended lessons in path order, each labeled with its unit name. Grades that contribute nothing to the section SHALL be omitted from that section's table.
+### Requirement: Index shows lanes per section
+For each section with at least one mapped unit, the index SHALL render a lane table: one row (lane) per grade or topic that contributes a unit, grades first in ascending order and then topics in app order, listing in that lane the recommended units in the app's path order with their ratings. Grades and topics that contribute nothing to the section SHALL be omitted from that section's table.
 
-#### Scenario: Section drawing on two grades
-- **WHEN** section 2.2 maps to one grade 10 unit and one grade 11 unit
-- **THEN** its table has a grade 10 lane and a grade 11 lane, each listing that grade's recommended lessons in path order under the unit name
+#### Scenario: Section drawing on two grades and a topic
+- **WHEN** section 1.7 maps to grade 9 units, grade 11 units, and Algebraic Graphing units
+- **THEN** its table has a Grade 9 lane, a Grade 11 lane, and an Algebraic Graphing lane, each listing that lane's units in path order
 
-#### Scenario: Narrowed unit
-- **WHEN** a mapped unit is narrowed to three of its lessons
-- **THEN** the lane lists only those three lessons
+#### Scenario: Path order wins over mapping order
+- **WHEN** a mapping lists a grade 11 unit before another grade 11 unit that comes earlier in the app's path
+- **THEN** the lane shows them in path order
 
-#### Scenario: Unit with no lessons collected yet
-- **WHEN** a mapped unit has an empty lesson list in the catalog
-- **THEN** the lane shows the unit name with a "lessons not yet collected" marker
+### Requirement: Index shows a chapter-level lane summary
+Each chapter SHALL open with its summary note, if any, followed by a lane table that merges its sections' lanes: one lane per contributing grade or topic, listing that lane's recommended units in path order and tagging each unit with the section(s) it serves, so a student working a whole chapter can follow one lane from top to bottom.
 
-### Requirement: Index shows a chapter-level grade-lane summary
-Each chapter SHALL open with a grade-lane table that merges its sections' lanes: one lane per contributing grade, listing that grade's recommended lessons in path order and tagging each lesson with the section(s) it serves, so a student working a whole chapter can follow one grade's path from top to bottom.
-
-#### Scenario: Lesson serving two sections
-- **WHEN** one lesson is recommended for sections 1.4 and 1.5
+#### Scenario: Unit serving two sections
+- **WHEN** one unit is recommended for sections 1.5 and 1.6
 - **THEN** the chapter lane lists it once, tagged with both section ids
 
 ### Requirement: Index includes a no-coverage summary

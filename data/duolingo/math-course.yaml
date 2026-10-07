@@ -5,12 +5,13 @@
 # repository. Unit and lesson names are reproduced for the purpose of
 # reference and commentary.
 #
-# Structure: grades -> units -> lessons, each list in the order the app
-# displays it. `order` is written explicitly so reordering shows in a diff.
-# Identifiers are assigned once and never renumbered: units u-g<grade>-<nn>,
-# lessons l-g<grade>-<nnn>. `unit_count` is the total the app shows for the
-# grade (the "n / n" progress bar), so a partially transcribed grade is
-# detectable. Lessons are added as each unit is opened in the app.
+# Structure: grades -> units and topics -> units, each list in the order the
+# app displays it. `order` is written explicitly so reordering shows in a
+# diff. Identifiers are assigned once and never renumbered: grade units
+# u-g<grade>-<nn>, topic units u-t<abbr>-<nn>. `unit_count` is the total the
+# app shows for the grade or topic (the "n / n" progress bar), so a partially
+# transcribed list is detectable. The nodes inside a unit are unnamed
+# practice steps in the app, so the unit is the finest grain recorded.
 #
 # The app's Topics tab is a second path of units with their own names,
 # distinct from the grade units; it is recorded under `topics` with each
@@ -21,10 +22,7 @@ id: duolingo-math
 title: Duolingo Math
 last_verified: 2026-10-07
 platform: iOS
-# Every grade and topic unit list matches the app's unit total. Lessons
-# within units are still to be collected, so the inventory is not complete.
-units_complete: true
-complete: false
+complete: true
 
 grades:
 
@@ -35,37 +33,30 @@ grades:
         order: 1
         name: Number patterns
         description: ""
-        lessons: []
       - id: u-g2-02
         order: 2
         name: Intro to addition and subtraction
         description: ""
-        lessons: []
       - id: u-g2-03
         order: 3
         name: Add and subtract multiple numbers
         description: ""
-        lessons: []
       - id: u-g2-04
         order: 4
         name: Add and subtract up to 500
         description: ""
-        lessons: []
       - id: u-g2-05
         order: 5
         name: Tell time
         description: ""
-        lessons: []
       - id: u-g2-06
         order: 6
         name: Measure with rulers
         description: ""
-        lessons: []
       - id: u-g2-07
         order: 7
         name: Shapes
         description: ""
-        lessons: []
 
   - grade: 3
     unit_count: 18
@@ -74,92 +65,74 @@ grades:
         order: 1
         name: Number sense and fractions
         description: ""
-        lessons: []
       - id: u-g3-02
         order: 2
         name: Intro to multiplication
         description: ""
-        lessons: []
       - id: u-g3-03
         order: 3
         name: Intro to division
         description: ""
-        lessons: []
       - id: u-g3-04
         order: 4
         name: Arithmetic patterns
         description: ""
-        lessons: []
       - id: u-g3-05
         order: 5
         name: Multiply 1-digit numbers
         description: ""
-        lessons: []
       - id: u-g3-06
         order: 6
         name: Multiply large numbers
         description: ""
-        lessons: []
       - id: u-g3-07
         order: 7
         name: Multiply and divide
         description: ""
-        lessons: []
       - id: u-g3-08
         order: 8
         name: Intro to fractions
         description: ""
-        lessons: []
       - id: u-g3-09
         order: 9
         name: Equivalent fractions
         description: ""
-        lessons: []
       - id: u-g3-10
         order: 10
         name: Compare fractions
         description: ""
-        lessons: []
       - id: u-g3-11
         order: 11
         name: Partition shapes
         description: ""
-        lessons: []
       - id: u-g3-12
         order: 12
         name: Intro to rounding
         description: ""
-        lessons: []
       - id: u-g3-13
         order: 13
         name: Rounding and magnitude
         description: ""
-        lessons: []
       - id: u-g3-14
         order: 14
         name: Rounding with operations
         description: ""
-        lessons: []
       - id: u-g3-15
         order: 15
         name: Tell time on clocks
         description: ""
-        lessons: []
       - id: u-g3-16
         order: 16
         name: Intro to area and perimeter
         description: ""
-        lessons: []
       - id: u-g3-17
         order: 17
         name: Area and perimeter of rectangles
         description: ""
-        lessons: []
       - id: u-g3-18
         order: 18
         name: Area and perimeter of shapes
         description: ""
-        lessons: []
 
   - grade: 4
     unit_count: 56
@@ -168,282 +141,226 @@ grades:
         order: 1
         name: Operational thinking
         description: ""
-        lessons: []
       - id: u-g4-02
         order: 2
         name: Intro to factors
         description: ""
-        lessons: []
       - id: u-g4-03
         order: 3
         name: Factor pairs
         description: ""
-        lessons: []
       - id: u-g4-04
         order: 4
         name: Prime and composite numbers
         description: ""
-        lessons: []
       - id: u-g4-05
         order: 5
         name: Multiples
         description: ""
-        lessons: []
       - id: u-g4-06
         order: 6
         name: Unit fractions
         description: ""
-        lessons: []
       - id: u-g4-07
         order: 7
         name: Non-unit fractions
         description: ""
-        lessons: []
       - id: u-g4-08
         order: 8
         name: Fractions with the same denominator
         description: ""
-        lessons: []
       - id: u-g4-09
         order: 9
         name: Fractions with the same numerator
         description: ""
-        lessons: []
       - id: u-g4-10
         order: 10
         name: Equivalent fractions
         description: ""
-        lessons: []
       - id: u-g4-11
         order: 11
         name: Equivalent fractions using multiples
         description: ""
-        lessons: []
       - id: u-g4-12
         order: 12
         name: Equivalent fractions using factors
         description: ""
-        lessons: []
       - id: u-g4-13
         order: 13
         name: Equivalent fractions on the number line
         description: ""
-        lessons: []
       - id: u-g4-14
         order: 14
         name: Compare fractions to benchmarks
         description: ""
-        lessons: []
       - id: u-g4-15
         order: 15
         name: Compare using equivalent fractions
         description: ""
-        lessons: []
       - id: u-g4-16
         order: 16
         name: Compare using common denominators
         description: ""
-        lessons: []
       - id: u-g4-17
         order: 17
         name: Multiples of unit fractions
         description: ""
-        lessons: []
       - id: u-g4-18
         order: 18
         name: Multiply a fraction by a whole number
         description: ""
-        lessons: []
       - id: u-g4-19
         order: 19
         name: Break apart fractions
         description: ""
-        lessons: []
       - id: u-g4-20
         order: 20
         name: Add fractions
         description: ""
-        lessons: []
       - id: u-g4-21
         order: 21
         name: Subtract fractions
         description: ""
-        lessons: []
       - id: u-g4-22
         order: 22
         name: Subtract a fraction from a whole number
         description: ""
-        lessons: []
       - id: u-g4-23
         order: 23
         name: Add tenths and hundredths
         description: ""
-        lessons: []
       - id: u-g4-24
         order: 24
         name: Decimals to the tenths
         description: ""
-        lessons: []
       - id: u-g4-25
         order: 25
         name: Decimals to the hundredths
         description: ""
-        lessons: []
       - id: u-g4-26
         order: 26
         name: Compare decimals
         description: ""
-        lessons: []
       - id: u-g4-27
         order: 27
         name: Compare fractions and decimals
         description: ""
-        lessons: []
       - id: u-g4-28
         order: 28
         name: Read and write numbers
         description: ""
-        lessons: []
       - id: u-g4-29
         order: 29
         name: Compare digits with place value
         description: ""
-        lessons: []
       - id: u-g4-30
         order: 30
         name: Use equations with place value
         description: ""
-        lessons: []
       - id: u-g4-31
         order: 31
         name: Compare numbers using place value
         description: ""
-        lessons: []
       - id: u-g4-32
         order: 32
         name: Round to the nearest 10 and 100
         description: ""
-        lessons: []
       - id: u-g4-33
         order: 33
         name: "Round up to 100,000"
         description: ""
-        lessons: []
       - id: u-g4-34
         order: 34
         name: Addition patterns
         description: ""
-        lessons: []
       - id: u-g4-35
         order: 35
         name: Add multi-digit numbers
         description: ""
-        lessons: []
       - id: u-g4-36
         order: 36
         name: Subtract multi-digit numbers
         description: ""
-        lessons: []
       - id: u-g4-37
         order: 37
         name: Multiplication patterns
         description: ""
-        lessons: []
       - id: u-g4-38
         order: 38
         name: Interpret multiplication
         description: ""
-        lessons: []
       - id: u-g4-39
         order: 39
         name: Partial products
         description: ""
-        lessons: []
       - id: u-g4-40
         order: 40
         name: Multiply by 1-digit numbers
         description: ""
-        lessons: []
       - id: u-g4-41
         order: 41
         name: Equal groups
         description: ""
-        lessons: []
       - id: u-g4-42
         order: 42
         name: Partial quotients
         description: ""
-        lessons: []
       - id: u-g4-43
         order: 43
         name: Divide by 1-digit numbers
         description: ""
-        lessons: []
       - id: u-g4-44
         order: 44
         name: Divide with remainders
         description: ""
-        lessons: []
       - id: u-g4-45
         order: 45
         name: Unit conversions
         description: ""
-        lessons: []
       - id: u-g4-46
         order: 46
         name: Time
         description: ""
-        lessons: []
       - id: u-g4-47
         order: 47
         name: Area of rectangles
         description: ""
-        lessons: []
       - id: u-g4-48
         order: 48
         name: Find unknown side lengths
         description: ""
-        lessons: []
       - id: u-g4-49
         order: 49
         name: Parallel and perpendicular lines
         description: ""
-        lessons: []
       - id: u-g4-50
         order: 50
         name: Intro to angles
         description: ""
-        lessons: []
       - id: u-g4-51
         order: 51
         name: Angle measures
         description: ""
-        lessons: []
       - id: u-g4-52
         order: 52
         name: Angle diagrams
         description: ""
-        lessons: []
       - id: u-g4-53
         order: 53
         name: Find angle measures
         description: ""
-        lessons: []
       - id: u-g4-54
         order: 54
         name: Shapes with equivalent sides
         description: ""
-        lessons: []
       - id: u-g4-55
         order: 55
         name: Shapes with parallel lines
         description: ""
-        lessons: []
       - id: u-g4-56
         order: 56
         name: Shapes with right angles
         description: ""
-        lessons: []
 
   - grade: 5
     unit_count: 48
@@ -452,242 +369,194 @@ grades:
         order: 1
         name: Operations and decimals
         description: ""
-        lessons: []
       - id: u-g5-02
         order: 2
         name: Multiply by 1-digit numbers
         description: ""
-        lessons: []
       - id: u-g5-03
         order: 3
         name: Multiply by 2-digit numbers
         description: ""
-        lessons: []
       - id: u-g5-04
         order: 4
         name: Divide by 1-digit numbers
         description: ""
-        lessons: []
       - id: u-g5-05
         order: 5
         name: Divide by 2-digit numbers
         description: ""
-        lessons: []
       - id: u-g5-06
         order: 6
         name: Add tenths
         description: ""
-        lessons: []
       - id: u-g5-07
         order: 7
         name: Add hundredths
         description: ""
-        lessons: []
       - id: u-g5-08
         order: 8
         name: Subtract tenths
         description: ""
-        lessons: []
       - id: u-g5-09
         order: 9
         name: Subtract hundredths
         description: ""
-        lessons: []
       - id: u-g5-10
         order: 10
         name: Multiply decimals and whole numbers
         description: ""
-        lessons: []
       - id: u-g5-11
         order: 11
         name: Multiply decimals
         description: ""
-        lessons: []
       - id: u-g5-12
         order: 12
         name: Common denominators
         description: ""
-        lessons: []
       - id: u-g5-13
         order: 13
         name: Add fractions with unlike denominators
         description: ""
-        lessons: []
       - id: u-g5-14
         order: 14
         name: Subtract fractions with unlike denominators
         description: ""
-        lessons: []
       - id: u-g5-15
         order: 15
         name: Fractions as division
         description: ""
-        lessons: []
       - id: u-g5-16
         order: 16
         name: Fraction division and multiplication
         description: ""
-        lessons: []
       - id: u-g5-17
         order: 17
         name: Compare the sizes of products
         description: ""
-        lessons: []
       - id: u-g5-18
         order: 18
         name: Multiply by a whole number
         description: ""
-        lessons: []
       - id: u-g5-19
         order: 19
         name: Equivalent fractions
         description: ""
-        lessons: []
       - id: u-g5-20
         order: 20
         name: Multiply unit fractions
         description: ""
-        lessons: []
       - id: u-g5-21
         order: 21
         name: Multiply fractions
         description: ""
-        lessons: []
       - id: u-g5-22
         order: 22
         name: Divide by whole numbers
         description: ""
-        lessons: []
       - id: u-g5-23
         order: 23
         name: Divide by unit fractions
         description: ""
-        lessons: []
       - id: u-g5-24
         order: 24
         name: Write numeric expressions
         description: ""
-        lessons: []
       - id: u-g5-25
         order: 25
         name: Evaluate numeric expressions
         description: ""
-        lessons: []
       - id: u-g5-26
         order: 26
         name: Order of operations
         description: ""
-        lessons: []
       - id: u-g5-27
         order: 27
         name: Distributive property
         description: ""
-        lessons: []
       - id: u-g5-28
         order: 28
         name: Intro to place value
         description: ""
-        lessons: []
       - id: u-g5-29
         order: 29
         name: Place value patterns with 10
         description: ""
-        lessons: []
       - id: u-g5-30
         order: 30
         name: Place value patterns with decimals
         description: ""
-        lessons: []
       - id: u-g5-31
         order: 31
         name: Show place value with multiplication
         description: ""
-        lessons: []
       - id: u-g5-32
         order: 32
         name: Show place value with division
         description: ""
-        lessons: []
       - id: u-g5-33
         order: 33
         name: Write decimals using place value
         description: ""
-        lessons: []
       - id: u-g5-34
         order: 34
         name: Compare decimals to the thousandths
         description: ""
-        lessons: []
       - id: u-g5-35
         order: 35
         name: Unit conversions
         description: ""
-        lessons: []
       - id: u-g5-36
         order: 36
         name: Unit conversions with decimals
         description: ""
-        lessons: []
       - id: u-g5-37
         order: 37
         name: Round to the tenths
         description: ""
-        lessons: []
       - id: u-g5-38
         order: 38
         name: Round to any place
         description: ""
-        lessons: []
       - id: u-g5-39
         order: 39
         name: Plot points on axes
         description: ""
-        lessons: []
       - id: u-g5-40
         order: 40
         name: Plot points in quadrant I
         description: ""
-        lessons: []
       - id: u-g5-41
         order: 41
         name: Tables of patterns
         description: ""
-        lessons: []
       - id: u-g5-42
         order: 42
         name: Graphs of patterns
         description: ""
-        lessons: []
       - id: u-g5-43
         order: 43
         name: Properties of shapes
         description: ""
-        lessons: []
       - id: u-g5-44
         order: 44
         name: Classify shapes
         description: ""
-        lessons: []
       - id: u-g5-45
         order: 45
         name: Intro to cubes
         description: ""
-        lessons: []
       - id: u-g5-46
         order: 46
         name: Find cube volume
         description: ""
-        lessons: []
       - id: u-g5-47
         order: 47
         name: Intro to rectangular prisms
         description: ""
-        lessons: []
       - id: u-g5-48
         order: 48
         name: Find prism volume
         description: ""
-        lessons: []
 
   - grade: 6
     unit_count: 84
@@ -696,422 +565,338 @@ grades:
         order: 1
         name: Multiplication patterns
         description: ""
-        lessons: []
       - id: u-g6-02
         order: 2
         name: Ratio language
         description: ""
-        lessons: []
       - id: u-g6-03
         order: 3
         name: Part-to-part ratios
         description: ""
-        lessons: []
       - id: u-g6-04
         order: 4
         name: Part-part ratios with grids
         description: ""
-        lessons: []
       - id: u-g6-05
         order: 5
         name: Intro to equivalent ratios
         description: ""
-        lessons: []
       - id: u-g6-06
         order: 6
         name: Create equivalent ratios
         description: ""
-        lessons: []
       - id: u-g6-07
         order: 7
         name: Ratio tables
         description: ""
-        lessons: []
       - id: u-g6-08
         order: 8
         name: Ratios as points
         description: ""
-        lessons: []
       - id: u-g6-09
         order: 9
         name: Intro to rates
         description: ""
-        lessons: []
       - id: u-g6-10
         order: 10
         name: Unit rate
         description: ""
-        lessons: []
       - id: u-g6-11
         order: 11
         name: Rates in tables
         description: ""
-        lessons: []
       - id: u-g6-12
         order: 12
         name: Rates as points
         description: ""
-        lessons: []
       - id: u-g6-13
         order: 13
         name: Unit conversions in the metric system
         description: ""
-        lessons: []
       - id: u-g6-14
         order: 14
         name: Unit conversions in the customary system
         description: ""
-        lessons: []
       - id: u-g6-15
         order: 15
         name: Part-whole ratios
         description: ""
-        lessons: []
       - id: u-g6-16
         order: 16
         name: Percents as ratios
         description: ""
-        lessons: []
       - id: u-g6-17
         order: 17
         name: Find the whole using parts and percents
         description: ""
-        lessons: []
       - id: u-g6-18
         order: 18
         name: Find a percent of a whole
         description: ""
-        lessons: []
       - id: u-g6-19
         order: 19
         name: Find a part of a whole
         description: ""
-        lessons: []
       - id: u-g6-20
         order: 20
         name: Positive and negative numbers
         description: ""
-        lessons: []
       - id: u-g6-21
         order: 21
         name: Opposites
         description: ""
-        lessons: []
       - id: u-g6-22
         order: 22
         name: Compare integers with inequalities
         description: ""
-        lessons: []
       - id: u-g6-23
         order: 23
         name: Order rational numbers
         description: ""
-        lessons: []
       - id: u-g6-24
         order: 24
         name: Intro to absolute value
         description: ""
-        lessons: []
       - id: u-g6-25
         order: 25
         name: Calculate with absolute value
         description: ""
-        lessons: []
       - id: u-g6-26
         order: 26
         name: Ordering with absolute value
         description: ""
-        lessons: []
       - id: u-g6-27
         order: 27
         name: Inequality language
         description: ""
-        lessons: []
       - id: u-g6-28
         order: 28
         name: Exclusive inequalities
         description: ""
-        lessons: []
       - id: u-g6-29
         order: 29
         name: Inclusive inequalities
         description: ""
-        lessons: []
       - id: u-g6-30
         order: 30
         name: Greatest common factor
         description: ""
-        lessons: []
       - id: u-g6-31
         order: 31
         name: Least common multiple
         description: ""
-        lessons: []
       - id: u-g6-32
         order: 32
         name: Intro to the coordinate plane
         description: ""
-        lessons: []
       - id: u-g6-33
         order: 33
         name: Plot points in all quadrants
         description: ""
-        lessons: []
       - id: u-g6-34
         order: 34
         name: X-axis reflections
         description: ""
-        lessons: []
       - id: u-g6-35
         order: 35
         name: Y-axis reflections
         description: ""
-        lessons: []
       - id: u-g6-36
         order: 36
         name: Horizontal distance
         description: ""
-        lessons: []
       - id: u-g6-37
         order: 37
         name: Vertical distance
         description: ""
-        lessons: []
       - id: u-g6-38
         order: 38
         name: Segment length
         description: ""
-        lessons: []
       - id: u-g6-39
         order: 39
         name: Draw polygons
         description: ""
-        lessons: []
       - id: u-g6-40
         order: 40
         name: Divide fractions by unit fractions
         description: ""
-        lessons: []
       - id: u-g6-41
         order: 41
         name: Divide fractions using reciprocals
         description: ""
-        lessons: []
       - id: u-g6-42
         order: 42
         name: Decimal addition
         description: ""
-        lessons: []
       - id: u-g6-43
         order: 43
         name: Decimal subtraction
         description: ""
-        lessons: []
       - id: u-g6-44
         order: 44
         name: Decimal multiplication
         description: ""
-        lessons: []
       - id: u-g6-45
         order: 45
         name: Expressions with exponents
         description: ""
-        lessons: []
       - id: u-g6-46
         order: 46
         name: Evaluate exponential expressions
         description: ""
-        lessons: []
       - id: u-g6-47
         order: 47
         name: Order of operations
         description: ""
-        lessons: []
       - id: u-g6-48
         order: 48
         name: Intro to algebraic expressions
         description: ""
-        lessons: []
       - id: u-g6-49
         order: 49
         name: Evaluate algebraic expressions
         description: ""
-        lessons: []
       - id: u-g6-50
         order: 50
         name: Equivalent algebraic expressions
         description: ""
-        lessons: []
       - id: u-g6-51
         order: 51
         name: Combine like terms
         description: ""
-        lessons: []
       - id: u-g6-52
         order: 52
         name: Distributive property
         description: ""
-        lessons: []
       - id: u-g6-53
         order: 53
         name: Factor algebraic expressions
         description: ""
-        lessons: []
       - id: u-g6-54
         order: 54
         name: Addition equations
         description: ""
-        lessons: []
       - id: u-g6-55
         order: 55
         name: Subtraction equations
         description: ""
-        lessons: []
       - id: u-g6-56
         order: 56
         name: Multiplication equations
         description: ""
-        lessons: []
       - id: u-g6-57
         order: 57
         name: Division equations
         description: ""
-        lessons: []
       - id: u-g6-58
         order: 58
         name: Equations from tables
         description: ""
-        lessons: []
       - id: u-g6-59
         order: 59
         name: Equations from graphs
         description: ""
-        lessons: []
       - id: u-g6-60
         order: 60
         name: Area of right triangles
         description: ""
-        lessons: []
       - id: u-g6-61
         order: 61
         name: Area of non-right triangles
         description: ""
-        lessons: []
       - id: u-g6-62
         order: 62
         name: Area of parallelograms
         description: ""
-        lessons: []
       - id: u-g6-63
         order: 63
         name: Area of trapezoids
         description: ""
-        lessons: []
       - id: u-g6-64
         order: 64
         name: Surface area of cubes
         description: ""
-        lessons: []
       - id: u-g6-65
         order: 65
         name: Surface area of rectangular prisms
         description: ""
-        lessons: []
       - id: u-g6-66
         order: 66
         name: Surface area of triangular prisms
         description: ""
-        lessons: []
       - id: u-g6-67
         order: 67
         name: Volume of cubes
         description: ""
-        lessons: []
       - id: u-g6-68
         order: 68
         name: Volume of rectangular prisms
         description: ""
-        lessons: []
       - id: u-g6-69
         order: 69
         name: Volume formula
         description: ""
-        lessons: []
       - id: u-g6-70
         order: 70
         name: Dot plots
         description: ""
-        lessons: []
       - id: u-g6-71
         order: 71
         name: Histograms
         description: ""
-        lessons: []
       - id: u-g6-72
         order: 72
         name: Mode
         description: ""
-        lessons: []
       - id: u-g6-73
         order: 73
         name: Find the mean
         description: ""
-        lessons: []
       - id: u-g6-74
         order: 74
         name: Range
         description: ""
-        lessons: []
       - id: u-g6-75
         order: 75
         name: Median of odd data sets
         description: ""
-        lessons: []
       - id: u-g6-76
         order: 76
         name: Median of even data sets
         description: ""
-        lessons: []
       - id: u-g6-77
         order: 77
         name: Box plots
         description: ""
-        lessons: []
       - id: u-g6-78
         order: 78
         name: Quartile 1
         description: ""
-        lessons: []
       - id: u-g6-79
         order: 79
         name: Quartile 3
         description: ""
-        lessons: []
       - id: u-g6-80
         order: 80
         name: Interquartile range
         description: ""
-        lessons: []
       - id: u-g6-81
         order: 81
         name: Symmetrical data distributions
         description: ""
-        lessons: []
       - id: u-g6-82
         order: 82
         name: Right-skewed data distributions
         description: ""
-        lessons: []
       - id: u-g6-83
         order: 83
         name: Left-skewed data distributions
         description: ""
-        lessons: []
       - id: u-g6-84
         order: 84
         name: Outliers
         description: ""
-        lessons: []
 
   - grade: 7
     unit_count: 53
@@ -1120,267 +905,214 @@ grades:
         order: 1
         name: Ratios and algebra
         description: ""
-        lessons: []
       - id: u-g7-02
         order: 2
         name: Ratio and rate representations
         description: ""
-        lessons: []
       - id: u-g7-03
         order: 3
         name: Ratios with fractions
         description: ""
-        lessons: []
       - id: u-g7-04
         order: 4
         name: Scale drawings
         description: ""
-        lessons: []
       - id: u-g7-05
         order: 5
         name: Proportionality in tables
         description: ""
-        lessons: []
       - id: u-g7-06
         order: 6
         name: Proportionality in graphs
         description: ""
-        lessons: []
       - id: u-g7-07
         order: 7
         name: Proportionality in equations
         description: ""
-        lessons: []
       - id: u-g7-08
         order: 8
         name: Percent proportions
         description: ""
-        lessons: []
       - id: u-g7-09
         order: 9
         name: Percent expressions
         description: ""
-        lessons: []
       - id: u-g7-10
         order: 10
         name: Percent increase
         description: ""
-        lessons: []
       - id: u-g7-11
         order: 11
         name: Percent decrease
         description: ""
-        lessons: []
       - id: u-g7-12
         order: 12
         name: Horizontal number lines
         description: ""
-        lessons: []
       - id: u-g7-13
         order: 13
         name: Opposites
         description: ""
-        lessons: []
       - id: u-g7-14
         order: 14
         name: Add on the number line
         description: ""
-        lessons: []
       - id: u-g7-15
         order: 15
         name: Add with different signs
         description: ""
-        lessons: []
       - id: u-g7-16
         order: 16
         name: Subtract on the number line
         description: ""
-        lessons: []
       - id: u-g7-17
         order: 17
         name: Subtract a negative
         description: ""
-        lessons: []
       - id: u-g7-18
         order: 18
         name: Multiply different signs
         description: ""
-        lessons: []
       - id: u-g7-19
         order: 19
         name: Multiply the same signs
         description: ""
-        lessons: []
       - id: u-g7-20
         order: 20
         name: Sign rules for division
         description: ""
-        lessons: []
       - id: u-g7-21
         order: 21
         name: Solve equations with rational numbers
         description: ""
-        lessons: []
       - id: u-g7-22
         order: 22
         name: Combine like terms with expressions
         description: ""
-        lessons: []
       - id: u-g7-23
         order: 23
         name: Distribute expressions
         description: ""
-        lessons: []
       - id: u-g7-24
         order: 24
         name: Factor expressions
         description: ""
-        lessons: []
       - id: u-g7-25
         order: 25
         name: Solve equations with inverse operations
         description: ""
-        lessons: []
       - id: u-g7-26
         order: 26
         name: Solve equations by combining like terms
         description: ""
-        lessons: []
       - id: u-g7-27
         order: 27
         name: Solve equations with distribution
         description: ""
-        lessons: []
       - id: u-g7-28
         order: 28
         name: Solve equations with factoring
         description: ""
-        lessons: []
       - id: u-g7-29
         order: 29
         name: Solve equations with variables on both sides
         description: ""
-        lessons: []
       - id: u-g7-30
         order: 30
         name: Maintain inequality
         description: ""
-        lessons: []
       - id: u-g7-31
         order: 31
         name: Solve exclusive inequalities
         description: ""
-        lessons: []
       - id: u-g7-32
         order: 32
         name: Solve inclusive inequalities
         description: ""
-        lessons: []
       - id: u-g7-33
         order: 33
         name: Trapezoid area
         description: ""
-        lessons: []
       - id: u-g7-34
         order: 34
         name: Triangular area
         description: ""
-        lessons: []
       - id: u-g7-35
         order: 35
         name: Surface area of rectangular prisms
         description: ""
-        lessons: []
       - id: u-g7-36
         order: 36
         name: Surface area of triangular prisms
         description: ""
-        lessons: []
       - id: u-g7-37
         order: 37
         name: Surface area of triangular pyramids
         description: ""
-        lessons: []
       - id: u-g7-38
         order: 38
         name: Volume of rectangular prisms
         description: ""
-        lessons: []
       - id: u-g7-39
         order: 39
         name: Volume of triangular prisms
         description: ""
-        lessons: []
       - id: u-g7-40
         order: 40
         name: Intro to circles
         description: ""
-        lessons: []
       - id: u-g7-41
         order: 41
         name: Circumference of circles
         description: ""
-        lessons: []
       - id: u-g7-42
         order: 42
         name: Area of circles
         description: ""
-        lessons: []
       - id: u-g7-43
         order: 43
         name: Complementary angles
         description: ""
-        lessons: []
       - id: u-g7-44
         order: 44
         name: Supplementary angles
         description: ""
-        lessons: []
       - id: u-g7-45
         order: 45
         name: Adjacent angles
         description: ""
-        lessons: []
       - id: u-g7-46
         order: 46
         name: Vertical angles
         description: ""
-        lessons: []
       - id: u-g7-47
         order: 47
         name: Represent probability
         description: ""
-        lessons: []
       - id: u-g7-48
         order: 48
         name: Spinners
         description: ""
-        lessons: []
       - id: u-g7-49
         order: 49
         name: Non-uniform probability
         description: ""
-        lessons: []
       - id: u-g7-50
         order: 50
         name: Complement
         description: ""
-        lessons: []
       - id: u-g7-51
         order: 51
         name: Frequency tables
         description: ""
-        lessons: []
       - id: u-g7-52
         order: 52
         name: Compound events
         description: ""
-        lessons: []
       - id: u-g7-53
         order: 53
         name: Find probabilities
         description: ""
-        lessons: []
 
   - grade: 8
     unit_count: 76
@@ -1389,382 +1121,306 @@ grades:
         order: 1
         name: Equations and coordinates
         description: ""
-        lessons: []
       - id: u-g8-02
         order: 2
         name: Vertical translations
         description: ""
-        lessons: []
       - id: u-g8-03
         order: 3
         name: Horizontal translations
         description: ""
-        lessons: []
       - id: u-g8-04
         order: 4
         name: Translate figures
         description: ""
-        lessons: []
       - id: u-g8-05
         order: 5
         name: Reflect across x-axis
         description: ""
-        lessons: []
       - id: u-g8-06
         order: 6
         name: Reflect across y-axis
         description: ""
-        lessons: []
       - id: u-g8-07
         order: 7
         name: Reflect across horizontal lines
         description: ""
-        lessons: []
       - id: u-g8-08
         order: 8
         name: Reflect across vertical lines
         description: ""
-        lessons: []
       - id: u-g8-09
         order: 9
         name: Reflect across y=x
         description: ""
-        lessons: []
       - id: u-g8-10
         order: 10
         name: 90-degree counterclockwise rotations
         description: ""
-        lessons: []
       - id: u-g8-11
         order: 11
         name: 90-degree clockwise rotations
         description: ""
-        lessons: []
       - id: u-g8-12
         order: 12
         name: 180-degree rotations
         description: ""
-        lessons: []
       - id: u-g8-13
         order: 13
         name: Sequences of rigid motion
         description: ""
-        lessons: []
       - id: u-g8-14
         order: 14
         name: Congruence
         description: ""
-        lessons: []
       - id: u-g8-15
         order: 15
         name: Dilate points
         description: ""
-        lessons: []
       - id: u-g8-16
         order: 16
         name: Dilate segments and figures
         description: ""
-        lessons: []
       - id: u-g8-17
         order: 17
         name: Similarity
         description: ""
-        lessons: []
       - id: u-g8-18
         order: 18
         name: Tables of proportional relationships
         description: ""
-        lessons: []
       - id: u-g8-19
         order: 19
         name: Graphs of proportional relationships
         description: ""
-        lessons: []
       - id: u-g8-20
         order: 20
         name: Equations of proportional relationships
         description: ""
-        lessons: []
       - id: u-g8-21
         order: 21
         name: Intro to slope
         description: ""
-        lessons: []
       - id: u-g8-22
         order: 22
         name: Slope formula
         description: ""
-        lessons: []
       - id: u-g8-23
         order: 23
         name: Identify y-intercept
         description: ""
-        lessons: []
       - id: u-g8-24
         order: 24
         name: Slope-intercept form
         description: ""
-        lessons: []
       - id: u-g8-25
         order: 25
         name: Equations in slope-intercept form
         description: ""
-        lessons: []
       - id: u-g8-26
         order: 26
         name: Lines with negative slope
         description: ""
-        lessons: []
       - id: u-g8-27
         order: 27
         name: Lines with zero slope
         description: ""
-        lessons: []
       - id: u-g8-28
         order: 28
         name: Equations of parallel lines
         description: ""
-        lessons: []
       - id: u-g8-29
         order: 29
         name: Equations of perpendicular lines
         description: ""
-        lessons: []
       - id: u-g8-30
         order: 30
         name: Solve equations with distribution
         description: ""
-        lessons: []
       - id: u-g8-31
         order: 31
         name: Solve equations with factoring
         description: ""
-        lessons: []
       - id: u-g8-32
         order: 32
         name: Solve equations by combining like terms
         description: ""
-        lessons: []
       - id: u-g8-33
         order: 33
         name: Equations with infinitely many solutions
         description: ""
-        lessons: []
       - id: u-g8-34
         order: 34
         name: Equations with no solutions
         description: ""
-        lessons: []
       - id: u-g8-35
         order: 35
         name: Systems of equations
         description: ""
-        lessons: []
       - id: u-g8-36
         order: 36
         name: Intro to functions
         description: ""
-        lessons: []
       - id: u-g8-37
         order: 37
         name: Tables of functions
         description: ""
-        lessons: []
       - id: u-g8-38
         order: 38
         name: Graphs of functions
         description: ""
-        lessons: []
       - id: u-g8-39
         order: 39
         name: Linear functions
         description: ""
-        lessons: []
       - id: u-g8-40
         order: 40
         name: Rate of change
         description: ""
-        lessons: []
       - id: u-g8-41
         order: 41
         name: Initial value
         description: ""
-        lessons: []
       - id: u-g8-42
         order: 42
         name: Scatter plots
         description: ""
-        lessons: []
       - id: u-g8-43
         order: 43
         name: Patterns of association
         description: ""
-        lessons: []
       - id: u-g8-44
         order: 44
         name: Line of best fit
         description: ""
-        lessons: []
       - id: u-g8-45
         order: 45
         name: Predictions with linear models
         description: ""
-        lessons: []
       - id: u-g8-46
         order: 46
         name: Two-way tables
         description: ""
-        lessons: []
       - id: u-g8-47
         order: 47
         name: Marginal relative frequency
         description: ""
-        lessons: []
       - id: u-g8-48
         order: 48
         name: Joint relative frequency
         description: ""
-        lessons: []
       - id: u-g8-49
         order: 49
         name: Product rule for exponents
         description: ""
-        lessons: []
       - id: u-g8-50
         order: 50
         name: Product rule with variables
         description: ""
-        lessons: []
       - id: u-g8-51
         order: 51
         name: Quotient rule for exponents
         description: ""
-        lessons: []
       - id: u-g8-52
         order: 52
         name: Quotient rule with variables
         description: ""
-        lessons: []
       - id: u-g8-53
         order: 53
         name: Negative exponents
         description: ""
-        lessons: []
       - id: u-g8-54
         order: 54
         name: Negative exponents with variables
         description: ""
-        lessons: []
       - id: u-g8-55
         order: 55
         name: Powers of 0
         description: ""
-        lessons: []
       - id: u-g8-56
         order: 56
         name: Square roots
         description: ""
-        lessons: []
       - id: u-g8-57
         order: 57
         name: Cube roots
         description: ""
-        lessons: []
       - id: u-g8-58
         order: 58
         name: Intro to scientific notation
         description: ""
-        lessons: []
       - id: u-g8-59
         order: 59
         name: Add with scientific notation
         description: ""
-        lessons: []
       - id: u-g8-60
         order: 60
         name: Subtract with scientific notation
         description: ""
-        lessons: []
       - id: u-g8-61
         order: 61
         name: Multiply with scientific notation
         description: ""
-        lessons: []
       - id: u-g8-62
         order: 62
         name: Right triangle relationships
         description: ""
-        lessons: []
       - id: u-g8-63
         order: 63
         name: Find the hypotenuse
         description: ""
-        lessons: []
       - id: u-g8-64
         order: 64
         name: Find side lengths
         description: ""
-        lessons: []
       - id: u-g8-65
         order: 65
         name: Rational and irrational numbers
         description: ""
-        lessons: []
       - id: u-g8-66
         order: 66
         name: Approximate irrational numbers
         description: ""
-        lessons: []
       - id: u-g8-67
         order: 67
         name: Irrational lengths
         description: ""
-        lessons: []
       - id: u-g8-68
         order: 68
         name: Triangles on the coordinate plane
         description: ""
-        lessons: []
       - id: u-g8-69
         order: 69
         name: Volume of cylinders
         description: ""
-        lessons: []
       - id: u-g8-70
         order: 70
         name: Volume of cones
         description: ""
-        lessons: []
       - id: u-g8-71
         order: 71
         name: Volume of spheres
         description: ""
-        lessons: []
       - id: u-g8-72
         order: 72
         name: Parallel lines cut by a transversal
         description: ""
-        lessons: []
       - id: u-g8-73
         order: 73
         name: Alternate interior angles
         description: ""
-        lessons: []
       - id: u-g8-74
         order: 74
         name: Alternate exterior angles
         description: ""
-        lessons: []
       - id: u-g8-75
         order: 75
         name: Find angles measures
         description: ""
-        lessons: []
       - id: u-g8-76
         order: 76
         name: Interior angles of a triangle
         description: ""
-        lessons: []
 
   - grade: 9
     unit_count: 98
@@ -1773,492 +1429,394 @@ grades:
         order: 1
         name: Graphs and expressions
         description: ""
-        lessons: []
       - id: u-g9-02
         order: 2
         name: Create one-variable equations
         description: ""
-        lessons: []
       - id: u-g9-03
         order: 3
         name: Combine like terms with equations
         description: ""
-        lessons: []
       - id: u-g9-04
         order: 4
         name: Distribute with equations
         description: ""
-        lessons: []
       - id: u-g9-05
         order: 5
         name: Slope-intercept form of linear equations
         description: ""
-        lessons: []
       - id: u-g9-06
         order: 6
         name: Graphs in slope-intercept form
         description: ""
-        lessons: []
       - id: u-g9-07
         order: 7
         name: Standard form of linear equations
         description: ""
-        lessons: []
       - id: u-g9-08
         order: 8
         name: Intersection point
         description: ""
-        lessons: []
       - id: u-g9-09
         order: 9
         name: Solve by examination
         description: ""
-        lessons: []
       - id: u-g9-10
         order: 10
         name: Create one-variable inequalities
         description: ""
-        lessons: []
       - id: u-g9-11
         order: 11
         name: Solve one-variable inequaltiies
         description: ""
-        lessons: []
       - id: u-g9-12
         order: 12
         name: "Compound 'or' inequalities"
         description: ""
-        lessons: []
       - id: u-g9-13
         order: 13
         name: "Compound 'and' inequalities"
         description: ""
-        lessons: []
       - id: u-g9-14
         order: 14
         name: Exclusive two-variable linear inequalities
         description: ""
-        lessons: []
       - id: u-g9-15
         order: 15
         name: Inclusive two-variable linear inequalities
         description: ""
-        lessons: []
       - id: u-g9-16
         order: 16
         name: Systems of linear inequalities
         description: ""
-        lessons: []
       - id: u-g9-17
         order: 17
         name: Inputs and outputs
         description: ""
-        lessons: []
       - id: u-g9-18
         order: 18
         name: Graphs of functions
         description: ""
-        lessons: []
       - id: u-g9-19
         order: 19
         name: Tables of functions
         description: ""
-        lessons: []
       - id: u-g9-20
         order: 20
         name: Vertical intercept of functions
         description: ""
-        lessons: []
       - id: u-g9-21
         order: 21
         name: Horizontal intercept of functions
         description: ""
-        lessons: []
       - id: u-g9-22
         order: 22
         name: Rate of change
         description: ""
-        lessons: []
       - id: u-g9-23
         order: 23
         name: Average rate of change
         description: ""
-        lessons: []
       - id: u-g9-24
         order: 24
         name: Linear functions
         description: ""
-        lessons: []
       - id: u-g9-25
         order: 25
         name: Domain of a function
         description: ""
-        lessons: []
       - id: u-g9-26
         order: 26
         name: Range of a function
         description: ""
-        lessons: []
       - id: u-g9-27
         order: 27
         name: Graphs of piecewise functions
         description: ""
-        lessons: []
       - id: u-g9-28
         order: 28
         name: Equations of piecewise functions
         description: ""
-        lessons: []
       - id: u-g9-29
         order: 29
         name: Average rate of change of piecewise functions
         description: ""
-        lessons: []
       - id: u-g9-30
         order: 30
         name: Step functions
         description: ""
-        lessons: []
       - id: u-g9-31
         order: 31
         name: Absolute value functions
         description: ""
-        lessons: []
       - id: u-g9-32
         order: 32
         name: Symmetry of absolute value functions
         description: ""
-        lessons: []
       - id: u-g9-33
         order: 33
         name: Graphs of inverse functions
         description: ""
-        lessons: []
       - id: u-g9-34
         order: 34
         name: Equations of inverse functions
         description: ""
-        lessons: []
       - id: u-g9-35
         order: 35
         name: Graphs of inverse linear functions
         description: ""
-        lessons: []
       - id: u-g9-36
         order: 36
         name: Equations of inverse linear functions
         description: ""
-        lessons: []
       - id: u-g9-37
         order: 37
         name: Product rule
         description: ""
-        lessons: []
       - id: u-g9-38
         order: 38
         name: Quotient rule
         description: ""
-        lessons: []
       - id: u-g9-39
         order: 39
         name: Negative exponents
         description: ""
-        lessons: []
       - id: u-g9-40
         order: 40
         name: Power of 0
         description: ""
-        lessons: []
       - id: u-g9-41
         order: 41
         name: Power rule
         description: ""
-        lessons: []
       - id: u-g9-42
         order: 42
         name: Radicals and exponents
         description: ""
-        lessons: []
       - id: u-g9-43
         order: 43
         name: Simplify radicals
         description: ""
-        lessons: []
       - id: u-g9-44
         order: 44
         name: Product property for radicals
         description: ""
-        lessons: []
       - id: u-g9-45
         order: 45
         name: Quotient property for radicals
         description: ""
-        lessons: []
       - id: u-g9-46
         order: 46
         name: Add radicals
         description: ""
-        lessons: []
       - id: u-g9-47
         order: 47
         name: Subtract radicals
         description: ""
-        lessons: []
       - id: u-g9-48
         order: 48
         name: Add different radicands
         description: ""
-        lessons: []
       - id: u-g9-49
         order: 49
         name: Subtract different radicands
         description: ""
-        lessons: []
       - id: u-g9-50
         order: 50
         name: Add and subtract polynomials
         description: ""
-        lessons: []
       - id: u-g9-51
         order: 51
         name: Multiply polynomials
         description: ""
-        lessons: []
       - id: u-g9-52
         order: 52
         name: Distribute quadratic expressions
         description: ""
-        lessons: []
       - id: u-g9-53
         order: 53
         name: Factor quadratic expressions
         description: ""
-        lessons: []
       - id: u-g9-54
         order: 54
         name: Factor with a leading coefficient
         description: ""
-        lessons: []
       - id: u-g9-55
         order: 55
         name: Linear versus quadratic
         description: ""
-        lessons: []
       - id: u-g9-56
         order: 56
         name: Tables of quadratic functions
         description: ""
-        lessons: []
       - id: u-g9-57
         order: 57
         name: Graphs of quadratic functions
         description: ""
-        lessons: []
       - id: u-g9-58
         order: 58
         name: Equations of quadratic functions
         description: ""
-        lessons: []
       - id: u-g9-59
         order: 59
         name: Zeros of quadratic functions
         description: ""
-        lessons: []
       - id: u-g9-60
         order: 60
         name: Factored form
         description: ""
-        lessons: []
       - id: u-g9-61
         order: 61
         name: Vertex
         description: ""
-        lessons: []
       - id: u-g9-62
         order: 62
         name: Vertex form
         description: ""
-        lessons: []
       - id: u-g9-63
         order: 63
         name: Linear-quadratic
         description: ""
-        lessons: []
       - id: u-g9-64
         order: 64
         name: Quadratic-quadratic
         description: ""
-        lessons: []
       - id: u-g9-65
         order: 65
         name: Arithmetic sequences
         description: ""
-        lessons: []
       - id: u-g9-66
         order: 66
         name: Arithmetic versus geometric
         description: ""
-        lessons: []
       - id: u-g9-67
         order: 67
         name: Recursive formulas
         description: ""
-        lessons: []
       - id: u-g9-68
         order: 68
         name: Explicit formulas
         description: ""
-        lessons: []
       - id: u-g9-69
         order: 69
         name: "Linear, quadratic, and exponential"
         description: ""
-        lessons: []
       - id: u-g9-70
         order: 70
         name: Exponential function tables
         description: ""
-        lessons: []
       - id: u-g9-71
         order: 71
         name: Exponential function graphs
         description: ""
-        lessons: []
       - id: u-g9-72
         order: 72
         name: Exponential function equations
         description: ""
-        lessons: []
       - id: u-g9-73
         order: 73
         name: Exponential growth functions
         description: ""
-        lessons: []
       - id: u-g9-74
         order: 74
         name: Exponential decay functions
         description: ""
-        lessons: []
       - id: u-g9-75
         order: 75
         name: Vertical translations
         description: ""
-        lessons: []
       - id: u-g9-76
         order: 76
         name: Horizontal translations
         description: ""
-        lessons: []
       - id: u-g9-77
         order: 77
         name: Vertical stretches
         description: ""
-        lessons: []
       - id: u-g9-78
         order: 78
         name: Vertical compressions
         description: ""
-        lessons: []
       - id: u-g9-79
         order: 79
         name: Horizontal stretches
         description: ""
-        lessons: []
       - id: u-g9-80
         order: 80
         name: Horizontal compressions
         description: ""
-        lessons: []
       - id: u-g9-81
         order: 81
         name: Scatter plots
         description: ""
-        lessons: []
       - id: u-g9-82
         order: 82
         name: Correlation
         description: ""
-        lessons: []
       - id: u-g9-83
         order: 83
         name: Linear models
         description: ""
-        lessons: []
       - id: u-g9-84
         order: 84
         name: Residuals
         description: ""
-        lessons: []
       - id: u-g9-85
         order: 85
         name: Two-way tables
         description: ""
-        lessons: []
       - id: u-g9-86
         order: 86
         name: Relative frequencies
         description: ""
-        lessons: []
       - id: u-g9-87
         order: 87
         name: Dot plots
         description: ""
-        lessons: []
       - id: u-g9-88
         order: 88
         name: Histograms
         description: ""
-        lessons: []
       - id: u-g9-89
         order: 89
         name: Mean
         description: ""
-        lessons: []
       - id: u-g9-90
         order: 90
         name: Median
         description: ""
-        lessons: []
       - id: u-g9-91
         order: 91
         name: Box plots
         description: ""
-        lessons: []
       - id: u-g9-92
         order: 92
         name: Quartile 1
         description: ""
-        lessons: []
       - id: u-g9-93
         order: 93
         name: Quartile 3
         description: ""
-        lessons: []
       - id: u-g9-94
         order: 94
         name: Interquartile range
         description: ""
-        lessons: []
       - id: u-g9-95
         order: 95
         name: Symmetrical data
         description: ""
-        lessons: []
       - id: u-g9-96
         order: 96
         name: Right-skewed data
         description: ""
-        lessons: []
       - id: u-g9-97
         order: 97
         name: Left-skewed data
         description: ""
-        lessons: []
       - id: u-g9-98
         order: 98
         name: Outliers
         description: ""
-        lessons: []
 
   - grade: 10
     unit_count: 70
@@ -2267,352 +1825,282 @@ grades:
         order: 1
         name: Geometric relationships
         description: ""
-        lessons: []
       - id: u-g10-02
         order: 2
         name: Define translations
         description: ""
-        lessons: []
       - id: u-g10-03
         order: 3
         name: Perform translations
         description: ""
-        lessons: []
       - id: u-g10-04
         order: 4
         name: Define reflections
         description: ""
-        lessons: []
       - id: u-g10-05
         order: 5
         name: Reflect figures
         description: ""
-        lessons: []
       - id: u-g10-06
         order: 6
         name: Define rotations
         description: ""
-        lessons: []
       - id: u-g10-07
         order: 7
         name: 90-degree counterclockwise rotations
         description: ""
-        lessons: []
       - id: u-g10-08
         order: 8
         name: 90-degree clockwise rotations
         description: ""
-        lessons: []
       - id: u-g10-09
         order: 9
         name: 180-degree rotations
         description: ""
-        lessons: []
       - id: u-g10-10
         order: 10
         name: Reflectional symmetry
         description: ""
-        lessons: []
       - id: u-g10-11
         order: 11
         name: Rotational symmetry
         description: ""
-        lessons: []
       - id: u-g10-12
         order: 12
         name: Define congruence
         description: ""
-        lessons: []
       - id: u-g10-13
         order: 13
         name: Congruent triangles
         description: ""
-        lessons: []
       - id: u-g10-14
         order: 14
         name: Define dilations
         description: ""
-        lessons: []
       - id: u-g10-15
         order: 15
         name: Dilate segments and figures
         description: ""
-        lessons: []
       - id: u-g10-16
         order: 16
         name: Define similarity
         description: ""
-        lessons: []
       - id: u-g10-17
         order: 17
         name: Proportional relationships in similar triangles
         description: ""
-        lessons: []
       - id: u-g10-18
         order: 18
         name: Triangle proportionality theorem
         description: ""
-        lessons: []
       - id: u-g10-19
         order: 19
         name: Altitude of right triangles
         description: ""
-        lessons: []
       - id: u-g10-20
         order: 20
         name: Pythagorean theorem
         description: ""
-        lessons: []
       - id: u-g10-21
         order: 21
         name: Converse of the Pythagorean theorem for acute triangles
         description: ""
-        lessons: []
       - id: u-g10-22
         order: 22
         name: Converse of the Pythagorean theorem for obtuse triangles
         description: ""
-        lessons: []
       - id: u-g10-23
         order: 23
         name: Intro to the sine ratio
         description: ""
-        lessons: []
       - id: u-g10-24
         order: 24
         name: Sine of 30
         description: ""
-        lessons: []
       - id: u-g10-25
         order: 25
         name: Sine of 60
         description: ""
-        lessons: []
       - id: u-g10-26
         order: 26
         name: Sine of 45
         description: ""
-        lessons: []
       - id: u-g10-27
         order: 27
         name: Intro to the cosine ratio
         description: ""
-        lessons: []
       - id: u-g10-28
         order: 28
         name: Cosine of 60
         description: ""
-        lessons: []
       - id: u-g10-29
         order: 29
         name: Cosine of 30
         description: ""
-        lessons: []
       - id: u-g10-30
         order: 30
         name: Cosine of 45
         description: ""
-        lessons: []
       - id: u-g10-31
         order: 31
         name: Intro to the tangent ratio
         description: ""
-        lessons: []
       - id: u-g10-32
         order: 32
         name: Tangent of 45
         description: ""
-        lessons: []
       - id: u-g10-33
         order: 33
         name: Tangent of 30
         description: ""
-        lessons: []
       - id: u-g10-34
         order: 34
         name: Tangent of 60
         description: ""
-        lessons: []
       - id: u-g10-35
         order: 35
         name: Connect sine and cosine
         description: ""
-        lessons: []
       - id: u-g10-36
         order: 36
         name: "Connect sine, cosine, and tangent"
         description: ""
-        lessons: []
       - id: u-g10-37
         order: 37
         name: Law of sines
         description: ""
-        lessons: []
       - id: u-g10-38
         order: 38
         name: Law of cosines
         description: ""
-        lessons: []
       - id: u-g10-39
         order: 39
         name: Triangle area using sine
         description: ""
-        lessons: []
       - id: u-g10-40
         order: 40
         name: Translations as functions
         description: ""
-        lessons: []
       - id: u-g10-41
         order: 41
         name: Reflections across the x-axis as functions
         description: ""
-        lessons: []
       - id: u-g10-42
         order: 42
         name: Reflections across the y-axis as functions
         description: ""
-        lessons: []
       - id: u-g10-43
         order: 43
         name: Reflections across y=x as functions
         description: ""
-        lessons: []
       - id: u-g10-44
         order: 44
         name: Dilations as functions
         description: ""
-        lessons: []
       - id: u-g10-45
         order: 45
         name: Lines in point-slope form
         description: ""
-        lessons: []
       - id: u-g10-46
         order: 46
         name: Lines in different forms
         description: ""
-        lessons: []
       - id: u-g10-47
         order: 47
         name: Circles on the plane
         description: ""
-        lessons: []
       - id: u-g10-48
         order: 48
         name: Focus of parabolas
         description: ""
-        lessons: []
       - id: u-g10-49
         order: 49
         name: Segment addition postulate
         description: ""
-        lessons: []
       - id: u-g10-50
         order: 50
         name: Line segment midpoint
         description: ""
-        lessons: []
       - id: u-g10-51
         order: 51
         name: Distance formula
         description: ""
-        lessons: []
       - id: u-g10-52
         order: 52
         name: Partition a line segment
         description: ""
-        lessons: []
       - id: u-g10-53
         order: 53
         name: Probability of simple events
         description: ""
-        lessons: []
       - id: u-g10-54
         order: 54
         name: Probability of compound events
         description: ""
-        lessons: []
       - id: u-g10-55
         order: 55
         name: Addition rule
         description: ""
-        lessons: []
       - id: u-g10-56
         order: 56
         name: Independent events
         description: ""
-        lessons: []
       - id: u-g10-57
         order: 57
         name: Conditional probability
         description: ""
-        lessons: []
       - id: u-g10-58
         order: 58
         name: Probability in two-way tables
         description: ""
-        lessons: []
       - id: u-g10-59
         order: 59
         name: Dependent events
         description: ""
-        lessons: []
       - id: u-g10-60
         order: 60
         name: Multiplication rule
         description: ""
-        lessons: []
       - id: u-g10-61
         order: 61
         name: Factorials
         description: ""
-        lessons: []
       - id: u-g10-62
         order: 62
         name: Permutations
         description: ""
-        lessons: []
       - id: u-g10-63
         order: 63
         name: Combinations
         description: ""
-        lessons: []
       - id: u-g10-64
         order: 64
         name: Rectangular prism volume
         description: ""
-        lessons: []
       - id: u-g10-65
         order: 65
         name: Triangular prism volume
         description: ""
-        lessons: []
       - id: u-g10-66
         order: 66
         name: Pyramid volume
         description: ""
-        lessons: []
       - id: u-g10-67
         order: 67
         name: Cylinder volume
         description: ""
-        lessons: []
       - id: u-g10-68
         order: 68
         name: Cylinder surface area
         description: ""
-        lessons: []
       - id: u-g10-69
         order: 69
         name: Cone volume
         description: ""
-        lessons: []
       - id: u-g10-70
         order: 70
         name: Sphere volume
         description: ""
-        lessons: []
 
   - grade: 11
     unit_count: 84
@@ -2621,422 +2109,338 @@ grades:
         order: 1
         name: Algebra and graphs
         description: ""
-        lessons: []
       - id: u-g11-02
         order: 2
         name: Function families
         description: ""
-        lessons: []
       - id: u-g11-03
         order: 3
         name: Compare function graphs
         description: ""
-        lessons: []
       - id: u-g11-04
         order: 4
         name: Graphs of piecewise functions
         description: ""
-        lessons: []
       - id: u-g11-05
         order: 5
         name: Equations of piecewise functions
         description: ""
-        lessons: []
       - id: u-g11-06
         order: 6
         name: Average rate of change of piecewise functions
         description: ""
-        lessons: []
       - id: u-g11-07
         order: 7
         name: Step functions
         description: ""
-        lessons: []
       - id: u-g11-08
         order: 8
         name: Absolute value functions
         description: ""
-        lessons: []
       - id: u-g11-09
         order: 9
         name: Transform absolute value functions
         description: ""
-        lessons: []
       - id: u-g11-10
         order: 10
         name: Add and subtract polynomials
         description: ""
-        lessons: []
       - id: u-g11-11
         order: 11
         name: Multiply polynomials
         description: ""
-        lessons: []
       - id: u-g11-12
         order: 12
         name: Intro to polynomial functions
         description: ""
-        lessons: []
       - id: u-g11-13
         order: 13
         name: Relative maxima and minima of polynomial functions
         description: ""
-        lessons: []
       - id: u-g11-14
         order: 14
         name: Zeros of polynomial functions
         description: ""
-        lessons: []
       - id: u-g11-15
         order: 15
         name: Multiplicity of polynomial functions
         description: ""
-        lessons: []
       - id: u-g11-16
         order: 16
         name: End behavior of odd polynomial functions
         description: ""
-        lessons: []
       - id: u-g11-17
         order: 17
         name: End behavior of even polynomial functions
         description: ""
-        lessons: []
       - id: u-g11-18
         order: 18
         name: "The imaginary number, i"
         description: ""
-        lessons: []
       - id: u-g11-19
         order: 19
         name: Square roots of negative numbers
         description: ""
-        lessons: []
       - id: u-g11-20
         order: 20
         name: Patterns of exponentiating i
         description: ""
-        lessons: []
       - id: u-g11-21
         order: 21
         name: Multiply complex numbers
         description: ""
-        lessons: []
       - id: u-g11-22
         order: 22
         name: Complex roots
         description: ""
-        lessons: []
       - id: u-g11-23
         order: 23
         name: Complex conjugates
         description: ""
-        lessons: []
       - id: u-g11-24
         order: 24
         name: Intro to rational functions
         description: ""
-        lessons: []
       - id: u-g11-25
         order: 25
         name: Y-intercept of rational functions
         description: ""
-        lessons: []
       - id: u-g11-26
         order: 26
         name: X-intercepts of rational functions
         description: ""
-        lessons: []
       - id: u-g11-27
         order: 27
         name: Vertical asymptotes of rational functions
         description: ""
-        lessons: []
       - id: u-g11-28
         order: 28
         name: Rewrite rational functions
         description: ""
-        lessons: []
       - id: u-g11-29
         order: 29
         name: End behavior approaching a horizontal line
         description: ""
-        lessons: []
       - id: u-g11-30
         order: 30
         name: End behavior approaching y=0
         description: ""
-        lessons: []
       - id: u-g11-31
         order: 31
         name: End behavior approaching slant asymptotes
         description: ""
-        lessons: []
       - id: u-g11-32
         order: 32
         name: Add and subtract rational expressions
         description: ""
-        lessons: []
       - id: u-g11-33
         order: 33
         name: Multiply rational expressions
         description: ""
-        lessons: []
       - id: u-g11-34
         order: 34
         name: Divide rational expressions
         description: ""
-        lessons: []
       - id: u-g11-35
         order: 35
         name: Solve rational equations
         description: ""
-        lessons: []
       - id: u-g11-36
         order: 36
         name: Solve rational equations with extraneous solutions
         description: ""
-        lessons: []
       - id: u-g11-37
         order: 37
         name: Compare rate of change
         description: ""
-        lessons: []
       - id: u-g11-38
         order: 38
         name: Exponential function tables
         description: ""
-        lessons: []
       - id: u-g11-39
         order: 39
         name: Exponential function graphs
         description: ""
-        lessons: []
       - id: u-g11-40
         order: 40
         name: Exponential function equations
         description: ""
-        lessons: []
       - id: u-g11-41
         order: 41
         name: Exponential growth
         description: ""
-        lessons: []
       - id: u-g11-42
         order: 42
         name: Exponential decay
         description: ""
-        lessons: []
       - id: u-g11-43
         order: 43
         name: Arithmetic and geometric sequences
         description: ""
-        lessons: []
       - id: u-g11-44
         order: 44
         name: Explicit formulas for geometric sequences
         description: ""
-        lessons: []
       - id: u-g11-45
         order: 45
         name: Recursive formulas for geometric sequences
         description: ""
-        lessons: []
       - id: u-g11-46
         order: 46
         name: Partial sums of geometric series
         description: ""
-        lessons: []
       - id: u-g11-47
         order: 47
         name: Sum formula for geometric series
         description: ""
-        lessons: []
       - id: u-g11-48
         order: 48
         name: Intro to the natural base
         description: ""
-        lessons: []
       - id: u-g11-49
         order: 49
         name: Continuous growth models
         description: ""
-        lessons: []
       - id: u-g11-50
         order: 50
         name: Intro to logarithms
         description: ""
-        lessons: []
       - id: u-g11-51
         order: 51
         name: Logarithm value
         description: ""
-        lessons: []
       - id: u-g11-52
         order: 52
         name: Product rule
         description: ""
-        lessons: []
       - id: u-g11-53
         order: 53
         name: Quotient rule
         description: ""
-        lessons: []
       - id: u-g11-54
         order: 54
         name: Power rule
         description: ""
-        lessons: []
       - id: u-g11-55
         order: 55
         name: Change of base formula
         description: ""
-        lessons: []
       - id: u-g11-56
         order: 56
         name: Intro to logarithmic functions
         description: ""
-        lessons: []
       - id: u-g11-57
         order: 57
         name: Logarithmic functions in base 10
         description: ""
-        lessons: []
       - id: u-g11-58
         order: 58
         name: Logarithmic functions in base 2
         description: ""
-        lessons: []
       - id: u-g11-59
         order: 59
         name: Logarithmic function graphs
         description: ""
-        lessons: []
       - id: u-g11-60
         order: 60
         name: Logarithmic function intercepts
         description: ""
-        lessons: []
       - id: u-g11-61
         order: 61
         name: The natural logarithm
         description: ""
-        lessons: []
       - id: u-g11-62
         order: 62
         name: Natural logarithm graphs
         description: ""
-        lessons: []
       - id: u-g11-63
         order: 63
         name: Solve exponential equations using logarithms
         description: ""
-        lessons: []
       - id: u-g11-64
         order: 64
         name: Solve base e equations using logarithms
         description: ""
-        lessons: []
       - id: u-g11-65
         order: 65
         name: Inverse function equations
         description: ""
-        lessons: []
       - id: u-g11-66
         order: 66
         name: Inverse function graphs
         description: ""
-        lessons: []
       - id: u-g11-67
         order: 67
         name: Combine functions
         description: ""
-        lessons: []
       - id: u-g11-68
         order: 68
         name: Function composition
         description: ""
-        lessons: []
       - id: u-g11-69
         order: 69
         name: Vertical translations
         description: ""
-        lessons: []
       - id: u-g11-70
         order: 70
         name: Horizontal translations
         description: ""
-        lessons: []
       - id: u-g11-71
         order: 71
         name: X-axis function reflections
         description: ""
-        lessons: []
       - id: u-g11-72
         order: 72
         name: Y-axis function reflections
         description: ""
-        lessons: []
       - id: u-g11-73
         order: 73
         name: Vertical stretches
         description: ""
-        lessons: []
       - id: u-g11-74
         order: 74
         name: Vertical compressions
         description: ""
-        lessons: []
       - id: u-g11-75
         order: 75
         name: Horizontal stretches
         description: ""
-        lessons: []
       - id: u-g11-76
         order: 76
         name: Horizontal compressions
         description: ""
-        lessons: []
       - id: u-g11-77
         order: 77
         name: Intro to the sine function
         description: ""
-        lessons: []
       - id: u-g11-78
         order: 78
         name: Period of sine functions
         description: ""
-        lessons: []
       - id: u-g11-79
         order: 79
         name: Intro to the cosine function
         description: ""
-        lessons: []
       - id: u-g11-80
         order: 80
         name: Period of cosine functions
         description: ""
-        lessons: []
       - id: u-g11-81
         order: 81
         name: Midline of sine and cosine functions
         description: ""
-        lessons: []
       - id: u-g11-82
         order: 82
         name: Amplitude of sine and cosine functions
         description: ""
-        lessons: []
       - id: u-g11-83
         order: 83
         name: Intro to the tangent function
         description: ""
-        lessons: []
       - id: u-g11-84
         order: 84
         name: Period of tangent functions
         description: ""
-        lessons: []
 
   - grade: 12
     unit_count: 69
@@ -3045,347 +2449,278 @@ grades:
         order: 1
         name: Algebra and functions
         description: ""
-        lessons: []
       - id: u-g12-02
         order: 2
         name: Polynomial function graphs
         description: ""
-        lessons: []
       - id: u-g12-03
         order: 3
         name: Roots of polynomial functions
         description: ""
-        lessons: []
       - id: u-g12-04
         order: 4
         name: Rational root theorem
         description: ""
-        lessons: []
       - id: u-g12-05
         order: 5
         name: Polynomial function equations from graphs
         description: ""
-        lessons: []
       - id: u-g12-06
         order: 6
         name: "Vieta's formula for quadratic polynomials"
         description: ""
-        lessons: []
       - id: u-g12-07
         order: 7
         name: "Vieta's formula for cubic polynomials"
         description: ""
-        lessons: []
       - id: u-g12-08
         order: 8
         name: Zeros of rational functions
         description: ""
-        lessons: []
       - id: u-g12-09
         order: 9
         name: Vertical asymptotes of rational functions
         description: ""
-        lessons: []
       - id: u-g12-10
         order: 10
         name: Horizontal asymptotes of rational functions
         description: ""
-        lessons: []
       - id: u-g12-11
         order: 11
         name: Holes in rational functions
         description: ""
-        lessons: []
       - id: u-g12-12
         order: 12
         name: Slant asymptotes of rational functions
         description: ""
-        lessons: []
       - id: u-g12-13
         order: 13
         name: Function composition
         description: ""
-        lessons: []
       - id: u-g12-14
         order: 14
         name: Inverse functions
         description: ""
-        lessons: []
       - id: u-g12-15
         order: 15
         name: Properties of logarithms
         description: ""
-        lessons: []
       - id: u-g12-16
         order: 16
         name: Undo exponentials
         description: ""
-        lessons: []
       - id: u-g12-17
         order: 17
         name: Domain and range
         description: ""
-        lessons: []
       - id: u-g12-18
         order: 18
         name: Graphing inverses
         description: ""
-        lessons: []
       - id: u-g12-19
         order: 19
         name: Period of sinusoidal functions
         description: ""
-        lessons: []
       - id: u-g12-20
         order: 20
         name: Midline of sinusoidal functions
         description: ""
-        lessons: []
       - id: u-g12-21
         order: 21
         name: Amplitude of sinusoidal functions
         description: ""
-        lessons: []
       - id: u-g12-22
         order: 22
         name: Phase shift of sinusoidal functions
         description: ""
-        lessons: []
       - id: u-g12-23
         order: 23
         name: Relate sine and cosine
         description: ""
-        lessons: []
       - id: u-g12-24
         order: 24
         name: Seeing vectors
         description: ""
-        lessons: []
       - id: u-g12-25
         order: 25
         name: Representing vectors
         description: ""
-        lessons: []
       - id: u-g12-26
         order: 26
         name: Component vectors
         description: ""
-        lessons: []
       - id: u-g12-27
         order: 27
         name: Magnitude and direction
         description: ""
-        lessons: []
       - id: u-g12-28
         order: 28
         name: Add vectors
         description: ""
-        lessons: []
       - id: u-g12-29
         order: 29
         name: Subtract vectors
         description: ""
-        lessons: []
       - id: u-g12-30
         order: 30
         name: Scale vectors
         description: ""
-        lessons: []
       - id: u-g12-31
         order: 31
         name: Unit vectors
         description: ""
-        lessons: []
       - id: u-g12-32
         order: 32
         name: Calculate dot product
         description: ""
-        lessons: []
       - id: u-g12-33
         order: 33
         name: Orthogonality
         description: ""
-        lessons: []
       - id: u-g12-34
         order: 34
         name: Intro to matrices
         description: ""
-        lessons: []
       - id: u-g12-35
         order: 35
         name: Size of a matrix
         description: ""
-        lessons: []
       - id: u-g12-36
         order: 36
         name: Add and subtract matrices
         description: ""
-        lessons: []
       - id: u-g12-37
         order: 37
         name: Scale matrices
         description: ""
-        lessons: []
       - id: u-g12-38
         order: 38
         name: Basis vectors
         description: ""
-        lessons: []
       - id: u-g12-39
         order: 39
         name: Transform basis vectors
         description: ""
-        lessons: []
       - id: u-g12-40
         order: 40
         name: Matrices as transformations
         description: ""
-        lessons: []
       - id: u-g12-41
         order: 41
         name: Matrices transform vectors
         description: ""
-        lessons: []
       - id: u-g12-42
         order: 42
         name: Concept of a limit
         description: ""
-        lessons: []
       - id: u-g12-43
         order: 43
         name: Calculate limits with graphs
         description: ""
-        lessons: []
       - id: u-g12-44
         order: 44
         name: Calculate limits with equations
         description: ""
-        lessons: []
       - id: u-g12-45
         order: 45
         name: Infinite limits and asymptotes
         description: ""
-        lessons: []
       - id: u-g12-46
         order: 46
         name: Definition of continuity
         description: ""
-        lessons: []
       - id: u-g12-47
         order: 47
         name: Examples of discontinuity
         description: ""
-        lessons: []
       - id: u-g12-48
         order: 48
         name: Intermediate value theorem
         description: ""
-        lessons: []
       - id: u-g12-49
         order: 49
         name: Secant lines
         description: ""
-        lessons: []
       - id: u-g12-50
         order: 50
         name: Derivative as the instantaneous rate of change
         description: ""
-        lessons: []
       - id: u-g12-51
         order: 51
         name: Limit definition of the derivative
         description: ""
-        lessons: []
       - id: u-g12-52
         order: 52
         name: Differentiability
         description: ""
-        lessons: []
       - id: u-g12-53
         order: 53
         name: Derivatives of linear terms
         description: ""
-        lessons: []
       - id: u-g12-54
         order: 54
         name: Derivatives of quadratic terms
         description: ""
-        lessons: []
       - id: u-g12-55
         order: 55
         name: Power rule for derivatives
         description: ""
-        lessons: []
       - id: u-g12-56
         order: 56
         name: Sum rule for derivatives
         description: ""
-        lessons: []
       - id: u-g12-57
         order: 57
         name: Derivatives of trigonometric functions
         description: ""
-        lessons: []
       - id: u-g12-58
         order: 58
         name: Derivatives of exponential functions
         description: ""
-        lessons: []
       - id: u-g12-59
         order: 59
         name: Derivatives of logarithmic functions
         description: ""
-        lessons: []
       - id: u-g12-60
         order: 60
         name: The product rule
         description: ""
-        lessons: []
       - id: u-g12-61
         order: 61
         name: The quotient rule
         description: ""
-        lessons: []
       - id: u-g12-62
         order: 62
         name: The chain rule
         description: ""
-        lessons: []
       - id: u-g12-63
         order: 63
         name: Using the chain rule
         description: ""
-        lessons: []
       - id: u-g12-64
         order: 64
         name: Left Riemann sums
         description: ""
-        lessons: []
       - id: u-g12-65
         order: 65
         name: Right Riemann sums
         description: ""
-        lessons: []
       - id: u-g12-66
         order: 66
         name: Derivative as an operation
         description: ""
-        lessons: []
       - id: u-g12-67
         order: 67
         name: Antiderivatives
         description: ""
-        lessons: []
       - id: u-g12-68
         order: 68
         name: Indefinite integral
         description: ""
-        lessons: []
       - id: u-g12-69
         order: 69
         name: Common antiderivatives
         description: ""
-        lessons: []
 
 topics:
   - id: arithmetic-1
@@ -3396,97 +2731,78 @@ topics:
         order: 1
         name: Follow patterns
         description: ""
-        lessons: []
       - id: u-ta1-02
         order: 2
         name: "Add, subtract, and multiply"
         description: ""
-        lessons: []
       - id: u-ta1-03
         order: 3
         name: Intro to division
         description: ""
-        lessons: []
       - id: u-ta1-04
         order: 4
         name: Add and subtract small numbers
         description: ""
-        lessons: []
       - id: u-ta1-05
         order: 5
         name: Add and subtract large numbers
         description: ""
-        lessons: []
       - id: u-ta1-06
         order: 6
         name: Multiply
         description: ""
-        lessons: []
       - id: u-ta1-07
         order: 7
         name: Multiplication properties
         description: ""
-        lessons: []
       - id: u-ta1-08
         order: 8
         name: Divide
         description: ""
-        lessons: []
       - id: u-ta1-09
         order: 9
         name: Create fractions
         description: ""
-        lessons: []
       - id: u-ta1-10
         order: 10
         name: Compare fractions
         description: ""
-        lessons: []
       - id: u-ta1-11
         order: 11
         name: Rounding
         description: ""
-        lessons: []
       - id: u-ta1-12
         order: 12
         name: Decimals
         description: ""
-        lessons: []
       - id: u-ta1-13
         order: 13
         name: Fraction operations
         description: ""
-        lessons: []
       - id: u-ta1-14
         order: 14
         name: Negatives
         description: ""
-        lessons: []
       - id: u-ta1-15
         order: 15
         name: Compare ratios
         description: ""
-        lessons: []
       - id: u-ta1-16
         order: 16
         name: Factors
         description: ""
-        lessons: []
       - id: u-ta1-17
         order: 17
         name: Factors and multiples
         description: ""
-        lessons: []
       - id: u-ta1-18
         order: 18
         name: Greatest common factor with fractions
         description: ""
-        lessons: []
       - id: u-ta1-19
         order: 19
         name: Place value
         description: ""
-        lessons: []
 
   - id: arithmetic-2
     name: Arithmetic 2
@@ -3496,87 +2812,70 @@ topics:
         order: 1
         name: Find connections
         description: ""
-        lessons: []
       - id: u-ta2-02
         order: 2
         name: Build number sense
         description: ""
-        lessons: []
       - id: u-ta2-03
         order: 3
         name: Exponents
         description: ""
-        lessons: []
       - id: u-ta2-04
         order: 4
         name: Equivalent ratios and fractions
         description: ""
-        lessons: []
       - id: u-ta2-05
         order: 5
         name: Part-to-whole ratios
         description: ""
-        lessons: []
       - id: u-ta2-06
         order: 6
         name: "Fractions, decimals, and percents"
         description: ""
-        lessons: []
       - id: u-ta2-07
         order: 7
         name: Round and compare numbers
         description: ""
-        lessons: []
       - id: u-ta2-08
         order: 8
         name: Exponent operations
         description: ""
-        lessons: []
       - id: u-ta2-09
         order: 9
         name: Exponents and place value
         description: ""
-        lessons: []
       - id: u-ta2-10
         order: 10
         name: Negative number operations
         description: ""
-        lessons: []
       - id: u-ta2-11
         order: 11
         name: Negative and positive decimals
         description: ""
-        lessons: []
       - id: u-ta2-12
         order: 12
         name: Magnitude
         description: ""
-        lessons: []
       - id: u-ta2-13
         order: 13
         name: Compare decimals
         description: ""
-        lessons: []
       - id: u-ta2-14
         order: 14
         name: Rational numbers
         description: ""
-        lessons: []
       - id: u-ta2-15
         order: 15
         name: Rational number operations
         description: ""
-        lessons: []
       - id: u-ta2-16
         order: 16
         name: Round decimals
         description: ""
-        lessons: []
       - id: u-ta2-17
         order: 17
         name: Round fractions and decimals
         description: ""
-        lessons: []
 
   - id: geometry
     name: Geometry
@@ -3586,152 +2885,122 @@ topics:
         order: 1
         name: Visual relationships
         description: ""
-        lessons: []
       - id: u-tgeo-02
         order: 2
         name: Polygon area
         description: ""
-        lessons: []
       - id: u-tgeo-03
         order: 3
         name: Composite area and side lengths
         description: ""
-        lessons: []
       - id: u-tgeo-04
         order: 4
         name: Area and perimeter of polygons
         description: ""
-        lessons: []
       - id: u-tgeo-05
         order: 5
         name: Rectangular surface area
         description: ""
-        lessons: []
       - id: u-tgeo-06
         order: 6
         name: Volume
         description: ""
-        lessons: []
       - id: u-tgeo-07
         order: 7
         name: Cylinders
         description: ""
-        lessons: []
       - id: u-tgeo-08
         order: 8
         name: Cones and spheres
         description: ""
-        lessons: []
       - id: u-tgeo-09
         order: 9
         name: Coordinate grid
         description: ""
-        lessons: []
       - id: u-tgeo-10
         order: 10
         name: Polygons on the coordinate grid
         description: ""
-        lessons: []
       - id: u-tgeo-11
         order: 11
         name: Absolute value and distance
         description: ""
-        lessons: []
       - id: u-tgeo-12
         order: 12
         name: Circles
         description: ""
-        lessons: []
       - id: u-tgeo-13
         order: 13
         name: Angle relationships
         description: ""
-        lessons: []
       - id: u-tgeo-14
         order: 14
         name: Angles with parallel lines
         description: ""
-        lessons: []
       - id: u-tgeo-15
         order: 15
         name: Translations
         description: ""
-        lessons: []
       - id: u-tgeo-16
         order: 16
         name: Reflections
         description: ""
-        lessons: []
       - id: u-tgeo-17
         order: 17
         name: Rotations
         description: ""
-        lessons: []
       - id: u-tgeo-18
         order: 18
         name: Congruence
         description: ""
-        lessons: []
       - id: u-tgeo-19
         order: 19
         name: Dilations and similarity
         description: ""
-        lessons: []
       - id: u-tgeo-20
         order: 20
         name: Symmetry
         description: ""
-        lessons: []
       - id: u-tgeo-21
         order: 21
         name: Triangles
         description: ""
-        lessons: []
       - id: u-tgeo-22
         order: 22
         name: Similar triangles and angles
         description: ""
-        lessons: []
       - id: u-tgeo-23
         order: 23
         name: The Pythagorean theorem
         description: ""
-        lessons: []
       - id: u-tgeo-24
         order: 24
         name: Sine ratio
         description: ""
-        lessons: []
       - id: u-tgeo-25
         order: 25
         name: Cosine ratio
         description: ""
-        lessons: []
       - id: u-tgeo-26
         order: 26
         name: Tangent ratio
         description: ""
-        lessons: []
       - id: u-tgeo-27
         order: 27
         name: Sine function
         description: ""
-        lessons: []
       - id: u-tgeo-28
         order: 28
         name: Cosine function
         description: ""
-        lessons: []
       - id: u-tgeo-29
         order: 29
         name: Tangent function
         description: ""
-        lessons: []
       - id: u-tgeo-30
         order: 30
         name: Graph sine and cosine
         description: ""
-        lessons: []
 
   - id: algebra
     name: Algebra
@@ -3741,117 +3010,94 @@ topics:
         order: 1
         name: Operations in equations
         description: ""
-        lessons: []
       - id: u-talg-02
         order: 2
         name: Algebraic equations
         description: ""
-        lessons: []
       - id: u-talg-03
         order: 3
         name: Equations using all operations
         description: ""
-        lessons: []
       - id: u-talg-04
         order: 4
         name: Equations with coefficients
         description: ""
-        lessons: []
       - id: u-talg-05
         order: 5
         name: Equations with fractions and decimals
         description: ""
-        lessons: []
       - id: u-talg-06
         order: 6
         name: Distributive property and equivalency
         description: ""
-        lessons: []
       - id: u-talg-07
         order: 7
         name: One-variable equations
         description: ""
-        lessons: []
       - id: u-talg-08
         order: 8
         name: Rewrite and evaluate expressions
         description: ""
-        lessons: []
       - id: u-talg-09
         order: 9
         name: Two-step equations
         description: ""
-        lessons: []
       - id: u-talg-10
         order: 10
         name: Solve linear equations
         description: ""
-        lessons: []
       - id: u-talg-11
         order: 11
         name: Number of solutions
         description: ""
-        lessons: []
       - id: u-talg-12
         order: 12
         name: Inequalities
         description: ""
-        lessons: []
       - id: u-talg-13
         order: 13
         name: Two-step inequalities
         description: ""
-        lessons: []
       - id: u-talg-14
         order: 14
         name: Rewrite polynomial expressions
         description: ""
-        lessons: []
       - id: u-talg-15
         order: 15
         name: Factor quadratic expressions
         description: ""
-        lessons: []
       - id: u-talg-16
         order: 16
         name: Radical equations
         description: ""
-        lessons: []
       - id: u-talg-17
         order: 17
         name: Geometric sequences
         description: ""
-        lessons: []
       - id: u-talg-18
         order: 18
         name: Logarithms
         description: ""
-        lessons: []
       - id: u-talg-19
         order: 19
         name: Product and quotient rules
         description: ""
-        lessons: []
       - id: u-talg-20
         order: 20
         name: Properties of logarithms
         description: ""
-        lessons: []
       - id: u-talg-21
         order: 21
         name: Solve logarithmic and exponential equations
         description: ""
-        lessons: []
       - id: u-talg-22
         order: 22
         name: Rational expression arithmetic
         description: ""
-        lessons: []
       - id: u-talg-23
         order: 23
         name: Rational equations
         description: ""
-        lessons: []
 
   - id: algebraic-graphing
     name: Algebraic Graphing
@@ -3861,182 +3107,146 @@ topics:
         order: 1
         name: Graphing relationships
         description: ""
-        lessons: []
       - id: u-tagr-02
         order: 2
         name: Graphs of proportional relationships
         description: ""
-        lessons: []
       - id: u-tagr-03
         order: 3
         name: Slope
         description: ""
-        lessons: []
       - id: u-tagr-04
         order: 4
         name: Slope-intercept lines
         description: ""
-        lessons: []
       - id: u-tagr-05
         order: 5
         name: Slope of lines
         description: ""
-        lessons: []
       - id: u-tagr-06
         order: 6
         name: Intro to functions
         description: ""
-        lessons: []
       - id: u-tagr-07
         order: 7
         name: Rate of change
         description: ""
-        lessons: []
       - id: u-tagr-08
         order: 8
         name: Function notation
         description: ""
-        lessons: []
       - id: u-tagr-09
         order: 9
         name: Piecewise-defined functions
         description: ""
-        lessons: []
       - id: u-tagr-10
         order: 10
         name: Step and absolute value functions
         description: ""
-        lessons: []
       - id: u-tagr-11
         order: 11
         name: Intro to quadratic functions
         description: ""
-        lessons: []
       - id: u-tagr-12
         order: 12
         name: Quadratic graphs and equations
         description: ""
-        lessons: []
       - id: u-tagr-13
         order: 13
         name: Factored form of quadratics
         description: ""
-        lessons: []
       - id: u-tagr-14
         order: 14
         name: Vertex form of quadratics
         description: ""
-        lessons: []
       - id: u-tagr-15
         order: 15
         name: Intro to exponential functions
         description: ""
-        lessons: []
       - id: u-tagr-16
         order: 16
         name: Exponential graphs and equations
         description: ""
-        lessons: []
       - id: u-tagr-17
         order: 17
         name: Exponential rate of change
         description: ""
-        lessons: []
       - id: u-tagr-18
         order: 18
         name: Exponential growth and decay
         description: ""
-        lessons: []
       - id: u-tagr-19
         order: 19
         name: "The natural base, e"
         description: ""
-        lessons: []
       - id: u-tagr-20
         order: 20
         name: Logarithmic functions
         description: ""
-        lessons: []
       - id: u-tagr-21
         order: 21
         name: Logarithmic function graphs
         description: ""
-        lessons: []
       - id: u-tagr-22
         order: 22
         name: Natural logarithmic function
         description: ""
-        lessons: []
       - id: u-tagr-23
         order: 23
         name: Inverse linear functions
         description: ""
-        lessons: []
       - id: u-tagr-24
         order: 24
         name: Function translations
         description: ""
-        lessons: []
       - id: u-tagr-25
         order: 25
         name: Vertical function scaling
         description: ""
-        lessons: []
       - id: u-tagr-26
         order: 26
         name: Horizontal function scaling
         description: ""
-        lessons: []
       - id: u-tagr-27
         order: 27
         name: Reflections of functions
         description: ""
-        lessons: []
       - id: u-tagr-28
         order: 28
         name: Two-variable linear inequalities
         description: ""
-        lessons: []
       - id: u-tagr-29
         order: 29
         name: Systems of equations with quadratics
         description: ""
-        lessons: []
       - id: u-tagr-30
         order: 30
         name: Polynomial function equations
         description: ""
-        lessons: []
       - id: u-tagr-31
         order: 31
         name: Polynomial function graphs
         description: ""
-        lessons: []
       - id: u-tagr-32
         order: 32
         name: Polynomial graphs and roots
         description: ""
-        lessons: []
       - id: u-tagr-33
         order: 33
         name: Rational function equations and graphs
         description: ""
-        lessons: []
       - id: u-tagr-34
         order: 34
         name: Rewrite and graph rational functions
         description: ""
-        lessons: []
       - id: u-tagr-35
         order: 35
         name: Rational function asymptotes
         description: ""
-        lessons: []
       - id: u-tagr-36
         order: 36
         name: Holes and slant asymptotes
         description: ""
-        lessons: []
 
   - id: statistics
     name: Statistics
@@ -4046,87 +3256,70 @@ topics:
         order: 1
         name: Visualize data
         description: ""
-        lessons: []
       - id: u-tsta-02
         order: 2
         name: Measures of center
         description: ""
-        lessons: []
       - id: u-tsta-03
         order: 3
         name: Variability in data
         description: ""
-        lessons: []
       - id: u-tsta-04
         order: 4
         name: "Median, IQR, and box plots"
         description: ""
-        lessons: []
       - id: u-tsta-05
         order: 5
         name: Data distributions
         description: ""
-        lessons: []
       - id: u-tsta-06
         order: 6
         name: Box plots
         description: ""
-        lessons: []
       - id: u-tsta-07
         order: 7
         name: Intro to probability
         description: ""
-        lessons: []
       - id: u-tsta-08
         order: 8
         name: Probability models
         description: ""
-        lessons: []
       - id: u-tsta-09
         order: 9
         name: Compound events
         description: ""
-        lessons: []
       - id: u-tsta-10
         order: 10
         name: Probability events
         description: ""
-        lessons: []
       - id: u-tsta-11
         order: 11
         name: Independent events
         description: ""
-        lessons: []
       - id: u-tsta-12
         order: 12
         name: Dependent events
         description: ""
-        lessons: []
       - id: u-tsta-13
         order: 13
         name: Intro to scatter plots
         description: ""
-        lessons: []
       - id: u-tsta-14
         order: 14
         name: Scatter plots and trend lines
         description: ""
-        lessons: []
       - id: u-tsta-15
         order: 15
         name: Linear models
         description: ""
-        lessons: []
       - id: u-tsta-16
         order: 16
         name: Linear model fitness
         description: ""
-        lessons: []
       - id: u-tsta-17
         order: 17
         name: Bivariate categorical data
         description: ""
-        lessons: []
 
   - id: measurement
     name: Measurement
@@ -4136,27 +3329,22 @@ topics:
         order: 1
         name: Clocks and angles
         description: ""
-        lessons: []
       - id: u-tmea-02
         order: 2
         name: Measurement
         description: ""
-        lessons: []
       - id: u-tmea-03
         order: 3
         name: "Rulers, angles, and time"
         description: ""
-        lessons: []
       - id: u-tmea-04
         order: 4
         name: Area and perimeter
         description: ""
-        lessons: []
       - id: u-tmea-05
         order: 5
         name: Convert units
         description: ""
-        lessons: []
 
   - id: calculus
     name: Calculus
@@ -4166,49 +3354,39 @@ topics:
         order: 1
         name: Limits
         description: ""
-        lessons: []
       - id: u-tcal-02
         order: 2
         name: Continuity
         description: ""
-        lessons: []
       - id: u-tcal-03
         order: 3
         name: Instantaneous rate of change
         description: ""
-        lessons: []
       - id: u-tcal-04
         order: 4
         name: Definition of the derivative
         description: ""
-        lessons: []
       - id: u-tcal-05
         order: 5
         name: Intro to derivative rules
         description: ""
-        lessons: []
       - id: u-tcal-06
         order: 6
         name: Derivatives of more functions
         description: ""
-        lessons: []
       - id: u-tcal-07
         order: 7
         name: Product and quotient rules
         description: ""
-        lessons: []
       - id: u-tcal-08
         order: 8
         name: Chain rule
         description: ""
-        lessons: []
       - id: u-tcal-09
         order: 9
         name: Intro to Riemann sums
         description: ""
-        lessons: []
       - id: u-tcal-10
         order: 10
         name: Antiderivatives
         description: ""
-        lessons: []

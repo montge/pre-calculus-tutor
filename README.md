@@ -26,7 +26,7 @@ names are recorded as observed in the app.
 ## Layout
 
 - `data/textbook/` — textbook structure (chapters, sections, pages, citation)
-- `data/duolingo/` — Duolingo Math inventory as the app's tree: grade, unit, lesson, in path order (transcribed from the app; being collected)
+- `data/duolingo/` — Duolingo Math inventory: every grade and topic with its units in path order (transcribed from the app)
 - `data/mappings/` — reviewed section-to-unit mappings with coverage ratings
 - `docs/` — the generated tutorial (not yet built)
 - `openspec/` — planning artifacts; this project uses
@@ -35,9 +35,9 @@ names are recorded as observed in the app.
 ## Planned deliverables
 
 1. **Mapping data and index** (`map-duolingo-to-textbook`): validated
-   catalogs of textbook sections and Duolingo grades, units, and lessons, a
-   reviewed mapping with coverage ratings, and a Markdown index with grade
-   lanes showing which lessons to follow for each chapter and section.
+   catalogs of textbook sections and Duolingo grades, topics, and units, a
+   reviewed mapping with coverage ratings, and a Markdown index with lanes
+   showing which units to follow for each chapter and section.
 2. **Progress tracker** (`progress-tracker-spreadsheet`): a workbook students
    fill in at the Duolingo unit level, grouped by chapter, with live
    per-chapter completion.

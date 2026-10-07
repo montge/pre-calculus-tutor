@@ -3,8 +3,7 @@
 # One entry per numbered section of Larson, Precalculus with Limits, 2nd ed.
 # `units` lists the Duolingo units to practise for that section, in
 # recommended order, each with a coverage rating (full, partial,
-# prerequisite) and a note. A unit may add `lessons: [...]` to narrow it to
-# specific lesson ids once lessons are in the catalog. `reviewed: false`
+# prerequisite) and a note. `reviewed: false`
 # marks a draft; outputs label such sections as draft.
 #
 # Only titles, identifiers, and commentary are stored here. No textbook or
