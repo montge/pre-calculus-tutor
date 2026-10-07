@@ -645,14 +645,298 @@ grades:
         name: Tables of patterns
         description: ""
         lessons: []
-      # units 42 through 48 pending transcription
+      - id: u-g5-42
+        order: 42
+        name: Graphs of patterns
+        description: ""
+        lessons: []
+      - id: u-g5-43
+        order: 43
+        name: Properties of shapes
+        description: ""
+        lessons: []
+      - id: u-g5-44
+        order: 44
+        name: Classify shapes
+        description: ""
+        lessons: []
+      - id: u-g5-45
+        order: 45
+        name: Intro to cubes
+        description: ""
+        lessons: []
+      - id: u-g5-46
+        order: 46
+        name: Find cube volume
+        description: ""
+        lessons: []
+      - id: u-g5-47
+        order: 47
+        name: Intro to rectangular prisms
+        description: ""
+        lessons: []
+      - id: u-g5-48
+        order: 48
+        name: Find prism volume
+        description: ""
+        lessons: []
 
   - grade: 6
     unit_count: 84
     units:
-      []  # pending transcription
+      - id: u-g6-01
+        order: 1
+        name: Multiplication patterns
+        description: ""
+        lessons: []
+      - id: u-g6-02
+        order: 2
+        name: Ratio language
+        description: ""
+        lessons: []
+      - id: u-g6-03
+        order: 3
+        name: Part-to-part ratios
+        description: ""
+        lessons: []
+      - id: u-g6-04
+        order: 4
+        name: Part-part ratios with grids
+        description: ""
+        lessons: []
+      - id: u-g6-05
+        order: 5
+        name: Intro to equivalent ratios
+        description: ""
+        lessons: []
+      - id: u-g6-06
+        order: 6
+        name: Create equivalent ratios
+        description: ""
+        lessons: []
+      - id: u-g6-07
+        order: 7
+        name: Ratio tables
+        description: ""
+        lessons: []
+      - id: u-g6-08
+        order: 8
+        name: Ratios as points
+        description: ""
+        lessons: []
+      - id: u-g6-09
+        order: 9
+        name: Intro to rates
+        description: ""
+        lessons: []
+      - id: u-g6-10
+        order: 10
+        name: Unit rate
+        description: ""
+        lessons: []
+      - id: u-g6-11
+        order: 11
+        name: Rates in tables
+        description: ""
+        lessons: []
+      - id: u-g6-12
+        order: 12
+        name: Rates as points
+        description: ""
+        lessons: []
+      - id: u-g6-13
+        order: 13
+        name: Unit conversions in the metric system
+        description: ""
+        lessons: []
+      - id: u-g6-14
+        order: 14
+        name: Unit conversions in the customary system
+        description: ""
+        lessons: []
+      - id: u-g6-15
+        order: 15
+        name: Part-whole ratios
+        description: ""
+        lessons: []
+      - id: u-g6-16
+        order: 16
+        name: Percents as ratios
+        description: ""
+        lessons: []
+      - id: u-g6-17
+        order: 17
+        name: Find the whole using parts and percents
+        description: ""
+        lessons: []
+      - id: u-g6-18
+        order: 18
+        name: Find a percent of a whole
+        description: ""
+        lessons: []
+      - id: u-g6-19
+        order: 19
+        name: Find a part of a whole
+        description: ""
+        lessons: []
+      - id: u-g6-20
+        order: 20
+        name: Positive and negative numbers
+        description: ""
+        lessons: []
+      - id: u-g6-21
+        order: 21
+        name: Opposites
+        description: ""
+        lessons: []
+      - id: u-g6-22
+        order: 22
+        name: Compare integers with inequalities
+        description: ""
+        lessons: []
+      - id: u-g6-23
+        order: 23
+        name: Order rational numbers
+        description: ""
+        lessons: []
+      - id: u-g6-24
+        order: 24
+        name: Intro to absolute value
+        description: ""
+        lessons: []
+      - id: u-g6-25
+        order: 25
+        name: Calculate with absolute value
+        description: ""
+        lessons: []
+      - id: u-g6-26
+        order: 26
+        name: Ordering with absolute value
+        description: ""
+        lessons: []
+      - id: u-g6-27
+        order: 27
+        name: Inequality language
+        description: ""
+        lessons: []
+      - id: u-g6-28
+        order: 28
+        name: Exclusive inequalities
+        description: ""
+        lessons: []
+      - id: u-g6-29
+        order: 29
+        name: Inclusive inequalities
+        description: ""
+        lessons: []
+      - id: u-g6-30
+        order: 30
+        name: Greatest common factor
+        description: ""
+        lessons: []
+      - id: u-g6-31
+        order: 31
+        name: Least common multiple
+        description: ""
+        lessons: []
+      - id: u-g6-32
+        order: 32
+        name: Intro to the coordinate plane
+        description: ""
+        lessons: []
+      - id: u-g6-33
+        order: 33
+        name: Plot points in all quadrants
+        description: ""
+        lessons: []
+      - id: u-g6-34
+        order: 34
+        name: X-axis reflections
+        description: ""
+        lessons: []
+      - id: u-g6-35
+        order: 35
+        name: Y-axis reflections
+        description: ""
+        lessons: []
+      - id: u-g6-36
+        order: 36
+        name: Horizontal distance
+        description: ""
+        lessons: []
+      - id: u-g6-37
+        order: 37
+        name: Vertical distance
+        description: ""
+        lessons: []
+      - id: u-g6-38
+        order: 38
+        name: Segment length
+        description: ""
+        lessons: []
+      - id: u-g6-39
+        order: 39
+        name: Draw polygons
+        description: ""
+        lessons: []
+      - id: u-g6-40
+        order: 40
+        name: Divide fractions by unit fractions
+        description: ""
+        lessons: []
+      - id: u-g6-41
+        order: 41
+        name: Divide fractions using reciprocals
+        description: ""
+        lessons: []
+      - id: u-g6-42
+        order: 42
+        name: Decimal addition
+        description: ""
+        lessons: []
+      - id: u-g6-43
+        order: 43
+        name: Decimal subtraction
+        description: ""
+        lessons: []
+      - id: u-g6-44
+        order: 44
+        name: Decimal multiplication
+        description: ""
+        lessons: []
+      - id: u-g6-45
+        order: 45
+        name: Expressions with exponents
+        description: ""
+        lessons: []
+      - id: u-g6-46
+        order: 46
+        name: Evaluate exponential expressions
+        description: ""
+        lessons: []
+      - id: u-g6-47
+        order: 47
+        name: Order of operations
+        description: ""
+        lessons: []
+      - id: u-g6-48
+        order: 48
+        name: Intro to algebraic expressions
+        description: ""
+        lessons: []
+      - id: u-g6-49
+        order: 49
+        name: Evaluate algebraic expressions
+        description: ""
+        lessons: []
+      # units 50 through 84 pending transcription
 
   - grade: 7
     unit_count: 53
+    units:
+      []  # pending transcription
+
+  - grade: 8
+    unit_count: 76
     units:
       []  # pending transcription
