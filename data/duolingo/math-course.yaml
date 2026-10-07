@@ -2613,7 +2613,426 @@ grades:
   - grade: 11
     unit_count: 84
     units:
-      []  # pending transcription
+      - id: u-g11-01
+        order: 1
+        name: Algebra and graphs
+        description: ""
+        lessons: []
+      - id: u-g11-02
+        order: 2
+        name: Function families
+        description: ""
+        lessons: []
+      - id: u-g11-03
+        order: 3
+        name: Compare function graphs
+        description: ""
+        lessons: []
+      - id: u-g11-04
+        order: 4
+        name: Graphs of piecewise functions
+        description: ""
+        lessons: []
+      - id: u-g11-05
+        order: 5
+        name: Equations of piecewise functions
+        description: ""
+        lessons: []
+      - id: u-g11-06
+        order: 6
+        name: Average rate of change of piecewise functions
+        description: ""
+        lessons: []
+      - id: u-g11-07
+        order: 7
+        name: Step functions
+        description: ""
+        lessons: []
+      - id: u-g11-08
+        order: 8
+        name: Absolute value functions
+        description: ""
+        lessons: []
+      - id: u-g11-09
+        order: 9
+        name: Transform absolute value functions
+        description: ""
+        lessons: []
+      - id: u-g11-10
+        order: 10
+        name: Add and subtract polynomials
+        description: ""
+        lessons: []
+      - id: u-g11-11
+        order: 11
+        name: Multiply polynomials
+        description: ""
+        lessons: []
+      - id: u-g11-12
+        order: 12
+        name: Intro to polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g11-13
+        order: 13
+        name: Relative maxima and minima of polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g11-14
+        order: 14
+        name: Zeros of polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g11-15
+        order: 15
+        name: Multiplicity of polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g11-16
+        order: 16
+        name: End behavior of odd polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g11-17
+        order: 17
+        name: End behavior of even polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g11-18
+        order: 18
+        name: "The imaginary number, i"
+        description: ""
+        lessons: []
+      - id: u-g11-19
+        order: 19
+        name: Square roots of negative numbers
+        description: ""
+        lessons: []
+      - id: u-g11-20
+        order: 20
+        name: Patterns of exponentiating i
+        description: ""
+        lessons: []
+      - id: u-g11-21
+        order: 21
+        name: Multiply complex numbers
+        description: ""
+        lessons: []
+      - id: u-g11-22
+        order: 22
+        name: Complex roots
+        description: ""
+        lessons: []
+      - id: u-g11-23
+        order: 23
+        name: Complex conjugates
+        description: ""
+        lessons: []
+      - id: u-g11-24
+        order: 24
+        name: Intro to rational functions
+        description: ""
+        lessons: []
+      - id: u-g11-25
+        order: 25
+        name: Y-intercept of rational functions
+        description: ""
+        lessons: []
+      - id: u-g11-26
+        order: 26
+        name: X-intercepts of rational functions
+        description: ""
+        lessons: []
+      - id: u-g11-27
+        order: 27
+        name: Vertical asymptotes of rational functions
+        description: ""
+        lessons: []
+      - id: u-g11-28
+        order: 28
+        name: Rewrite rational functions
+        description: ""
+        lessons: []
+      - id: u-g11-29
+        order: 29
+        name: End behavior approaching a horizontal line
+        description: ""
+        lessons: []
+      - id: u-g11-30
+        order: 30
+        name: End behavior approaching y=0
+        description: ""
+        lessons: []
+      - id: u-g11-31
+        order: 31
+        name: End behavior approaching slant asymptotes
+        description: ""
+        lessons: []
+      - id: u-g11-32
+        order: 32
+        name: Add and subtract rational expressions
+        description: ""
+        lessons: []
+      - id: u-g11-33
+        order: 33
+        name: Multiply rational expressions
+        description: ""
+        lessons: []
+      - id: u-g11-34
+        order: 34
+        name: Divide rational expressions
+        description: ""
+        lessons: []
+      - id: u-g11-35
+        order: 35
+        name: Solve rational equations
+        description: ""
+        lessons: []
+      - id: u-g11-36
+        order: 36
+        name: Solve rational equations with extraneous solutions
+        description: ""
+        lessons: []
+      - id: u-g11-37
+        order: 37
+        name: Compare rate of change
+        description: ""
+        lessons: []
+      - id: u-g11-38
+        order: 38
+        name: Exponential function tables
+        description: ""
+        lessons: []
+      - id: u-g11-39
+        order: 39
+        name: Exponential function graphs
+        description: ""
+        lessons: []
+      - id: u-g11-40
+        order: 40
+        name: Exponential function equations
+        description: ""
+        lessons: []
+      - id: u-g11-41
+        order: 41
+        name: Exponential growth
+        description: ""
+        lessons: []
+      - id: u-g11-42
+        order: 42
+        name: Exponential decay
+        description: ""
+        lessons: []
+      - id: u-g11-43
+        order: 43
+        name: Arithmetic and geometric sequences
+        description: ""
+        lessons: []
+      - id: u-g11-44
+        order: 44
+        name: Explicit formulas for geometric sequences
+        description: ""
+        lessons: []
+      - id: u-g11-45
+        order: 45
+        name: Recursive formulas for geometric sequences
+        description: ""
+        lessons: []
+      - id: u-g11-46
+        order: 46
+        name: Partial sums of geometric series
+        description: ""
+        lessons: []
+      - id: u-g11-47
+        order: 47
+        name: Sum formula for geometric series
+        description: ""
+        lessons: []
+      - id: u-g11-48
+        order: 48
+        name: Intro to the natural base
+        description: ""
+        lessons: []
+      - id: u-g11-49
+        order: 49
+        name: Continuous growth models
+        description: ""
+        lessons: []
+      - id: u-g11-50
+        order: 50
+        name: Intro to logarithms
+        description: ""
+        lessons: []
+      - id: u-g11-51
+        order: 51
+        name: Logarithm value
+        description: ""
+        lessons: []
+      - id: u-g11-52
+        order: 52
+        name: Product rule
+        description: ""
+        lessons: []
+      - id: u-g11-53
+        order: 53
+        name: Quotient rule
+        description: ""
+        lessons: []
+      - id: u-g11-54
+        order: 54
+        name: Power rule
+        description: ""
+        lessons: []
+      - id: u-g11-55
+        order: 55
+        name: Change of base formula
+        description: ""
+        lessons: []
+      - id: u-g11-56
+        order: 56
+        name: Intro to logarithmic functions
+        description: ""
+        lessons: []
+      - id: u-g11-57
+        order: 57
+        name: Logarithmic functions in base 10
+        description: ""
+        lessons: []
+      - id: u-g11-58
+        order: 58
+        name: Logarithmic functions in base 2
+        description: ""
+        lessons: []
+      - id: u-g11-59
+        order: 59
+        name: Logarithmic function graphs
+        description: ""
+        lessons: []
+      - id: u-g11-60
+        order: 60
+        name: Logarithmic function intercepts
+        description: ""
+        lessons: []
+      - id: u-g11-61
+        order: 61
+        name: The natural logarithm
+        description: ""
+        lessons: []
+      - id: u-g11-62
+        order: 62
+        name: Natural logarithm graphs
+        description: ""
+        lessons: []
+      - id: u-g11-63
+        order: 63
+        name: Solve exponential equations using logarithms
+        description: ""
+        lessons: []
+      - id: u-g11-64
+        order: 64
+        name: Solve base e equations using logarithms
+        description: ""
+        lessons: []
+      - id: u-g11-65
+        order: 65
+        name: Inverse function equations
+        description: ""
+        lessons: []
+      - id: u-g11-66
+        order: 66
+        name: Inverse function graphs
+        description: ""
+        lessons: []
+      - id: u-g11-67
+        order: 67
+        name: Combine functions
+        description: ""
+        lessons: []
+      - id: u-g11-68
+        order: 68
+        name: Function composition
+        description: ""
+        lessons: []
+      - id: u-g11-69
+        order: 69
+        name: Vertical translations
+        description: ""
+        lessons: []
+      - id: u-g11-70
+        order: 70
+        name: Horizontal translations
+        description: ""
+        lessons: []
+      - id: u-g11-71
+        order: 71
+        name: X-axis function reflections
+        description: ""
+        lessons: []
+      - id: u-g11-72
+        order: 72
+        name: Y-axis function reflections
+        description: ""
+        lessons: []
+      - id: u-g11-73
+        order: 73
+        name: Vertical stretches
+        description: ""
+        lessons: []
+      - id: u-g11-74
+        order: 74
+        name: Vertical compressions
+        description: ""
+        lessons: []
+      - id: u-g11-75
+        order: 75
+        name: Horizontal stretches
+        description: ""
+        lessons: []
+      - id: u-g11-76
+        order: 76
+        name: Horizontal compressions
+        description: ""
+        lessons: []
+      - id: u-g11-77
+        order: 77
+        name: Intro to the sine function
+        description: ""
+        lessons: []
+      - id: u-g11-78
+        order: 78
+        name: Period of sine functions
+        description: ""
+        lessons: []
+      - id: u-g11-79
+        order: 79
+        name: Intro to the cosine function
+        description: ""
+        lessons: []
+      - id: u-g11-80
+        order: 80
+        name: Period of cosine functions
+        description: ""
+        lessons: []
+      - id: u-g11-81
+        order: 81
+        name: Midline of sine and cosine functions
+        description: ""
+        lessons: []
+      - id: u-g11-82
+        order: 82
+        name: Amplitude of sine and cosine functions
+        description: ""
+        lessons: []
+      - id: u-g11-83
+        order: 83
+        name: Intro to the tangent function
+        description: ""
+        lessons: []
+      - id: u-g11-84
+        order: 84
+        name: Period of tangent functions
+        description: ""
+        lessons: []
 
   - grade: 12
     unit_count: 69
