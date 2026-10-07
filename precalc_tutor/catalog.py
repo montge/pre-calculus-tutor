@@ -49,6 +49,7 @@ class Textbook:
   publisher: str
   year: int | None
   isbn: str | None
+  edition_note: str
   verified: dict[str, bool]
   chapters: tuple[Chapter, ...]  # numbered chapters then appendices, book order
 
@@ -63,7 +64,9 @@ class Textbook:
 
   def citation(self) -> str:
     year = str(self.year) if self.year is not None else "n.d."
-    return f"{self.author}. *{self.title}*, {_ordinal(self.edition)} ed. {self.publisher}, {year}."
+    note = f" ({self.edition_note})" if self.edition_note else ""
+    isbn = f" ISBN {self.isbn}." if self.isbn else ""
+    return f"{self.author}. *{self.title}*, {_ordinal(self.edition)} ed.{note} {self.publisher}, {year}.{isbn}"
 
 
 def _ordinal(n: int) -> str:
@@ -88,7 +91,8 @@ def load_textbook(path: Path = TEXTBOOK_PATH) -> Textbook:
     ))
   return Textbook(
     id=raw["id"], title=raw["title"], edition=int(raw["edition"]), author=raw["author"],
-    publisher=raw["publisher"], year=raw.get("year"), isbn=raw.get("isbn"),
+    publisher=raw["publisher"], year=raw.get("year"), isbn=str(raw["isbn"]) if raw.get("isbn") else None,
+    edition_note=str(raw.get("edition_note") or ""),
     verified=dict(raw.get("verified", {})), chapters=tuple(chapters),
   )
 

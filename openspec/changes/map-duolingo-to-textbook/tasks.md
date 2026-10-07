@@ -8,7 +8,7 @@
 ## 2. Textbook catalog
 
 - [ ] 2.1 Re-check `data/textbook/larson-precalculus-with-limits-2e.yaml` against the printed contents pages (iii-vi) for title and page-number typos; verify 12 chapters, 76 sections, Appendix A with 7 sections, Appendix B with 3 sections.
-- [ ] 2.2 Confirm publisher, year, and ISBN from the book's copyright page and flip the `verified` flags; verify the YAML loads and the flags are true.
+- [x] 2.2 Confirm publisher, year, and ISBN from the book's copyright page and flip the `verified` flags; verify the YAML loads and the flags are true. (Confirmed by the owner 2026-10-07: Larson and Hostetler, Thomson Brooks/Cole, 2009, ISBN 978-0-538-73659-6, Pre-AP National Student Edition.)
 - [x] 2.3 Write `tests/test_textbook_catalog.py` covering: expected counts, unique section ids, every section has a title and page; verify `python -m unittest` passes.
 
 ## 3. Duolingo catalog

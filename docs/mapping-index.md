@@ -1020,8 +1020,7 @@ Everything a section needs that Duolingo does not practise. The chapter study gu
 
 ## Sources
 
-Textbook: Ron Larson. *Precalculus with Limits*, 2nd ed. Brooks/Cole, Cengage Learning, 2011.
-Citation fields not yet verified against the book's copyright page: publisher, year, isbn.
+Textbook: Ron Larson and Robert P. Hostetler. *Precalculus with Limits*, 2nd ed. (Pre-AP National Student Edition) Thomson Brooks/Cole, 2009. ISBN 978-0-538-73659-6.
 
 Duolingo inventory: *Duolingo Math*, 820 units across 11 grades and 8 topics, last verified 2026-10-07 on iOS.
 

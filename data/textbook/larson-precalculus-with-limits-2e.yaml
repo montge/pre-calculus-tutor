@@ -6,20 +6,22 @@
 # the purpose of reference and commentary.
 #
 # Transcribed from the printed contents pages (iii-vi) of the user's copy.
-# Fields marked verify: false were not visible in the transcription source
-# and should be confirmed against the book's copyright page.
+# Bibliographic fields were confirmed by the owner from the book's edition
+# details on 2026-10-07 (Pre-AP National Student Edition printing).
 
 id: larson-precalculus-with-limits-2e
 title: Precalculus with Limits
 edition: 2
-author: Ron Larson
-publisher: Brooks/Cole, Cengage Learning
-year: 2011
-isbn: null
+edition_note: Pre-AP National Student Edition
+author: Ron Larson and Robert P. Hostetler
+publisher: Thomson Brooks/Cole
+year: 2009
+isbn: 978-0-538-73659-6
+isbn10: "0538736593"
 verified:
-  publisher: false
-  year: false
-  isbn: false
+  publisher: true
+  year: true
+  isbn: true
 preface:
   title: A Word from the Author (Preface)
   page: vii
