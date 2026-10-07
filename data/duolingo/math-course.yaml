@@ -20,6 +20,9 @@ id: duolingo-math
 title: Duolingo Math
 last_verified: 2026-10-07
 platform: iOS
+# Every grade's unit list matches the app's unit total; lessons and the
+# Topics tab are still to be collected, so the inventory is not complete.
+units_complete: true
 complete: false
 
 grades:
@@ -3037,7 +3040,351 @@ grades:
   - grade: 12
     unit_count: 69
     units:
-      []  # pending transcription
+      - id: u-g12-01
+        order: 1
+        name: Algebra and functions
+        description: ""
+        lessons: []
+      - id: u-g12-02
+        order: 2
+        name: Polynomial function graphs
+        description: ""
+        lessons: []
+      - id: u-g12-03
+        order: 3
+        name: Roots of polynomial functions
+        description: ""
+        lessons: []
+      - id: u-g12-04
+        order: 4
+        name: Rational root theorem
+        description: ""
+        lessons: []
+      - id: u-g12-05
+        order: 5
+        name: Polynomial function equations from graphs
+        description: ""
+        lessons: []
+      - id: u-g12-06
+        order: 6
+        name: "Vieta's formula for quadratic polynomials"
+        description: ""
+        lessons: []
+      - id: u-g12-07
+        order: 7
+        name: "Vieta's formula for cubic polynomials"
+        description: ""
+        lessons: []
+      - id: u-g12-08
+        order: 8
+        name: Zeros of rational functions
+        description: ""
+        lessons: []
+      - id: u-g12-09
+        order: 9
+        name: Vertical asymptotes of rational functions
+        description: ""
+        lessons: []
+      - id: u-g12-10
+        order: 10
+        name: Horizontal asymptotes of rational functions
+        description: ""
+        lessons: []
+      - id: u-g12-11
+        order: 11
+        name: Holes in rational functions
+        description: ""
+        lessons: []
+      - id: u-g12-12
+        order: 12
+        name: Slant asymptotes of rational functions
+        description: ""
+        lessons: []
+      - id: u-g12-13
+        order: 13
+        name: Function composition
+        description: ""
+        lessons: []
+      - id: u-g12-14
+        order: 14
+        name: Inverse functions
+        description: ""
+        lessons: []
+      - id: u-g12-15
+        order: 15
+        name: Properties of logarithms
+        description: ""
+        lessons: []
+      - id: u-g12-16
+        order: 16
+        name: Undo exponentials
+        description: ""
+        lessons: []
+      - id: u-g12-17
+        order: 17
+        name: Domain and range
+        description: ""
+        lessons: []
+      - id: u-g12-18
+        order: 18
+        name: Graphing inverses
+        description: ""
+        lessons: []
+      - id: u-g12-19
+        order: 19
+        name: Period of sinusoidal functions
+        description: ""
+        lessons: []
+      - id: u-g12-20
+        order: 20
+        name: Midline of sinusoidal functions
+        description: ""
+        lessons: []
+      - id: u-g12-21
+        order: 21
+        name: Amplitude of sinusoidal functions
+        description: ""
+        lessons: []
+      - id: u-g12-22
+        order: 22
+        name: Phase shift of sinusoidal functions
+        description: ""
+        lessons: []
+      - id: u-g12-23
+        order: 23
+        name: Relate sine and cosine
+        description: ""
+        lessons: []
+      - id: u-g12-24
+        order: 24
+        name: Seeing vectors
+        description: ""
+        lessons: []
+      - id: u-g12-25
+        order: 25
+        name: Representing vectors
+        description: ""
+        lessons: []
+      - id: u-g12-26
+        order: 26
+        name: Component vectors
+        description: ""
+        lessons: []
+      - id: u-g12-27
+        order: 27
+        name: Magnitude and direction
+        description: ""
+        lessons: []
+      - id: u-g12-28
+        order: 28
+        name: Add vectors
+        description: ""
+        lessons: []
+      - id: u-g12-29
+        order: 29
+        name: Subtract vectors
+        description: ""
+        lessons: []
+      - id: u-g12-30
+        order: 30
+        name: Scale vectors
+        description: ""
+        lessons: []
+      - id: u-g12-31
+        order: 31
+        name: Unit vectors
+        description: ""
+        lessons: []
+      - id: u-g12-32
+        order: 32
+        name: Calculate dot product
+        description: ""
+        lessons: []
+      - id: u-g12-33
+        order: 33
+        name: Orthogonality
+        description: ""
+        lessons: []
+      - id: u-g12-34
+        order: 34
+        name: Intro to matrices
+        description: ""
+        lessons: []
+      - id: u-g12-35
+        order: 35
+        name: Size of a matrix
+        description: ""
+        lessons: []
+      - id: u-g12-36
+        order: 36
+        name: Add and subtract matrices
+        description: ""
+        lessons: []
+      - id: u-g12-37
+        order: 37
+        name: Scale matrices
+        description: ""
+        lessons: []
+      - id: u-g12-38
+        order: 38
+        name: Basis vectors
+        description: ""
+        lessons: []
+      - id: u-g12-39
+        order: 39
+        name: Transform basis vectors
+        description: ""
+        lessons: []
+      - id: u-g12-40
+        order: 40
+        name: Matrices as transformations
+        description: ""
+        lessons: []
+      - id: u-g12-41
+        order: 41
+        name: Matrices transform vectors
+        description: ""
+        lessons: []
+      - id: u-g12-42
+        order: 42
+        name: Concept of a limit
+        description: ""
+        lessons: []
+      - id: u-g12-43
+        order: 43
+        name: Calculate limits with graphs
+        description: ""
+        lessons: []
+      - id: u-g12-44
+        order: 44
+        name: Calculate limits with equations
+        description: ""
+        lessons: []
+      - id: u-g12-45
+        order: 45
+        name: Infinite limits and asymptotes
+        description: ""
+        lessons: []
+      - id: u-g12-46
+        order: 46
+        name: Definition of continuity
+        description: ""
+        lessons: []
+      - id: u-g12-47
+        order: 47
+        name: Examples of discontinuity
+        description: ""
+        lessons: []
+      - id: u-g12-48
+        order: 48
+        name: Intermediate value theorem
+        description: ""
+        lessons: []
+      - id: u-g12-49
+        order: 49
+        name: Secant lines
+        description: ""
+        lessons: []
+      - id: u-g12-50
+        order: 50
+        name: Derivative as the instantaneous rate of change
+        description: ""
+        lessons: []
+      - id: u-g12-51
+        order: 51
+        name: Limit definition of the derivative
+        description: ""
+        lessons: []
+      - id: u-g12-52
+        order: 52
+        name: Differentiability
+        description: ""
+        lessons: []
+      - id: u-g12-53
+        order: 53
+        name: Derivatives of linear terms
+        description: ""
+        lessons: []
+      - id: u-g12-54
+        order: 54
+        name: Derivatives of quadratic terms
+        description: ""
+        lessons: []
+      - id: u-g12-55
+        order: 55
+        name: Power rule for derivatives
+        description: ""
+        lessons: []
+      - id: u-g12-56
+        order: 56
+        name: Sum rule for derivatives
+        description: ""
+        lessons: []
+      - id: u-g12-57
+        order: 57
+        name: Derivatives of trigonometric functions
+        description: ""
+        lessons: []
+      - id: u-g12-58
+        order: 58
+        name: Derivatives of exponential functions
+        description: ""
+        lessons: []
+      - id: u-g12-59
+        order: 59
+        name: Derivatives of logarithmic functions
+        description: ""
+        lessons: []
+      - id: u-g12-60
+        order: 60
+        name: The product rule
+        description: ""
+        lessons: []
+      - id: u-g12-61
+        order: 61
+        name: The quotient rule
+        description: ""
+        lessons: []
+      - id: u-g12-62
+        order: 62
+        name: The chain rule
+        description: ""
+        lessons: []
+      - id: u-g12-63
+        order: 63
+        name: Using the chain rule
+        description: ""
+        lessons: []
+      - id: u-g12-64
+        order: 64
+        name: Left Riemann sums
+        description: ""
+        lessons: []
+      - id: u-g12-65
+        order: 65
+        name: Right Riemann sums
+        description: ""
+        lessons: []
+      - id: u-g12-66
+        order: 66
+        name: Derivative as an operation
+        description: ""
+        lessons: []
+      - id: u-g12-67
+        order: 67
+        name: Antiderivatives
+        description: ""
+        lessons: []
+      - id: u-g12-68
+        order: 68
+        name: Indefinite integral
+        description: ""
+        lessons: []
+      - id: u-g12-69
+        order: 69
+        name: Common antiderivatives
+        description: ""
+        lessons: []
 
 topics:
   - id: arithmetic-1
