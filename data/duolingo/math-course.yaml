@@ -1381,7 +1381,386 @@ grades:
   - grade: 8
     unit_count: 76
     units:
-      []  # pending transcription
+      - id: u-g8-01
+        order: 1
+        name: Equations and coordinates
+        description: ""
+        lessons: []
+      - id: u-g8-02
+        order: 2
+        name: Vertical translations
+        description: ""
+        lessons: []
+      - id: u-g8-03
+        order: 3
+        name: Horizontal translations
+        description: ""
+        lessons: []
+      - id: u-g8-04
+        order: 4
+        name: Translate figures
+        description: ""
+        lessons: []
+      - id: u-g8-05
+        order: 5
+        name: Reflect across x-axis
+        description: ""
+        lessons: []
+      - id: u-g8-06
+        order: 6
+        name: Reflect across y-axis
+        description: ""
+        lessons: []
+      - id: u-g8-07
+        order: 7
+        name: Reflect across horizontal lines
+        description: ""
+        lessons: []
+      - id: u-g8-08
+        order: 8
+        name: Reflect across vertical lines
+        description: ""
+        lessons: []
+      - id: u-g8-09
+        order: 9
+        name: Reflect across y=x
+        description: ""
+        lessons: []
+      - id: u-g8-10
+        order: 10
+        name: 90-degree counterclockwise rotations
+        description: ""
+        lessons: []
+      - id: u-g8-11
+        order: 11
+        name: 90-degree clockwise rotations
+        description: ""
+        lessons: []
+      - id: u-g8-12
+        order: 12
+        name: 180-degree rotations
+        description: ""
+        lessons: []
+      - id: u-g8-13
+        order: 13
+        name: Sequences of rigid motion
+        description: ""
+        lessons: []
+      - id: u-g8-14
+        order: 14
+        name: Congruence
+        description: ""
+        lessons: []
+      - id: u-g8-15
+        order: 15
+        name: Dilate points
+        description: ""
+        lessons: []
+      - id: u-g8-16
+        order: 16
+        name: Dilate segments and figures
+        description: ""
+        lessons: []
+      - id: u-g8-17
+        order: 17
+        name: Similarity
+        description: ""
+        lessons: []
+      - id: u-g8-18
+        order: 18
+        name: Tables of proportional relationships
+        description: ""
+        lessons: []
+      - id: u-g8-19
+        order: 19
+        name: Graphs of proportional relationships
+        description: ""
+        lessons: []
+      - id: u-g8-20
+        order: 20
+        name: Equations of proportional relationships
+        description: ""
+        lessons: []
+      - id: u-g8-21
+        order: 21
+        name: Intro to slope
+        description: ""
+        lessons: []
+      - id: u-g8-22
+        order: 22
+        name: Slope formula
+        description: ""
+        lessons: []
+      - id: u-g8-23
+        order: 23
+        name: Identify y-intercept
+        description: ""
+        lessons: []
+      - id: u-g8-24
+        order: 24
+        name: Slope-intercept form
+        description: ""
+        lessons: []
+      - id: u-g8-25
+        order: 25
+        name: Equations in slope-intercept form
+        description: ""
+        lessons: []
+      - id: u-g8-26
+        order: 26
+        name: Lines with negative slope
+        description: ""
+        lessons: []
+      - id: u-g8-27
+        order: 27
+        name: Lines with zero slope
+        description: ""
+        lessons: []
+      - id: u-g8-28
+        order: 28
+        name: Equations of parallel lines
+        description: ""
+        lessons: []
+      - id: u-g8-29
+        order: 29
+        name: Equations of perpendicular lines
+        description: ""
+        lessons: []
+      - id: u-g8-30
+        order: 30
+        name: Solve equations with distribution
+        description: ""
+        lessons: []
+      - id: u-g8-31
+        order: 31
+        name: Solve equations with factoring
+        description: ""
+        lessons: []
+      - id: u-g8-32
+        order: 32
+        name: Solve equations by combining like terms
+        description: ""
+        lessons: []
+      - id: u-g8-33
+        order: 33
+        name: Equations with infinitely many solutions
+        description: ""
+        lessons: []
+      - id: u-g8-34
+        order: 34
+        name: Equations with no solutions
+        description: ""
+        lessons: []
+      - id: u-g8-35
+        order: 35
+        name: Systems of equations
+        description: ""
+        lessons: []
+      - id: u-g8-36
+        order: 36
+        name: Intro to functions
+        description: ""
+        lessons: []
+      - id: u-g8-37
+        order: 37
+        name: Tables of functions
+        description: ""
+        lessons: []
+      - id: u-g8-38
+        order: 38
+        name: Graphs of functions
+        description: ""
+        lessons: []
+      - id: u-g8-39
+        order: 39
+        name: Linear functions
+        description: ""
+        lessons: []
+      - id: u-g8-40
+        order: 40
+        name: Rate of change
+        description: ""
+        lessons: []
+      - id: u-g8-41
+        order: 41
+        name: Initial value
+        description: ""
+        lessons: []
+      - id: u-g8-42
+        order: 42
+        name: Scatter plots
+        description: ""
+        lessons: []
+      - id: u-g8-43
+        order: 43
+        name: Patterns of association
+        description: ""
+        lessons: []
+      - id: u-g8-44
+        order: 44
+        name: Line of best fit
+        description: ""
+        lessons: []
+      - id: u-g8-45
+        order: 45
+        name: Predictions with linear models
+        description: ""
+        lessons: []
+      - id: u-g8-46
+        order: 46
+        name: Two-way tables
+        description: ""
+        lessons: []
+      - id: u-g8-47
+        order: 47
+        name: Marginal relative frequency
+        description: ""
+        lessons: []
+      - id: u-g8-48
+        order: 48
+        name: Joint relative frequency
+        description: ""
+        lessons: []
+      - id: u-g8-49
+        order: 49
+        name: Product rule for exponents
+        description: ""
+        lessons: []
+      - id: u-g8-50
+        order: 50
+        name: Product rule with variables
+        description: ""
+        lessons: []
+      - id: u-g8-51
+        order: 51
+        name: Quotient rule for exponents
+        description: ""
+        lessons: []
+      - id: u-g8-52
+        order: 52
+        name: Quotient rule with variables
+        description: ""
+        lessons: []
+      - id: u-g8-53
+        order: 53
+        name: Negative exponents
+        description: ""
+        lessons: []
+      - id: u-g8-54
+        order: 54
+        name: Negative exponents with variables
+        description: ""
+        lessons: []
+      - id: u-g8-55
+        order: 55
+        name: Powers of 0
+        description: ""
+        lessons: []
+      - id: u-g8-56
+        order: 56
+        name: Square roots
+        description: ""
+        lessons: []
+      - id: u-g8-57
+        order: 57
+        name: Cube roots
+        description: ""
+        lessons: []
+      - id: u-g8-58
+        order: 58
+        name: Intro to scientific notation
+        description: ""
+        lessons: []
+      - id: u-g8-59
+        order: 59
+        name: Add with scientific notation
+        description: ""
+        lessons: []
+      - id: u-g8-60
+        order: 60
+        name: Subtract with scientific notation
+        description: ""
+        lessons: []
+      - id: u-g8-61
+        order: 61
+        name: Multiply with scientific notation
+        description: ""
+        lessons: []
+      - id: u-g8-62
+        order: 62
+        name: Right triangle relationships
+        description: ""
+        lessons: []
+      - id: u-g8-63
+        order: 63
+        name: Find the hypotenuse
+        description: ""
+        lessons: []
+      - id: u-g8-64
+        order: 64
+        name: Find side lengths
+        description: ""
+        lessons: []
+      - id: u-g8-65
+        order: 65
+        name: Rational and irrational numbers
+        description: ""
+        lessons: []
+      - id: u-g8-66
+        order: 66
+        name: Approximate irrational numbers
+        description: ""
+        lessons: []
+      - id: u-g8-67
+        order: 67
+        name: Irrational lengths
+        description: ""
+        lessons: []
+      - id: u-g8-68
+        order: 68
+        name: Triangles on the coordinate plane
+        description: ""
+        lessons: []
+      - id: u-g8-69
+        order: 69
+        name: Volume of cylinders
+        description: ""
+        lessons: []
+      - id: u-g8-70
+        order: 70
+        name: Volume of cones
+        description: ""
+        lessons: []
+      - id: u-g8-71
+        order: 71
+        name: Volume of spheres
+        description: ""
+        lessons: []
+      - id: u-g8-72
+        order: 72
+        name: Parallel lines cut by a transversal
+        description: ""
+        lessons: []
+      - id: u-g8-73
+        order: 73
+        name: Alternate interior angles
+        description: ""
+        lessons: []
+      - id: u-g8-74
+        order: 74
+        name: Alternate exterior angles
+        description: ""
+        lessons: []
+      - id: u-g8-75
+        order: 75
+        name: Find angles measures
+        description: ""
+        lessons: []
+      - id: u-g8-76
+        order: 76
+        name: Interior angles of a triangle
+        description: ""
+        lessons: []
 
   - grade: 9
     unit_count: 98
