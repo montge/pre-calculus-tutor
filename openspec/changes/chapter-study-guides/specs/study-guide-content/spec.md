@@ -17,6 +17,17 @@ There SHALL be one study guide for each of the 12 textbook chapters and for Appe
 - **WHEN** the mapping has no units for any section of the chapter
 - **THEN** the Duolingo pairing part states that and points the student to the practice problems instead
 
+### Requirement: Guides teach every book-only gap
+For each section, the guide's Key ideas part SHALL open with the section's `gaps` from the mapping (generated, not hand-written) and SHALL explain each gap, and the Worked examples part SHALL contain at least one worked example per gap. A build check SHALL fail if a chapter guide omits a gap listed in the mapping for that chapter.
+
+#### Scenario: Gap has an example
+- **WHEN** the mapping lists "Synthetic division" as a gap for 2.3
+- **THEN** the chapter 2 guide explains synthetic division under 2.3 and has a worked example tagged with that gap
+
+#### Scenario: Omitted gap fails the build
+- **WHEN** a gap in the mapping has no tagged worked example in the chapter guide
+- **THEN** the guide build exits non-zero and names the section and gap
+
 ### Requirement: Key ideas cover every section
 The Key ideas part SHALL have one subsection per numbered textbook section of the chapter, titled with the section id and title and citing its page, explaining the section's main ideas in the guide author's own words.
 

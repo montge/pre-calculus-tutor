@@ -28,6 +28,17 @@ Each unit listed under a section SHALL have a coverage rating of `full`, `partia
 - **WHEN** an entry uses a rating other than the three allowed values
 - **THEN** validation fails and names the entry
 
+### Requirement: Entries list book-only gaps
+Each section entry MAY carry a `gaps` list: short phrases naming the parts of the section that no mapped Duolingo unit practises. A reviewed section with no units MUST list at least one gap. Gaps are the contract between the mapping and the study guides: a guide for the chapter teaches every listed gap.
+
+#### Scenario: Gaps shown in outputs
+- **WHEN** section 2.5 lists "Descartes's Rule of Signs" as a gap
+- **THEN** the mapping index shows it under 2.5 as book only and in the book-only summary for chapter 2, and the printable checklist shows it under the chapter's textbook sections
+
+#### Scenario: Reviewed no-coverage section without gaps
+- **WHEN** a section is marked reviewed, lists no units, and lists no gaps
+- **THEN** validation fails and names the section
+
 ### Requirement: Mapping references resolve
 Every section identifier in the mapping MUST exist in the textbook catalog, and every unit identifier MUST exist in the Duolingo catalog, under a grade or a topic.
 

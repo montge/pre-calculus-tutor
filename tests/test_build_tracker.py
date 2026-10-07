@@ -122,6 +122,7 @@ class BuildTrackerTest(unittest.TestCase):
     for title in ("Functions and Their Graphs", "Polynomial and Rational Functions", "Exponential and Logarithmic Functions"):
       self.assertIn(title, text)
     self.assertIn("Grade 11", text)
+    self.assertIn("Book only, not on Duolingo", text)
     self.assertNotIn("Trigonometry", text)
 
   def test_script_refuses_invalid_data(self):

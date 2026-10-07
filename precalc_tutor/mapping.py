@@ -39,6 +39,7 @@ class SectionEntry:
   reviewed: bool
   note: str
   units: tuple[UnitRef, ...]
+  gaps: tuple[str, ...] = ()  # parts of the section Duolingo does not cover (book only)
 
 
 @dataclass(frozen=True)
@@ -63,6 +64,7 @@ def load_mapping(path: Path = MAPPING_PATH) -> Mapping:
       section=str(e["section"]), reviewed=bool(e.get("reviewed", False)), note=str(e.get("note") or ""),
       units=tuple(UnitRef(unit=str(u["unit"]), rating=str(u.get("rating", "")), note=str(u.get("note") or ""))
                   for u in (e.get("units") or [])),
+      gaps=tuple(str(g) if g is not None else "" for g in (e.get("gaps") or [])),
     )
     for e in (raw.get("sections") or [])
   )

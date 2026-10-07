@@ -81,6 +81,9 @@ def render_index(book: Textbook, course: Duolingo, mapping: Mapping) -> str:
       if entry and entry.note:
         lines.append(_md(entry.note))
         lines.append("")
+      if entry and entry.gaps:
+        lines.append("**Book only** (Duolingo does not cover): " + "; ".join(_md(g) for g in entry.gaps) + ".")
+        lines.append("")
       if not entry or not entry.units:
         lines.append("No Duolingo coverage for this section.")
         lines.append("")
@@ -96,6 +99,19 @@ def render_index(book: Textbook, course: Duolingo, mapping: Mapping) -> str:
         lines.append(f"- **{_md(u.name)}** ({_md(lane.name)}, unit {u.order}) · {RATING_LABEL[ref.rating]} · {_md(ref.note)}")
       lines.append("")
 
+  lines.append("## Book-only topics by chapter")
+  lines.append("")
+  lines.append("Everything a section needs that Duolingo does not practise. The chapter study guides teach exactly these.")
+  lines.append("")
+  for ch in book.chapters:
+    items = [(s.id, mapping.entry(s.id).gaps) for s in ch.sections if mapping.entry(s.id) and mapping.entry(s.id).gaps]
+    if not items:
+      continue
+    lines.append(f"**{'Appendix' if ch.is_appendix else 'Chapter'} {ch.id}**")
+    lines.append("")
+    for sid, gaps in items:
+      lines.append(f"- {sid}: " + "; ".join(_md(g) for g in gaps))
+    lines.append("")
   lines.append("## Sections with no Duolingo coverage")
   lines.append("")
   lines.append(f"{len(no_coverage)} of {len(book.sections())} sections have no mapped unit:")

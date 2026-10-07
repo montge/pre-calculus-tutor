@@ -91,6 +91,11 @@ def validate_mapping(mapping: Mapping, book: Textbook, course: Duolingo) -> list
       if u.unit in seen:
         errors.append(f"mapping: section {e.section} lists unit {u.unit} twice")
       seen.add(u.unit)
+    for i, g in enumerate(e.gaps, 1):
+      if not g.strip():
+        errors.append(f"mapping: section {e.section} gap {i} is empty")
+    if not e.units and e.reviewed and not e.gaps:
+      errors.append(f"mapping: section {e.section} is reviewed with no units but lists no gaps")
   chapter_ids = {c.id for c in book.chapters}
   for cid in mapping.chapter_summaries:
     if cid not in chapter_ids:

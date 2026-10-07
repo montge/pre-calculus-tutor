@@ -46,6 +46,13 @@ Each chapter SHALL open with its summary note, if any, followed by a lane table 
 - **WHEN** one unit is recommended for sections 1.5 and 1.6
 - **THEN** the chapter lane lists it once, tagged with both section ids
 
+### Requirement: Index includes a book-only summary
+The index SHALL include one consolidated list, grouped by chapter, of every section's gaps (the topics Duolingo does not cover), so the study-guide author can see what each chapter guide must teach.
+
+#### Scenario: Summary matches entries
+- **WHEN** chapter 2 has five sections with gaps
+- **THEN** the book-only summary for chapter 2 lists exactly those five sections with their gaps
+
 ### Requirement: Index includes a no-coverage summary
 The index SHALL include one consolidated list of every textbook section that has no Duolingo unit.
 

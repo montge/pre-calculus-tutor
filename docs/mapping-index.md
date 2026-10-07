@@ -25,6 +25,8 @@ Grade 9 carries the basics (functions, lines, transformations), grade 11 repeats
 
 Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequisite. The section's data applications are book only.
 
+**Book only** (Duolingo does not cover): Translating points in the plane; Applications of the distance and midpoint formulas.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 6 | Plot points in all quadrants [prereq] |
@@ -40,6 +42,8 @@ Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequ
 
 Intercepts and circles are covered; symmetry tests and point-plotting of general equations are book only.
 
+**Book only** (Duolingo does not cover): Symmetry tests (x-axis, y-axis, origin); Sketching graphs of general equations by point plotting.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 9 | Vertical intercept of functions [partial] · Horizontal intercept of functions [partial] |
@@ -53,6 +57,8 @@ Intercepts and circles are covered; symmetry tests and point-plotting of general
 ### 1.3 Linear Equations in Two Variables (p. 24) *(draft)*
 
 Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the forms of a line, grade 10 point-slope form.
+
+**Book only** (Duolingo does not cover): Slope as a rate of change in applications.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -77,6 +83,8 @@ Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the
 
 Function definition, notation, domain, and piecewise functions are covered. The difference quotient is book only.
 
+**Book only** (Duolingo does not cover): The difference quotient; Writing a function from a word problem.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 8 | Intro to functions [prereq] |
@@ -95,6 +103,8 @@ Function definition, notation, domain, and piecewise functions are covered. The 
 
 Domain and range from graphs, zeros, relative extrema, and average rate of change are covered. Even and odd functions and the vertical line test are book only.
 
+**Book only** (Duolingo does not cover): Even and odd functions; The Vertical Line Test.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 9 | Graphs of functions [full] · Average rate of change [full] · Graphs of piecewise functions [full] |
@@ -111,6 +121,8 @@ Domain and range from graphs, zeros, relative extrema, and average rate of chang
 ### 1.6 A Library of Parent Functions (p. 66) *(draft)*
 
 Grade 11's Function families is the closest match to the parent-function library. Step and absolute value functions are drilled separately.
+
+**Book only** (Duolingo does not cover): The square root and reciprocal parent functions in detail.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -158,6 +170,8 @@ Fully covered. Grade 9 drills each transformation; grade 11 repeats them with re
 
 Arithmetic combinations and composition are covered. Finding the domain of a composite and decomposing a function are lighter in the app than in the book.
 
+**Book only** (Duolingo does not cover): Domain of a composite function; Decomposing a function into two simpler functions.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 11 | Combine functions [full] · Function composition [full] |
@@ -170,6 +184,8 @@ Arithmetic combinations and composition are covered. Finding the domain of a com
 ### 1.9 Inverse Functions (p. 92) *(draft)*
 
 Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal line test and one-to-one functions are book only.
+
+**Book only** (Duolingo does not cover): One-to-one functions and the Horizontal Line Test.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -191,6 +207,8 @@ Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal
 ### 1.10 Mathematical Modeling and Variation (p. 102) *(draft)*
 
 Least squares and linear models are covered in grade 9 and the Statistics topic. Direct variation has a grade 7 prerequisite; inverse and joint variation are book only.
+
+**Book only** (Duolingo does not cover): Inverse, joint, and combined variation; Least squares regression on the calculator.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -223,6 +241,8 @@ Grades 11 and 12 between them cover polynomial, complex, and rational functions 
 
 Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the square to reach vertex form is lighter in the app.
 
+**Book only** (Duolingo does not cover): Completing the square to write vertex form; Maximum and minimum word problems.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 9 | Tables of quadratic functions [full] · Graphs of quadratic functions [full] · Equations of quadratic functions [full] · Zeros of quadratic functions [full] · Factored form [full] · Vertex [full] · Vertex form [full] |
@@ -243,6 +263,8 @@ Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the s
 ### 2.2 Polynomial Functions of Higher Degree (p. 136) *(draft)*
 
 Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 12 adds writing equations from graphs. The Leading Coefficient Test is taught as end behaviour.
+
+**Book only** (Duolingo does not cover): Using the Intermediate Value Theorem to locate a zero.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -267,11 +289,15 @@ Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 
 
 Duolingo has no unit on polynomial long division, synthetic division, or the Remainder and Factor Theorems. Use the book; grade 12's Rational root theorem assumes this skill.
 
+**Book only** (Duolingo does not cover): Polynomial long division; Synthetic division; The Remainder Theorem and the Factor Theorem.
+
 No Duolingo coverage for this section.
 
 ### 2.4 Complex Numbers (p. 159) *(draft)*
 
 Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Division by a complex number is practised through conjugates; the complex plane is book only.
+
+**Book only** (Duolingo does not cover): Plotting complex numbers in the complex plane.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -286,6 +312,8 @@ Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Div
 ### 2.5 Zeros of Polynomial Functions (p. 166) *(draft)*
 
 Rational zero test, complex zeros, and conjugate pairs are covered across grades 11 and 12. Vieta's formulas go beyond the section. Descartes' Rule of Signs and bounds are book only.
+
+**Book only** (Duolingo does not cover): The Fundamental Theorem of Algebra; Descartes's Rule of Signs; Upper and lower bounds for real zeros.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -302,6 +330,8 @@ Rational zero test, complex zeros, and conjugate pairs are covered across grades
 ### 2.6 Rational Functions (p. 181) *(draft)*
 
 Very well covered. Grade 11 walks through intercepts and each kind of asymptote; grade 12 adds holes and slant asymptotes explicitly.
+
+**Book only** (Duolingo does not cover): Applications of rational functions.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -331,6 +361,8 @@ Very well covered. Grade 11 walks through intercepts and each kind of asymptote;
 
 Duolingo has no unit on polynomial or rational inequalities or the sign-chart method. Grade 9 one-variable inequalities are the only warm-up.
 
+**Book only** (Duolingo does not cover): Polynomial inequalities; Rational inequalities; The test-interval (sign chart) method.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 9 | Solve one-variable inequaltiies [prereq] · Compound 'or' inequalities [prereq] · Compound 'and' inequalities [prereq] |
@@ -356,6 +388,8 @@ Grade 11 covers exponentials and logarithms almost section by section. Duolingo 
 ### 3.1 Exponential Functions and Their Graphs (p. 216) *(draft)*
 
 Grades 9 and 11 both cover exponential functions; grade 11 adds the natural base and continuous growth. Compound interest formulas are book only.
+
+**Book only** (Duolingo does not cover): Compound interest, n times per year and continuously.
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -425,6 +459,8 @@ Fully covered: product, quotient, and power rules plus change of base in grade 1
 
 Exponential equations are covered well; logarithmic equations and checking for extraneous solutions are lighter in the app.
 
+**Book only** (Duolingo does not cover): Logarithmic equations; Checking for extraneous solutions.
+
 | Lane | Units to follow, in app order |
 | --- | --- |
 | Grade 11 | Solve exponential equations using logarithms [full] · Solve base e equations using logarithms [full] |
@@ -439,6 +475,8 @@ Exponential equations are covered well; logarithmic equations and checking for e
 ### 3.5 Exponential and Logarithmic Models (p. 255) *(draft)*
 
 Only exponential growth and decay models are covered. Gaussian, logistic, and logarithmic models are book only.
+
+**Book only** (Duolingo does not cover): Gaussian models; Logistic growth models; Logarithmic models (pH, Richter scale, decibels).
 
 | Lane | Units to follow, in app order |
 | --- | --- |
@@ -877,6 +915,38 @@ No Duolingo coverage for this section.
 Not yet mapped.
 
 No Duolingo coverage for this section.
+
+## Book-only topics by chapter
+
+Everything a section needs that Duolingo does not practise. The chapter study guides teach exactly these.
+
+**Chapter 1**
+
+- 1.1: Translating points in the plane; Applications of the distance and midpoint formulas
+- 1.2: Symmetry tests (x-axis, y-axis, origin); Sketching graphs of general equations by point plotting
+- 1.3: Slope as a rate of change in applications
+- 1.4: The difference quotient; Writing a function from a word problem
+- 1.5: Even and odd functions; The Vertical Line Test
+- 1.6: The square root and reciprocal parent functions in detail
+- 1.8: Domain of a composite function; Decomposing a function into two simpler functions
+- 1.9: One-to-one functions and the Horizontal Line Test
+- 1.10: Inverse, joint, and combined variation; Least squares regression on the calculator
+
+**Chapter 2**
+
+- 2.1: Completing the square to write vertex form; Maximum and minimum word problems
+- 2.2: Using the Intermediate Value Theorem to locate a zero
+- 2.3: Polynomial long division; Synthetic division; The Remainder Theorem and the Factor Theorem
+- 2.4: Plotting complex numbers in the complex plane
+- 2.5: The Fundamental Theorem of Algebra; Descartes's Rule of Signs; Upper and lower bounds for real zeros
+- 2.6: Applications of rational functions
+- 2.7: Polynomial inequalities; Rational inequalities; The test-interval (sign chart) method
+
+**Chapter 3**
+
+- 3.1: Compound interest, n times per year and continuously
+- 3.4: Logarithmic equations; Checking for extraneous solutions
+- 3.5: Gaussian models; Logistic growth models; Logarithmic models (pH, Richter scale, decibels)
 
 ## Sections with no Duolingo coverage
 

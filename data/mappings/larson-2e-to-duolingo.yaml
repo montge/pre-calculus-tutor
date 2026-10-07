@@ -3,7 +3,9 @@
 # One entry per numbered section of Larson, Precalculus with Limits, 2nd ed.
 # `units` lists the Duolingo units to practise for that section, in
 # recommended order, each with a coverage rating (full, partial,
-# prerequisite) and a note. `reviewed: false`
+# prerequisite) and a note. `gaps` lists the parts of the section that
+# Duolingo does not cover (book only); the study guides teach exactly
+# those. `reviewed: false`
 # marks a draft; outputs label such sections as draft.
 #
 # Only titles, identifiers, and commentary are stored here. No textbook or
@@ -28,6 +30,9 @@ sections:
   reviewed: false
   note: Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequisite. The section's
     data applications are book only.
+  gaps:
+  - Translating points in the plane
+  - Applications of the distance and midpoint formulas
   units:
   - unit: u-g6-33
     rating: prerequisite
@@ -45,6 +50,9 @@ sections:
   reviewed: false
   note: Intercepts and circles are covered; symmetry tests and point-plotting of general equations are
     book only.
+  gaps:
+  - Symmetry tests (x-axis, y-axis, origin)
+  - Sketching graphs of general equations by point plotting
   units:
   - unit: u-g9-20
     rating: partial
@@ -62,6 +70,8 @@ sections:
   reviewed: false
   note: Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the forms of a line,
     grade 10 point-slope form.
+  gaps:
+  - Slope as a rate of change in applications
   units:
   - unit: u-g8-21
     rating: prerequisite
@@ -100,6 +110,9 @@ sections:
   reviewed: false
   note: Function definition, notation, domain, and piecewise functions are covered. The difference quotient
     is book only.
+  gaps:
+  - The difference quotient
+  - Writing a function from a word problem
   units:
   - unit: u-g8-36
     rating: prerequisite
@@ -126,6 +139,9 @@ sections:
   reviewed: false
   note: Domain and range from graphs, zeros, relative extrema, and average rate of change are covered.
     Even and odd functions and the vertical line test are book only.
+  gaps:
+  - Even and odd functions
+  - The Vertical Line Test
   units:
   - unit: u-g9-18
     rating: full
@@ -149,6 +165,8 @@ sections:
   reviewed: false
   note: Grade 11's Function families is the closest match to the parent-function library. Step and absolute
     value functions are drilled separately.
+  gaps:
+  - The square root and reciprocal parent functions in detail
   units:
   - unit: u-g9-24
     rating: prerequisite
@@ -169,6 +187,7 @@ sections:
   reviewed: false
   note: Fully covered. Grade 9 drills each transformation; grade 11 repeats them with reflections added.
     Do grade 11 if time is short.
+  gaps: []
   units:
   - unit: u-g9-75
     rating: full
@@ -231,6 +250,9 @@ sections:
   reviewed: false
   note: Arithmetic combinations and composition are covered. Finding the domain of a composite and decomposing
     a function are lighter in the app than in the book.
+  gaps:
+  - Domain of a composite function
+  - Decomposing a function into two simpler functions
   units:
   - unit: u-g11-67
     rating: full
@@ -245,6 +267,8 @@ sections:
   reviewed: false
   note: Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal line test and
     one-to-one functions are book only.
+  gaps:
+  - One-to-one functions and the Horizontal Line Test
   units:
   - unit: u-g9-35
     rating: prerequisite
@@ -277,6 +301,9 @@ sections:
   reviewed: false
   note: Least squares and linear models are covered in grade 9 and the Statistics topic. Direct variation
     has a grade 7 prerequisite; inverse and joint variation are book only.
+  gaps:
+  - Inverse, joint, and combined variation
+  - Least squares regression on the calculator
   units:
   - unit: u-g7-07
     rating: prerequisite
@@ -303,6 +330,9 @@ sections:
   reviewed: false
   note: Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the square to reach
     vertex form is lighter in the app.
+  gaps:
+  - Completing the square to write vertex form
+  - Maximum and minimum word problems
   units:
   - unit: u-g9-56
     rating: full
@@ -341,6 +371,8 @@ sections:
   reviewed: false
   note: Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 12 adds writing
     equations from graphs. The Leading Coefficient Test is taught as end behaviour.
+  gaps:
+  - Using the Intermediate Value Theorem to locate a zero
   units:
   - unit: u-g11-12
     rating: full
@@ -382,11 +414,17 @@ sections:
   reviewed: false
   note: Duolingo has no unit on polynomial long division, synthetic division, or the Remainder and Factor
     Theorems. Use the book; grade 12's Rational root theorem assumes this skill.
+  gaps:
+  - Polynomial long division
+  - Synthetic division
+  - The Remainder Theorem and the Factor Theorem
   units: []
 - section: '2.4'
   reviewed: false
   note: Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Division by a complex
     number is practised through conjugates; the complex plane is book only.
+  gaps:
+  - Plotting complex numbers in the complex plane
   units:
   - unit: u-g11-18
     rating: full
@@ -407,6 +445,10 @@ sections:
   reviewed: false
   note: Rational zero test, complex zeros, and conjugate pairs are covered across grades 11 and 12. Vieta's
     formulas go beyond the section. Descartes' Rule of Signs and bounds are book only.
+  gaps:
+  - The Fundamental Theorem of Algebra
+  - Descartes's Rule of Signs
+  - Upper and lower bounds for real zeros
   units:
   - unit: u-g11-14
     rating: prerequisite
@@ -430,6 +472,8 @@ sections:
   reviewed: false
   note: Very well covered. Grade 11 walks through intercepts and each kind of asymptote; grade 12 adds
     holes and slant asymptotes explicitly.
+  gaps:
+  - Applications of rational functions
   units:
   - unit: u-g11-24
     rating: full
@@ -486,6 +530,10 @@ sections:
   reviewed: false
   note: Duolingo has no unit on polynomial or rational inequalities or the sign-chart method. Grade 9
     one-variable inequalities are the only warm-up.
+  gaps:
+  - Polynomial inequalities
+  - Rational inequalities
+  - The test-interval (sign chart) method
   units:
   - unit: u-g9-11
     rating: prerequisite
@@ -500,6 +548,8 @@ sections:
   reviewed: false
   note: Grades 9 and 11 both cover exponential functions; grade 11 adds the natural base and continuous
     growth. Compound interest formulas are book only.
+  gaps:
+  - Compound interest, n times per year and continuously
   units:
   - unit: u-g9-70
     rating: prerequisite
@@ -544,6 +594,7 @@ sections:
   reviewed: false
   note: Grade 11 covers logarithms, their graphs, and the natural logarithm nearly one to one with the
     section.
+  gaps: []
   units:
   - unit: u-g11-50
     rating: full
@@ -591,6 +642,7 @@ sections:
   reviewed: false
   note: 'Fully covered: product, quotient, and power rules plus change of base in grade 11, consolidated
     in grade 12.'
+  gaps: []
   units:
   - unit: u-g11-52
     rating: full
@@ -617,6 +669,9 @@ sections:
   reviewed: false
   note: Exponential equations are covered well; logarithmic equations and checking for extraneous solutions
     are lighter in the app.
+  gaps:
+  - Logarithmic equations
+  - Checking for extraneous solutions
   units:
   - unit: u-g12-16
     rating: prerequisite
@@ -634,6 +689,10 @@ sections:
   reviewed: false
   note: Only exponential growth and decay models are covered. Gaussian, logistic, and logarithmic models
     are book only.
+  gaps:
+  - Gaussian models
+  - Logistic growth models
+  - Logarithmic models (pH, Richter scale, decibels)
   units:
   - unit: u-g11-41
     rating: partial

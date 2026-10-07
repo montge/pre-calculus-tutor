@@ -67,6 +67,25 @@ class LessonMappingTest(unittest.TestCase):
     errors = self._errors_for(mutate)
     self.assertIn("mapping: section 1.1 references unknown unit 'u-g99-01'", errors)
 
+  def test_gaps_present_for_chapters_1_to_3(self):
+    self.assertEqual(self.mapping.entry("2.3").gaps[:2], ("Polynomial long division", "Synthetic division"))
+    self.assertEqual(self.mapping.entry("1.7").gaps, ())
+    self.assertEqual(self.mapping.entry("4.1").gaps, ())
+
+  def test_empty_gap_is_reported(self):
+    def mutate(d):
+      d["sections"][0]["gaps"] = ["", "ok"]
+    errors = self._errors_for(mutate)
+    self.assertIn("mapping: section 1.1 gap 1 is empty", errors)
+
+  def test_reviewed_no_coverage_section_needs_gaps(self):
+    def mutate(d):
+      e = next(e for e in d["sections"] if e["section"] == "2.3")
+      e["reviewed"] = True
+      e["gaps"] = []
+    errors = self._errors_for(mutate)
+    self.assertIn("mapping: section 2.3 is reviewed with no units but lists no gaps", errors)
+
   def test_section_lanes_are_in_path_order(self):
     rows = section_lanes(self.mapping.entry("1.7"), self.course)
     names = [r.lane.name for r in rows]

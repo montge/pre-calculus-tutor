@@ -92,7 +92,11 @@ def build_pdf(book: Textbook, course: Duolingo, mapping: Mapping) -> bytes:
     if summary:
       story.append(Paragraph(escape(summary), st["body"]))
     sec_rows = [(f"{s.id} {s.title}", f"p. {s.page}", "") for s in ch.sections]
-    story.append(KeepTogether([Paragraph("Textbook sections", st["h2"]), _check_table(sec_rows, st, widths)]))
+    block = [Paragraph("Textbook sections", st["h2"]), _check_table(sec_rows, st, widths)]
+    gaps = [(s.id, mapping.entry(s.id).gaps) for s in ch.sections if mapping.entry(s.id) and mapping.entry(s.id).gaps]
+    if gaps:
+      block.append(Paragraph("Book only, not on Duolingo: " + " ".join(f"<b>{escape(sid)}</b> {escape('; '.join(g))}." for sid, g in gaps), st["small"]))
+    story.append(KeepTogether(block))
     for lr in chapter_lanes(ch, mapping, course):
       rows = [(f"{lu.unit.order}. {lu.unit.name}", RATING_LABEL[lu.rating], ", ".join(lu.sections)) for lu in lr.units]
       story.append(KeepTogether([Paragraph(escape(lr.lane.name), st["h2"]), _check_table(rows, st, widths)]))

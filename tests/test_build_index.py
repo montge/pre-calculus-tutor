@@ -41,6 +41,10 @@ class BuildIndexTest(unittest.TestCase):
     self.assertIn("No Duolingo coverage for this section.", text)
     self.assertIn("| Grade 11 |", text)
     self.assertIn("## Sections with no Duolingo coverage", text)
+    self.assertIn("**Book only** (Duolingo does not cover): Polynomial long division; Synthetic division;", text)
+    summary = text.split("## Book-only topics by chapter")[1].split("## Sections with no Duolingo coverage")[0]
+    self.assertIn("- 2.7: Polynomial inequalities", summary)
+    self.assertNotIn("- 1.7:", summary)
     self.assertIn("Larson", text)
     self.assertIn("last verified", text)
 
