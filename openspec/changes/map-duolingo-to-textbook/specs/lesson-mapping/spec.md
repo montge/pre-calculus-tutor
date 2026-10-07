@@ -40,4 +40,4 @@ Each section entry SHALL record whether its mapping has been reviewed by a perso
 
 #### Scenario: Draft mapping shown as such
 - **WHEN** a section's entry is marked unreviewed
-- **THEN** the generated tutorial marks that section's recommendations as draft
+- **THEN** the generated outputs mark that section's recommendations as draft

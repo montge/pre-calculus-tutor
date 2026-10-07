@@ -17,12 +17,12 @@ Each unit in the Duolingo catalog SHALL have a unique identifier, the unit name 
 The Duolingo catalog SHALL record the date it was last checked against the app and the platform it was observed on, because unit names and groupings change between app releases.
 
 #### Scenario: Provenance appears in output
-- **WHEN** the tutorial is generated
+- **WHEN** any output (mapping index, spreadsheet, study guide) is generated
 - **THEN** it states the date the unit inventory was last verified
 
 ### Requirement: Inventory may be partial
-The catalog SHALL allow a `complete: false` flag so that a partial inventory can be used while units are still being collected, and the generated tutorial SHALL warn readers when the inventory is incomplete.
+The catalog SHALL allow a `complete: false` flag so that a partial inventory can be used while units are still being collected, and every generated output SHALL warn readers when the inventory is incomplete.
 
 #### Scenario: Partial inventory
 - **WHEN** the catalog is marked incomplete
-- **THEN** validation passes and the tutorial shows an incomplete-inventory notice at the top
+- **THEN** validation passes and the mapping index shows an incomplete-inventory notice at the top

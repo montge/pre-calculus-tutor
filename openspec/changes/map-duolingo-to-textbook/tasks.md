@@ -25,20 +25,20 @@
 - [ ] 4.4 Mark chapters 7 through 12 and the appendices as no-coverage or unreviewed with a note per section; verify every section still has exactly one entry.
 - [ ] 4.5 Write `tests/test_lesson_mapping.py` covering: every catalog section has an entry, no extra entries, ratings are one of the three values, all unit ids resolve, a dangling unit id fails with the section named; verify `python -m unittest` passes.
 
-## 5. Tutorial rendering
+## 5. Shared loader and mapping index
 
-- [ ] 5.1 Implement `scripts/build_tutorial.py` loading the three files and running all validations from groups 2 through 4, exiting non-zero with every error listed on failure; verify a deliberately broken copy of the mapping produces the expected error and leaves `docs/` untouched.
-- [ ] 5.2 Implement rendering of the chapter-by-chapter guide (section, page, ordered units with rating and note, draft marker for unreviewed sections, explicit "no Duolingo coverage" line) to `docs/tutorial.md`; verify the output for chapter 4 lists its 8 sections in order.
+- [ ] 5.1 Implement the `precalc_tutor/` package: `catalog.py`, `mapping.py`, and `validate.py` running all checks from groups 2 through 4 and returning every error found; verify a deliberately broken copy of the mapping yields the expected error list from `validate()`.
+- [ ] 5.2 Implement `scripts/build_index.py` rendering the chapter-by-chapter index (section, page, ordered units with rating and note, draft marker for unreviewed sections, explicit "no Duolingo coverage" line) to `docs/mapping-index.md`, exiting non-zero without writing when validation fails; verify the output for chapter 4 lists its 8 sections in order and a broken mapping leaves `docs/` untouched.
 - [ ] 5.3 Implement the no-coverage summary, the incomplete-inventory notice, and the citation and verification-date footer; verify the summary count equals the number of zero-unit sections and the footer contains the book citation.
 - [ ] 5.4 Make the build reproducible (sorted iteration, no timestamps in the body other than the data's own `last_verified`); verify two consecutive builds produce identical files via `diff`.
-- [ ] 5.5 Write `tests/test_build_tutorial.py` covering: valid data renders, invalid data exits non-zero without writing, reproducibility; verify `python -m unittest` passes.
-- [ ] 5.6 Update the top-level `README.md` with the project purpose, the build command, the data layout, the fair-use policy, and the dual-license summary, and add an Apache 2.0 header comment to each file under `scripts/` and `tests/`; verify the documented command runs as written and regenerates `docs/tutorial.md`.
+- [ ] 5.5 Write `tests/test_build_index.py` covering: valid data renders, invalid data exits non-zero without writing, reproducibility; verify `python -m unittest` passes.
+- [ ] 5.6 Update the top-level `README.md` with the project purpose, the build command, the data layout, the fair-use policy, and the dual-license summary, and add an Apache 2.0 header comment to each file under `precalc_tutor/`, `scripts/`, and `tests/`; verify the documented command runs as written and regenerates `docs/mapping-index.md`.
 
 ## 6. Integration check
 
-- [ ] 6.1 Run the full build from a clean checkout and read `docs/tutorial.md` end to end; verify every chapter appears, every section has either units or a no-coverage line, and the citation is present.
+- [ ] 6.1 Run the full build from a clean checkout and read `docs/mapping-index.md` end to end; verify every chapter appears, every section has either units or a no-coverage line, and the citation is present.
 
 ## Workflow follow-up
 
-- Archive the change after the tutorial has been reviewed by the user.
+- Archive the change after the mapping index has been reviewed by the user.
 - After archive, schedule a periodic re-verification of the Duolingo inventory (unit names change between releases).

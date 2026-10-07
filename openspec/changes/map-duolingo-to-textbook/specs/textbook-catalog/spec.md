@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Holds the structural outline of the textbook the tutorial follows (chapters, sections, page numbers, and a citation) so other capabilities can reference sections by a stable identifier.
+Holds the structural outline of the textbook the project follows (chapters, sections, page numbers, and a citation) so other capabilities can reference sections by a stable identifier.
 
 ## ADDED Requirements
 
@@ -29,7 +29,7 @@ The catalog SHALL record the book's title, edition, author, publisher, and year 
 
 #### Scenario: Unverified field is flagged
 - **WHEN** the year was transcribed from memory rather than from the copyright page
-- **THEN** the catalog marks the year as unverified and the generated tutorial notes it
+- **THEN** the catalog marks the year as unverified and generated outputs note it
 
 ### Requirement: Catalog stores no copyrighted content
 The textbook catalog MUST contain only chapter and section titles, page numbers, and bibliographic data. It MUST NOT contain textbook prose, exercises, answers, figures, or scanned images.

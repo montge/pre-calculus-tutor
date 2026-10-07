@@ -32,12 +32,25 @@ names are recorded as observed in the app.
 - `openspec/` — planning artifacts; this project uses
   [OpenSpec](https://github.com/Fission-AI/OpenSpec) for spec-driven changes
 
+## Planned deliverables
+
+1. **Mapping data and index** (`map-duolingo-to-textbook`): validated
+   catalogs of textbook sections and Duolingo units, a reviewed mapping with
+   coverage ratings, and a Markdown index.
+2. **Progress tracker** (`progress-tracker-spreadsheet`): a workbook students
+   fill in at the Duolingo unit level, grouped by chapter, with live
+   per-chapter completion.
+3. **Chapter study guides** (`chapter-study-guides`): one LaTeX-built PDF per
+   chapter with a plain-language tutorial, original worked examples and
+   practice problems with answers, TI-84 Plus CE procedures, common errors,
+   and tricks, plus a combined book.
+
 ## Workflow
 
-Changes are planned and tracked with OpenSpec. The current change is
-`map-duolingo-to-textbook`:
+Changes are planned and tracked with OpenSpec, in the order listed above:
 
 ```bash
+npx @fission-ai/openspec list
 npx @fission-ai/openspec status --change map-duolingo-to-textbook
 ```
 
