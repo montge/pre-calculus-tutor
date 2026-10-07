@@ -23,12 +23,36 @@ It does not and must not contain textbook prose, exercises, answers, figures,
 or scanned pages, nor Duolingo screenshots or lesson content. Duolingo unit
 names are recorded as observed in the app.
 
+## The mapping index
+
+[`docs/mapping-index.md`](docs/mapping-index.md) is the reference view: for
+every chapter and section of the book, the Duolingo units to practise, with
+a coverage rating and a note, laid out as one lane per Duolingo grade or
+topic in the order the app presents them. Chapters 1 through 3 are mapped;
+later chapters are placeholders until they are reviewed.
+
+## Building
+
+```bash
+pip install -r requirements.txt
+python scripts/build_index.py          # validates data/ and writes docs/mapping-index.md
+python scripts/build_index.py --check  # validate only
+python -m unittest                     # run the tests
+```
+
+The build validates all three data files first (every section has one
+mapping entry, every unit id resolves, unit counts match the app, no images
+under `data/`) and refuses to overwrite the index if anything fails.
+
 ## Layout
 
 - `data/textbook/` — textbook structure (chapters, sections, pages, citation)
 - `data/duolingo/` — Duolingo Math inventory: every grade and topic with its units in path order (transcribed from the app)
 - `data/mappings/` — reviewed section-to-unit mappings with coverage ratings
-- `docs/` — the generated tutorial (not yet built)
+- `docs/` — the generated mapping index
+- `precalc_tutor/` — loader, validator, lane derivation, and index renderer
+- `scripts/` — build entry points
+- `tests/` — unit tests (`python -m unittest`)
 - `openspec/` — planning artifacts; this project uses
   [OpenSpec](https://github.com/Fission-AI/OpenSpec) for spec-driven changes
 
