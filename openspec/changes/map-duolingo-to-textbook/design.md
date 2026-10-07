@@ -44,5 +44,5 @@ See proposal.md for motivation. The repository is empty apart from a README, so 
 ## Open Questions
 
 - Which Duolingo platform (iOS, Android, web) should be the reference for unit names? Names are believed to be the same across platforms; the catalog records whichever was used.
-- What does the app call the grouping level between grade and unit (section, chapter, topic)? The catalog field is named `group` until the screenshots settle it; the spec language says "grouping heading".
+- The Grades view (iOS, 2026-10-07) lists units directly under each grade with no intermediate heading, and shows a unit count per grade (recorded as `unit_count`). The optional `group` field on a unit is kept only in case the Topics tab reveals a grouping worth recording.
 - Whether the progress tracker should track at lesson rather than unit level now that lessons are in the catalog. Decided in `progress-tracker-spreadsheet` once lesson counts are known.

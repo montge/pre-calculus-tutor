@@ -1,0 +1,74 @@
+# Inventory of the Duolingo Math course as shown in the app's Grades view.
+#
+# Only names, grouping, and order are stored, transcribed as text from the
+# app. No screenshots, exercises, or other app content are stored in this
+# repository. Unit and lesson names are reproduced for the purpose of
+# reference and commentary.
+#
+# Structure: grades -> units -> lessons, each list in the order the app
+# displays it. `order` is written explicitly so reordering shows in a diff.
+# Identifiers are assigned once and never renumbered: units u-g<grade>-<nn>,
+# lessons l-g<grade>-<nnn>. `unit_count` is the total the app shows for the
+# grade (the "n / n" progress bar), so a partially transcribed grade is
+# detectable. Lessons are added as each unit is opened in the app.
+
+id: duolingo-math
+title: Duolingo Math
+last_verified: 2026-10-07
+platform: iOS
+complete: false
+
+grades:
+  - grade: 2
+    unit_count: 7
+    units:
+      - id: u-g2-01
+        order: 1
+        name: Number patterns
+        description: ""
+        lessons: []
+      - id: u-g2-02
+        order: 2
+        name: Intro to addition and subtraction
+        description: ""
+        lessons: []
+      - id: u-g2-03
+        order: 3
+        name: Add and subtract multiple numbers
+        description: ""
+        lessons: []
+      - id: u-g2-04
+        order: 4
+        name: Add and subtract up to 500
+        description: ""
+        lessons: []
+      - id: u-g2-05
+        order: 5
+        name: Tell time
+        description: ""
+        lessons: []
+      - id: u-g2-06
+        order: 6
+        name: Measure with rulers
+        description: ""
+        lessons: []
+      - id: u-g2-07
+        order: 7
+        name: Shapes
+        description: ""
+        lessons: []
+
+  - grade: 3
+    unit_count: 18
+    units:
+      - id: u-g3-01
+        order: 1
+        name: Number sense and fractions
+        description: ""
+        lessons: []
+      - id: u-g3-02
+        order: 2
+        name: Intro to multiplication
+        description: ""
+        lessons: []
+      # units 3 through 18 pending transcription
