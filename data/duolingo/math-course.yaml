@@ -3737,7 +3737,121 @@ topics:
     name: Algebra
     unit_count: 23
     units:
-      []  # pending transcription
+      - id: u-talg-01
+        order: 1
+        name: Operations in equations
+        description: ""
+        lessons: []
+      - id: u-talg-02
+        order: 2
+        name: Algebraic equations
+        description: ""
+        lessons: []
+      - id: u-talg-03
+        order: 3
+        name: Equations using all operations
+        description: ""
+        lessons: []
+      - id: u-talg-04
+        order: 4
+        name: Equations with coefficients
+        description: ""
+        lessons: []
+      - id: u-talg-05
+        order: 5
+        name: Equations with fractions and decimals
+        description: ""
+        lessons: []
+      - id: u-talg-06
+        order: 6
+        name: Distributive property and equivalency
+        description: ""
+        lessons: []
+      - id: u-talg-07
+        order: 7
+        name: One-variable equations
+        description: ""
+        lessons: []
+      - id: u-talg-08
+        order: 8
+        name: Rewrite and evaluate expressions
+        description: ""
+        lessons: []
+      - id: u-talg-09
+        order: 9
+        name: Two-step equations
+        description: ""
+        lessons: []
+      - id: u-talg-10
+        order: 10
+        name: Solve linear equations
+        description: ""
+        lessons: []
+      - id: u-talg-11
+        order: 11
+        name: Number of solutions
+        description: ""
+        lessons: []
+      - id: u-talg-12
+        order: 12
+        name: Inequalities
+        description: ""
+        lessons: []
+      - id: u-talg-13
+        order: 13
+        name: Two-step inequalities
+        description: ""
+        lessons: []
+      - id: u-talg-14
+        order: 14
+        name: Rewrite polynomial expressions
+        description: ""
+        lessons: []
+      - id: u-talg-15
+        order: 15
+        name: Factor quadratic expressions
+        description: ""
+        lessons: []
+      - id: u-talg-16
+        order: 16
+        name: Radical equations
+        description: ""
+        lessons: []
+      - id: u-talg-17
+        order: 17
+        name: Geometric sequences
+        description: ""
+        lessons: []
+      - id: u-talg-18
+        order: 18
+        name: Logarithms
+        description: ""
+        lessons: []
+      - id: u-talg-19
+        order: 19
+        name: Product and quotient rules
+        description: ""
+        lessons: []
+      - id: u-talg-20
+        order: 20
+        name: Properties of logarithms
+        description: ""
+        lessons: []
+      - id: u-talg-21
+        order: 21
+        name: Solve logarithmic and exponential equations
+        description: ""
+        lessons: []
+      - id: u-talg-22
+        order: 22
+        name: Rational expression arithmetic
+        description: ""
+        lessons: []
+      - id: u-talg-23
+        order: 23
+        name: Rational equations
+        description: ""
+        lessons: []
 
   - id: algebraic-graphing
     name: Algebraic Graphing
