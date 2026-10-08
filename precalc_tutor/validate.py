@@ -88,6 +88,8 @@ def validate_mapping(mapping: Mapping, book: Textbook, course: Duolingo) -> list
         errors.append(f"mapping: section {e.section} references unknown unit {u.unit!r}")
       if u.rating not in RATINGS:
         errors.append(f"mapping: section {e.section} unit {u.unit} has invalid rating {u.rating!r}")
+      if not u.note.strip():
+        errors.append(f"mapping: section {e.section} unit {u.unit} has no coverage note")
       if u.unit in seen:
         errors.append(f"mapping: section {e.section} lists unit {u.unit} twice")
       seen.add(u.unit)

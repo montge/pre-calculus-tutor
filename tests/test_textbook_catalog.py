@@ -46,6 +46,7 @@ class TextbookCatalogTest(unittest.TestCase):
   def test_citation(self):
     self.assertIn("Precalculus with Limits", self.book.citation())
     self.assertIn("2nd ed.", self.book.citation())
+    self.assertNotIn("*", self.book.citation())
 
 
 if __name__ == "__main__":

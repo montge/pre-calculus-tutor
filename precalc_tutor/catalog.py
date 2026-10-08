@@ -66,7 +66,7 @@ class Textbook:
     year = str(self.year) if self.year is not None else "n.d."
     note = f" ({self.edition_note})" if self.edition_note else ""
     isbn = f" ISBN {self.isbn}." if self.isbn else ""
-    return f"{self.author}. *{self.title}*, {_ordinal(self.edition)} ed.{note} {self.publisher}, {year}.{isbn}"
+    return f"{self.author}. {self.title}, {_ordinal(self.edition)} ed.{note} {self.publisher}, {year}.{isbn}"
 
 
 def _ordinal(n: int) -> str:
@@ -145,13 +145,13 @@ def load_duolingo(path: Path = DUOLINGO_PATH) -> Duolingo:
   lanes: list[Lane] = []
   for g in raw.get("grades", []):
     lid = f"g{g['grade']}"
-    units = tuple(Unit(id=str(u["id"]), name=str(u["name"]), order=int(u["order"]), lane=lid,
+    units = tuple(Unit(id=str(u["id"]), name=str(u.get("name") or ""), order=int(u["order"]), lane=lid,
                        description=str(u.get("description") or "")) for u in (g.get("units") or []))
     lanes.append(Lane(id=lid, name=f"Grade {g['grade']}", kind="grade", rank=int(g["grade"]),
                       unit_count=int(g["unit_count"]), units=units))
   for i, t in enumerate(raw.get("topics", [])):
     lid = str(t["id"])
-    units = tuple(Unit(id=str(u["id"]), name=str(u["name"]), order=int(u["order"]), lane=lid,
+    units = tuple(Unit(id=str(u["id"]), name=str(u.get("name") or ""), order=int(u["order"]), lane=lid,
                        description=str(u.get("description") or "")) for u in (t.get("units") or []))
     lanes.append(Lane(id=lid, name=str(t["name"]), kind="topic", rank=1000 + i,
                       unit_count=int(t["unit_count"]), units=units))

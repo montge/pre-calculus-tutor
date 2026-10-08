@@ -76,6 +76,14 @@ class BuildTrackerTest(unittest.TestCase):
     self.assertEqual(growth[0].sections, "3.1, 3.5")
     self.assertFalse(any(r.chapter == "4" for r in rows))
 
+  def test_formula_like_text_is_stored_as_text(self):
+    from openpyxl import Workbook
+    from precalc_tutor.tracker import _write_sheet
+    wb = Workbook(); ws = wb.active
+    _write_sheet(ws, ("A", "Status"), [("=1+1", STATUSES[0])], 2, {})
+    self.assertEqual(ws["A2"].data_type, "s")
+    self.assertEqual(ws["A2"].value, "=1+1")
+
   def test_sheets_and_status_validation(self):
     self.assertEqual(self.wb.sheetnames, ["By section", "By lane", "Chapters", "About"])
     for name, col in (("By section", "J"), ("By lane", "G")):

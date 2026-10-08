@@ -121,7 +121,7 @@ def render_index(book: Textbook, course: Duolingo, mapping: Mapping) -> str:
   lines.append("")
   lines.append("## Sources")
   lines.append("")
-  lines.append(f"Textbook: {book.citation()}")
+  lines.append(f"Textbook: {_md(book.citation()).replace(_md(book.title), f'*{_md(book.title)}*', 1)}")
   unverified = [k for k, v in book.verified.items() if not v]
   if unverified:
     lines.append(f"Citation fields not yet verified against the book's copyright page: {', '.join(unverified)}.")

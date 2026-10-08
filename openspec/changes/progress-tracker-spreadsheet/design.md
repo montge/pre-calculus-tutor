@@ -31,5 +31,5 @@ See proposal.md. Builds on the `precalc_tutor` loader and validator; this change
 
 - [Google Sheets import drops some conditional formatting] → formatting is cosmetic; the dropdown and formulas are what matter and both survive import.
 - [Students edit the generated file, then the mapping changes] → the About sheet records the mapping version (git commit) so a student can tell their copy is older; migration of a filled-in tracker is manual and out of scope.
-- [Row count grows if the Duolingo inventory grows] → formulas use whole-column ranges on the Tracker sheet, so added rows are counted.
+- [Row count grows if the Duolingo inventory grows] → formulas use whole-column ranges on the By section sheet, so added rows are counted.
 

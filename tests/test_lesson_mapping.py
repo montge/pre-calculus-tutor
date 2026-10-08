@@ -72,6 +72,12 @@ class LessonMappingTest(unittest.TestCase):
     self.assertEqual(self.mapping.entry("1.7").gaps, ())
     self.assertEqual(self.mapping.entry("4.1").gaps, ())
 
+  def test_missing_unit_note_is_reported(self):
+    def mutate(d):
+      d["sections"][0]["units"][0]["note"] = "  "
+    errors = self._errors_for(mutate)
+    self.assertTrue(any("section 1.1 unit" in e and "has no coverage note" in e for e in errors), errors)
+
   def test_empty_gap_is_reported(self):
     def mutate(d):
       d["sections"][0]["gaps"] = ["", "ok"]

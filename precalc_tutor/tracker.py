@@ -96,6 +96,9 @@ def _write_sheet(ws, columns, rows, status_col: int, widths: dict[str, int]):
     cell.alignment = Alignment(vertical="center")
   for r in rows:
     ws.append(r)
+    for cell in ws[ws.max_row]:
+      if isinstance(cell.value, str) and cell.value.startswith("="):
+        cell.data_type = "s"  # catalog text is never a formula
   n = max(len(rows), 1) + 1
   for i, name in enumerate(columns, 1):
     ws.column_dimensions[get_column_letter(i)].width = widths.get(name, 14)

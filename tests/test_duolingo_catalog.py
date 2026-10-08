@@ -51,6 +51,13 @@ class DuolingoCatalogTest(unittest.TestCase):
   def test_validator_passes_on_real_data(self):
     self.assertEqual(validate_duolingo(self.course), [])
 
+  def test_missing_name_reaches_validator(self):
+    def mutate(doc):
+      del doc["grades"][0]["units"][0]["name"]
+    data = write_temp_data(duolingo=modified(DUOLINGO_PATH, mutate))
+    errors = validate_duolingo(load_duolingo(data / "duolingo" / DUOLINGO_PATH.name))
+    self.assertTrue(any("unit u-g2-01 in Grade 2 has no name" in e for e in errors), errors)
+
   def test_validator_reports_count_mismatch_and_bad_date(self):
     def mutate(doc):
       doc["last_verified"] = "yesterday"
