@@ -27,7 +27,7 @@ chapters:
     and decay, so the Gaussian, logistic, and logarithmic models of 3.5 come from the book only.
 sections:
 - section: '1.1'
-  reviewed: false
+  reviewed: true
   note: Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequisite. The section's
     data applications are book only.
   gaps:
@@ -47,7 +47,7 @@ sections:
     rating: full
     note: The midpoint formula.
 - section: '1.2'
-  reviewed: false
+  reviewed: true
   note: Intercepts and circles are covered; symmetry tests and point-plotting of general equations are
     book only.
   gaps:
@@ -67,7 +67,7 @@ sections:
     rating: full
     note: Standard form of a circle, center and radius.
 - section: '1.3'
-  reviewed: false
+  reviewed: true
   note: Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the forms of a line,
     grade 10 point-slope form.
   gaps:
@@ -107,7 +107,7 @@ sections:
     rating: partial
     note: Topic-tab review of slope-intercept form.
 - section: '1.4'
-  reviewed: false
+  reviewed: true
   note: Function definition, notation, domain, and piecewise functions are covered. The difference quotient
     is book only.
   gaps:
@@ -136,7 +136,7 @@ sections:
     rating: full
     note: Topic-tab practice of piecewise functions.
 - section: '1.5'
-  reviewed: false
+  reviewed: true
   note: Domain and range from graphs, zeros, relative extrema, and average rate of change are covered.
     Even and odd functions and the vertical line test are book only.
   gaps:
@@ -162,7 +162,7 @@ sections:
     rating: full
     note: Domain and range from graphs at precalculus depth.
 - section: '1.6'
-  reviewed: false
+  reviewed: true
   note: Grade 11's Function families is the closest match to the parent-function library. Step and absolute
     value functions are drilled separately.
   gaps:
@@ -184,7 +184,7 @@ sections:
     rating: full
     note: Topic-tab review of step and absolute value functions.
 - section: '1.7'
-  reviewed: false
+  reviewed: true
   note: Fully covered. Grade 9 drills each transformation; grade 11 repeats them with reflections added.
     Do grade 11 if time is short.
   gaps: []
@@ -247,7 +247,7 @@ sections:
     rating: full
     note: Topic-tab review of reflections.
 - section: '1.8'
-  reviewed: false
+  reviewed: true
   note: Arithmetic combinations and composition are covered. Finding the domain of a composite and decomposing
     a function are lighter in the app than in the book.
   gaps:
@@ -264,7 +264,7 @@ sections:
     rating: full
     note: Composition at precalculus depth.
 - section: '1.9'
-  reviewed: false
+  reviewed: true
   note: Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal line test and
     one-to-one functions are book only.
   gaps:
@@ -298,7 +298,7 @@ sections:
     rating: partial
     note: Topic-tab review for linear inverses.
 - section: '1.10'
-  reviewed: false
+  reviewed: true
   note: Least squares and linear models are covered in grade 9 and the Statistics topic. Direct variation
     has a grade 7 prerequisite; inverse and joint variation are book only.
   gaps:
@@ -327,7 +327,7 @@ sections:
     rating: partial
     note: Topic-tab review of fit.
 - section: '2.1'
-  reviewed: false
+  reviewed: true
   note: Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the square to reach
     vertex form is lighter in the app.
   gaps:
@@ -368,7 +368,7 @@ sections:
     rating: full
     note: Topic-tab vertex form.
 - section: '2.2'
-  reviewed: false
+  reviewed: true
   note: Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 12 adds writing
     equations from graphs. The Leading Coefficient Test is taught as end behaviour.
   gaps:
@@ -411,7 +411,7 @@ sections:
     rating: full
     note: Topic-tab roots.
 - section: '2.3'
-  reviewed: false
+  reviewed: true
   note: Duolingo has no unit on polynomial long division, synthetic division, or the Remainder and Factor
     Theorems. Use the book; grade 12's Rational root theorem assumes this skill.
   gaps:
@@ -420,7 +420,7 @@ sections:
   - The Remainder Theorem and the Factor Theorem
   units: []
 - section: '2.4'
-  reviewed: false
+  reviewed: true
   note: Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Division by a complex
     number is practised through conjugates; the complex plane is book only.
   gaps:
@@ -442,7 +442,7 @@ sections:
     rating: full
     note: Conjugates and dividing complex numbers.
 - section: '2.5'
-  reviewed: false
+  reviewed: true
   note: Rational zero test, complex zeros, and conjugate pairs are covered across grades 11 and 12. Vieta's
     formulas go beyond the section. Descartes' Rule of Signs and bounds are book only.
   gaps:
@@ -469,7 +469,7 @@ sections:
     rating: partial
     note: Sum and product of zeros for cubics; extends the section.
 - section: '2.6'
-  reviewed: false
+  reviewed: true
   note: Very well covered. Grade 11 walks through intercepts and each kind of asymptote; grade 12 adds
     holes and slant asymptotes explicitly.
   gaps:
@@ -527,7 +527,7 @@ sections:
     rating: full
     note: Topic-tab holes and slant asymptotes.
 - section: '2.7'
-  reviewed: false
+  reviewed: true
   note: Duolingo has no unit on polynomial or rational inequalities or the sign-chart method. Grade 9
     one-variable inequalities are the only warm-up.
   gaps:
@@ -545,7 +545,7 @@ sections:
     rating: prerequisite
     note: Union answers written as compound inequalities.
 - section: '3.1'
-  reviewed: false
+  reviewed: true
   note: Grades 9 and 11 both cover exponential functions; grade 11 adds the natural base and continuous
     growth. Compound interest formulas are book only.
   gaps:
@@ -591,7 +591,7 @@ sections:
     rating: full
     note: Topic-tab natural base.
 - section: '3.2'
-  reviewed: false
+  reviewed: true
   note: Grade 11 covers logarithms, their graphs, and the natural logarithm nearly one to one with the
     section.
   gaps: []
@@ -639,7 +639,7 @@ sections:
     rating: full
     note: Topic-tab natural log.
 - section: '3.3'
-  reviewed: false
+  reviewed: true
   note: 'Fully covered: product, quotient, and power rules plus change of base in grade 11, consolidated
     in grade 12.'
   gaps: []
@@ -666,7 +666,7 @@ sections:
     rating: full
     note: Topic-tab properties.
 - section: '3.4'
-  reviewed: false
+  reviewed: true
   note: Exponential equations are covered well; logarithmic equations and checking for extraneous solutions
     are lighter in the app.
   gaps:
@@ -686,7 +686,7 @@ sections:
     rating: full
     note: Topic-tab practice of both kinds of equation.
 - section: '3.5'
-  reviewed: false
+  reviewed: true
   note: Only exponential growth and decay models are covered. Gaussian, logistic, and logarithmic models
     are book only.
   gaps:

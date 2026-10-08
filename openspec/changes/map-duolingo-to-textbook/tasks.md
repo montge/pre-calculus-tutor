@@ -20,7 +20,7 @@
 ## 4. Lesson mapping
 
 - [x] 4.1 Create `data/mappings/larson-2e-to-duolingo.yaml` with one entry per textbook section (76 numbered plus 10 appendix sections), each with `units: []`, `reviewed: false`, and an empty note; verify a count script reports 86 entries matching the catalog ids.
-- [ ] 4.2 Fill in and review mappings for chapters 1 through 3 (functions, polynomials, exponentials and logarithms) with coverage ratings and notes, setting `reviewed: true` on each; verify every listed unit id exists in the Duolingo catalog. (Draft entered 2026-10-07 for all 22 sections, 171 unit references, all ids verified; awaiting the user's review before flipping `reviewed`.)
+- [x] 4.2 Fill in and review mappings for chapters 1 through 3 (functions, polynomials, exponentials and logarithms) with coverage ratings and notes, setting `reviewed: true` on each; verify every listed unit id exists in the Duolingo catalog. (Draft entered 2026-10-07 for all 22 sections, 171 unit references, all ids verified; reviewed and approved by the owner 2026-10-08; `reviewed: true` on all 22.)
 - [ ] 4.3 Fill in and review mappings for chapters 4 through 6 (trigonometry) the same way; verify as in 4.2.
 - [ ] 4.4 Mark chapters 7 through 12 and the appendices as no-coverage or unreviewed with a note per section; verify every section still has exactly one entry.
 - [x] 4.6 Add a `gaps` list to every chapter 1 through 3 entry naming the book-only parts of the section, extend the loader and validator (empty gap strings and reviewed no-coverage sections without gaps are errors), and render gaps in the index (per section and in a book-only summary) and in the checklist PDF; verify the index's book-only summary lists 2.3 and 2.7 and the tests cover the two validation errors.

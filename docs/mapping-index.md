@@ -21,7 +21,7 @@ Grade 9 carries the basics (functions, lines, transformations), grade 11 repeats
 | Algebraic Graphing | Slope [partial] (1.3) · Slope-intercept lines [partial] (1.3) · Function notation [full] (1.4) · Piecewise-defined functions [full] (1.4) · Step and absolute value functions [full] (1.6) · Inverse linear functions [partial] (1.9) · Function translations [full] (1.7) · Vertical function scaling [full] (1.7) · Horizontal function scaling [full] (1.7) · Reflections of functions [full] (1.7) |
 | Statistics | Linear models [partial] (1.10) · Linear model fitness [partial] (1.10) |
 
-### 1.1 Rectangular Coordinates (p. 2) *(draft)*
+### 1.1 Rectangular Coordinates (p. 2)
 
 Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequisite. The section's data applications are book only.
 
@@ -38,7 +38,7 @@ Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequ
 - **Line segment midpoint** (Grade 10, unit 50) · full · The midpoint formula.
 - **Distance formula** (Grade 10, unit 51) · full · The distance formula between two points.
 
-### 1.2 Graphs of Equations (p. 13) *(draft)*
+### 1.2 Graphs of Equations (p. 13)
 
 Intercepts and circles are covered; symmetry tests and point-plotting of general equations are book only.
 
@@ -54,7 +54,7 @@ Intercepts and circles are covered; symmetry tests and point-plotting of general
 - **Vertical intercept of functions** (Grade 9, unit 20) · partial · Finding y-intercepts; the section also does x-intercepts of non-function equations.
 - **Horizontal intercept of functions** (Grade 9, unit 21) · partial · Finding x-intercepts of functions.
 
-### 1.3 Linear Equations in Two Variables (p. 24) *(draft)*
+### 1.3 Linear Equations in Two Variables (p. 24)
 
 Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the forms of a line, grade 10 point-slope form.
 
@@ -79,7 +79,7 @@ Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the
 - **Slope** (Algebraic Graphing, unit 3) · partial · Topic-tab review of slope.
 - **Slope-intercept lines** (Algebraic Graphing, unit 4) · partial · Topic-tab review of slope-intercept form.
 
-### 1.4 Functions (p. 39) *(draft)*
+### 1.4 Functions (p. 39)
 
 Function definition, notation, domain, and piecewise functions are covered. The difference quotient is book only.
 
@@ -99,7 +99,7 @@ Function definition, notation, domain, and piecewise functions are covered. The 
 - **Equations of piecewise functions** (Grade 9, unit 28) · full · Evaluating piecewise-defined functions.
 - **Range of a function** (Grade 9, unit 26) · partial · Range from graphs and tables.
 
-### 1.5 Analyzing Graphs of Functions (p. 54) *(draft)*
+### 1.5 Analyzing Graphs of Functions (p. 54)
 
 Domain and range from graphs, zeros, relative extrema, and average rate of change are covered. Even and odd functions and the vertical line test are book only.
 
@@ -118,7 +118,7 @@ Domain and range from graphs, zeros, relative extrema, and average rate of chang
 - **Graphs of piecewise functions** (Grade 9, unit 27) · full · Graphing piecewise functions.
 - **Relative maxima and minima of polynomial functions** (Grade 11, unit 13) · partial · Relative extrema, for polynomials only.
 
-### 1.6 A Library of Parent Functions (p. 66) *(draft)*
+### 1.6 A Library of Parent Functions (p. 66)
 
 Grade 11's Function families is the closest match to the parent-function library. Step and absolute value functions are drilled separately.
 
@@ -136,7 +136,7 @@ Grade 11's Function families is the closest match to the parent-function library
 - **Step functions** (Grade 9, unit 30) · full · Greatest integer and step functions.
 - **Absolute value functions** (Grade 9, unit 31) · full · The absolute value parent function.
 
-### 1.7 Transformations of Functions (p. 73) *(draft)*
+### 1.7 Transformations of Functions (p. 73)
 
 Fully covered. Grade 9 drills each transformation; grade 11 repeats them with reflections added. Do grade 11 if time is short.
 
@@ -166,7 +166,7 @@ Fully covered. Grade 9 drills each transformation; grade 11 repeats them with re
 - **Horizontal stretches** (Grade 9, unit 79) · full · Horizontal stretches.
 - **Horizontal compressions** (Grade 9, unit 80) · full · Horizontal shrinks.
 
-### 1.8 Combinations of Functions: Composite Functions (p. 83) *(draft)*
+### 1.8 Combinations of Functions: Composite Functions (p. 83)
 
 Arithmetic combinations and composition are covered. Finding the domain of a composite and decomposing a function are lighter in the app than in the book.
 
@@ -181,7 +181,7 @@ Arithmetic combinations and composition are covered. Finding the domain of a com
 - **Function composition** (Grade 11, unit 68) · full · Evaluating and forming composite functions.
 - **Function composition** (Grade 12, unit 13) · full · Composition at precalculus depth.
 
-### 1.9 Inverse Functions (p. 92) *(draft)*
+### 1.9 Inverse Functions (p. 92)
 
 Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal line test and one-to-one functions are book only.
 
@@ -204,7 +204,7 @@ Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal
 - **Graphs of inverse functions** (Grade 9, unit 33) · partial · Inverse graphs as reflections in y = x.
 - **Equations of inverse functions** (Grade 9, unit 34) · partial · Swapping variables and solving.
 
-### 1.10 Mathematical Modeling and Variation (p. 102) *(draft)*
+### 1.10 Mathematical Modeling and Variation (p. 102)
 
 Least squares and linear models are covered in grade 9 and the Statistics topic. Direct variation has a grade 7 prerequisite; inverse and joint variation are book only.
 
@@ -237,7 +237,7 @@ Grades 11 and 12 between them cover polynomial, complex, and rational functions 
 | Grade 12 | Polynomial function graphs [full] (2.2) · Roots of polynomial functions [full] (2.5) · Rational root theorem [full] (2.5) · Polynomial function equations from graphs [full] (2.2) · Vieta's formula for quadratic polynomials [partial] (2.5) · Vieta's formula for cubic polynomials [partial] (2.5) · Zeros of rational functions [full] (2.6) · Vertical asymptotes of rational functions [full] (2.6) · Horizontal asymptotes of rational functions [full] (2.6) · Holes in rational functions [full] (2.6) · Slant asymptotes of rational functions [full] (2.6) · Intermediate value theorem [partial] (2.2) |
 | Algebraic Graphing | Intro to quadratic functions [full] (2.1) · Quadratic graphs and equations [full] (2.1) · Factored form of quadratics [full] (2.1) · Vertex form of quadratics [full] (2.1) · Polynomial function equations [full] (2.2) · Polynomial function graphs [full] (2.2) · Polynomial graphs and roots [full] (2.2) · Rational function equations and graphs [full] (2.6) · Rewrite and graph rational functions [full] (2.6) · Rational function asymptotes [full] (2.6) · Holes and slant asymptotes [full] (2.6) |
 
-### 2.1 Quadratic Functions and Models (p. 126) *(draft)*
+### 2.1 Quadratic Functions and Models (p. 126)
 
 Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the square to reach vertex form is lighter in the app.
 
@@ -260,7 +260,7 @@ Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the s
 - **Vertex** (Grade 9, unit 61) · full · Finding the vertex.
 - **Vertex form** (Grade 9, unit 62) · full · Vertex form and the maximum or minimum.
 
-### 2.2 Polynomial Functions of Higher Degree (p. 136) *(draft)*
+### 2.2 Polynomial Functions of Higher Degree (p. 136)
 
 Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 12 adds writing equations from graphs. The Leading Coefficient Test is taught as end behaviour.
 
@@ -285,7 +285,7 @@ Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 
 - **Polynomial function equations from graphs** (Grade 12, unit 5) · full · Writing a polynomial from its graph.
 - **Intermediate value theorem** (Grade 12, unit 48) · partial · The IVT; the app presents it in a limits context.
 
-### 2.3 Polynomial and Synthetic Division (p. 150) *(draft)*
+### 2.3 Polynomial and Synthetic Division (p. 150)
 
 Duolingo has no unit on polynomial long division, synthetic division, or the Remainder and Factor Theorems. Use the book; grade 12's Rational root theorem assumes this skill.
 
@@ -293,7 +293,7 @@ Duolingo has no unit on polynomial long division, synthetic division, or the Rem
 
 No Duolingo coverage for this section.
 
-### 2.4 Complex Numbers (p. 159) *(draft)*
+### 2.4 Complex Numbers (p. 159)
 
 Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Division by a complex number is practised through conjugates; the complex plane is book only.
 
@@ -309,7 +309,7 @@ Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Div
 - **Multiply complex numbers** (Grade 11, unit 21) · full · Products of complex numbers.
 - **Complex conjugates** (Grade 11, unit 23) · full · Conjugates and dividing complex numbers.
 
-### 2.5 Zeros of Polynomial Functions (p. 166) *(draft)*
+### 2.5 Zeros of Polynomial Functions (p. 166)
 
 Rational zero test, complex zeros, and conjugate pairs are covered across grades 11 and 12. Vieta's formulas go beyond the section. Descartes' Rule of Signs and bounds are book only.
 
@@ -327,7 +327,7 @@ Rational zero test, complex zeros, and conjugate pairs are covered across grades
 - **Vieta's formula for quadratic polynomials** (Grade 12, unit 6) · partial · Sum and product of zeros; extends the section.
 - **Vieta's formula for cubic polynomials** (Grade 12, unit 7) · partial · Sum and product of zeros for cubics; extends the section.
 
-### 2.6 Rational Functions (p. 181) *(draft)*
+### 2.6 Rational Functions (p. 181)
 
 Very well covered. Grade 11 walks through intercepts and each kind of asymptote; grade 12 adds holes and slant asymptotes explicitly.
 
@@ -357,7 +357,7 @@ Very well covered. Grade 11 walks through intercepts and each kind of asymptote;
 - **Holes in rational functions** (Grade 12, unit 11) · full · Removable discontinuities.
 - **Slant asymptotes of rational functions** (Grade 12, unit 12) · full · Slant asymptotes by division.
 
-### 2.7 Nonlinear Inequalities (p. 194) *(draft)*
+### 2.7 Nonlinear Inequalities (p. 194)
 
 Duolingo has no unit on polynomial or rational inequalities or the sign-chart method. Grade 9 one-variable inequalities are the only warm-up.
 
@@ -385,7 +385,7 @@ Grade 11 covers exponentials and logarithms almost section by section. Duolingo 
 | Algebra | Logarithms [full] (3.2) · Product and quotient rules [full] (3.3) · Properties of logarithms [full] (3.3) · Solve logarithmic and exponential equations [full] (3.4) |
 | Algebraic Graphing | Intro to exponential functions [full] (3.1) · Exponential graphs and equations [full] (3.1) · Exponential growth and decay [partial] (3.5) · The natural base, e [full] (3.1) · Logarithmic functions [full] (3.2) · Logarithmic function graphs [full] (3.2) · Natural logarithmic function [full] (3.2) |
 
-### 3.1 Exponential Functions and Their Graphs (p. 216) *(draft)*
+### 3.1 Exponential Functions and Their Graphs (p. 216)
 
 Grades 9 and 11 both cover exponential functions; grade 11 adds the natural base and continuous growth. Compound interest formulas are book only.
 
@@ -411,7 +411,7 @@ Grades 9 and 11 both cover exponential functions; grade 11 adds the natural base
 - **Intro to the natural base** (Grade 11, unit 48) · full · The number e.
 - **Continuous growth models** (Grade 11, unit 49) · full · A e^{kt} models, the continuous compounding case.
 
-### 3.2 Logarithmic Functions and Their Graphs (p. 227) *(draft)*
+### 3.2 Logarithmic Functions and Their Graphs (p. 227)
 
 Grade 11 covers logarithms, their graphs, and the natural logarithm nearly one to one with the section.
 
@@ -437,7 +437,7 @@ Grade 11 covers logarithms, their graphs, and the natural logarithm nearly one t
 - **Natural logarithm graphs** (Grade 11, unit 62) · full · Graph of ln x.
 - **Undo exponentials** (Grade 12, unit 16) · partial · Using logs to undo exponentials; leads into 3.4.
 
-### 3.3 Properties of Logarithms (p. 237) *(draft)*
+### 3.3 Properties of Logarithms (p. 237)
 
 Fully covered: product, quotient, and power rules plus change of base in grade 11, consolidated in grade 12.
 
@@ -455,7 +455,7 @@ Fully covered: product, quotient, and power rules plus change of base in grade 1
 - **Change of base formula** (Grade 11, unit 55) · full · Change of base.
 - **Properties of logarithms** (Grade 12, unit 15) · full · Expanding and condensing at precalculus depth.
 
-### 3.4 Exponential and Logarithmic Equations (p. 244) *(draft)*
+### 3.4 Exponential and Logarithmic Equations (p. 244)
 
 Exponential equations are covered well; logarithmic equations and checking for extraneous solutions are lighter in the app.
 
@@ -472,7 +472,7 @@ Exponential equations are covered well; logarithmic equations and checking for e
 - **Solve exponential equations using logarithms** (Grade 11, unit 63) · full · Exponential equations with any base.
 - **Solve base e equations using logarithms** (Grade 11, unit 64) · full · Equations in base e.
 
-### 3.5 Exponential and Logarithmic Models (p. 255) *(draft)*
+### 3.5 Exponential and Logarithmic Models (p. 255)
 
 Only exponential growth and decay models are covered. Gaussian, logistic, and logarithmic models are book only.
 
