@@ -1,0 +1,30 @@
+pre-calculus-tutor
+Copyright 2026 the pre-calculus-tutor contributors
+
+This project is dual licensed:
+
+  * Code (everything under scripts/ and tests/, and any other source code):
+    Apache License, Version 2.0. See LICENSE.
+
+  * Content (everything under data/, docs/, and openspec/, including the
+    section-to-unit mappings, coverage notes, and the generated tutorial):
+    Creative Commons Attribution 4.0 International (CC BY 4.0).
+    See LICENSE-CC-BY-4.0.
+
+Third-party material and fair use
+
+The licenses above cover only the original contributions in this repository.
+They do not and cannot license the following, which remain the property of
+their respective owners:
+
+  * Chapter and section titles, page numbers, and bibliographic data from
+    Larson, "Precalculus with Limits", 2nd edition (Brooks/Cole, Cengage
+    Learning). These are reproduced solely to identify and cite the sections
+    being discussed, which the contributors believe is fair use. No textbook
+    prose, exercises, answers, figures, or page images are included, and
+    contributions containing them will not be accepted.
+
+  * Duolingo Math unit, grade, and topic names, which are reproduced solely
+    to identify the units being discussed. "Duolingo" is a trademark of
+    Duolingo, Inc. This project is not affiliated with or endorsed by
+    Duolingo, Inc., Cengage Learning, or the textbook's author.

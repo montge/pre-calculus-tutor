@@ -1,0 +1,35 @@
+# Design
+
+## Context
+
+See proposal.md. Builds on the `precalc_tutor` loader and validator; this change adds only a renderer. Spreadsheet consumers are students on whatever they have: Excel, Google Sheets, LibreOffice, sometimes a phone.
+
+## Goals / Non-Goals
+
+**Goals:**
+- A workbook that is useful on day one with zero setup, and still correct after the student fills it in.
+- Formulas that survive a round trip through Google Sheets import.
+
+**Non-Goals:**
+- Syncing with the Duolingo account. The student marks units by hand.
+- Per-lesson (sub-unit) tracking. The app does not name the nodes inside a unit, so the unit is the finest grain that can be tracked by name.
+- Charts in the workbook. A percent column is enough; charts can be added later if wanted.
+
+## Decisions
+
+- **openpyxl to write `.xlsx`.** Alternatives: xlsxwriter (write-only, cannot be used by tests to read back), CSV (no dropdowns or formulas). openpyxl writes data validation, conditional formatting, and formulas, and the tests can reopen the file with the same library.
+- **Four sheets: By section, By lane, Chapters, About.** By section is the flat book-order list the summary formulas count; By lane is the student's working view, the same units regrouped by chapter and Duolingo lane in app order, which is the order a student actually encounters them. Both are flat sheets rather than a sheet per chapter so autofilter and sorting work across the whole book. The two sheets are independent copies of status (a unit done in one is not auto-marked in the other); keeping them in sync with cross-sheet formulas would break the dropdown on one of them, and a student will use one view or the other.
+- **Printable checklist with reportlab, not LibreOffice export or LaTeX.** LibreOffice's print layout of a wide sheet is poor and not byte-reproducible; LaTeX is the study-guide toolchain and a heavy dependency for a checklist. reportlab is pure Python, lays out the lane blocks directly from the same lane derivation the index uses, and with `invariant` mode produces byte-identical PDFs. Checkboxes are drawn as bordered empty table cells so no special font is needed.
+- **Chapter summaries count the By section sheet only.** It is the complete list (sections plus units); By lane repeats units and omits unmapped chapters, so counting it would double count.
+- **Summary formulas use `COUNTIFS` only.** `COUNTIFS` is supported identically by Excel, Google Sheets, and LibreOffice. No structured table references, no `LET`, no array formulas, since Google Sheets import and older Excel handle those inconsistently.
+- **Status dropdown via a list data validation with the three literal values.** Simpler and more portable than a named range on a hidden sheet.
+- **Item type column distinguishes "Read section" from "Duolingo unit".** This keeps chapter completion meaningful for chapters with no Duolingo coverage and lets a student filter to Duolingo rows only.
+- **Reproducibility: fixed workbook properties (no creation timestamp), sorted iteration, and tests compare cell-level content rather than bytes.** openpyxl writes a timestamp into document properties by default; it is set to a constant so builds are stable.
+- **Verification in LibreOffice headless when available, skipped otherwise.** Formula results cannot be computed by openpyxl; the portable check is to convert with `soffice --headless --convert-to xlsx` and read back cached values. CI installs LibreOffice; local tests skip when it is absent.
+
+## Risks / Trade-offs
+
+- [Google Sheets import drops some conditional formatting] → formatting is cosmetic; the dropdown and formulas are what matter and both survive import.
+- [Students edit the generated file, then the mapping changes] → the About sheet records the mapping version (git commit) so a student can tell their copy is older; migration of a filled-in tracker is manual and out of scope.
+- [Row count grows if the Duolingo inventory grows] → formulas use whole-column ranges on the By section sheet, so added rows are counted.
+

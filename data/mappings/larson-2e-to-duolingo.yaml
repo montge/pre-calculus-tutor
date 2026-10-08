@@ -1,0 +1,964 @@
+# Mapping from textbook sections to Duolingo Math units.
+#
+# One entry per numbered section of Larson, Precalculus with Limits, 2nd ed.
+# `units` lists the Duolingo units to practise for that section, in
+# recommended order, each with a coverage rating (full, partial,
+# prerequisite) and a note. `gaps` lists the parts of the section that
+# Duolingo does not cover (book only); the study guides teach exactly
+# those. `reviewed: false`
+# marks a draft; outputs label such sections as draft.
+#
+# Only titles, identifiers, and commentary are stored here. No textbook or
+# Duolingo content is reproduced.
+
+textbook: larson-precalculus-with-limits-2e
+duolingo: duolingo-math
+chapters:
+- number: 1
+  summary: Grade 9 carries the basics (functions, lines, transformations), grade 11 repeats them at precalculus
+    depth, and the Algebraic Graphing topic is a condensed walk through the whole chapter. Follow grade
+    11 if you only have time for one lane.
+- number: 2
+  summary: Grades 11 and 12 between them cover polynomial, complex, and rational functions thoroughly.
+    Duolingo has no unit on polynomial long or synthetic division (2.3) or on nonlinear inequalities (2.7);
+    use the book for those.
+- number: 3
+  summary: Grade 11 covers exponentials and logarithms almost section by section. Duolingo stops at growth
+    and decay, so the Gaussian, logistic, and logarithmic models of 3.5 come from the book only.
+sections:
+- section: '1.1'
+  reviewed: true
+  note: Distance and midpoint are covered in grade 10. Plotting is a lower-grade prerequisite. The section's
+    data applications are book only.
+  gaps:
+  - Translating points in the plane
+  - Applications of the distance and midpoint formulas
+  units:
+  - unit: u-g6-33
+    rating: prerequisite
+    note: Plotting ordered pairs in all four quadrants.
+  - unit: u-tgeo-11
+    rating: prerequisite
+    note: Distance along a grid line; warm-up for the distance formula.
+  - unit: u-g10-51
+    rating: full
+    note: The distance formula between two points.
+  - unit: u-g10-50
+    rating: full
+    note: The midpoint formula.
+- section: '1.2'
+  reviewed: true
+  note: Intercepts and circles are covered; symmetry tests and point-plotting of general equations are
+    book only.
+  gaps:
+  - Symmetry tests (x-axis, y-axis, origin)
+  - Sketching graphs of general equations by point plotting
+  units:
+  - unit: u-g9-20
+    rating: partial
+    note: Finding y-intercepts; the section also does x-intercepts of non-function equations.
+  - unit: u-g9-21
+    rating: partial
+    note: Finding x-intercepts of functions.
+  - unit: u-g10-10
+    rating: prerequisite
+    note: Symmetry of figures, not of graphs of equations; a visual warm-up only.
+  - unit: u-g10-47
+    rating: full
+    note: Standard form of a circle, center and radius.
+- section: '1.3'
+  reviewed: true
+  note: Well covered. Grade 8 builds slope and parallel/perpendicular lines, grade 9 the forms of a line,
+    grade 10 point-slope form.
+  gaps:
+  - Slope as a rate of change in applications
+  units:
+  - unit: u-g8-21
+    rating: prerequisite
+    note: Slope as rise over run.
+  - unit: u-g8-22
+    rating: prerequisite
+    note: Slope from two points.
+  - unit: u-g8-24
+    rating: prerequisite
+    note: y = mx + b.
+  - unit: u-g9-05
+    rating: full
+    note: Writing and reading slope-intercept form.
+  - unit: u-g9-07
+    rating: full
+    note: Ax + By = C and converting between forms.
+  - unit: u-g10-45
+    rating: full
+    note: Point-slope form, the section's main tool.
+  - unit: u-g10-46
+    rating: full
+    note: Converting among the forms of a line.
+  - unit: u-g8-28
+    rating: full
+    note: Parallel lines have equal slopes.
+  - unit: u-g8-29
+    rating: full
+    note: Perpendicular lines have negative reciprocal slopes.
+  - unit: u-tagr-03
+    rating: partial
+    note: Topic-tab review of slope.
+  - unit: u-tagr-04
+    rating: partial
+    note: Topic-tab review of slope-intercept form.
+- section: '1.4'
+  reviewed: true
+  note: Function definition, notation, domain, and piecewise functions are covered. The difference quotient
+    is book only.
+  gaps:
+  - The difference quotient
+  - Writing a function from a word problem
+  units:
+  - unit: u-g8-36
+    rating: prerequisite
+    note: Functions as input-output rules.
+  - unit: u-g9-17
+    rating: full
+    note: Evaluating functions and function notation.
+  - unit: u-g9-25
+    rating: full
+    note: Finding the domain, including implied domains.
+  - unit: u-g9-26
+    rating: partial
+    note: Range from graphs and tables.
+  - unit: u-g9-28
+    rating: full
+    note: Evaluating piecewise-defined functions.
+  - unit: u-tagr-08
+    rating: full
+    note: Topic-tab practice of f(x) notation.
+  - unit: u-tagr-09
+    rating: full
+    note: Topic-tab practice of piecewise functions.
+- section: '1.5'
+  reviewed: true
+  note: Domain and range from graphs, zeros, relative extrema, and average rate of change are covered.
+    Even and odd functions and the vertical line test are book only.
+  gaps:
+  - Even and odd functions
+  - The Vertical Line Test
+  units:
+  - unit: u-g9-18
+    rating: full
+    note: Reading values, zeros, and intervals from a graph.
+  - unit: u-g9-27
+    rating: full
+    note: Graphing piecewise functions.
+  - unit: u-g9-23
+    rating: full
+    note: Average rate of change over an interval.
+  - unit: u-g11-03
+    rating: full
+    note: Comparing increasing, decreasing, and extrema across graphs.
+  - unit: u-g11-13
+    rating: partial
+    note: Relative extrema, for polynomials only.
+  - unit: u-g12-17
+    rating: full
+    note: Domain and range from graphs at precalculus depth.
+- section: '1.6'
+  reviewed: true
+  note: Grade 11's Function families is the closest match to the parent-function library. Step and absolute
+    value functions are drilled separately.
+  gaps:
+  - The square root and reciprocal parent functions in detail
+  units:
+  - unit: u-g9-24
+    rating: prerequisite
+    note: The linear parent function.
+  - unit: u-g9-30
+    rating: full
+    note: Greatest integer and step functions.
+  - unit: u-g9-31
+    rating: full
+    note: The absolute value parent function.
+  - unit: u-g11-02
+    rating: full
+    note: Recognising linear, quadratic, cubic, square root, reciprocal, and other families.
+  - unit: u-tagr-10
+    rating: full
+    note: Topic-tab review of step and absolute value functions.
+- section: '1.7'
+  reviewed: true
+  note: Fully covered. Grade 9 drills each transformation; grade 11 repeats them with reflections added.
+    Do grade 11 if time is short.
+  gaps: []
+  units:
+  - unit: u-g9-75
+    rating: full
+    note: Vertical shifts.
+  - unit: u-g9-76
+    rating: full
+    note: Horizontal shifts.
+  - unit: u-g9-77
+    rating: full
+    note: Vertical stretches.
+  - unit: u-g9-78
+    rating: full
+    note: Vertical shrinks.
+  - unit: u-g9-79
+    rating: full
+    note: Horizontal stretches.
+  - unit: u-g9-80
+    rating: full
+    note: Horizontal shrinks.
+  - unit: u-g11-69
+    rating: full
+    note: Vertical shifts at precalculus depth.
+  - unit: u-g11-70
+    rating: full
+    note: Horizontal shifts at precalculus depth.
+  - unit: u-g11-71
+    rating: full
+    note: Reflections in the x-axis.
+  - unit: u-g11-72
+    rating: full
+    note: Reflections in the y-axis.
+  - unit: u-g11-73
+    rating: full
+    note: Vertical stretches.
+  - unit: u-g11-74
+    rating: full
+    note: Vertical shrinks.
+  - unit: u-g11-75
+    rating: full
+    note: Horizontal stretches.
+  - unit: u-g11-76
+    rating: full
+    note: Horizontal shrinks.
+  - unit: u-g11-09
+    rating: full
+    note: Combined transformations on one parent function.
+  - unit: u-tagr-24
+    rating: full
+    note: Topic-tab review of shifts.
+  - unit: u-tagr-25
+    rating: full
+    note: Topic-tab review of vertical stretches and shrinks.
+  - unit: u-tagr-26
+    rating: full
+    note: Topic-tab review of horizontal stretches and shrinks.
+  - unit: u-tagr-27
+    rating: full
+    note: Topic-tab review of reflections.
+- section: '1.8'
+  reviewed: true
+  note: Arithmetic combinations and composition are covered. Finding the domain of a composite and decomposing
+    a function are lighter in the app than in the book.
+  gaps:
+  - Domain of a composite function
+  - Decomposing a function into two simpler functions
+  units:
+  - unit: u-g11-67
+    rating: full
+    note: Sums, differences, products, and quotients of functions.
+  - unit: u-g11-68
+    rating: full
+    note: Evaluating and forming composite functions.
+  - unit: u-g12-13
+    rating: full
+    note: Composition at precalculus depth.
+- section: '1.9'
+  reviewed: true
+  note: Finding and graphing inverses is covered in grades 9, 11, and 12. The horizontal line test and
+    one-to-one functions are book only.
+  gaps:
+  - One-to-one functions and the Horizontal Line Test
+  units:
+  - unit: u-g9-35
+    rating: prerequisite
+    note: Inverse of a line as a reflection in y = x.
+  - unit: u-g9-36
+    rating: prerequisite
+    note: Solving for the inverse of a linear function.
+  - unit: u-g9-33
+    rating: partial
+    note: Inverse graphs as reflections in y = x.
+  - unit: u-g9-34
+    rating: partial
+    note: Swapping variables and solving.
+  - unit: u-g11-65
+    rating: full
+    note: Finding inverses algebraically.
+  - unit: u-g11-66
+    rating: full
+    note: Graphing inverses.
+  - unit: u-g12-14
+    rating: full
+    note: Inverses and verifying with composition.
+  - unit: u-g12-18
+    rating: full
+    note: Graphing inverses at precalculus depth.
+  - unit: u-tagr-23
+    rating: partial
+    note: Topic-tab review for linear inverses.
+- section: '1.10'
+  reviewed: true
+  note: Least squares and linear models are covered in grade 9 and the Statistics topic. Direct variation
+    has a grade 7 prerequisite; inverse and joint variation are book only.
+  gaps:
+  - Inverse, joint, and combined variation
+  - Least squares regression on the calculator
+  units:
+  - unit: u-g7-07
+    rating: prerequisite
+    note: y = kx, which is direct variation.
+  - unit: u-g9-81
+    rating: partial
+    note: Reading scatter plots.
+  - unit: u-g9-82
+    rating: partial
+    note: Positive, negative, and no correlation.
+  - unit: u-g9-83
+    rating: partial
+    note: Fitting and using a linear model.
+  - unit: u-g9-84
+    rating: partial
+    note: How well a model fits.
+  - unit: u-tsta-15
+    rating: partial
+    note: Topic-tab review of linear models.
+  - unit: u-tsta-16
+    rating: partial
+    note: Topic-tab review of fit.
+- section: '2.1'
+  reviewed: true
+  note: Thoroughly covered in grade 9 and the Algebraic Graphing topic. Completing the square to reach
+    vertex form is lighter in the app.
+  gaps:
+  - Completing the square to write vertex form
+  - Maximum and minimum word problems
+  units:
+  - unit: u-g9-56
+    rating: full
+    note: Quadratic behaviour in tables.
+  - unit: u-g9-57
+    rating: full
+    note: Parabolas, axis of symmetry, direction.
+  - unit: u-g9-58
+    rating: full
+    note: Standard form.
+  - unit: u-g9-59
+    rating: full
+    note: x-intercepts of a parabola.
+  - unit: u-g9-60
+    rating: full
+    note: Factored form and zeros.
+  - unit: u-g9-61
+    rating: full
+    note: Finding the vertex.
+  - unit: u-g9-62
+    rating: full
+    note: Vertex form and the maximum or minimum.
+  - unit: u-tagr-11
+    rating: full
+    note: Topic-tab introduction.
+  - unit: u-tagr-12
+    rating: full
+    note: Topic-tab graphs and equations.
+  - unit: u-tagr-13
+    rating: full
+    note: Topic-tab factored form.
+  - unit: u-tagr-14
+    rating: full
+    note: Topic-tab vertex form.
+- section: '2.2'
+  reviewed: true
+  note: Grade 11 covers end behaviour, zeros, multiplicity, and relative extrema; grade 12 adds writing
+    equations from graphs. The Leading Coefficient Test is taught as end behaviour.
+  gaps:
+  - Using the Intermediate Value Theorem to locate a zero
+  units:
+  - unit: u-g11-12
+    rating: full
+    note: Degree, leading coefficient, and basic shape.
+  - unit: u-g11-13
+    rating: full
+    note: Turning points.
+  - unit: u-g11-14
+    rating: full
+    note: Real zeros from factored form.
+  - unit: u-g11-15
+    rating: full
+    note: Repeated zeros and whether the graph crosses or touches.
+  - unit: u-g11-16
+    rating: full
+    note: Leading Coefficient Test, odd degree.
+  - unit: u-g11-17
+    rating: full
+    note: Leading Coefficient Test, even degree.
+  - unit: u-g12-02
+    rating: full
+    note: Sketching polynomial graphs.
+  - unit: u-g12-05
+    rating: full
+    note: Writing a polynomial from its graph.
+  - unit: u-g12-48
+    rating: partial
+    note: The IVT; the app presents it in a limits context.
+  - unit: u-tagr-30
+    rating: full
+    note: Topic-tab equations.
+  - unit: u-tagr-31
+    rating: full
+    note: Topic-tab graphs.
+  - unit: u-tagr-32
+    rating: full
+    note: Topic-tab roots.
+- section: '2.3'
+  reviewed: true
+  note: Duolingo has no unit on polynomial long division, synthetic division, or the Remainder and Factor
+    Theorems. Use the book; grade 12's Rational root theorem assumes this skill.
+  gaps:
+  - Polynomial long division
+  - Synthetic division
+  - The Remainder Theorem and the Factor Theorem
+  units: []
+- section: '2.4'
+  reviewed: true
+  note: Grade 11 covers the imaginary unit, arithmetic, conjugates, and powers of i. Division by a complex
+    number is practised through conjugates; the complex plane is book only.
+  gaps:
+  - Plotting complex numbers in the complex plane
+  units:
+  - unit: u-g11-18
+    rating: full
+    note: Definition of i.
+  - unit: u-g11-19
+    rating: full
+    note: Writing square roots of negatives in terms of i.
+  - unit: u-g11-20
+    rating: full
+    note: Powers of i.
+  - unit: u-g11-21
+    rating: full
+    note: Products of complex numbers.
+  - unit: u-g11-23
+    rating: full
+    note: Conjugates and dividing complex numbers.
+- section: '2.5'
+  reviewed: true
+  note: Rational zero test, complex zeros, and conjugate pairs are covered across grades 11 and 12. Vieta's
+    formulas go beyond the section. Descartes' Rule of Signs and bounds are book only.
+  gaps:
+  - The Fundamental Theorem of Algebra
+  - Descartes's Rule of Signs
+  - Upper and lower bounds for real zeros
+  units:
+  - unit: u-g11-14
+    rating: prerequisite
+    note: Real zeros before complex ones.
+  - unit: u-g11-22
+    rating: full
+    note: Complex zeros of quadratics and conjugate pairs.
+  - unit: u-g12-03
+    rating: full
+    note: Finding all zeros of a polynomial.
+  - unit: u-g12-04
+    rating: full
+    note: The Rational Zero Test.
+  - unit: u-g12-06
+    rating: partial
+    note: Sum and product of zeros; extends the section.
+  - unit: u-g12-07
+    rating: partial
+    note: Sum and product of zeros for cubics; extends the section.
+- section: '2.6'
+  reviewed: true
+  note: Very well covered. Grade 11 walks through intercepts and each kind of asymptote; grade 12 adds
+    holes and slant asymptotes explicitly.
+  gaps:
+  - Applications of rational functions
+  units:
+  - unit: u-g11-24
+    rating: full
+    note: Definition and domain.
+  - unit: u-g11-25
+    rating: full
+    note: y-intercept.
+  - unit: u-g11-26
+    rating: full
+    note: Zeros of the numerator.
+  - unit: u-g11-27
+    rating: full
+    note: Zeros of the denominator.
+  - unit: u-g11-28
+    rating: full
+    note: Rewriting to expose asymptotes.
+  - unit: u-g11-29
+    rating: full
+    note: Horizontal asymptote y = a/b.
+  - unit: u-g11-30
+    rating: full
+    note: Horizontal asymptote y = 0.
+  - unit: u-g11-31
+    rating: full
+    note: Slant asymptotes.
+  - unit: u-g12-08
+    rating: full
+    note: Zeros at precalculus depth.
+  - unit: u-g12-09
+    rating: full
+    note: Vertical asymptotes at precalculus depth.
+  - unit: u-g12-10
+    rating: full
+    note: Horizontal asymptotes by comparing degrees.
+  - unit: u-g12-11
+    rating: full
+    note: Removable discontinuities.
+  - unit: u-g12-12
+    rating: full
+    note: Slant asymptotes by division.
+  - unit: u-tagr-33
+    rating: full
+    note: Topic-tab overview.
+  - unit: u-tagr-34
+    rating: full
+    note: Topic-tab graphing.
+  - unit: u-tagr-35
+    rating: full
+    note: Topic-tab asymptotes.
+  - unit: u-tagr-36
+    rating: full
+    note: Topic-tab holes and slant asymptotes.
+- section: '2.7'
+  reviewed: true
+  note: Duolingo has no unit on polynomial or rational inequalities or the sign-chart method. Grade 9
+    one-variable inequalities are the only warm-up.
+  gaps:
+  - Polynomial inequalities
+  - Rational inequalities
+  - The test-interval (sign chart) method
+  units:
+  - unit: u-g9-11
+    rating: prerequisite
+    note: Linear inequalities; the app spells the unit this way.
+  - unit: u-g9-13
+    rating: prerequisite
+    note: Interval answers written as compound inequalities.
+  - unit: u-g9-12
+    rating: prerequisite
+    note: Union answers written as compound inequalities.
+- section: '3.1'
+  reviewed: true
+  note: Grades 9 and 11 both cover exponential functions; grade 11 adds the natural base and continuous
+    growth. Compound interest formulas are book only.
+  gaps:
+  - Compound interest, n times per year and continuously
+  units:
+  - unit: u-g9-70
+    rating: prerequisite
+    note: Constant ratio in tables.
+  - unit: u-g9-71
+    rating: prerequisite
+    note: Shape of y = b^x.
+  - unit: u-g9-72
+    rating: prerequisite
+    note: Writing y = a b^x.
+  - unit: u-g11-38
+    rating: full
+    note: Tables at precalculus depth.
+  - unit: u-g11-39
+    rating: full
+    note: Graphs, asymptote, and transformations.
+  - unit: u-g11-40
+    rating: full
+    note: Equations from data.
+  - unit: u-g11-41
+    rating: full
+    note: Growth models.
+  - unit: u-g11-42
+    rating: full
+    note: Decay models.
+  - unit: u-g11-48
+    rating: full
+    note: The number e.
+  - unit: u-g11-49
+    rating: full
+    note: A e^{kt} models, the continuous compounding case.
+  - unit: u-tagr-15
+    rating: full
+    note: Topic-tab introduction.
+  - unit: u-tagr-16
+    rating: full
+    note: Topic-tab graphs and equations.
+  - unit: u-tagr-19
+    rating: full
+    note: Topic-tab natural base.
+- section: '3.2'
+  reviewed: true
+  note: Grade 11 covers logarithms, their graphs, and the natural logarithm nearly one to one with the
+    section.
+  gaps: []
+  units:
+  - unit: u-g11-50
+    rating: full
+    note: Logarithm as inverse of exponent.
+  - unit: u-g11-51
+    rating: full
+    note: Evaluating logarithms.
+  - unit: u-g11-56
+    rating: full
+    note: The logarithmic function.
+  - unit: u-g11-57
+    rating: full
+    note: Common logarithms.
+  - unit: u-g11-58
+    rating: full
+    note: Base 2, a worked example of other bases.
+  - unit: u-g11-59
+    rating: full
+    note: Graphs and the vertical asymptote.
+  - unit: u-g11-60
+    rating: full
+    note: Intercepts of log graphs.
+  - unit: u-g11-61
+    rating: full
+    note: ln x.
+  - unit: u-g11-62
+    rating: full
+    note: Graph of ln x.
+  - unit: u-g12-16
+    rating: partial
+    note: Using logs to undo exponentials; leads into 3.4.
+  - unit: u-talg-18
+    rating: full
+    note: Topic-tab logarithms.
+  - unit: u-tagr-20
+    rating: full
+    note: Topic-tab log functions.
+  - unit: u-tagr-21
+    rating: full
+    note: Topic-tab log graphs.
+  - unit: u-tagr-22
+    rating: full
+    note: Topic-tab natural log.
+- section: '3.3'
+  reviewed: true
+  note: 'Fully covered: product, quotient, and power rules plus change of base in grade 11, consolidated
+    in grade 12.'
+  gaps: []
+  units:
+  - unit: u-g11-52
+    rating: full
+    note: log(uv) = log u + log v.
+  - unit: u-g11-53
+    rating: full
+    note: log(u/v) = log u - log v.
+  - unit: u-g11-54
+    rating: full
+    note: log(u^n) = n log u.
+  - unit: u-g11-55
+    rating: full
+    note: Change of base.
+  - unit: u-g12-15
+    rating: full
+    note: Expanding and condensing at precalculus depth.
+  - unit: u-talg-19
+    rating: full
+    note: Topic-tab product and quotient rules.
+  - unit: u-talg-20
+    rating: full
+    note: Topic-tab properties.
+- section: '3.4'
+  reviewed: true
+  note: Exponential equations are covered well; logarithmic equations and checking for extraneous solutions
+    are lighter in the app.
+  gaps:
+  - Logarithmic equations
+  - Checking for extraneous solutions
+  units:
+  - unit: u-g12-16
+    rating: prerequisite
+    note: Taking a log of both sides.
+  - unit: u-g11-63
+    rating: full
+    note: Exponential equations with any base.
+  - unit: u-g11-64
+    rating: full
+    note: Equations in base e.
+  - unit: u-talg-21
+    rating: full
+    note: Topic-tab practice of both kinds of equation.
+- section: '3.5'
+  reviewed: true
+  note: Only exponential growth and decay models are covered. Gaussian, logistic, and logarithmic models
+    are book only.
+  gaps:
+  - Gaussian models
+  - Logistic growth models
+  - Logarithmic models (pH, Richter scale, decibels)
+  units:
+  - unit: u-g11-41
+    rating: partial
+    note: Growth models.
+  - unit: u-g11-42
+    rating: partial
+    note: Decay models, including half-life style problems.
+  - unit: u-g11-49
+    rating: partial
+    note: A e^{kt} models.
+  - unit: u-tagr-18
+    rating: partial
+    note: Topic-tab growth and decay.
+- section: '4.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.6'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.7'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '4.8'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '5.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '5.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '5.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '5.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '5.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '6.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '6.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '6.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '6.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '6.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '7.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '7.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '7.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '7.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '7.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '7.6'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '8.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '8.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '8.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '8.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '8.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.6'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '9.7'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.6'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.7'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.8'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '10.9'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '11.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '11.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '11.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '11.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '12.1'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '12.2'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '12.3'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '12.4'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: '12.5'
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.1
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.2
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.3
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.4
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.5
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.6
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: A.7
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: B.1
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: B.2
+  reviewed: false
+  note: Not yet mapped.
+  units: []
+- section: B.3
+  reviewed: false
+  note: Not yet mapped.
+  units: []
