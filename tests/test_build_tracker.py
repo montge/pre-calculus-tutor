@@ -23,7 +23,7 @@ from openpyxl import load_workbook
 
 from precalc_tutor import MAPPING_PATH
 from precalc_tutor.catalog import load_duolingo, load_textbook
-from precalc_tutor.checklist_pdf import build_pdf
+from precalc_tutor.checklist_pdf import build_pdf, mapped_chapters
 from precalc_tutor.mapping import load_mapping
 from precalc_tutor.tracker import STATUSES, build_workbook, lane_rows, section_rows
 from tests.helpers import modified, write_temp_data
@@ -133,6 +133,28 @@ class BuildTrackerTest(unittest.TestCase):
     self.assertIn("Book only, not on Duolingo", text)
     self.assertNotIn("Trigonometry", text)
 
+  def test_per_chapter_pdf_is_standalone_and_reproducible(self):
+    one = build_pdf(self.book, self.course, self.mapping, chapters=["3"])
+    self.assertEqual(one, build_pdf(self.book, self.course, self.mapping, chapters=["3"]))
+    try:
+      from pypdf import PdfReader
+    except ImportError:
+      self.skipTest("pypdf not installed")
+    text = " ".join(" ".join(p.extract_text() for p in PdfReader(io.BytesIO(one)).pages).split())
+    self.assertIn("Chapter 3 Duolingo Math checklist", text)
+    self.assertIn("Chapter 3: Exponential and Logarithmic Functions (p. 215)", text)
+    self.assertIn("Section guide", text)
+    self.assertIn("Logistic growth models", text)
+    self.assertNotIn("Chapter 1:", text)
+
+  def test_committed_chapter_pdfs_are_current(self):
+    ids = [c.id for c in mapped_chapters(self.book, self.mapping)]
+    files = sorted(p.name for p in (ROOT / "dist" / "checklists").glob("chapter-*.pdf"))
+    self.assertEqual(files, sorted(f"chapter-{i}.pdf" for i in ids))
+    for cid in ids:
+      self.assertEqual((ROOT / "dist" / "checklists" / f"chapter-{cid}.pdf").read_bytes(),
+                       build_pdf(self.book, self.course, self.mapping, chapters=[cid]), cid)
+
   def test_script_refuses_invalid_data(self):
     def mutate(d):
       d["sections"][0]["units"][0]["unit"] = "u-g99-01"
@@ -141,11 +163,13 @@ class BuildTrackerTest(unittest.TestCase):
     proc = subprocess.run([sys.executable, str(SCRIPT), "--mapping", str(data / "mappings" / MAPPING_PATH.name),
                            "--textbook", str(data / "textbook" / "larson-precalculus-with-limits-2e.yaml"),
                            "--duolingo", str(data / "duolingo" / "math-course.yaml"),
-                           "--xlsx", str(out / "t.xlsx"), "--pdf", str(out / "t.pdf")], capture_output=True, text=True, cwd=ROOT)
+                           "--xlsx", str(out / "t.xlsx"), "--pdf", str(out / "t.pdf"), "--chapter-dir", str(out / "ch")],
+                          capture_output=True, text=True, cwd=ROOT)
     self.assertEqual(proc.returncode, 1)
     self.assertIn("unknown unit", proc.stderr)
     self.assertFalse((out / "t.xlsx").exists())
     self.assertFalse((out / "t.pdf").exists())
+    self.assertFalse((out / "ch").exists())
 
   def test_committed_outputs_are_current(self):
     committed = load_workbook(ROOT / "dist" / "progress-tracker.xlsx")

@@ -30,7 +30,7 @@ sys.path.insert(0, str(ROOT))
 
 from precalc_tutor import DUOLINGO_PATH, MAPPING_PATH, TEXTBOOK_PATH  # noqa: E402
 from precalc_tutor.catalog import load_duolingo, load_textbook  # noqa: E402
-from precalc_tutor.checklist_pdf import build_pdf  # noqa: E402
+from precalc_tutor.checklist_pdf import build_pdf, mapped_chapters  # noqa: E402
 from precalc_tutor.mapping import load_mapping  # noqa: E402
 from precalc_tutor.tracker import build_workbook  # noqa: E402
 from precalc_tutor.validate import validate  # noqa: E402
@@ -58,6 +58,8 @@ def main(argv: list[str] | None = None) -> int:
   ap.add_argument("--mapping", type=Path, default=MAPPING_PATH)
   ap.add_argument("--xlsx", type=Path, default=ROOT / "dist" / "progress-tracker.xlsx")
   ap.add_argument("--pdf", type=Path, default=ROOT / "dist" / "progress-checklist.pdf")
+  ap.add_argument("--chapter-dir", type=Path, default=ROOT / "dist" / "checklists",
+                  help="directory for one standalone checklist PDF per mapped chapter")
   ap.add_argument("--version", default=None, help="mapping version string for the About sheet (default: git short hash)")
   args = ap.parse_args(argv)
 
@@ -77,9 +79,14 @@ def main(argv: list[str] | None = None) -> int:
   xbuf = io.BytesIO()
   wb.save(xbuf)
   pdf = build_pdf(book, course, mapping)
+  per_chapter = {c.id: build_pdf(book, course, mapping, chapters=[c.id]) for c in mapped_chapters(book, mapping)}
   _atomic_write(args.xlsx, xbuf.getvalue())
   _atomic_write(args.pdf, pdf)
   print(f"wrote {args.xlsx}\nwrote {args.pdf}")
+  for cid, data in per_chapter.items():
+    out = args.chapter_dir / f"chapter-{cid}.pdf"
+    _atomic_write(out, data)
+    print(f"wrote {out}")
   return 0
 
 

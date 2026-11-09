@@ -27,7 +27,7 @@ from reportlab.lib.units import inch
 from reportlab.platypus import KeepTogether, PageBreak, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 from .catalog import Duolingo, Textbook
-from .lanes import chapter_lanes
+from .lanes import chapter_lanes, section_lanes
 from .mapping import Mapping
 
 RATING_LABEL = {"full": "full", "partial": "partial", "prerequisite": "prereq"}
@@ -64,7 +64,38 @@ def _check_table(rows: list[tuple[str, str, str]], st, widths) -> Table:
   return t
 
 
-def build_pdf(book: Textbook, course: Duolingo, mapping: Mapping) -> bytes:
+def mapped_chapters(book: Textbook, mapping: Mapping) -> list:
+  """Chapters with at least one section that maps to a Duolingo unit."""
+  return [c for c in book.chapters if any(mapping.entry(s.id) and mapping.entry(s.id).units for s in c.sections)]
+
+
+def _section_guide(ch, course: Duolingo, mapping: Mapping, st, widths) -> list:
+  """Per-section quick reference: what to practise on Duolingo and what to read in the book, with checkboxes for book-only items."""
+  out = [Paragraph("Section guide", st["h1"]),
+         Paragraph("For each section: the Duolingo units that practise it (already listed above with checkboxes), then the "
+                   "parts only the textbook teaches. Tick each book-only item once you have worked it in the book.", st["body"])]
+  for s in ch.sections:
+    e = mapping.entry(s.id)
+    block = [Paragraph(f"{escape(s.id)} {escape(s.title)} (p. {escape(s.page)})", st["h2"])]
+    if e and e.note:
+      block.append(Paragraph(escape(e.note), st["body"]))
+    if e and e.units:
+      lines = []
+      for row in section_lanes(e, course):
+        items = " · ".join(f"{lu.unit.order}. {escape(lu.unit.name)} ({RATING_LABEL[lu.rating]})" for lu in row.units)
+        lines.append(f"<b>{escape(row.lane.name)}:</b> {items}")
+      block.append(Paragraph("<b>Duolingo</b>, in app order:<br/>" + "<br/>".join(lines), st["body"]))
+    else:
+      block.append(Paragraph("<b>Duolingo:</b> no unit covers this section.", st["body"]))
+    if e and e.gaps:
+      block.append(Paragraph("<b>Book only:</b>", st["body"]))
+      block.append(_check_table([(g, "", "") for g in e.gaps], st, widths))
+    out.append(KeepTogether(block))
+  return out
+
+
+def build_pdf(book: Textbook, course: Duolingo, mapping: Mapping, chapters: list[str] | None = None) -> bytes:
+  """Render the checklist. With `chapters`, render only those chapters and add a section guide (a standalone handout)."""
   rl_config.invariant = 1
   st = _styles()
   buf = io.BytesIO()
@@ -74,13 +105,19 @@ def build_pdf(book: Textbook, course: Duolingo, mapping: Mapping) -> bytes:
   width = letter[0] - 1.4 * inch
   widths = [BOX + 6, width - (BOX + 6) - 0.9 * inch - 1.1 * inch, 0.9 * inch, 1.1 * inch]
 
-  story = [Paragraph(f"{escape(book.title)}, {book.edition}e: Duolingo Math checklist", st["title"]),
+  selected = [c for c in book.chapters if chapters is None or c.id in chapters]
+  if chapters is not None and len(selected) == 1:
+    ch0 = selected[0]
+    heading = f"{'Appendix' if ch0.is_appendix else 'Chapter'} {escape(ch0.id)} Duolingo Math checklist"
+  else:
+    heading = f"{escape(book.title)}, {book.edition}e: Duolingo Math checklist"
+  story = [Paragraph(heading, st["title"]),
            Paragraph("Tick each textbook section as you read it and each Duolingo unit as you finish it. Units are listed per "
                      "lane (a Duolingo grade or topic) in the order the app presents them, so you can follow one lane top to "
                      "bottom. Ratings: full = covers the section's main skill, partial = covers part of it, prereq = a warm-up "
                      "from an earlier grade. The right column names the textbook sections the unit serves.", st["body"]),
            Spacer(1, 6)]
-  mapped = [c for c in book.chapters if chapter_lanes(c, mapping, course)]
+  mapped = [c for c in selected if chapter_lanes(c, mapping, course)]
   if not mapped:
     story.append(Paragraph("No chapters are mapped yet.", st["body"]))
   for idx, ch in enumerate(mapped):
@@ -100,6 +137,9 @@ def build_pdf(book: Textbook, course: Duolingo, mapping: Mapping) -> bytes:
     for lr in chapter_lanes(ch, mapping, course):
       rows = [(f"{lu.unit.order}. {lu.unit.name}", RATING_LABEL[lu.rating], ", ".join(lu.sections)) for lu in lr.units]
       story.append(KeepTogether([Paragraph(escape(lr.lane.name), st["h2"]), _check_table(rows, st, widths)]))
+    if chapters is not None:
+      story.append(PageBreak())
+      story.extend(_section_guide(ch, course, mapping, st, widths))
   story.append(Spacer(1, 10))
   story.append(Paragraph(f"Textbook: {escape(book.citation())} Duolingo inventory: {len(course.units())} units, last verified "
                          f"{escape(course.last_verified)} on {escape(course.platform)}. Only titles and unit names are reproduced, for "
