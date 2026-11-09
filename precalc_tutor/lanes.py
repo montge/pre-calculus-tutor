@@ -77,3 +77,8 @@ def chapter_lanes(chapter: Chapter, mapping: Mapping, course: Duolingo) -> list[
       LaneUnit(unit=u, rating=r, note=n, sections=tuple(secs)) for u, r, n, secs in items)))
   rows.sort(key=lambda r: r.lane.rank)
   return rows
+
+
+def mapped_chapters(book, mapping: Mapping) -> list[Chapter]:
+  """Chapters (and appendices) with at least one section that maps to a Duolingo unit, in book order."""
+  return [c for c in book.chapters if any(mapping.entry(s.id) and mapping.entry(s.id).units for s in c.sections)]

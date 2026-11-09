@@ -38,6 +38,7 @@ class Chapter:
   page: str
   sections: tuple[Section, ...]
   is_appendix: bool = False
+  end_matter: tuple[tuple[str, str], ...] = ()  # (title, page): summary, review exercises, chapter test, ...
 
 
 @dataclass(frozen=True)
@@ -82,6 +83,7 @@ def load_textbook(path: Path = TEXTBOOK_PATH) -> Textbook:
     chapters.append(Chapter(
       id=cid, title=ch["title"], page=str(ch["page"]),
       sections=tuple(Section(id=str(s["id"]), title=s["title"], page=str(s["page"]), chapter=cid) for s in ch["sections"]),
+      end_matter=tuple((str(m["title"]), str(m["page"])) for m in (ch.get("end_matter") or [])),
     ))
   for ap in raw.get("appendices", []):
     cid = str(ap["id"])
