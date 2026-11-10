@@ -1,0 +1,265 @@
+# Table of contents for the textbook this tutorial follows.
+#
+# Only structural metadata is stored here (chapter and section titles plus
+# page numbers) so that lessons can be cited. No textbook text, exercises,
+# figures, or scans are stored in this repository. Titles are reproduced for
+# the purpose of reference and commentary.
+#
+# Transcribed from the printed contents pages (iii-vi) of the user's copy.
+# Bibliographic fields were confirmed by the owner from the book's edition
+# details on 2026-10-07 (Pre-AP National Student Edition printing).
+
+id: larson-precalculus-with-limits-2e
+title: Precalculus with Limits
+edition: 2
+edition_note: Pre-AP National Student Edition
+author: Ron Larson and Robert P. Hostetler
+publisher: Thomson Brooks/Cole
+year: 2009
+isbn: 978-0-538-73659-6
+isbn10: "0538736593"
+verified:
+  publisher: true
+  year: true
+  isbn: true
+preface:
+  title: A Word from the Author (Preface)
+  page: vii
+
+chapters:
+  - number: 1
+    title: Functions and Their Graphs
+    page: 1
+    sections:
+      - { id: "1.1", title: Rectangular Coordinates, page: 2 }
+      - { id: "1.2", title: Graphs of Equations, page: 13 }
+      - { id: "1.3", title: Linear Equations in Two Variables, page: 24 }
+      - { id: "1.4", title: Functions, page: 39 }
+      - { id: "1.5", title: Analyzing Graphs of Functions, page: 54 }
+      - { id: "1.6", title: A Library of Parent Functions, page: 66 }
+      - { id: "1.7", title: Transformations of Functions, page: 73 }
+      - { id: "1.8", title: "Combinations of Functions: Composite Functions", page: 83 }
+      - { id: "1.9", title: Inverse Functions, page: 92 }
+      - { id: "1.10", title: Mathematical Modeling and Variation, page: 102 }
+    end_matter:
+      - { title: Chapter Summary, page: 114 }
+      - { title: Review Exercises, page: 116 }
+      - { title: Chapter Test, page: 121 }
+      - { title: Proofs in Mathematics, page: 122 }
+      - { title: Problem Solving, page: 123 }
+
+  - number: 2
+    title: Polynomial and Rational Functions
+    page: 125
+    sections:
+      - { id: "2.1", title: Quadratic Functions and Models, page: 126 }
+      - { id: "2.2", title: Polynomial Functions of Higher Degree, page: 136 }
+      - { id: "2.3", title: Polynomial and Synthetic Division, page: 150 }
+      - { id: "2.4", title: Complex Numbers, page: 159 }
+      - { id: "2.5", title: Zeros of Polynomial Functions, page: 166 }
+      - { id: "2.6", title: Rational Functions, page: 181 }
+      - { id: "2.7", title: Nonlinear Inequalities, page: 194 }
+    end_matter:
+      - { title: Chapter Summary, page: 204 }
+      - { title: Review Exercises, page: 206 }
+      - { title: Chapter Test, page: 210 }
+      - { title: Proofs in Mathematics, page: 211 }
+      - { title: Problem Solving, page: 213 }
+
+  - number: 3
+    title: Exponential and Logarithmic Functions
+    page: 215
+    sections:
+      - { id: "3.1", title: Exponential Functions and Their Graphs, page: 216 }
+      - { id: "3.2", title: Logarithmic Functions and Their Graphs, page: 227 }
+      - { id: "3.3", title: Properties of Logarithms, page: 237 }
+      - { id: "3.4", title: Exponential and Logarithmic Equations, page: 244 }
+      - { id: "3.5", title: Exponential and Logarithmic Models, page: 255 }
+    end_matter:
+      - { title: Chapter Summary, page: 268 }
+      - { title: Review Exercises, page: 270 }
+      - { title: Chapter Test, page: 273 }
+      - { title: Cumulative Test for Chapters 1-3, page: 274 }
+      - { title: Proofs in Mathematics, page: 276 }
+      - { title: Problem Solving, page: 277 }
+
+  - number: 4
+    title: Trigonometry
+    page: 279
+    sections:
+      - { id: "4.1", title: Radian and Degree Measure, page: 280 }
+      - { id: "4.2", title: "Trigonometric Functions: The Unit Circle", page: 292 }
+      - { id: "4.3", title: Right Triangle Trigonometry, page: 299 }
+      - { id: "4.4", title: Trigonometric Functions of Any Angle, page: 310 }
+      - { id: "4.5", title: Graphs of Sine and Cosine Functions, page: 319 }
+      - { id: "4.6", title: Graphs of Other Trigonometric Functions, page: 330 }
+      - { id: "4.7", title: Inverse Trigonometric Functions, page: 341 }
+      - { id: "4.8", title: Applications and Models, page: 351 }
+    end_matter:
+      - { title: Chapter Summary, page: 362 }
+      - { title: Review Exercises, page: 364 }
+      - { title: Chapter Test, page: 367 }
+      - { title: Proofs in Mathematics, page: 368 }
+      - { title: Problem Solving, page: 369 }
+
+  - number: 5
+    title: Analytic Trigonometry
+    page: 371
+    sections:
+      - { id: "5.1", title: Using Fundamental Identities, page: 372 }
+      - { id: "5.2", title: Verifying Trigonometric Identities, page: 380 }
+      - { id: "5.3", title: Solving Trigonometric Equations, page: 387 }
+      - { id: "5.4", title: Sum and Difference Formulas, page: 398 }
+      - { id: "5.5", title: Multiple-Angle and Product-to-Sum Formulas, page: 405 }
+    end_matter:
+      - { title: Chapter Summary, page: 416 }
+      - { title: Review Exercises, page: 418 }
+      - { title: Chapter Test, page: 421 }
+      - { title: Proofs in Mathematics, page: 422 }
+      - { title: Problem Solving, page: 425 }
+
+  - number: 6
+    title: Additional Topics in Trigonometry
+    page: 427
+    sections:
+      - { id: "6.1", title: Law of Sines, page: 428 }
+      - { id: "6.2", title: Law of Cosines, page: 437 }
+      - { id: "6.3", title: Vectors in the Plane, page: 445 }
+      - { id: "6.4", title: Vectors and Dot Products, page: 458 }
+      - { id: "6.5", title: Trigonometric Form of a Complex Number, page: 468 }
+    end_matter:
+      - { title: Chapter Summary, page: 478 }
+      - { title: Review Exercises, page: 480 }
+      - { title: Chapter Test, page: 484 }
+      - { title: Cumulative Test for Chapters 4-6, page: 485 }
+      - { title: Proofs in Mathematics, page: 487 }
+      - { title: Problem Solving, page: 491 }
+
+  - number: 7
+    title: Systems of Equations and Inequalities
+    page: 493
+    sections:
+      - { id: "7.1", title: Linear and Nonlinear Systems of Equations, page: 494 }
+      - { id: "7.2", title: Two-Variable Linear Systems, page: 505 }
+      - { id: "7.3", title: Multivariable Linear Systems, page: 517 }
+      - { id: "7.4", title: Partial Fractions, page: 530 }
+      - { id: "7.5", title: Systems of Inequalities, page: 538 }
+      - { id: "7.6", title: Linear Programming, page: 549 }
+    end_matter:
+      - { title: Chapter Summary, page: 558 }
+      - { title: Review Exercises, page: 560 }
+      - { title: Chapter Test, page: 565 }
+      - { title: Proofs in Mathematics, page: 566 }
+      - { title: Problem Solving, page: 567 }
+
+  - number: 8
+    title: Matrices and Determinants
+    page: 569
+    sections:
+      - { id: "8.1", title: Matrices and Systems of Equations, page: 570 }
+      - { id: "8.2", title: Operations with Matrices, page: 584 }
+      - { id: "8.3", title: The Inverse of a Square Matrix, page: 599 }
+      - { id: "8.4", title: The Determinant of a Square Matrix, page: 608 }
+      - { id: "8.5", title: Applications of Matrices and Determinants, page: 616 }
+    end_matter:
+      - { title: Chapter Summary, page: 628 }
+      - { title: Review Exercises, page: 630 }
+      - { title: Chapter Test, page: 635 }
+      - { title: Proofs in Mathematics, page: 636 }
+      - { title: Problem Solving, page: 637 }
+
+  - number: 9
+    title: Sequences, Series, and Probability
+    page: 639
+    sections:
+      - { id: "9.1", title: Sequences and Series, page: 640 }
+      - { id: "9.2", title: Arithmetic Sequences and Partial Sums, page: 651 }
+      - { id: "9.3", title: Geometric Sequences and Series, page: 661 }
+      - { id: "9.4", title: Mathematical Induction, page: 671 }
+      - { id: "9.5", title: The Binomial Theorem, page: 681 }
+      - { id: "9.6", title: Counting Principles, page: 689 }
+      - { id: "9.7", title: Probability, page: 699 }
+    end_matter:
+      - { title: Chapter Summary, page: 712 }
+      - { title: Review Exercises, page: 714 }
+      - { title: Chapter Test, page: 717 }
+      - { title: Cumulative Test for Chapters 7-9, page: 718 }
+      - { title: Proofs in Mathematics, page: 720 }
+      - { title: Problem Solving, page: 723 }
+
+  - number: 10
+    title: Topics in Analytic Geometry
+    page: 725
+    sections:
+      - { id: "10.1", title: Lines, page: 726 }
+      - { id: "10.2", title: "Introduction to Conics: Parabolas", page: 733 }
+      - { id: "10.3", title: Ellipses, page: 742 }
+      - { id: "10.4", title: Hyperbolas, page: 751 }
+      - { id: "10.5", title: Rotation of Conics, page: 761 }
+      - { id: "10.6", title: Parametric Equations, page: 769 }
+      - { id: "10.7", title: Polar Coordinates, page: 777 }
+      - { id: "10.8", title: Graphs of Polar Equations, page: 783 }
+      - { id: "10.9", title: Polar Equations of Conics, page: 791 }
+    end_matter:
+      - { title: Chapter Summary, page: 798 }
+      - { title: Review Exercises, page: 800 }
+      - { title: Chapter Test, page: 803 }
+      - { title: Proofs in Mathematics, page: 804 }
+      - { title: Problem Solving, page: 807 }
+
+  - number: 11
+    title: Analytic Geometry in Three Dimensions
+    page: 809
+    sections:
+      - { id: "11.1", title: The Three-Dimensional Coordinate System, page: 810 }
+      - { id: "11.2", title: Vectors in Space, page: 817 }
+      - { id: "11.3", title: The Cross Product of Two Vectors, page: 824 }
+      - { id: "11.4", title: Lines and Planes in Space, page: 831 }
+    end_matter:
+      - { title: Chapter Summary, page: 840 }
+      - { title: Review Exercises, page: 842 }
+      - { title: Chapter Test, page: 844 }
+      - { title: Proofs in Mathematics, page: 845 }
+      - { title: Problem Solving, page: 847 }
+
+  - number: 12
+    title: Limits and an Introduction to Calculus
+    page: 849
+    sections:
+      - { id: "12.1", title: Introduction to Limits, page: 850 }
+      - { id: "12.2", title: Techniques for Evaluating Limits, page: 861 }
+      - { id: "12.3", title: The Tangent Line Problem, page: 871 }
+      - { id: "12.4", title: Limits at Infinity and Limits of Sequences, page: 881 }
+      - { id: "12.5", title: The Area Problem, page: 890 }
+    end_matter:
+      - { title: Chapter Summary, page: 898 }
+      - { title: Review Exercises, page: 900 }
+      - { title: Chapter Test, page: 903 }
+      - { title: Cumulative Test for Chapters 10-12, page: 904 }
+      - { title: Proofs in Mathematics, page: 906 }
+      - { title: Problem Solving, page: 907 }
+
+appendices:
+  - id: A
+    title: Review of Fundamental Concepts of Algebra
+    page: A1
+    sections:
+      - { id: "A.1", title: Real Numbers and Their Properties, page: A1 }
+      - { id: "A.2", title: Exponents and Radicals, page: A14 }
+      - { id: "A.3", title: Polynomials and Factoring, page: A27 }
+      - { id: "A.4", title: Rational Expressions, page: A39 }
+      - { id: "A.5", title: Solving Equations, page: A49 }
+      - { id: "A.6", title: Linear Inequalities in One Variable, page: A63 }
+      - { id: "A.7", title: Errors and the Algebra of Calculus, page: A73 }
+  - id: B
+    title: Concepts in Statistics
+    page: web
+    sections:
+      - { id: "B.1", title: Representing Data, page: web }
+      - { id: "B.2", title: Measures of Central Tendency and Dispersion, page: web }
+      - { id: "B.3", title: Least Squares Regression, page: web }
+
+back_matter:
+  - { title: Answers to Odd-Numbered Exercises and Tests, page: A81 }
+  - { title: Index, page: A211 }
+  - { title: Index of Applications, page: web }
