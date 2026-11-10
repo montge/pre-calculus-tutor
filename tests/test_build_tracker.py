@@ -74,7 +74,7 @@ class BuildTrackerTest(unittest.TestCase):
     growth = [r for r in ch3_g11 if r.unit == "Exponential growth"]
     self.assertEqual(len(growth), 1)
     self.assertEqual(growth[0].sections, "3.1, 3.5")
-    self.assertFalse(any(r.chapter == "4" for r in rows))
+    self.assertFalse(any(r.chapter == "5" for r in rows))  # chapter 5 is not mapped yet
 
   def test_formula_like_text_is_stored_as_text(self):
     from openpyxl import Workbook
@@ -131,7 +131,8 @@ class BuildTrackerTest(unittest.TestCase):
       self.assertIn(title, text)
     self.assertIn("Grade 11", text)
     self.assertIn("Book only, not on Duolingo", text)
-    self.assertNotIn("Trigonometry", text)
+    self.assertIn("Right Triangle Trigonometry", text)
+    self.assertNotIn("Analytic Trigonometry", text)  # chapter 5 is not mapped yet
 
   def test_script_refuses_invalid_data(self):
     def mutate(d):

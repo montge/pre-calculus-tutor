@@ -28,8 +28,9 @@ names are recorded as observed in the app.
 [`docs/mapping-index.md`](docs/mapping-index.md) is the reference view: for
 every chapter and section of the book, the Duolingo units to practise, with
 a coverage rating and a note, laid out as one lane per Duolingo grade or
-topic in the order the app presents them. Chapters 1 through 3 are mapped;
-later chapters are placeholders until they are reviewed.
+topic in the order the app presents them. Chapters 1 through 3 are mapped
+and reviewed, chapter 4 is mapped as a draft, and later chapters are
+placeholders.
 
 ## Track your progress
 
@@ -44,8 +45,13 @@ Download either file from `dist/` (no build needed):
 - [`progress-checklist.pdf`](dist/progress-checklist.pdf): the same checklist
   on paper, one chapter per page, with a checkbox per textbook section and
   per Duolingo unit in app order.
+- [`checklists/chapter-N.pdf`](dist/checklists/): one printable handout per
+  chapter, built with LaTeX. Each has four parts: read the sections, practise
+  the Duolingo units lane by lane, work the book-only topics section by
+  section, and finish with the chapter summary, review, and test pages.
 
-Both cover chapters 1 through 3 so far.
+All of these cover chapters 1 through 4. Chapter 4 is a draft until its
+mapping has been reviewed, and its checklist says so.
 
 ## Building
 
@@ -54,6 +60,7 @@ pip install -r requirements.txt
 python scripts/build_index.py          # validates data/ and writes docs/mapping-index.md
 python scripts/build_index.py --check  # validate only
 python scripts/build_tracker.py        # writes dist/progress-tracker.xlsx and dist/progress-checklist.pdf
+python scripts/build_checklists.py     # writes dist/checklists/chapter-N.tex and .pdf (needs TeX Live)
 python -m unittest                     # run the tests
 ```
 

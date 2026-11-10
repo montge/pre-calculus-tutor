@@ -38,6 +38,14 @@ class LessonMappingTest(unittest.TestCase):
   def test_all_units_resolve_and_ratings_valid(self):
     self.assertEqual(validate_mapping(self.mapping, self.book, self.course), [])
 
+  def test_chapter_4_is_mapped_as_a_draft(self):
+    self.assertTrue(self.mapping.chapter_summaries.get("4"))
+    for s in self.book.sections():
+      if s.chapter == "4":
+        entry = self.mapping.entry(s.id)
+        self.assertTrue(entry.note and entry.units and entry.gaps, s.id)
+        self.assertFalse(entry.reviewed, s.id)  # flips to True after the owner reviews it
+
   def test_chapters_1_to_3_are_mapped(self):
     for s in self.book.sections():
       if s.chapter in ("1", "2", "3"):
@@ -70,7 +78,7 @@ class LessonMappingTest(unittest.TestCase):
   def test_gaps_present_for_chapters_1_to_3(self):
     self.assertEqual(self.mapping.entry("2.3").gaps[:2], ("Polynomial long division", "Synthetic division"))
     self.assertEqual(self.mapping.entry("1.7").gaps, ())
-    self.assertEqual(self.mapping.entry("4.1").gaps, ())
+    self.assertEqual(self.mapping.entry("5.1").gaps, ())  # chapter 5 is not mapped yet
 
   def test_missing_unit_note_is_reported(self):
     def mutate(d):

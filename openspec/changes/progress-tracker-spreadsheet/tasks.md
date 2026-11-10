@@ -28,3 +28,9 @@
 ## 6. Integration check
 
 - [ ] 6.1 (User) Open the generated workbook in Google Sheets (import) and confirm the dropdown works and the Chapters percentages update when a row is marked Done; record the result in the task notes.
+
+## 7. Per-chapter LaTeX checklists
+
+- [x] 7.1 Load each chapter's end matter (summary, review exercises, chapter test, cumulative test) from the textbook catalog; verify chapter 4 lists Chapter Summary p. 362 through Problem Solving p. 369.
+- [x] 7.2 Implement `precalc_tutor/checklist_tex.py` (four parts, LaTeX escaping, draft notice while unreviewed) and `scripts/build_checklists.py` (validate, write `dist/checklists/chapter-N.tex`, compile with pdflatex, refuse to write on invalid data or a compile error); verify two builds give identical source and byte-identical PDFs.
+- [x] 7.3 Write `tests/test_build_checklists.py` covering escaping, deterministic rendering, the draft notice, committed files matching the data, reproducible compilation (skipped without pdflatex), and refusal on invalid data; verify `python -m unittest` passes.

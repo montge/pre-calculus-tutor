@@ -490,55 +490,271 @@ Only exponential growth and decay models are covered. Gaussian, logistic, and lo
 
 ## Chapter 4: Trigonometry (p. 279)
 
-*No Duolingo units are mapped for this chapter yet.*
+If time is short, follow grade 10 for the right-triangle ratios and special-angle values of 4.3, then grade 11 into grade 12 for the sine, cosine, and tangent graphs of 4.5 and 4.6, where Duolingo is strongest. No unit covers radians, the unit circle, reference angles, cosecant, secant, cotangent, or inverse trig functions, so most of 4.1, 4.2, 4.4, and 4.7 comes from the book, with Duolingo giving only single steps and warm-ups. Section 4.8 gets the tools but not the applications: elevation and depression problems, bearings, and harmonic motion models are book only.
+
+**Chapter lanes** (each unit once, tagged with the sections it serves):
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 4 | Time [prereq] (4.1) · Angle measures [prereq] (4.1) |
+| Grade 5 | Add fractions with unlike denominators [prereq] (4.1) · Subtract fractions with unlike denominators [prereq] (4.1) · Multiply fractions [prereq] (4.1) |
+| Grade 6 | Unit rate [prereq] (4.1) · Unit conversions in the customary system [prereq] (4.1) · Greatest common factor [prereq] (4.1) · Plot points in all quadrants [prereq] (4.1, 4.4) |
+| Grade 7 | Circumference of circles [prereq] (4.1, 4.2) · Area of circles [prereq] (4.1) · Complementary angles [partial] (4.1, 4.3, 4.8) · Supplementary angles [partial] (4.1, 4.4) |
+| Grade 8 | Alternate interior angles [prereq] (4.8) · Interior angles of a triangle [prereq] (4.8) |
+| Grade 9 | Simplify radicals [prereq] (4.3, 4.4) |
+| Grade 10 | Define rotations [prereq] (4.1) · 90-degree clockwise rotations [prereq] (4.1) · Proportional relationships in similar triangles [prereq] (4.3) · Pythagorean theorem [prereq] (4.3, 4.4, 4.7, 4.8) · Intro to the sine ratio [full] (4.3, 4.7, 4.8) · Sine of 30 [partial] (4.2, 4.3, 4.4) · Sine of 60 [partial] (4.2, 4.3, 4.4) · Sine of 45 [partial] (4.2, 4.3, 4.4) · Intro to the cosine ratio [full] (4.3, 4.7, 4.8) · Cosine of 60 [partial] (4.2, 4.3, 4.4) · Cosine of 30 [partial] (4.2, 4.3, 4.4) · Cosine of 45 [partial] (4.2, 4.3, 4.4) · Intro to the tangent ratio [full] (4.3, 4.7, 4.8) · Tangent of 45 [partial] (4.2, 4.3, 4.4) · Tangent of 30 [partial] (4.2, 4.3, 4.4) · Tangent of 60 [partial] (4.2, 4.3, 4.4) · Connect sine and cosine [partial] (4.3, 4.7) · Connect sine, cosine, and tangent [partial] (4.2, 4.3, 4.6, 4.7) · Reflections across the x-axis as functions [prereq] (4.2) · Reflections across y=x as functions [prereq] (4.7) · Circles on the plane [prereq] (4.2) · Distance formula [prereq] (4.4) |
+| Grade 11 | Exponential decay [prereq] (4.6) · Horizontal translations [prereq] (4.5) · X-axis function reflections [partial] (4.5, 4.6) · Y-axis function reflections [partial] (4.5) · Intro to the sine function [partial] (4.2, 4.5, 4.6, 4.7) · Period of sine functions [partial] (4.2, 4.5) · Intro to the cosine function [partial] (4.2, 4.5, 4.6, 4.7) · Period of cosine functions [partial] (4.2, 4.5) · Midline of sine and cosine functions [full] (4.5) · Amplitude of sine and cosine functions [full] (4.5) · Intro to the tangent function [partial] (4.2, 4.6, 4.7) · Period of tangent functions [full] (4.6) |
+| Grade 12 | Vertical asymptotes of rational functions [prereq] (4.6) · Function composition [partial] (4.7) · Inverse functions [partial] (4.7) · Domain and range [partial] (4.7) · Graphing inverses [partial] (4.7) · Period of sinusoidal functions [full] (4.5, 4.6, 4.8) · Midline of sinusoidal functions [full] (4.5) · Amplitude of sinusoidal functions [full] (4.5, 4.6, 4.8) · Phase shift of sinusoidal functions [full] (4.5, 4.6) · Relate sine and cosine [partial] (4.5, 4.8) |
+| Geometry | Circles [prereq] (4.1) · Angle relationships [partial] (4.1) · The Pythagorean theorem [prereq] (4.3, 4.8) · Sine ratio [full] (4.3, 4.8) · Cosine ratio [full] (4.3, 4.8) · Tangent ratio [full] (4.3, 4.8) · Sine function [partial] (4.2, 4.5) · Cosine function [partial] (4.2, 4.5) · Tangent function [partial] (4.2, 4.6) · Graph sine and cosine [full] (4.5, 4.6, 4.8) |
+| Algebraic Graphing | Inverse linear functions [prereq] (4.7) |
 
 ### 4.1 Radian and Degree Measure (p. 280) *(draft)*
 
-Not yet mapped.
+Duolingo has no unit on standard position, coterminal angles, radians, arc length, angular speed or sectors, so most of this section is book only. The grade 7 complementary and supplementary units practise that skill in degrees, with the Geometry topic's Angle relationships as the Topics-tab alternative. The angle, rotation, quadrant, fraction, factor, circle, conversion, time and rate units are warm-ups for the section's definitions and formulas.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Angles in standard position: vertex, initial side, terminal side; Positive (counterclockwise) and negative (clockwise) angles; Angles beyond one full revolution; Quadrant of an angle's terminal side; Coterminal angles in degrees and radians; Definition of radian measure (arc length over radius); Radian measures of common angles and quadrant boundaries; Acute and obtuse angles in radians (0 to pi/2, pi/2 to pi); Converting between degrees and radians; Degrees-minutes-seconds and decimal degrees; Complementary and supplementary angles in radians; Arc length formula s = r theta; Linear speed v = s/t, angular speed omega = theta/t, and v = r omega; Converting revolutions per minute to radians per minute; Area of a circular sector.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 4 | Time [prereq] · Angle measures [prereq] |
+| Grade 5 | Add fractions with unlike denominators [prereq] · Subtract fractions with unlike denominators [prereq] · Multiply fractions [prereq] |
+| Grade 6 | Unit rate [prereq] · Unit conversions in the customary system [prereq] · Greatest common factor [prereq] · Plot points in all quadrants [prereq] |
+| Grade 7 | Circumference of circles [prereq] · Area of circles [prereq] · Complementary angles [partial] · Supplementary angles [partial] |
+| Grade 10 | Define rotations [prereq] · 90-degree clockwise rotations [prereq] |
+| Geometry | Circles [prereq] · Angle relationships [partial] |
+
+- **Define rotations** (Grade 10, unit 6) · prereq · Defines rotations of figures about a point, including direction, which previews counterclockwise versus clockwise but not angles in standard position.
+- **90-degree clockwise rotations** (Grade 10, unit 8) · prereq · Turning figures clockwise, the direction a negative angle turns from the initial side.
+- **Time** (Grade 4, unit 46) · prereq · Hours, minutes and seconds, which use the same 60-to-1 steps as degrees, minutes and seconds.
+- **Angle measures** (Grade 4, unit 51) · prereq · Degrees as parts of a full 360-degree turn, the basis of degree measure.
+- **Add fractions with unlike denominators** (Grade 5, unit 13) · prereq · Adding fractions with different denominators, as when adding 2 pi to a radian measure to find a coterminal angle.
+- **Subtract fractions with unlike denominators** (Grade 5, unit 14) · prereq · Subtracting fractions with different denominators, as in radian complements, supplements and negative coterminal angles.
+- **Multiply fractions** (Grade 5, unit 21) · prereq · Fraction multiplication, the arithmetic of the pi/180 and 180/pi conversion factors and of s = r theta with fractional angles.
+- **Unit rate** (Grade 6, unit 10) · prereq · Amounts per unit of time, the idea behind linear and angular speed.
+- **Unit conversions in the customary system** (Grade 6, unit 14) · prereq · Customary-unit conversions with conversion factors, the method behind degree-radian, DMS and revolutions-to-radians conversions.
+- **Greatest common factor** (Grade 6, unit 30) · prereq · Greatest common factor of the degrees and 180, used to reduce a converted angle to lowest terms.
+- **Plot points in all quadrants** (Grade 6, unit 33) · prereq · Points in all four quadrants, the quadrant layout the section uses to place an angle's terminal side.
+- **Circumference of circles** (Grade 7, unit 41) · prereq · C = 2 pi r is the full-circle case of arc length and the reason a full turn is 2 pi radians.
+- **Area of circles** (Grade 7, unit 42) · prereq · Area of a whole circle, of which a sector is a fraction.
+- **Circles** (Geometry, unit 12) · prereq · Topic-tab circles unit, an alternative to the grade 7 circumference and area units.
+- **Complementary angles** (Grade 7, unit 43) · partial · Complements in degrees only; complements in radians are book only.
+- **Supplementary angles** (Grade 7, unit 44) · partial · Supplements in degrees only; supplements in radians are book only.
+- **Angle relationships** (Geometry, unit 13) · partial · Topic-tab angle-pair relationships, an alternative to the grade 7 complement and supplement units.
 
 ### 4.2 Trigonometric Functions: The Unit Circle (p. 292) *(draft)*
 
-Not yet mapped.
+No unit is named for radians, the unit circle, or cosecant, secant, and cotangent, so much of this section is book only. Drill the exact first-quadrant values with the Grade 10 special-angle units, which work in degrees (match 30, 45, 60 to pi/6, pi/4, pi/3 yourself), and use Grade 11 for sine, cosine, and tangent as functions and for reading the period; the Geometry topic's three function units are an alternative for the first part only. Book only, among others listed in the gaps: defining all six functions from (x, y), values outside the first quadrant, even and odd functions, using the period to evaluate, and calculator work.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): The unit circle and wrapping the real number line around it; Defining the six trigonometric functions from the point (x, y) for a real number t; Cosecant, secant, and cotangent values as reciprocals; Special-angle values in radians (pi/6, pi/4, pi/3), matched to the degree drills; Values at the quadrantal points 0, pi/2, pi, 3pi/2; Values and signs at standard points outside the first quadrant; Where tangent, cotangent, secant, and cosecant are undefined; Domain (all reals) and range [-1, 1] of sine and cosine; Using the 2pi period to evaluate at large or negative t; Even and odd trigonometric functions (cosine and secant even, the others odd); Calculator evaluation of trig functions in radian mode, including csc, sec, cot as reciprocals; Estimating sine and cosine values from a unit circle figure, and approximating t for a given value; Evaluating trigonometric models at given times, such as a spring's displacement.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 7 | Circumference of circles [prereq] |
+| Grade 10 | Sine of 30 [partial] · Sine of 60 [partial] · Sine of 45 [partial] · Cosine of 60 [partial] · Cosine of 30 [partial] · Cosine of 45 [partial] · Tangent of 45 [partial] · Tangent of 30 [partial] · Tangent of 60 [partial] · Connect sine, cosine, and tangent [partial] · Reflections across the x-axis as functions [prereq] · Circles on the plane [prereq] |
+| Grade 11 | Intro to the sine function [partial] · Period of sine functions [partial] · Intro to the cosine function [partial] · Period of cosine functions [partial] · Intro to the tangent function [partial] |
+| Geometry | Sine function [partial] · Cosine function [partial] · Tangent function [partial] |
+
+- **Reflections across the x-axis as functions** (Grade 10, unit 41) · prereq · The (x, y) to (x, -y) rule, which is why the point for -t mirrors the point for t.
+- **Circles on the plane** (Grade 10, unit 47) · prereq · Circle equations; the unit circle is the case x^2 + y^2 = 1.
+- **Circumference of circles** (Grade 7, unit 41) · prereq · C = 2 pi r, so the unit circle is 2pi long: one full wrap of t and the source of the 2pi period.
+- **Sine of 30** (Grade 10, unit 24) · partial · Exact value 1/2 at 30 degrees, the y-coordinate of the point for t = pi/6.
+- **Sine of 60** (Grade 10, unit 25) · partial · Exact value sqrt(3)/2 at 60 degrees, the y-coordinate for t = pi/3.
+- **Sine of 45** (Grade 10, unit 26) · partial · Exact value sqrt(2)/2 at 45 degrees, the y-coordinate for t = pi/4.
+- **Cosine of 60** (Grade 10, unit 28) · partial · Exact value 1/2 at 60 degrees, the x-coordinate for t = pi/3.
+- **Cosine of 30** (Grade 10, unit 29) · partial · Exact value sqrt(3)/2 at 30 degrees, the x-coordinate for t = pi/6.
+- **Cosine of 45** (Grade 10, unit 30) · partial · Exact value sqrt(2)/2 at 45 degrees, the x-coordinate for t = pi/4.
+- **Tangent of 45** (Grade 10, unit 32) · partial · Exact value 1 at 45 degrees, matching y/x for t = pi/4.
+- **Tangent of 30** (Grade 10, unit 33) · partial · Exact value sqrt(3)/3 at 30 degrees, matching y/x for t = pi/6.
+- **Tangent of 60** (Grade 10, unit 34) · partial · Exact value sqrt(3) at 60 degrees, matching y/x for t = pi/3.
+- **Connect sine, cosine, and tangent** (Grade 10, unit 36) · partial · Tangent as sine over cosine, the same as y/x on the unit circle.
+- **Intro to the sine function** (Grade 11, unit 77) · partial · Sine as a function of an input rather than a triangle ratio.
+- **Period of sine functions** (Grade 11, unit 78) · partial · Reading the period of sine functions; using the 2pi period to evaluate sin t is book only.
+- **Intro to the cosine function** (Grade 11, unit 79) · partial · Cosine as a function of an input rather than a triangle ratio.
+- **Period of cosine functions** (Grade 11, unit 80) · partial · Reading the period of cosine functions; using the 2pi period to evaluate cos t is book only.
+- **Intro to the tangent function** (Grade 11, unit 83) · partial · Tangent as a function of an input rather than a triangle ratio.
+- **Sine function** (Geometry, unit 27) · partial · Topic-tab alternative: sine as a function, the step after the ratio units.
+- **Cosine function** (Geometry, unit 28) · partial · Topic-tab alternative: cosine as a function, the step after the ratio units.
+- **Tangent function** (Geometry, unit 29) · partial · Topic-tab alternative: tangent as a function, the step after the ratio units.
 
 ### 4.3 Right Triangle Trigonometry (p. 299) *(draft)*
 
-Not yet mapped.
+Grade 10 covers the core in degrees: sine, cosine and tangent as right-triangle ratios, their exact values at 30, 45 and 60 degrees, sine and cosine of complementary angles, and tangent as sine over cosine; the Geometry topic tab is a shorter alternative for the three ratios. Cosecant, secant and cotangent, most identity work, radian forms of the special angles, calculator work, solving right triangles, and angle of elevation and depression problems are book only.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Cosecant, secant, and cotangent as right-triangle ratios; Reciprocal identities; Quotient identity for cotangent (cot = cos/sin); Pythagorean identities; Cofunction identities beyond the sine-cosine pair (tangent-cotangent, secant-cosecant); Special-angle values in radians (pi/6, pi/4, pi/3), and finding the angle from a value; Finding all six function values from one given ratio; Using fundamental identities to simplify or verify trig expressions; Calculator evaluation of trig functions at non-special acute angles (degree mode, decimal degrees and DMS, reciprocals via 1/x); Finding an acute angle from a known side ratio with a calculator; Solving right triangles at non-special angles (missing sides); Angles of elevation and depression in applied height and distance problems.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 7 | Complementary angles [prereq] |
+| Grade 9 | Simplify radicals [prereq] |
+| Grade 10 | Proportional relationships in similar triangles [prereq] · Pythagorean theorem [prereq] · Intro to the sine ratio [full] · Sine of 30 [full] · Sine of 60 [full] · Sine of 45 [full] · Intro to the cosine ratio [full] · Cosine of 60 [full] · Cosine of 30 [full] · Cosine of 45 [full] · Intro to the tangent ratio [full] · Tangent of 45 [full] · Tangent of 30 [full] · Tangent of 60 [full] · Connect sine and cosine [partial] · Connect sine, cosine, and tangent [partial] |
+| Geometry | The Pythagorean theorem [prereq] · Sine ratio [full] · Cosine ratio [full] · Tangent ratio [full] |
+
+- **Proportional relationships in similar triangles** (Grade 10, unit 17) · prereq · Equal side ratios in similar triangles, the reason a trig ratio depends only on the angle.
+- **Pythagorean theorem** (Grade 10, unit 20) · prereq · Finding the missing side so every ratio of the triangle can be formed.
+- **Complementary angles** (Grade 7, unit 43) · prereq · Angles that add to 90 degrees, the idea behind the cofunction identities.
+- **Simplify radicals** (Grade 9, unit 43) · prereq · Simplifying square roots, needed for exact special-angle values such as root 3 over 2.
+- **The Pythagorean theorem** (Geometry, unit 23) · prereq · Topic-tab warm-up for finding the missing side before the three ratio units.
+- **Intro to the sine ratio** (Grade 10, unit 23) · full · Sine as opposite over hypotenuse.
+- **Sine of 30** (Grade 10, unit 24) · full · Exact sine of 30 degrees from the 30-60-90 triangle.
+- **Sine of 60** (Grade 10, unit 25) · full · Exact sine of 60 degrees from the 30-60-90 triangle.
+- **Sine of 45** (Grade 10, unit 26) · full · Exact sine of 45 degrees from the 45-45-90 triangle.
+- **Intro to the cosine ratio** (Grade 10, unit 27) · full · Cosine as adjacent over hypotenuse.
+- **Cosine of 60** (Grade 10, unit 28) · full · Exact cosine of 60 degrees from the 30-60-90 triangle.
+- **Cosine of 30** (Grade 10, unit 29) · full · Exact cosine of 30 degrees from the 30-60-90 triangle.
+- **Cosine of 45** (Grade 10, unit 30) · full · Exact cosine of 45 degrees from the 45-45-90 triangle.
+- **Intro to the tangent ratio** (Grade 10, unit 31) · full · Tangent as opposite over adjacent.
+- **Tangent of 45** (Grade 10, unit 32) · full · Exact tangent of 45 degrees from the 45-45-90 triangle.
+- **Tangent of 30** (Grade 10, unit 33) · full · Exact tangent of 30 degrees from the 30-60-90 triangle.
+- **Tangent of 60** (Grade 10, unit 34) · full · Exact tangent of 60 degrees from the 30-60-90 triangle.
+- **Sine ratio** (Geometry, unit 24) · full · Topic-tab version of the sine ratio.
+- **Cosine ratio** (Geometry, unit 25) · full · Topic-tab version of the cosine ratio.
+- **Tangent ratio** (Geometry, unit 26) · full · Topic-tab version of the tangent ratio.
+- **Connect sine and cosine** (Grade 10, unit 35) · partial · Sine and cosine of complementary angles, the sine-cosine cofunction pair only.
+- **Connect sine, cosine, and tangent** (Grade 10, unit 36) · partial · Tangent as sine over cosine, the tangent quotient identity only.
 
 ### 4.4 Trigonometric Functions of Any Angle (p. 310) *(draft)*
 
-Not yet mapped.
+Duolingo has no unit on angles in standard position, quadrant signs, or reference angles, so the section's method is book only. It supports single steps: the distance formula, Pythagorean theorem, and radical simplification give r or a missing coordinate, supplementary angles give a second-quadrant reference angle, and the grade 10 special-angle units give the value at a 30, 45, or 60 degree reference angle.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Six trig functions defined from a point (x, y) and r; Cosecant, secant, and cotangent of any angle; Signs of the trig functions by quadrant; Identifying the quadrant from the signs of two functions; Choosing a point on a terminal side given as a line in a stated quadrant; Values at quadrantal angles, including where a function is undefined; Finding the remaining function values from one value and its quadrant; Finding reference angles in degrees and radians; Coterminal step for negative angles and angles past one revolution; Combining a reference-angle value with the quadrant sign; Special-angle values in radians (pi/6, pi/4, pi/3); Finding both angles in one revolution with a given special value; Trig functions of real numbers evaluated with reference angles; Calculator evaluation of trig functions in degree and radian mode, including csc, sec, cot as reciprocals; Evaluating trig models in applied problems.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 6 | Plot points in all quadrants [prereq] |
+| Grade 7 | Supplementary angles [prereq] |
+| Grade 9 | Simplify radicals [prereq] |
+| Grade 10 | Pythagorean theorem [prereq] · Sine of 30 [partial] · Sine of 60 [partial] · Sine of 45 [partial] · Cosine of 60 [partial] · Cosine of 30 [partial] · Cosine of 45 [partial] · Tangent of 45 [partial] · Tangent of 30 [partial] · Tangent of 60 [partial] · Distance formula [prereq] |
+
+- **Pythagorean theorem** (Grade 10, unit 20) · prereq · Finding a missing leg, as when r and one coordinate are known.
+- **Distance formula** (Grade 10, unit 51) · prereq · Distance from the origin to (x, y), which is r.
+- **Plot points in all quadrants** (Grade 6, unit 33) · prereq · Which coordinates are negative in each quadrant, the basis of the sign rules.
+- **Supplementary angles** (Grade 7, unit 44) · prereq · Subtracting from 180 degrees, the step that gives a second-quadrant reference angle.
+- **Simplify radicals** (Grade 9, unit 43) · prereq · Simplifying r when the distance formula gives a radical.
+- **Sine of 30** (Grade 10, unit 24) · partial · sin 30 degrees for a 30 degree reference angle; the quadrant sign is book only.
+- **Sine of 60** (Grade 10, unit 25) · partial · sin 60 degrees for a 60 degree reference angle; the quadrant sign is book only.
+- **Sine of 45** (Grade 10, unit 26) · partial · sin 45 degrees for a 45 degree reference angle; the quadrant sign is book only.
+- **Cosine of 60** (Grade 10, unit 28) · partial · cos 60 degrees for a 60 degree reference angle; the quadrant sign is book only.
+- **Cosine of 30** (Grade 10, unit 29) · partial · cos 30 degrees for a 30 degree reference angle; the quadrant sign is book only.
+- **Cosine of 45** (Grade 10, unit 30) · partial · cos 45 degrees for a 45 degree reference angle; the quadrant sign is book only.
+- **Tangent of 45** (Grade 10, unit 32) · partial · tan 45 degrees for a 45 degree reference angle; the quadrant sign is book only.
+- **Tangent of 30** (Grade 10, unit 33) · partial · tan 30 degrees for a 30 degree reference angle; the quadrant sign is book only.
+- **Tangent of 60** (Grade 10, unit 34) · partial · tan 60 degrees for a 60 degree reference angle; the quadrant sign is book only.
 
 ### 4.5 Graphs of Sine and Cosine Functions (p. 319) *(draft)*
 
-Not yet mapped.
+Grade 11 introduces the sine and cosine graphs with period, midline, and amplitude, and grade 12 repeats them for full sinusoids and adds phase shift, so do grade 11 first, or use the Geometry topic's three sine and cosine units as a shorter alternative. No unit reflects a sinusoid by name, so the general grade 11 reflection units stand in, and the grade 11 horizontal translation unit is a warm-up for phase shift. Key-point sketching, rewriting a negative b with the even/odd properties, frequency, writing an equation from a graph, and fitting sinusoidal models to data are book only.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Hand sketching a transformed sinusoid: finding the one-cycle interval and the five key points at quarter-period spacing; Rewriting a negative b with the even/odd properties of sine and cosine; Frequency as the reciprocal of the period; Writing a complete sinusoid equation from its graph (choosing sine or cosine form and combining a, b, c, d); Sinusoidal models fitted to real data (finding a, b, c, d from a table or a description).
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 11 | Horizontal translations [prereq] · X-axis function reflections [partial] · Y-axis function reflections [partial] · Intro to the sine function [full] · Period of sine functions [full] · Intro to the cosine function [full] · Period of cosine functions [full] · Midline of sine and cosine functions [full] · Amplitude of sine and cosine functions [full] |
+| Grade 12 | Period of sinusoidal functions [full] · Midline of sinusoidal functions [full] · Amplitude of sinusoidal functions [full] · Phase shift of sinusoidal functions [full] · Relate sine and cosine [partial] |
+| Geometry | Sine function [full] · Cosine function [full] · Graph sine and cosine [full] |
+
+- **Horizontal translations** (Grade 11, unit 70) · prereq · Shifts a general graph left or right, the move behind phase shift.
+- **Intro to the sine function** (Grade 11, unit 77) · full · The basic sine curve and its features.
+- **Period of sine functions** (Grade 11, unit 78) · full · How b changes the period of a sine graph.
+- **Intro to the cosine function** (Grade 11, unit 79) · full · The basic cosine curve and its features.
+- **Period of cosine functions** (Grade 11, unit 80) · full · How b changes the period of a cosine graph.
+- **Midline of sine and cosine functions** (Grade 11, unit 81) · full · The midline as a vertical shift of the curve.
+- **Amplitude of sine and cosine functions** (Grade 11, unit 82) · full · Amplitude as the vertical stretch of the curve.
+- **Period of sinusoidal functions** (Grade 12, unit 19) · full · Period of a transformed sinusoid, at precalculus depth.
+- **Midline of sinusoidal functions** (Grade 12, unit 20) · full · Midline of a transformed sinusoid.
+- **Amplitude of sinusoidal functions** (Grade 12, unit 21) · full · Amplitude of a transformed sinusoid.
+- **Phase shift of sinusoidal functions** (Grade 12, unit 22) · full · Phase shift, the horizontal translation of the curve.
+- **Sine function** (Geometry, unit 27) · full · Topic-tab introduction to the sine function.
+- **Cosine function** (Geometry, unit 28) · full · Topic-tab introduction to the cosine function.
+- **Graph sine and cosine** (Geometry, unit 30) · full · Topic-tab practice graphing sine and cosine.
+- **X-axis function reflections** (Grade 11, unit 71) · partial · Reflects a general graph across the x-axis, which is what a negative a does to a sinusoid.
+- **Y-axis function reflections** (Grade 11, unit 72) · partial · Reflects a general graph across the y-axis, which is what a negative b does to a sinusoid.
+- **Relate sine and cosine** (Grade 12, unit 23) · partial · How the sine and cosine curves relate; it follows the phase-shift unit, so most likely one curve as a quarter-period shift of the other.
 
 ### 4.6 Graphs of Other Trigonometric Functions (p. 330) *(draft)*
 
-Not yet mapped.
+Grade 11 covers the parent tangent graph and its period; prefer that pair over the Topics-tab Geometry unit. The other units are warm-ups for guide curves, transformations, asymptotes and damping factors. Shifts, stretches, and asymptote locations of transformed tangent graphs, cotangent, secant, cosecant, damped graphs and the six-function summary are book only, and grade 12 "Secant lines" is calculus, not the secant function.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Cotangent graph, period, and asymptotes; Secant and cosecant graphs sketched from cosine and sine guide curves; Asymptotes and local maxima and minima of secant and cosecant branches; Vertical stretch of tangent and cotangent graphs, which have no amplitude; Locating two consecutive asymptotes of transformed tangent and cotangent graphs by solving bx - c = -pi/2 and pi/2, or 0 and pi; Phase shifts of tangent, cotangent, secant, and cosecant graphs; Even/odd symmetry seen in the tangent, cotangent, secant, and cosecant graphs; Domain, range, and period summary of all six trigonometric functions; Solving equations such as tan x = c or sec x = c graphically on an interval; Damped trigonometric graphs and damping factors; Bounding curves y = plus or minus f(x) for products such as x sin x; Behavior of functions such as (sin x)/x as x approaches 0.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 10 | Connect sine, cosine, and tangent [prereq] |
+| Grade 11 | Exponential decay [prereq] · X-axis function reflections [partial] · Intro to the sine function [prereq] · Intro to the cosine function [prereq] · Intro to the tangent function [full] · Period of tangent functions [full] |
+| Grade 12 | Vertical asymptotes of rational functions [prereq] · Period of sinusoidal functions [prereq] · Amplitude of sinusoidal functions [prereq] · Phase shift of sinusoidal functions [prereq] |
+| Geometry | Tangent function [full] · Graph sine and cosine [prereq] |
+
+- **Connect sine, cosine, and tangent** (Grade 10, unit 36) · prereq · Right-triangle link among the three ratios, the basis for tan = sin/cos that puts tangent's asymptotes where cosine is zero.
+- **Exponential decay** (Grade 11, unit 42) · prereq · Decay curves, a common damping factor, as in e^-x sin x.
+- **Intro to the sine function** (Grade 11, unit 77) · prereq · The sine graph, which is the guide curve for cosecant.
+- **Intro to the cosine function** (Grade 11, unit 79) · prereq · The cosine graph, which is the guide curve for secant.
+- **Vertical asymptotes of rational functions** (Grade 12, unit 9) · prereq · Vertical asymptotes where a denominator is zero, the idea behind the asymptotes of tan = sin/cos.
+- **Period of sinusoidal functions** (Grade 12, unit 19) · prereq · Period of the guide curve, which secant and cosecant share.
+- **Amplitude of sinusoidal functions** (Grade 12, unit 21) · prereq · Amplitude of the guide curve, which sets where secant and cosecant branches turn.
+- **Phase shift of sinusoidal functions** (Grade 12, unit 22) · prereq · Phase shift on sine and cosine, the same shift used for the other four graphs.
+- **Graph sine and cosine** (Geometry, unit 30) · prereq · Topics-tab review of the sine and cosine guide curves.
+- **Intro to the tangent function** (Grade 11, unit 83) · full · The tangent function and its graph, the section's central curve.
+- **Period of tangent functions** (Grade 11, unit 84) · full · Period pi/b of tangent graphs.
+- **Tangent function** (Geometry, unit 29) · full · Topics-tab tangent function; prefer the grade 11 pair, which adds a period unit.
+- **X-axis function reflections** (Grade 11, unit 71) · partial · Reflects a general graph across the x-axis, which is what a negative a does to a tangent or cotangent graph.
 
 ### 4.7 Inverse Trigonometric Functions (p. 341) *(draft)*
 
-Not yet mapped.
+No Duolingo unit teaches arcsin, arccos, or arctan, so the inverse trig functions themselves are book only. Prefer the grade 12 inverse-function block for the general mechanics, with the grade 10 right-triangle ratios and grade 11 trig graphs as warm-ups and the Topics-tab Inverse linear functions unit as a lighter linear-only start. Reading the grade 10 special-angle units from 4.3 (Sine of 30 and so on) backwards gives only acute angles in degrees for positive inputs; radian answers, negative inputs, and choosing the angle inside the restricted range are book only.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Restricting sine, cosine, and tangent to one-to-one intervals; Definitions, domains, and ranges of arcsin, arccos, and arctan; The notation sin^-1 x and why it is not the reciprocal 1/sin x; Exact values of arcsin, arccos, and arctan in radians, including negative and quadrantal inputs; Calculator evaluation of inverse trig functions; Graphs of y = arcsin x, y = arccos x, and y = arctan x, including transformed versions; Inverse properties such as sin(arcsin x) = x and arcsin(sin y) = y, with their interval conditions; Compositions whose input lies outside the restricted domain or range; Exact values of compositions like tan(arccos a) at a number a, from a right-triangle sketch, including negative a; Rewriting compositions such as sin(arctan x) as algebraic expressions in x; Writing a triangle angle as an inverse trig function of x; Rewriting one inverse trig expression as another via a right triangle (exercise extension); Inverse cotangent, secant, and cosecant (exercise extension); Identities such as arcsin(-x) = -arcsin x and arcsin x + arccos x = pi/2; Applied problems that find an angle with an inverse trig function.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 10 | Pythagorean theorem [prereq] · Intro to the sine ratio [prereq] · Intro to the cosine ratio [prereq] · Intro to the tangent ratio [prereq] · Connect sine and cosine [prereq] · Connect sine, cosine, and tangent [prereq] · Reflections across y=x as functions [prereq] |
+| Grade 11 | Intro to the sine function [prereq] · Intro to the cosine function [prereq] · Intro to the tangent function [prereq] |
+| Grade 12 | Function composition [partial] · Inverse functions [partial] · Domain and range [partial] · Graphing inverses [partial] |
+| Algebraic Graphing | Inverse linear functions [prereq] |
+
+- **Inverse linear functions** (Algebraic Graphing, unit 23) · prereq · Topics-tab inverses of linear functions only, a warm-up for undoing a function and reflecting across y = x.
+- **Pythagorean theorem** (Grade 10, unit 20) · prereq · Finding the missing side when you sketch a triangle to evaluate a composition.
+- **Intro to the sine ratio** (Grade 10, unit 23) · prereq · Sine as opposite over hypotenuse, the ratio that arcsin reverses.
+- **Intro to the cosine ratio** (Grade 10, unit 27) · prereq · Cosine as adjacent over hypotenuse, the ratio that arccos reverses.
+- **Intro to the tangent ratio** (Grade 10, unit 31) · prereq · Tangent as opposite over adjacent, the ratio that arctan reverses.
+- **Connect sine and cosine** (Grade 10, unit 35) · prereq · Sine and cosine of complementary angles, a warm-up for the arcsin x + arccos x = pi/2 identity.
+- **Connect sine, cosine, and tangent** (Grade 10, unit 36) · prereq · Relating the three ratios in one triangle, the step behind evaluating a composition like tan(arccos a) from a sketch.
+- **Reflections across y=x as functions** (Grade 10, unit 43) · prereq · The (x, y) to (y, x) rule that turns key points of the restricted trig graphs into points on the inverse graphs.
+- **Intro to the sine function** (Grade 11, unit 77) · prereq · The sine graph, which the section cuts down to one rising piece before inverting.
+- **Intro to the cosine function** (Grade 11, unit 79) · prereq · The cosine graph, whose falling piece from 0 to pi is the one that gets inverted.
+- **Intro to the tangent function** (Grade 11, unit 83) · prereq · The tangent graph, whose central branch between asymptotes is the one that gets inverted.
+- **Function composition** (Grade 12, unit 13) · partial · Composing functions, the mechanics behind sin(arcsin x) and similar compositions; not trig-specific.
+- **Inverse functions** (Grade 12, unit 14) · partial · General inverse functions and how a function and its inverse undo each other; not trig-specific.
+- **Domain and range** (Grade 12, unit 17) · partial · Domain and range inside the inverse-function block, probably how an inverse swaps them; not trig-specific.
+- **Graphing inverses** (Grade 12, unit 18) · partial · Reflecting a graph across y = x, which is how the arcsin, arccos, and arctan graphs are built; not trig-specific.
 
 ### 4.8 Applications and Models (p. 351) *(draft)*
 
-Not yet mapped.
+Duolingo gives the tools, not the applications: the grade 10 right-triangle ratios (special angles only) support solving right triangles, and the grade 12 period, amplitude, and relate-sine-and-cosine units support reading harmonic motion models. Prefer the grade 10 and grade 12 lanes; the Geometry topic (The Pythagorean theorem through Tangent ratio, then Graph sine and cosine) is the Topics-tab alternative for both halves. Calculator and inverse-trig solving, elevation and depression problems, bearings, and harmonic motion itself (writing and evaluating models, frequency) are book only.
 
-No Duolingo coverage for this section.
+**Book only** (Duolingo does not cover): Solving right triangles at non-special angles with a calculator; Finding acute angles with inverse trig functions; Angles of elevation and depression in applied height and distance problems; Two-triangle problems, such as two angles of elevation to the same object; Bearings in navigation (N/S-E/W compass form and three-digit nautical form); Simple harmonic motion models d = a sin(wt) and d = a cos(wt); Frequency of harmonic motion (w / 2pi); Writing a harmonic motion model from displacement at t = 0, amplitude, and period (choosing sine or cosine); Evaluating a harmonic motion model at a given time, including the least positive time when d = 0.
+
+| Lane | Units to follow, in app order |
+| --- | --- |
+| Grade 7 | Complementary angles [prereq] |
+| Grade 8 | Alternate interior angles [prereq] · Interior angles of a triangle [prereq] |
+| Grade 10 | Pythagorean theorem [prereq] · Intro to the sine ratio [partial] · Intro to the cosine ratio [partial] · Intro to the tangent ratio [partial] |
+| Grade 12 | Period of sinusoidal functions [partial] · Amplitude of sinusoidal functions [partial] · Relate sine and cosine [partial] |
+| Geometry | The Pythagorean theorem [prereq] · Sine ratio [partial] · Cosine ratio [partial] · Tangent ratio [partial] · Graph sine and cosine [partial] |
+
+- **Pythagorean theorem** (Grade 10, unit 20) · prereq · Finding the third side of a right triangle from the other two.
+- **Complementary angles** (Grade 7, unit 43) · prereq · Angles that sum to 90 degrees, used for the second acute angle and for turning a bearing into an angle from the east-west line.
+- **Alternate interior angles** (Grade 8, unit 73) · prereq · The parallel-lines fact that makes an angle of depression equal the matching angle of elevation.
+- **Interior angles of a triangle** (Grade 8, unit 76) · prereq · Triangle angle sum of 180 degrees, the fact behind the two acute angles of a right triangle being complementary.
+- **The Pythagorean theorem** (Geometry, unit 23) · prereq · Topics-tab Geometry version of the same warm-up.
+- **Intro to the sine ratio** (Grade 10, unit 23) · partial · Opposite over hypotenuse in a right triangle, practised at special angles rather than calculator values.
+- **Intro to the cosine ratio** (Grade 10, unit 27) · partial · Adjacent over hypotenuse, the ratio for finding a horizontal leg from a slanted length.
+- **Intro to the tangent ratio** (Grade 10, unit 31) · partial · Opposite over adjacent, the ratio behind most height and distance problems.
+- **Period of sinusoidal functions** (Grade 12, unit 19) · partial · Finding the period from the coefficient inside a sinusoid; frequency, its reciprocal, is book only.
+- **Amplitude of sinusoidal functions** (Grade 12, unit 21) · partial · Reading the amplitude, which is the maximum displacement in a harmonic motion model.
+- **Relate sine and cosine** (Grade 12, unit 23) · partial · Relating the sine and cosine curves, most likely as horizontal shifts of each other; background for choosing the sine or cosine form of a model.
+- **Sine ratio** (Geometry, unit 24) · partial · Topics-tab alternative for the sine ratio in right triangles.
+- **Cosine ratio** (Geometry, unit 25) · partial · Topics-tab alternative for the cosine ratio in right triangles.
+- **Tangent ratio** (Geometry, unit 26) · partial · Topics-tab alternative for the tangent ratio in right triangles.
+- **Graph sine and cosine** (Geometry, unit 30) · partial · Topics-tab practice with sine and cosine graphs, the alternative to the grade 12 period and amplitude units.
 
 ## Chapter 5: Analytic Trigonometry (p. 371)
 
@@ -948,19 +1164,22 @@ Everything a section needs that Duolingo does not practise. The chapter study gu
 - 3.4: Logarithmic equations; Checking for extraneous solutions
 - 3.5: Gaussian models; Logistic growth models; Logarithmic models (pH, Richter scale, decibels)
 
+**Chapter 4**
+
+- 4.1: Angles in standard position: vertex, initial side, terminal side; Positive (counterclockwise) and negative (clockwise) angles; Angles beyond one full revolution; Quadrant of an angle's terminal side; Coterminal angles in degrees and radians; Definition of radian measure (arc length over radius); Radian measures of common angles and quadrant boundaries; Acute and obtuse angles in radians (0 to pi/2, pi/2 to pi); Converting between degrees and radians; Degrees-minutes-seconds and decimal degrees; Complementary and supplementary angles in radians; Arc length formula s = r theta; Linear speed v = s/t, angular speed omega = theta/t, and v = r omega; Converting revolutions per minute to radians per minute; Area of a circular sector
+- 4.2: The unit circle and wrapping the real number line around it; Defining the six trigonometric functions from the point (x, y) for a real number t; Cosecant, secant, and cotangent values as reciprocals; Special-angle values in radians (pi/6, pi/4, pi/3), matched to the degree drills; Values at the quadrantal points 0, pi/2, pi, 3pi/2; Values and signs at standard points outside the first quadrant; Where tangent, cotangent, secant, and cosecant are undefined; Domain (all reals) and range [-1, 1] of sine and cosine; Using the 2pi period to evaluate at large or negative t; Even and odd trigonometric functions (cosine and secant even, the others odd); Calculator evaluation of trig functions in radian mode, including csc, sec, cot as reciprocals; Estimating sine and cosine values from a unit circle figure, and approximating t for a given value; Evaluating trigonometric models at given times, such as a spring's displacement
+- 4.3: Cosecant, secant, and cotangent as right-triangle ratios; Reciprocal identities; Quotient identity for cotangent (cot = cos/sin); Pythagorean identities; Cofunction identities beyond the sine-cosine pair (tangent-cotangent, secant-cosecant); Special-angle values in radians (pi/6, pi/4, pi/3), and finding the angle from a value; Finding all six function values from one given ratio; Using fundamental identities to simplify or verify trig expressions; Calculator evaluation of trig functions at non-special acute angles (degree mode, decimal degrees and DMS, reciprocals via 1/x); Finding an acute angle from a known side ratio with a calculator; Solving right triangles at non-special angles (missing sides); Angles of elevation and depression in applied height and distance problems
+- 4.4: Six trig functions defined from a point (x, y) and r; Cosecant, secant, and cotangent of any angle; Signs of the trig functions by quadrant; Identifying the quadrant from the signs of two functions; Choosing a point on a terminal side given as a line in a stated quadrant; Values at quadrantal angles, including where a function is undefined; Finding the remaining function values from one value and its quadrant; Finding reference angles in degrees and radians; Coterminal step for negative angles and angles past one revolution; Combining a reference-angle value with the quadrant sign; Special-angle values in radians (pi/6, pi/4, pi/3); Finding both angles in one revolution with a given special value; Trig functions of real numbers evaluated with reference angles; Calculator evaluation of trig functions in degree and radian mode, including csc, sec, cot as reciprocals; Evaluating trig models in applied problems
+- 4.5: Hand sketching a transformed sinusoid: finding the one-cycle interval and the five key points at quarter-period spacing; Rewriting a negative b with the even/odd properties of sine and cosine; Frequency as the reciprocal of the period; Writing a complete sinusoid equation from its graph (choosing sine or cosine form and combining a, b, c, d); Sinusoidal models fitted to real data (finding a, b, c, d from a table or a description)
+- 4.6: Cotangent graph, period, and asymptotes; Secant and cosecant graphs sketched from cosine and sine guide curves; Asymptotes and local maxima and minima of secant and cosecant branches; Vertical stretch of tangent and cotangent graphs, which have no amplitude; Locating two consecutive asymptotes of transformed tangent and cotangent graphs by solving bx - c = -pi/2 and pi/2, or 0 and pi; Phase shifts of tangent, cotangent, secant, and cosecant graphs; Even/odd symmetry seen in the tangent, cotangent, secant, and cosecant graphs; Domain, range, and period summary of all six trigonometric functions; Solving equations such as tan x = c or sec x = c graphically on an interval; Damped trigonometric graphs and damping factors; Bounding curves y = plus or minus f(x) for products such as x sin x; Behavior of functions such as (sin x)/x as x approaches 0
+- 4.7: Restricting sine, cosine, and tangent to one-to-one intervals; Definitions, domains, and ranges of arcsin, arccos, and arctan; The notation sin^-1 x and why it is not the reciprocal 1/sin x; Exact values of arcsin, arccos, and arctan in radians, including negative and quadrantal inputs; Calculator evaluation of inverse trig functions; Graphs of y = arcsin x, y = arccos x, and y = arctan x, including transformed versions; Inverse properties such as sin(arcsin x) = x and arcsin(sin y) = y, with their interval conditions; Compositions whose input lies outside the restricted domain or range; Exact values of compositions like tan(arccos a) at a number a, from a right-triangle sketch, including negative a; Rewriting compositions such as sin(arctan x) as algebraic expressions in x; Writing a triangle angle as an inverse trig function of x; Rewriting one inverse trig expression as another via a right triangle (exercise extension); Inverse cotangent, secant, and cosecant (exercise extension); Identities such as arcsin(-x) = -arcsin x and arcsin x + arccos x = pi/2; Applied problems that find an angle with an inverse trig function
+- 4.8: Solving right triangles at non-special angles with a calculator; Finding acute angles with inverse trig functions; Angles of elevation and depression in applied height and distance problems; Two-triangle problems, such as two angles of elevation to the same object; Bearings in navigation (N/S-E/W compass form and three-digit nautical form); Simple harmonic motion models d = a sin(wt) and d = a cos(wt); Frequency of harmonic motion (w / 2pi); Writing a harmonic motion model from displacement at t = 0, amplitude, and period (choosing sine or cosine); Evaluating a harmonic motion model at a given time, including the least positive time when d = 0
+
 ## Sections with no Duolingo coverage
 
-65 of 86 sections have no mapped unit:
+57 of 86 sections have no mapped unit:
 
 - 2.3 Polynomial and Synthetic Division
-- 4.1 Radian and Degree Measure
-- 4.2 Trigonometric Functions: The Unit Circle
-- 4.3 Right Triangle Trigonometry
-- 4.4 Trigonometric Functions of Any Angle
-- 4.5 Graphs of Sine and Cosine Functions
-- 4.6 Graphs of Other Trigonometric Functions
-- 4.7 Inverse Trigonometric Functions
-- 4.8 Applications and Models
 - 5.1 Using Fundamental Identities
 - 5.2 Verifying Trigonometric Identities
 - 5.3 Solving Trigonometric Equations

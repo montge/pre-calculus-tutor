@@ -73,3 +73,18 @@ The workbook and PDF SHALL be built by a single command that validates the data 
 #### Scenario: Reproducible build
 - **WHEN** the build runs twice with no data changes
 - **THEN** the two workbooks have identical cell contents, formulas, and validations
+
+### Requirement: Per-chapter LaTeX checklist
+For every chapter with at least one mapped Duolingo unit, a standalone checklist SHALL be generated as LaTeX source and compiled to PDF, in four parts: the chapter's textbook sections to read with page numbers; the Duolingo units grouped by lane in app order, each with its rating and the sections it serves; a section-by-section guide giving each section's note, its units by lane, and its book-only gaps as checkboxes; and the chapter's end matter (summary, review exercises, chapter test, cumulative test where present) with page numbers. While any of the chapter's sections is unreviewed, the checklist SHALL show a draft notice. The source is generated from the data and MUST NOT be edited by hand.
+
+#### Scenario: Draft chapter
+- **WHEN** the chapter 4 mapping is marked unreviewed
+- **THEN** the chapter 4 checklist opens with a draft notice, which disappears once every section is reviewed
+
+#### Scenario: Book-only topics are checkable
+- **WHEN** section 4.7 lists its book-only gaps
+- **THEN** the chapter 4 checklist shows each gap as its own checkbox under 4.7
+
+#### Scenario: Reproducible PDF
+- **WHEN** the checklists are built twice with no data changes on the same TeX installation
+- **THEN** the generated LaTeX source is identical and the PDFs are byte-for-byte identical

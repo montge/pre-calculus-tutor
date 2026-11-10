@@ -25,6 +25,13 @@ chapters:
 - number: 3
   summary: Grade 11 covers exponentials and logarithms almost section by section. Duolingo stops at growth
     and decay, so the Gaussian, logistic, and logarithmic models of 3.5 come from the book only.
+- number: 4
+  summary: 'If time is short, follow grade 10 for the right-triangle ratios and special-angle values of
+    4.3, then grade 11 into grade 12 for the sine, cosine, and tangent graphs of 4.5 and 4.6, where Duolingo
+    is strongest. No unit covers radians, the unit circle, reference angles, cosecant, secant, cotangent,
+    or inverse trig functions, so most of 4.1, 4.2, 4.4, and 4.7 comes from the book, with Duolingo giving
+    only single steps and warm-ups. Section 4.8 gets the tools but not the applications: elevation and
+    depression problems, bearings, and harmonic motion models are book only.'
 sections:
 - section: '1.1'
   reviewed: true
@@ -708,36 +715,606 @@ sections:
     note: Topic-tab growth and decay.
 - section: '4.1'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: Duolingo has no unit on standard position, coterminal angles, radians, arc length, angular speed
+    or sectors, so most of this section is book only. The grade 7 complementary and supplementary units
+    practise that skill in degrees, with the Geometry topic's Angle relationships as the Topics-tab alternative.
+    The angle, rotation, quadrant, fraction, factor, circle, conversion, time and rate units are warm-ups
+    for the section's definitions and formulas.
+  gaps:
+  - 'Angles in standard position: vertex, initial side, terminal side'
+  - Positive (counterclockwise) and negative (clockwise) angles
+  - Angles beyond one full revolution
+  - Quadrant of an angle's terminal side
+  - Coterminal angles in degrees and radians
+  - Definition of radian measure (arc length over radius)
+  - Radian measures of common angles and quadrant boundaries
+  - Acute and obtuse angles in radians (0 to pi/2, pi/2 to pi)
+  - Converting between degrees and radians
+  - Degrees-minutes-seconds and decimal degrees
+  - Complementary and supplementary angles in radians
+  - Arc length formula s = r theta
+  - Linear speed v = s/t, angular speed omega = theta/t, and v = r omega
+  - Converting revolutions per minute to radians per minute
+  - Area of a circular sector
+  units:
+  - unit: u-g4-51
+    rating: prerequisite
+    note: Degrees as parts of a full 360-degree turn, the basis of degree measure.
+  - unit: u-g10-06
+    rating: prerequisite
+    note: Defines rotations of figures about a point, including direction, which previews counterclockwise
+      versus clockwise but not angles in standard position.
+  - unit: u-g10-08
+    rating: prerequisite
+    note: Turning figures clockwise, the direction a negative angle turns from the initial side.
+  - unit: u-g6-33
+    rating: prerequisite
+    note: Points in all four quadrants, the quadrant layout the section uses to place an angle's terminal
+      side.
+  - unit: u-g5-21
+    rating: prerequisite
+    note: Fraction multiplication, the arithmetic of the pi/180 and 180/pi conversion factors and of s
+      = r theta with fractional angles.
+  - unit: u-g6-30
+    rating: prerequisite
+    note: Greatest common factor of the degrees and 180, used to reduce a converted angle to lowest terms.
+  - unit: u-g5-13
+    rating: prerequisite
+    note: Adding fractions with different denominators, as when adding 2 pi to a radian measure to find
+      a coterminal angle.
+  - unit: u-g5-14
+    rating: prerequisite
+    note: Subtracting fractions with different denominators, as in radian complements, supplements and
+      negative coterminal angles.
+  - unit: u-g7-41
+    rating: prerequisite
+    note: C = 2 pi r is the full-circle case of arc length and the reason a full turn is 2 pi radians.
+  - unit: u-g7-42
+    rating: prerequisite
+    note: Area of a whole circle, of which a sector is a fraction.
+  - unit: u-tgeo-12
+    rating: prerequisite
+    note: Topic-tab circles unit, an alternative to the grade 7 circumference and area units.
+  - unit: u-g6-14
+    rating: prerequisite
+    note: Customary-unit conversions with conversion factors, the method behind degree-radian, DMS and
+      revolutions-to-radians conversions.
+  - unit: u-g4-46
+    rating: prerequisite
+    note: Hours, minutes and seconds, which use the same 60-to-1 steps as degrees, minutes and seconds.
+  - unit: u-g6-10
+    rating: prerequisite
+    note: Amounts per unit of time, the idea behind linear and angular speed.
+  - unit: u-g7-43
+    rating: partial
+    note: Complements in degrees only; complements in radians are book only.
+  - unit: u-g7-44
+    rating: partial
+    note: Supplements in degrees only; supplements in radians are book only.
+  - unit: u-tgeo-13
+    rating: partial
+    note: Topic-tab angle-pair relationships, an alternative to the grade 7 complement and supplement
+      units.
 - section: '4.2'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: 'No unit is named for radians, the unit circle, or cosecant, secant, and cotangent, so much of
+    this section is book only. Drill the exact first-quadrant values with the Grade 10 special-angle units,
+    which work in degrees (match 30, 45, 60 to pi/6, pi/4, pi/3 yourself), and use Grade 11 for sine,
+    cosine, and tangent as functions and for reading the period; the Geometry topic''s three function
+    units are an alternative for the first part only. Book only, among others listed in the gaps: defining
+    all six functions from (x, y), values outside the first quadrant, even and odd functions, using the
+    period to evaluate, and calculator work.'
+  gaps:
+  - The unit circle and wrapping the real number line around it
+  - Defining the six trigonometric functions from the point (x, y) for a real number t
+  - Cosecant, secant, and cotangent values as reciprocals
+  - Special-angle values in radians (pi/6, pi/4, pi/3), matched to the degree drills
+  - Values at the quadrantal points 0, pi/2, pi, 3pi/2
+  - Values and signs at standard points outside the first quadrant
+  - Where tangent, cotangent, secant, and cosecant are undefined
+  - Domain (all reals) and range [-1, 1] of sine and cosine
+  - Using the 2pi period to evaluate at large or negative t
+  - Even and odd trigonometric functions (cosine and secant even, the others odd)
+  - Calculator evaluation of trig functions in radian mode, including csc, sec, cot as reciprocals
+  - Estimating sine and cosine values from a unit circle figure, and approximating t for a given value
+  - Evaluating trigonometric models at given times, such as a spring's displacement
+  units:
+  - unit: u-g7-41
+    rating: prerequisite
+    note: 'C = 2 pi r, so the unit circle is 2pi long: one full wrap of t and the source of the 2pi period.'
+  - unit: u-g10-47
+    rating: prerequisite
+    note: Circle equations; the unit circle is the case x^2 + y^2 = 1.
+  - unit: u-g10-41
+    rating: prerequisite
+    note: The (x, y) to (x, -y) rule, which is why the point for -t mirrors the point for t.
+  - unit: u-g10-24
+    rating: partial
+    note: Exact value 1/2 at 30 degrees, the y-coordinate of the point for t = pi/6.
+  - unit: u-g10-25
+    rating: partial
+    note: Exact value sqrt(3)/2 at 60 degrees, the y-coordinate for t = pi/3.
+  - unit: u-g10-26
+    rating: partial
+    note: Exact value sqrt(2)/2 at 45 degrees, the y-coordinate for t = pi/4.
+  - unit: u-g10-28
+    rating: partial
+    note: Exact value 1/2 at 60 degrees, the x-coordinate for t = pi/3.
+  - unit: u-g10-29
+    rating: partial
+    note: Exact value sqrt(3)/2 at 30 degrees, the x-coordinate for t = pi/6.
+  - unit: u-g10-30
+    rating: partial
+    note: Exact value sqrt(2)/2 at 45 degrees, the x-coordinate for t = pi/4.
+  - unit: u-g10-32
+    rating: partial
+    note: Exact value 1 at 45 degrees, matching y/x for t = pi/4.
+  - unit: u-g10-33
+    rating: partial
+    note: Exact value sqrt(3)/3 at 30 degrees, matching y/x for t = pi/6.
+  - unit: u-g10-34
+    rating: partial
+    note: Exact value sqrt(3) at 60 degrees, matching y/x for t = pi/3.
+  - unit: u-g10-36
+    rating: partial
+    note: Tangent as sine over cosine, the same as y/x on the unit circle.
+  - unit: u-g11-77
+    rating: partial
+    note: Sine as a function of an input rather than a triangle ratio.
+  - unit: u-g11-78
+    rating: partial
+    note: Reading the period of sine functions; using the 2pi period to evaluate sin t is book only.
+  - unit: u-g11-79
+    rating: partial
+    note: Cosine as a function of an input rather than a triangle ratio.
+  - unit: u-g11-80
+    rating: partial
+    note: Reading the period of cosine functions; using the 2pi period to evaluate cos t is book only.
+  - unit: u-g11-83
+    rating: partial
+    note: Tangent as a function of an input rather than a triangle ratio.
+  - unit: u-tgeo-27
+    rating: partial
+    note: 'Topic-tab alternative: sine as a function, the step after the ratio units.'
+  - unit: u-tgeo-28
+    rating: partial
+    note: 'Topic-tab alternative: cosine as a function, the step after the ratio units.'
+  - unit: u-tgeo-29
+    rating: partial
+    note: 'Topic-tab alternative: tangent as a function, the step after the ratio units.'
 - section: '4.3'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: 'Grade 10 covers the core in degrees: sine, cosine and tangent as right-triangle ratios, their
+    exact values at 30, 45 and 60 degrees, sine and cosine of complementary angles, and tangent as sine
+    over cosine; the Geometry topic tab is a shorter alternative for the three ratios. Cosecant, secant
+    and cotangent, most identity work, radian forms of the special angles, calculator work, solving right
+    triangles, and angle of elevation and depression problems are book only.'
+  gaps:
+  - Cosecant, secant, and cotangent as right-triangle ratios
+  - Reciprocal identities
+  - Quotient identity for cotangent (cot = cos/sin)
+  - Pythagorean identities
+  - Cofunction identities beyond the sine-cosine pair (tangent-cotangent, secant-cosecant)
+  - Special-angle values in radians (pi/6, pi/4, pi/3), and finding the angle from a value
+  - Finding all six function values from one given ratio
+  - Using fundamental identities to simplify or verify trig expressions
+  - Calculator evaluation of trig functions at non-special acute angles (degree mode, decimal degrees
+    and DMS, reciprocals via 1/x)
+  - Finding an acute angle from a known side ratio with a calculator
+  - Solving right triangles at non-special angles (missing sides)
+  - Angles of elevation and depression in applied height and distance problems
+  units:
+  - unit: u-g7-43
+    rating: prerequisite
+    note: Angles that add to 90 degrees, the idea behind the cofunction identities.
+  - unit: u-g9-43
+    rating: prerequisite
+    note: Simplifying square roots, needed for exact special-angle values such as root 3 over 2.
+  - unit: u-g10-17
+    rating: prerequisite
+    note: Equal side ratios in similar triangles, the reason a trig ratio depends only on the angle.
+  - unit: u-g10-20
+    rating: prerequisite
+    note: Finding the missing side so every ratio of the triangle can be formed.
+  - unit: u-g10-23
+    rating: full
+    note: Sine as opposite over hypotenuse.
+  - unit: u-g10-24
+    rating: full
+    note: Exact sine of 30 degrees from the 30-60-90 triangle.
+  - unit: u-g10-25
+    rating: full
+    note: Exact sine of 60 degrees from the 30-60-90 triangle.
+  - unit: u-g10-26
+    rating: full
+    note: Exact sine of 45 degrees from the 45-45-90 triangle.
+  - unit: u-g10-27
+    rating: full
+    note: Cosine as adjacent over hypotenuse.
+  - unit: u-g10-28
+    rating: full
+    note: Exact cosine of 60 degrees from the 30-60-90 triangle.
+  - unit: u-g10-29
+    rating: full
+    note: Exact cosine of 30 degrees from the 30-60-90 triangle.
+  - unit: u-g10-30
+    rating: full
+    note: Exact cosine of 45 degrees from the 45-45-90 triangle.
+  - unit: u-g10-31
+    rating: full
+    note: Tangent as opposite over adjacent.
+  - unit: u-g10-32
+    rating: full
+    note: Exact tangent of 45 degrees from the 45-45-90 triangle.
+  - unit: u-g10-33
+    rating: full
+    note: Exact tangent of 30 degrees from the 30-60-90 triangle.
+  - unit: u-g10-34
+    rating: full
+    note: Exact tangent of 60 degrees from the 30-60-90 triangle.
+  - unit: u-g10-35
+    rating: partial
+    note: Sine and cosine of complementary angles, the sine-cosine cofunction pair only.
+  - unit: u-g10-36
+    rating: partial
+    note: Tangent as sine over cosine, the tangent quotient identity only.
+  - unit: u-tgeo-23
+    rating: prerequisite
+    note: Topic-tab warm-up for finding the missing side before the three ratio units.
+  - unit: u-tgeo-24
+    rating: full
+    note: Topic-tab version of the sine ratio.
+  - unit: u-tgeo-25
+    rating: full
+    note: Topic-tab version of the cosine ratio.
+  - unit: u-tgeo-26
+    rating: full
+    note: Topic-tab version of the tangent ratio.
 - section: '4.4'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: 'Duolingo has no unit on angles in standard position, quadrant signs, or reference angles, so
+    the section''s method is book only. It supports single steps: the distance formula, Pythagorean theorem,
+    and radical simplification give r or a missing coordinate, supplementary angles give a second-quadrant
+    reference angle, and the grade 10 special-angle units give the value at a 30, 45, or 60 degree reference
+    angle.'
+  gaps:
+  - Six trig functions defined from a point (x, y) and r
+  - Cosecant, secant, and cotangent of any angle
+  - Signs of the trig functions by quadrant
+  - Identifying the quadrant from the signs of two functions
+  - Choosing a point on a terminal side given as a line in a stated quadrant
+  - Values at quadrantal angles, including where a function is undefined
+  - Finding the remaining function values from one value and its quadrant
+  - Finding reference angles in degrees and radians
+  - Coterminal step for negative angles and angles past one revolution
+  - Combining a reference-angle value with the quadrant sign
+  - Special-angle values in radians (pi/6, pi/4, pi/3)
+  - Finding both angles in one revolution with a given special value
+  - Trig functions of real numbers evaluated with reference angles
+  - Calculator evaluation of trig functions in degree and radian mode, including csc, sec, cot as reciprocals
+  - Evaluating trig models in applied problems
+  units:
+  - unit: u-g6-33
+    rating: prerequisite
+    note: Which coordinates are negative in each quadrant, the basis of the sign rules.
+  - unit: u-g7-44
+    rating: prerequisite
+    note: Subtracting from 180 degrees, the step that gives a second-quadrant reference angle.
+  - unit: u-g9-43
+    rating: prerequisite
+    note: Simplifying r when the distance formula gives a radical.
+  - unit: u-g10-20
+    rating: prerequisite
+    note: Finding a missing leg, as when r and one coordinate are known.
+  - unit: u-g10-51
+    rating: prerequisite
+    note: Distance from the origin to (x, y), which is r.
+  - unit: u-g10-24
+    rating: partial
+    note: sin 30 degrees for a 30 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-25
+    rating: partial
+    note: sin 60 degrees for a 60 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-26
+    rating: partial
+    note: sin 45 degrees for a 45 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-28
+    rating: partial
+    note: cos 60 degrees for a 60 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-29
+    rating: partial
+    note: cos 30 degrees for a 30 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-30
+    rating: partial
+    note: cos 45 degrees for a 45 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-32
+    rating: partial
+    note: tan 45 degrees for a 45 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-33
+    rating: partial
+    note: tan 30 degrees for a 30 degree reference angle; the quadrant sign is book only.
+  - unit: u-g10-34
+    rating: partial
+    note: tan 60 degrees for a 60 degree reference angle; the quadrant sign is book only.
 - section: '4.5'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: Grade 11 introduces the sine and cosine graphs with period, midline, and amplitude, and grade
+    12 repeats them for full sinusoids and adds phase shift, so do grade 11 first, or use the Geometry
+    topic's three sine and cosine units as a shorter alternative. No unit reflects a sinusoid by name,
+    so the general grade 11 reflection units stand in, and the grade 11 horizontal translation unit is
+    a warm-up for phase shift. Key-point sketching, rewriting a negative b with the even/odd properties,
+    frequency, writing an equation from a graph, and fitting sinusoidal models to data are book only.
+  gaps:
+  - 'Hand sketching a transformed sinusoid: finding the one-cycle interval and the five key points at
+    quarter-period spacing'
+  - Rewriting a negative b with the even/odd properties of sine and cosine
+  - Frequency as the reciprocal of the period
+  - Writing a complete sinusoid equation from its graph (choosing sine or cosine form and combining a,
+    b, c, d)
+  - Sinusoidal models fitted to real data (finding a, b, c, d from a table or a description)
+  units:
+  - unit: u-g11-70
+    rating: prerequisite
+    note: Shifts a general graph left or right, the move behind phase shift.
+  - unit: u-g11-71
+    rating: partial
+    note: Reflects a general graph across the x-axis, which is what a negative a does to a sinusoid.
+  - unit: u-g11-72
+    rating: partial
+    note: Reflects a general graph across the y-axis, which is what a negative b does to a sinusoid.
+  - unit: u-g11-77
+    rating: full
+    note: The basic sine curve and its features.
+  - unit: u-g11-78
+    rating: full
+    note: How b changes the period of a sine graph.
+  - unit: u-g11-79
+    rating: full
+    note: The basic cosine curve and its features.
+  - unit: u-g11-80
+    rating: full
+    note: How b changes the period of a cosine graph.
+  - unit: u-g11-81
+    rating: full
+    note: The midline as a vertical shift of the curve.
+  - unit: u-g11-82
+    rating: full
+    note: Amplitude as the vertical stretch of the curve.
+  - unit: u-g12-19
+    rating: full
+    note: Period of a transformed sinusoid, at precalculus depth.
+  - unit: u-g12-20
+    rating: full
+    note: Midline of a transformed sinusoid.
+  - unit: u-g12-21
+    rating: full
+    note: Amplitude of a transformed sinusoid.
+  - unit: u-g12-22
+    rating: full
+    note: Phase shift, the horizontal translation of the curve.
+  - unit: u-g12-23
+    rating: partial
+    note: How the sine and cosine curves relate; it follows the phase-shift unit, so most likely one curve
+      as a quarter-period shift of the other.
+  - unit: u-tgeo-27
+    rating: full
+    note: Topic-tab introduction to the sine function.
+  - unit: u-tgeo-28
+    rating: full
+    note: Topic-tab introduction to the cosine function.
+  - unit: u-tgeo-30
+    rating: full
+    note: Topic-tab practice graphing sine and cosine.
 - section: '4.6'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: Grade 11 covers the parent tangent graph and its period; prefer that pair over the Topics-tab
+    Geometry unit. The other units are warm-ups for guide curves, transformations, asymptotes and damping
+    factors. Shifts, stretches, and asymptote locations of transformed tangent graphs, cotangent, secant,
+    cosecant, damped graphs and the six-function summary are book only, and grade 12 "Secant lines" is
+    calculus, not the secant function.
+  gaps:
+  - Cotangent graph, period, and asymptotes
+  - Secant and cosecant graphs sketched from cosine and sine guide curves
+  - Asymptotes and local maxima and minima of secant and cosecant branches
+  - Vertical stretch of tangent and cotangent graphs, which have no amplitude
+  - Locating two consecutive asymptotes of transformed tangent and cotangent graphs by solving bx - c
+    = -pi/2 and pi/2, or 0 and pi
+  - Phase shifts of tangent, cotangent, secant, and cosecant graphs
+  - Even/odd symmetry seen in the tangent, cotangent, secant, and cosecant graphs
+  - Domain, range, and period summary of all six trigonometric functions
+  - Solving equations such as tan x = c or sec x = c graphically on an interval
+  - Damped trigonometric graphs and damping factors
+  - Bounding curves y = plus or minus f(x) for products such as x sin x
+  - Behavior of functions such as (sin x)/x as x approaches 0
+  units:
+  - unit: u-g12-09
+    rating: prerequisite
+    note: Vertical asymptotes where a denominator is zero, the idea behind the asymptotes of tan = sin/cos.
+  - unit: u-g10-36
+    rating: prerequisite
+    note: Right-triangle link among the three ratios, the basis for tan = sin/cos that puts tangent's
+      asymptotes where cosine is zero.
+  - unit: u-g11-77
+    rating: prerequisite
+    note: The sine graph, which is the guide curve for cosecant.
+  - unit: u-g11-79
+    rating: prerequisite
+    note: The cosine graph, which is the guide curve for secant.
+  - unit: u-tgeo-30
+    rating: prerequisite
+    note: Topics-tab review of the sine and cosine guide curves.
+  - unit: u-g12-19
+    rating: prerequisite
+    note: Period of the guide curve, which secant and cosecant share.
+  - unit: u-g12-21
+    rating: prerequisite
+    note: Amplitude of the guide curve, which sets where secant and cosecant branches turn.
+  - unit: u-g12-22
+    rating: prerequisite
+    note: Phase shift on sine and cosine, the same shift used for the other four graphs.
+  - unit: u-g11-71
+    rating: partial
+    note: Reflects a general graph across the x-axis, which is what a negative a does to a tangent or
+      cotangent graph.
+  - unit: u-g11-42
+    rating: prerequisite
+    note: Decay curves, a common damping factor, as in e^-x sin x.
+  - unit: u-g11-83
+    rating: full
+    note: The tangent function and its graph, the section's central curve.
+  - unit: u-g11-84
+    rating: full
+    note: Period pi/b of tangent graphs.
+  - unit: u-tgeo-29
+    rating: full
+    note: Topics-tab tangent function; prefer the grade 11 pair, which adds a period unit.
 - section: '4.7'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: No Duolingo unit teaches arcsin, arccos, or arctan, so the inverse trig functions themselves are
+    book only. Prefer the grade 12 inverse-function block for the general mechanics, with the grade 10
+    right-triangle ratios and grade 11 trig graphs as warm-ups and the Topics-tab Inverse linear functions
+    unit as a lighter linear-only start. Reading the grade 10 special-angle units from 4.3 (Sine of 30
+    and so on) backwards gives only acute angles in degrees for positive inputs; radian answers, negative
+    inputs, and choosing the angle inside the restricted range are book only.
+  gaps:
+  - Restricting sine, cosine, and tangent to one-to-one intervals
+  - Definitions, domains, and ranges of arcsin, arccos, and arctan
+  - The notation sin^-1 x and why it is not the reciprocal 1/sin x
+  - Exact values of arcsin, arccos, and arctan in radians, including negative and quadrantal inputs
+  - Calculator evaluation of inverse trig functions
+  - Graphs of y = arcsin x, y = arccos x, and y = arctan x, including transformed versions
+  - Inverse properties such as sin(arcsin x) = x and arcsin(sin y) = y, with their interval conditions
+  - Compositions whose input lies outside the restricted domain or range
+  - Exact values of compositions like tan(arccos a) at a number a, from a right-triangle sketch, including
+    negative a
+  - Rewriting compositions such as sin(arctan x) as algebraic expressions in x
+  - Writing a triangle angle as an inverse trig function of x
+  - Rewriting one inverse trig expression as another via a right triangle (exercise extension)
+  - Inverse cotangent, secant, and cosecant (exercise extension)
+  - Identities such as arcsin(-x) = -arcsin x and arcsin x + arccos x = pi/2
+  - Applied problems that find an angle with an inverse trig function
+  units:
+  - unit: u-g10-20
+    rating: prerequisite
+    note: Finding the missing side when you sketch a triangle to evaluate a composition.
+  - unit: u-g10-23
+    rating: prerequisite
+    note: Sine as opposite over hypotenuse, the ratio that arcsin reverses.
+  - unit: u-g10-27
+    rating: prerequisite
+    note: Cosine as adjacent over hypotenuse, the ratio that arccos reverses.
+  - unit: u-g10-31
+    rating: prerequisite
+    note: Tangent as opposite over adjacent, the ratio that arctan reverses.
+  - unit: u-g10-35
+    rating: prerequisite
+    note: Sine and cosine of complementary angles, a warm-up for the arcsin x + arccos x = pi/2 identity.
+  - unit: u-g10-36
+    rating: prerequisite
+    note: Relating the three ratios in one triangle, the step behind evaluating a composition like tan(arccos
+      a) from a sketch.
+  - unit: u-g10-43
+    rating: prerequisite
+    note: The (x, y) to (y, x) rule that turns key points of the restricted trig graphs into points on
+      the inverse graphs.
+  - unit: u-g11-77
+    rating: prerequisite
+    note: The sine graph, which the section cuts down to one rising piece before inverting.
+  - unit: u-g11-79
+    rating: prerequisite
+    note: The cosine graph, whose falling piece from 0 to pi is the one that gets inverted.
+  - unit: u-g11-83
+    rating: prerequisite
+    note: The tangent graph, whose central branch between asymptotes is the one that gets inverted.
+  - unit: u-g12-13
+    rating: partial
+    note: Composing functions, the mechanics behind sin(arcsin x) and similar compositions; not trig-specific.
+  - unit: u-g12-14
+    rating: partial
+    note: General inverse functions and how a function and its inverse undo each other; not trig-specific.
+  - unit: u-g12-17
+    rating: partial
+    note: Domain and range inside the inverse-function block, probably how an inverse swaps them; not
+      trig-specific.
+  - unit: u-g12-18
+    rating: partial
+    note: Reflecting a graph across y = x, which is how the arcsin, arccos, and arctan graphs are built;
+      not trig-specific.
+  - unit: u-tagr-23
+    rating: prerequisite
+    note: Topics-tab inverses of linear functions only, a warm-up for undoing a function and reflecting
+      across y = x.
 - section: '4.8'
   reviewed: false
-  note: Not yet mapped.
-  units: []
+  note: 'Duolingo gives the tools, not the applications: the grade 10 right-triangle ratios (special angles
+    only) support solving right triangles, and the grade 12 period, amplitude, and relate-sine-and-cosine
+    units support reading harmonic motion models. Prefer the grade 10 and grade 12 lanes; the Geometry
+    topic (The Pythagorean theorem through Tangent ratio, then Graph sine and cosine) is the Topics-tab
+    alternative for both halves. Calculator and inverse-trig solving, elevation and depression problems,
+    bearings, and harmonic motion itself (writing and evaluating models, frequency) are book only.'
+  gaps:
+  - Solving right triangles at non-special angles with a calculator
+  - Finding acute angles with inverse trig functions
+  - Angles of elevation and depression in applied height and distance problems
+  - Two-triangle problems, such as two angles of elevation to the same object
+  - Bearings in navigation (N/S-E/W compass form and three-digit nautical form)
+  - Simple harmonic motion models d = a sin(wt) and d = a cos(wt)
+  - Frequency of harmonic motion (w / 2pi)
+  - Writing a harmonic motion model from displacement at t = 0, amplitude, and period (choosing sine or
+    cosine)
+  - Evaluating a harmonic motion model at a given time, including the least positive time when d = 0
+  units:
+  - unit: u-g7-43
+    rating: prerequisite
+    note: Angles that sum to 90 degrees, used for the second acute angle and for turning a bearing into
+      an angle from the east-west line.
+  - unit: u-g8-73
+    rating: prerequisite
+    note: The parallel-lines fact that makes an angle of depression equal the matching angle of elevation.
+  - unit: u-g8-76
+    rating: prerequisite
+    note: Triangle angle sum of 180 degrees, the fact behind the two acute angles of a right triangle
+      being complementary.
+  - unit: u-g10-20
+    rating: prerequisite
+    note: Finding the third side of a right triangle from the other two.
+  - unit: u-tgeo-23
+    rating: prerequisite
+    note: Topics-tab Geometry version of the same warm-up.
+  - unit: u-g10-23
+    rating: partial
+    note: Opposite over hypotenuse in a right triangle, practised at special angles rather than calculator
+      values.
+  - unit: u-g10-27
+    rating: partial
+    note: Adjacent over hypotenuse, the ratio for finding a horizontal leg from a slanted length.
+  - unit: u-g10-31
+    rating: partial
+    note: Opposite over adjacent, the ratio behind most height and distance problems.
+  - unit: u-tgeo-24
+    rating: partial
+    note: Topics-tab alternative for the sine ratio in right triangles.
+  - unit: u-tgeo-25
+    rating: partial
+    note: Topics-tab alternative for the cosine ratio in right triangles.
+  - unit: u-tgeo-26
+    rating: partial
+    note: Topics-tab alternative for the tangent ratio in right triangles.
+  - unit: u-g12-19
+    rating: partial
+    note: Finding the period from the coefficient inside a sinusoid; frequency, its reciprocal, is book
+      only.
+  - unit: u-g12-21
+    rating: partial
+    note: Reading the amplitude, which is the maximum displacement in a harmonic motion model.
+  - unit: u-g12-23
+    rating: partial
+    note: Relating the sine and cosine curves, most likely as horizontal shifts of each other; background
+      for choosing the sine or cosine form of a model.
+  - unit: u-tgeo-30
+    rating: partial
+    note: Topics-tab practice with sine and cosine graphs, the alternative to the grade 12 period and
+      amplitude units.
 - section: '5.1'
   reviewed: false
   note: Not yet mapped.
